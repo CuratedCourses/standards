@@ -41,6 +41,9 @@ Definition of equality of vectors, coordinate vector space
 math.la.d.vec.sum.coord
 Definition of vector sum/addition, coordinate vector space
 
+math.la.t.vec.sum.coord
+Vector sum/addition is commutative and associative, coordinate vector space
+
 math.la.e.vec.sum.geometric.r2
 Example of a sum of vectors interpreted geometrically in R^2
 
@@ -137,6 +140,12 @@ Definition of reduced row echelon form of a matrix
 
 math.la.d.mat.row_reduce
 Definition of row reduce a matrix
+
+math.la.e.mat.row_reduce.3x3
+Example of row reducing a 3-by-3 matrix
+
+math.la.e.mat.row_reduce.4x4
+Example of row reducing a 4-by-4 matrix
 
 math.la.t.mat.rref.exists
 Every matrix is row-equivalent to a matrix in reduced row echelon form.
@@ -239,6 +248,18 @@ Matrix transpose commutes with matrix inverse.
 
 math.la.t.mat.inv.augmented
 The inverse of a matrix (if it exists) can be found by row reducing the matrix augmented by the identity matrix.
+
+math.la.e.mat.inv.2x2.row_reduce
+Example of finding the inverse of a 2-by-2 matrix by row reducing the augmented matrix
+
+math.la.e.mat.inv.2x2.formula
+Example of finding the inverse of a 2-by-2 matrix by using a formula
+
+math.la.e.mat.inv.3x3.row_reduce
+Example of finding the inverse of a 3-by-3 matrix by row reducing the augmented matrix
+
+math.la.e.mat.inv.3x3.cramer
+Example of finding the inverse of a 3-by-3 matrix by using Cramer's rule
 
 math.la.t.eqn.mat.inv
 The inverse of a matrix can be used to solve a linear system.
@@ -389,6 +410,9 @@ Definition of singular matrix
 # that equivalence in a theorem.  Repetitions of that statement
 # can be included by appending ".rep"
 
+math.la.p.equiv.multiple
+Proof of several equivalences for nonsingular matrix
+
 math.la.t.equiv.mat.eqn.unique
 Equivalence theorem: the equation Ax=b has a unique solution for all b.
 
@@ -498,6 +522,12 @@ Equation operations on a linear system give an equivalent system.
 math.la.d.linsys.equiv
 Definition of equivalent systems of linear equations
 
+math.la.c.linsys.2x2.geometric
+Geometric picture of a 2-by-2 linear system
+
+math.la.c.linsys.3x3.geometric
+Geometric picture of a 3-by-3 linear system
+
 math.la.d.linsys.consistent
 Definition of consistent linear system
 
@@ -570,9 +600,9 @@ Definition of matrix equation
 
 math.la.e.mat.eqn.3x3.solve
 Example of solving a 3-by-3 matrix equation
+
 math.la.e.mat.eqn.3x3.homog.solve
 Example of solving a 3-by-3 homogeneous matrix equation
-
 
 math.la.t.mat.eqn.linsys
 A matrix equation is equivalent to a linear system
@@ -623,7 +653,6 @@ Definition of determinant of a matrix as a product of the diagonal entries in a 
 math.la.t.mat.det.echelon
 The determinant of a matrix can be expressed as a product of the diagonal entries in a non-scaled echelon form.
 
-math.la.t.mat.det.2x2
 math.la.t.mat.det.2x2
 Formula for the determinant of a 2-by-2 matrix.
 
@@ -708,6 +737,9 @@ Determine if a particular set of vectors spans R^3
 
 math.la.e.vec.span.of
 Determine if a particular vector is in the span of a set of vectors
+
+math.la.e.vec.span.of.r2
+Determine if a particular vector is in the span of a set of vectors in R^2
 
 math.la.e.vec.span.of.r3
 Determine if a particular vector is in the span of a set of vectors in R^3
@@ -955,6 +987,9 @@ Definition of kernel of linear transformation, coordinate vector space
 math.la.d.lintrans.invertible.coord
 Definition of invertible linear transformation, coordinate vector space
 
+math.la.e.lintrans.generic.r2
+Example of a linear transformation on R^2: generic
+
 math.la.e.lintrans.shear.r2
 Example of a linear transformation on R^2: shear
 
@@ -966,6 +1001,9 @@ Example of a linear transformation on R^2: projection
 
 math.la.e.lintrans.rotation.r3
 Example of a linear transformation on R^3: rotation
+
+math.la.c.lintrans.r2.region
+Visualise a linear transformation on R^2 by looking at the image of a region
 
 math.la.e.lintrans.not
 Non-example of a linear transformation

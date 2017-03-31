@@ -5,10 +5,11 @@ math.la
 Following math.la. is one of the following letters, with the stated meaning:
 
 a  application
-c  concept (usually an informal statement)
+c  concept (usually an informal statement or a visualization)
 d  definition
 e  example
 h  exercise  # as in 'homework'
+i  interactive   # sage cell, javascript applet, etc
 p  proof
 t  theorem
 
