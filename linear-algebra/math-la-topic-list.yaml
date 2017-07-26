@@ -75,6 +75,9 @@ Definition of size of a matrix
 math.la.d.mat.m_by_n
 Definition of m by n matrix
 
+math.la.d.mat.m_by_n.set
+Notation for the set of m by n matrices
+
 math.la.d.mat.square
 Definition of square matrix
 
@@ -120,11 +123,17 @@ Row operations are given by multiplication by elementary matrices.
 math.la.d.mat.row_equiv
 Definition of row equivalent matrices
 
+math.la.t.mat.row_equiv
+Row equivalence is an equivalence relation
+
 math.la.d.mat.row.leading
 Definition of leading entry in a row of a matrix
 
 math.la.d.mat.echelon
 Definition of (echelon matrix/matrix in (row) echelon form)
+
+math.la.c.mat.gaussjordan
+Gauss-Jordan procedure to put a matrix into reduced row echelon form
 
 math.la.e.mat.echelon
 Example of (echelon matrix/matrix in (row) echelon form)
@@ -419,9 +428,6 @@ Equivalence theorem: the equation Ax=b has a unique solution for all b.
 math.la.t.equiv.mat.eqn
 Equivalence theorem: the equation Ax=b has a solution for all b.
 
-math.la.t.equiv.mat.eqn.unique
-Equivalence theorem: the equation Ax=b has a solution for all b.
-
 math.la.t.equiv.mat.eqn.homog
 Equivalence theorem: the equation Ax=0 has only the trivial solution.
 
@@ -510,8 +516,20 @@ Definition of solution to a system of linear equations
 math.la.d.linsys.soln_set
 Definition of solution set of a system of linear equations
 
+math.la.c.linsys.soln_set.parameter
+Parametric form of the solution set of a system of linear equations
+
 math.la.c.linsys.soln_set.vec
 Parametric vector form of the solution set of a system of linear equations
+
+math.la.c.linsys.gauss
+Gaussian elimination as a method to solve a linear system
+
+math.la.d.linsys.echelon
+Definition of echelon form of a linear system
+
+math.la.t.linsys.echelon.free
+All echelon forms of a linear system have the same free variables [[special case of other theorems ]]
 
 math.la.d.linsys.op
 Definition of equation operations on a linear system
@@ -524,6 +542,9 @@ Definition of equivalent systems of linear equations
 
 math.la.c.linsys.2x2.geometric
 Geometric picture of a 2-by-2 linear system
+
+math.la.c.lineqn.3.geometric
+Geometric picture of the solution set of a linear equation in 3 unknowns
 
 math.la.c.linsys.3x3.geometric
 Geometric picture of a 3-by-3 linear system
@@ -629,7 +650,7 @@ math.la.t.linsys.consistent.i
 A consistent system with more variables than equations has infinitely many solutions.
 
 math.la.t.linsys.homog.i
-A homog system with more variables than equations has infinitely many solutions.
+A homogeneous system with more variables than equations has infinitely many solutions.
 
 math.la.t.linsys.vec
 A linear system is equivalent to a vector equation.
@@ -766,7 +787,7 @@ math.la.d.vsp.basis.coord
 Definition of basis of a vector space (or subspace), coordinate vector space
 
 math.la.d.vsp.basis.standard.rncn
-Definition of the standard basis of R^n (or C^n)
+Definition of the standard/natural basis of R^n (or C^n)
 
 math.la.d.vsp.basis.coord.change.rncn
 Definition of change-of-coordinates matrix relative to a given basis of R^n (or C^n)
@@ -799,6 +820,9 @@ Vector spaces, arbitrary setting
 math.la.d.vec.arb
 Definition of vector, arbitrary vector space
 
+math.la.d.scalar.arb
+Definition of scalar, arbitrary vector space
+
 math.la.d.vec.add.arb
 Definition of vector addition, arbitrary vector space
 
@@ -807,6 +831,9 @@ Definition of vector-scalar multiplication, arbitrary vector space
 
 math.la.d.vsp.axioms.arb
 Axioms of a vector space, arbitrary vector space
+
+math.la.d.vsp.z
+Definition of the trivial/zero vector space, arbitrary vector space
 
 math.la.d.vsp.vector.negative
 The additive inverse of a vector is called the negative of the vector.
@@ -823,20 +850,23 @@ The negative of a vector equals the vector multiplied by -1.
 math.la.d.vsp.subspace.arb
 Definition of subspace, arbitrary vector space
 
-math.la.d.vsp.subspace.z
-Definition of zero subspace, arbitrary vector space
+math.la.d.vsp.subspace.z.arb
+Definition of zero/trivial subspace, arbitrary vector space
 
 math.la.d.vec.lincomb.arb
 Definition of linear combination of vectors, arbitrary vector space
 
+math.la.t.vsp.subspace.lincomb.arb
+A nonempty subset of a vector space is a subspace if and only if it is closed under linear combinations, arbitrary vector space
+
 math.la.d.vec.span.arb
 Definition of span of a set of vectors, arbitrary vector space
 
-math.la.d.vec.span.subspace.arb
-Definition of subspace spaned by a set of vectors, arbitrary vector space
+math.la.t.vec.span.subspace.arb
+The span of a set of vectors is a subspace, arbitrary vector space
 
 math.la.d.vsp.span.set.arb
-Definition of spanning set for a subspace, arbitrary vector space
+Definition of spanning/generating set for a subspace, arbitrary vector space
 
 math.la.d.vsp.subspace.intersection.arb
 Definition of intersection of subspaces, arbitrary vector space
@@ -846,6 +876,27 @@ The intersection of subspaces is a subspace, arbitrary vector space.
 
 math.la.d.vsp.subspace.sum.arb
 Definition of sum of subspaces, arbitrary vector space
+
+math.la.d.vsp.subspace.sum.direct.arb
+Definition of direct sum of subspaces, arbitrary vector space
+
+math.la.t.vsp.subspace.sum.direct.dim
+The dimension of a direct sum of subspaces is the sum of the dimensions of the subspaces.
+
+math.la.d.vsp.subspace.independent.arb
+Definition of independent subspaces, arbitrary vector space
+
+math.la.t.vsp.subspace.independent.lincomb
+A vector can be written uniquely as a linear combination of vectors from independent subspaces.
+
+math.la.t.vsp.subspace.independent.basis
+The union of bases from independent subspaces is a basis for the space.
+
+math.la.d.vsp.subspace.complement.arb
+Definition of complement of a subspace, arbitrary vector space
+
+math.la.t.vsp.subspace.complement.arb
+Theorem characterizing when a space is the direct sum of two subspaces
 
 math.la.t.vsp.subspace.sum.arb
 The sum of subspaces is a subspace, arbitrary vector space.
@@ -865,6 +916,9 @@ Theorem: a set of vectors is linearly independent if and only if whenever a line
 math.la.d.vsp.basis.arb
 Definition of basis of a vector space (or subspace), arbitrary vector space
 
+math.la.t.vsp.linindep.subset
+A subset of a linearly independent set is linearly independent.
+
 math.la.t.vsp.span.lindep
 Removing a linearly dependent vector from a set does not change the span of the set.
 
@@ -874,11 +928,17 @@ A set of nonzero vectors contains (as a subset) a basis for its span.
 math.la.t.vsp.basis.coord.unique
 Each vector can be written uniquely as a linear combination of vectors from a given basis.
 
+math.la.t.vsp.basis.span.unique
+A set is a basis if each vector can be written uniquely as a linear combination.
+
 math.la.d.vsp.basis.relative.arb
 Definition of coordinates relative to a given basis, arbitrary vector space
 
+math.la.d.vsp.basis.exchange.arb
+If B is a basis containind b and the b coordinate of c is nonzero, the replacing b with c gives another basis.
+
 math.la.d.vsp.basis.coord.vector.arb
-Definition of coordinate vector/mapping relative to a given basis, arbitrary vector space
+Definition of coordinate vector/mapping/representation relative to a given basis, arbitrary vector space
 
 math.la.t.vsp.basis.coord.vector.arb
 The coordinate vector/mapping relative to a given basis is a bijective linear mapping to R^n (or C^n).
@@ -886,23 +946,44 @@ The coordinate vector/mapping relative to a given basis is a bijective linear ma
 math.la.d.vsp.isomorphism
 Definition of isomorphism between vector spaces
 
-math.la.t.vsp.dim.more.lindep.arb
-A set of vectors containing more elements than the dimension of the space must be linearly dependent, arbitrary vector space.
+math.la.t.vsp.isomorphism.inv
+The inverse of an isomorphism is an isomorphism.
+
+math.la.t.vsp.isomorphism.equiv
+Vector space isomorphism is an equivalence relation.
+
+math.la.t.vsp.isomorphic.dim
+Isomorphic vector spaces have the same dimension.
+
+math.la.t.vsp.dim.isomorphic
+Vector spaces with the same dimension are isomprphic.
+
+math.la.t.vsp.isomorphic.rncn
+Every finite dimensional vector space over R (or C) is isomorphic to R^n (or C^n) for some n.
+
+math.la.d.vsp.automorphism
+Definition of automorphism of a vector space
 
 math.la.t.vsp.dim.arb
 Every basis for a vector space contains the same number of elements, arbitrary vector space.
 
+math.la.d.vsp.dim.finite_infinite.arb
+Definition of dimension of a vector space (or subspace) being finite or infinite, arbitrary vector space
+
 math.la.d.vsp.dim.arb
 Definition of dimension of a vector space (or subspace), arbitrary vector space
 
-math.la.d.vsp.dim.finite_infinite.arb
-Definition of dimension of a vector space (or subspace) being finite or infinite, arbitrary vector space
+math.la.t.vsp.dim.more.lindep.arb
+A set of vectors containing more elements than the dimension of the space must be linearly dependent, arbitrary vector space.
 
 math.la.t.vsp.linindep.basis.arb
 Any linearly independent set can be expanded to a basis for the (sub)space, arbitrary vector space.
 
 math.la.t.vsp.subspace.dim.arb
 The dimension of a subspace is less than or equal to the dimension of the whole space, arbitrary vector space.
+
+math.la.t.vsp.dim.span.linindep.arb
+If a vector space has dimension n, then any subset set of n vectors is linearly indepentent if and only if it spans, arbitrary vector space.
 
 math.la.t.vsp.dim.span.arb
 If a vector space has dimension n, then any subset set of n vectors that spans the space must be a basis, arbitrary vector space.
@@ -922,23 +1003,32 @@ Vector spaces: examples
 =======================
 # In all examples, the provision "under the usual operations" is assumed.
 
-e.vsp.rn
-R^n is a vector space
+math.la.e.vsp.rn
+R^n is a vector space.
 
-e.vsp.cn
-C^n is a vector space
+math.la.e.vsp.cn
+C^n is a vector space.
 
-e.vsp.fn
-F^n is a vector space
+math.la.e.vsp.fn
+F^n is a vector space.
 
-e.vsp.function
+math.la.e.vsp.function
 The set of all functions on a set is a vector space.
 
-e.vsp.polynomial
+math.la.e.vsp.linsys.homog
+The solutions to a homogeneous system of linear equations is a vector space.
+
+math.la.e.vsp.de.homog
+The solutions to a homogeneous linear differential equation is a vector space.
+
+math.la.e.vsp.polynomial
 The set of all polynomials is a vector space.
 
-e.vsp.polynomial.leq_n
+math.la.e.vsp.polynomial.leq_n
 The set of all polynomials of degree at most n is a vector space.
+
+math.la.e.vsp.mat.m_by_n
+The set of m by n matrices is a vector space.
 
 ===========================================
 Linear transformations, general terminology
@@ -1026,6 +1116,12 @@ A linear transformation maps zero to zero.
 math.la.t.lintrans.lincomb
 A linear transformation of a linear combination is the linear combination of the linear transformation
 
+math.la.t.lintrans.basis
+A linear transformation is determined by its action ona basis.
+
+math.la.d.lintrans.basis.extension
+Definition of how the action of a linear transformation on a basis extends to the whole space
+
 math.la.t.linsys.homog.soln_preimage
 The solutions of a homogeneous system are the pre-image (of 0) of a linear transformation.
 
@@ -1044,6 +1140,9 @@ Definition of row space of a matrix
 math.la.d.mat.row_space.row_equiv
 Row equivalent matrices have the same row space.
 
+math.la.d.mat.echelon.linindep
+The nonzero rows of an echelon form of a matrix are linearly independent.
+
 math.la.d.mat.col_space
 Definition of column space of a matrix
 
@@ -1052,6 +1151,9 @@ The column space of an m-by-n matrix is a subspace of R^m (or C^m)
 
 math.la.t.mat.col_space.pivot
 The pivot columns of a matrix are a basis for the column space.
+
+math.la.d.mat.rank.column
+Definition of column rank of a matrix
 
 math.la.d.mat.rank
 Definition of rank of a matrix
@@ -1115,7 +1217,7 @@ Linear transformations, arbitrary setting
 ========================================
 
 math.la.d.lintrans.arb
-Definition of linear transformation, arbitrary vector space
+Definition of linear transformation/homomorphism, arbitrary vector space
 
 math.la.d.lintrans.preimage.arb
 Definition of pre-image of linear transformation, arbitrary vector space
@@ -1129,11 +1231,17 @@ Definition of one-to-one/injective linear transformation, arbitrary vector space
 math.la.d.lintrans.range.arb
 Definition of range of linear transformation, arbitrary vector space
 
+math.la.t.lintrans.range.vsp
+The range/image of a linear transformation is a subspace.
+
 math.la.d.lintrans.kernel.arb
 Definition of kernel of linear transformation, arbitrary vector space
 
 math.la.d.lintrans.invertible.arb
 Definition of invertible linear transformation, arbitrary vector space
+
+math.la.t.lintrans.vsp
+The set of linear transformations between two vector spaces is a vector space.
 
 math.la.d.lintrans.mat.repn.arb
 Definition of matrix representation of a linear transformation with respect to bases of the spaces, arbitrary vector space
@@ -1204,28 +1312,37 @@ Orthogonality and projection, coordinate setting
 ==============================================
 
 math.la.d.innerproduct.real.coord
-Definition of inner product, real entries, coordinate setting
+Definition of inner/dot product, real entries, coordinate setting
 
 math.la.d.innerproduct.complex.coord
-Definition of inner product, complex entries, coordinate setting
+Definition of inner/dot product, complex entries, coordinate setting
 
 math.la.t.innerproduct.commutative.coord
-The standard inner product is commutative, coordinate setting.
+The standard inner/dot product is commutative, coordinate setting.
 
 math.la.t.innerproduct.commutative.scalar.real.coord
-The standard inner product commutes with real scalar multiplication, coordinate setting.
+The standard inner/dot product commutes with real scalar multiplication, coordinate setting.
 
 math.la.t.innerproduct.distributive.coord
-The standard inner product distributes over addition, coordinate setting.
+The standard inner/dot product distributes over addition, coordinate setting.
 
 math.la.t.innerproduct.self.positive.coord
-The standard inner product of a vector with itself is non-negative, coordinate setting.
+The standard inner/dot product of a vector with itself is non-negative, coordinate setting.
 
 math.la.t.innerproduct.self.z.coord
-The standard inner product of a vector with itself is zero only for the zero vector, coordinate setting.
+The standard inner/dot product of a vector with itself is zero only for the zero vector, coordinate setting.
 
 math.la.d.vec.norm.coord
 Definition of norm/length of a vector, coordinate setting
+
+math.la.t.vec.triangle.coord
+The triangle inequality, coordinate setting
+
+math.la.t.vec.cauchyschwartz.coord
+The Cauchy-Schwartz inequality, coordinate setting
+
+math.la.d.vec.angle.coord
+Definition of angle between vectors, coordinate setting
 
 math.la.d.distance.coord
 Definition of distance, coordinate setting
@@ -1233,8 +1350,11 @@ Definition of distance, coordinate setting
 math.la.d.vec.unit.coord
 Definition of unit vector, coordinate setting
 
-math.la.d.vec.orthogonal
-Definition of two vectors being orthogonal
+math.la.d.vec.orthogonal.coord
+Definition of orthogonal vectors, coordinate setting
+
+math.la.d.vec.parallel.coord
+Definition of parallel vectors, coordinate setting
 
 math.la.t.vec.orthogonal
 Two vectors are orthogonal if and only if the Pythagorean Theorem holds.
@@ -1349,7 +1469,7 @@ math.la.d.vec.norm.arb
 Definition of length/norm of a vector, arbitrary setting
 
 math.la.d.vec.distance.arb
-Definition of orthogonal vectors, arbitrary setting
+Definition of distance between vectors, arbitrary setting
 
 math.la.d.vec.orthogonal.arb
 Definition of orthogonal vectors, arbitrary setting
