@@ -82,7 +82,7 @@ math.la.d.mat.square
 Definition of square matrix
 
 math.la.d.mat.thediagonal
-Definition of the diagonal of a matrix
+Definition of the (main) diagonal of a matrix
 
 math.la.d.mat.diagonal
 Definition of diagonal matrix
@@ -110,6 +110,12 @@ Matrix-scalar multiplication is commutative, associative, and distributive.
 
 math.la.d.mat.row_op
 Definition of row operations on a matrix
+
+math.la.d.mat.unit
+Definition of unit matrix
+
+math.la.d.mat.permutation
+Definition of permutation matrix
 
 math.la.d.mat.elementary
 Definition of elementary matrix
@@ -240,8 +246,20 @@ Matrix transpose is an involution.
 math.la.t.mat.mult.transpose
 The transpose of a product of matrices is the product of the transposes in reverse order.
 
+math.la.d.mat.inv.left
+Definition of left inverse of a matrix
+
+math.la.d.mat.inv.right
+Definition of right inverse of a matrix
+
 math.la.d.mat.inv
-Definition of matrix inverse
+Definition of inverse of a matrix
+
+math.la.d.mat.invertible
+Definition of invertible matrix
+
+math.la.t.mat.inv.leftright
+If a matrix has both a left and a right inverse, then the two are equal.
 
 math.la.t.mat.inv.2x2
 Formula for the inverse of a 2-by-2 matrix.
@@ -322,6 +340,18 @@ Multiplication of block/partitioned matrices
 math.la.t.mat.mult.row.col
 Matrix multiplication can be viewed as the dot product of a row vector of column vectors with a column vector of row vectors
 
+math.la.d.mat.equiv
+Definition of equivalent matrices
+
+math.la.t.mat.equiv
+Equivalent matrices represent the same linear transformation with resect to appropriate bases.
+
+math.la.t.mat.equiv.diag
+A matrix of rank k is equivalent to a matrix with 1 in the first k diagonal entries and 0 elsewhere.
+
+math.la.t.mat.equiv.rank
+Two matrices of the same size are equivalent if and only if they have the same rank.
+
 math.la.d.mat.block_diagonal
 Definition of block diagonal matrix
 
@@ -336,6 +366,9 @@ Definition of band matrix
 
 math.la.d.mat.vandermonde
 Definition of Vandermonde matrix
+
+math.la.d.mat.markov
+Definition of Markov matrix
 
 math.la.d.mat.symmetric
 Definition of symmetric matrix
@@ -423,76 +456,85 @@ math.la.p.equiv.multiple
 Proof of several equivalences for nonsingular matrix
 
 math.la.t.equiv.mat.eqn.unique
-Equivalence theorem: the equation Ax=b has a unique solution for all b.
+Equivalence theorem for nonsingular matrices: the equation Ax=b has a unique solution for all b.
 
 math.la.t.equiv.mat.eqn
-Equivalence theorem: the equation Ax=b has a solution for all b.
+Equivalence theorem for nonsingular matrices: the equation Ax=b has a solution for all b.
 
 math.la.t.equiv.mat.eqn.homog
-Equivalence theorem: the equation Ax=0 has only the trivial solution.
+Equivalence theorem for nonsingular matrices: the equation Ax=0 has only the trivial solution.
 
 math.la.t.equiv.row.span
-Equivalence theorem: the rows of A span R^n (or C^n).
+Equivalence theorem for nonsingular matrices: the rows of A span R^n (or C^n).
 
 math.la.t.equiv.col.span
-Equivalence theorem: the columns of A span R^n (or C^n).
+Equivalence theorem for nonsingular matrices: the columns of A span R^n (or C^n).
 
 math.la.t.equiv.row.linindep
-Equivalence theorem: the rows of A are linearly independent.
+Equivalence theorem for nonsingular matrices: the rows of A are linearly independent.
 
 math.la.t.equiv.col.linindep
-Equivalence theorem: the columns of A are linearly independent.
+Equivalence theorem for nonsingular matrices: the columns of A are linearly independent.
 
 math.la.t.equiv.row.basis
-Equivalence theorem: the rows of A are a basis for R^n (or C^n).
+Equivalence theorem for nonsingular matrices: the rows of A are a basis for R^n (or C^n).
 
 math.la.t.equiv.col.basis
-Equivalence theorem: the columns of A are a basis for R^n (or C^n).
+Equivalence theorem for nonsingular matrices: the columns of A are a basis for R^n (or C^n).
 
 math.la.t.equiv.col.dim
-Equivalence theorem: the dimension of the column space of A is n.
+Equivalence theorem for nonsingular matrices: the dimension of the column space of A is n.
 
 math.la.t.equiv.row.pivot
-Equivalence theorem: there is a pivot position in every row of A.
+Equivalence theorem for nonsingular matrices: there is a pivot position in every row of A.
 
 math.la.t.equiv.identity
-Equivalence theorem: the matrix A row-reduces to the identity matrix.
+Equivalence theorem for nonsingular matrices: the matrix A row-reduces to the identity matrix.
 
 math.la.t.equiv.inv
-Equivalence theorem: the matrix A has an inverse.
+Equivalence theorem for nonsingular matrices: the matrix A has an inverse.
 
 math.la.t.equiv.inv.left
-Equivalence theorem: the matrix A has a left inverse.
+Equivalence theorem for nonsingular matrices: the matrix A has a left inverse.
 
 math.la.t.equiv.inv.right
-Equivalence theorem: the matrix A has a right inverse.
+Equivalence theorem for nonsingular matrices: the matrix A has a right inverse.
 
 math.la.t.equiv.transpose.inv
-Equivalence theorem: the transpose of the matrix A has an inverse.
+Equivalence theorem for nonsingular matrices: the transpose of the matrix A has an inverse.
 
 math.la.t.equiv.lintrans.injective
-Equivalence theorem: the linear transformation given by T(x)=Ax is one-to-one/injective.
+Equivalence theorem for nonsingular matrices: the linear transformation given by T(x)=Ax is one-to-one/injective.
 
 math.la.t.equiv.lintrans.surjective
-Equivalence theorem: the linear transformation given by T(x)=Ax is onto/surjective.
+Equivalence theorem for nonsingular matrices: the linear transformation given by T(x)=Ax is onto/surjective.
 
 math.la.t.equiv.lintrans.inv
-Equivalence theorem: the linear transformation given by T(x)=Ax has an inverse.
+Equivalence theorem for nonsingular matrices: the linear transformation given by T(x)=Ax has an inverse.
+
+math.la.t.equiv.lintrans.isommorphism
+Equivalence theorem for nonsingular matrices: the linear transformation given by T(x)=Ax is an isomorphism.
 
 math.la.t.equiv.det
-Equivalence theorem: the determinant of A is nonzero.
+Equivalence theorem for nonsingular matrices: the determinant of A is nonzero.
 
 math.la.t.equiv.rank
-Equivalence theorem: the matrix A has rank n.
+Equivalence theorem for nonsingular matrices: the matrix A has rank n.
 
 math.la.t.equiv.nullspace
-Equivalence theorem: the null space of the matrix A is {0}.
+Equivalence theorem for nonsingular matrices: the null space of the matrix A is {0}.
 
 math.la.t.equiv.nullity
-Equivalence theorem: the nullity of the matrix A is zero.
+Equivalence theorem for nonsingular matrices: the nullity of the matrix A is zero.
 
 math.la.t.equiv.eig
-Equivalence theorem: the matrix A does not have zero as an eigenvalue.
+Equivalence theorem for nonsingular matrices: the matrix A does not have zero as an eigenvalue.
+
+math.la.t.equiv.change_of_basis
+Equivalence theorem for nonsingular matrices: the matrix A is a change-of-basis matrix.
+
+math.la.t.equiv.identitymap
+Equivalence theorem for nonsingular matrices: the matrix A represents the identity map with respect to some pair of bases.
 
 ===========================
 Linear systems
@@ -658,6 +700,9 @@ A linear system is equivalent to a vector equation.
 ============
 Determinants
 ============
+
+math.la.d.mat.trace
+Definition of trace of a matrix
 
 math.la.d.mat.cofactor
 Definition of cofactor of a matrix
@@ -992,10 +1037,13 @@ math.la.t.vsp.dim.linindep.arb
 If a vector space has dimension n, then any subset of n vectors that is linearly independent must be a basis, arbitrary vector space.
 
 math.la.d.vsp.change_of_basis.arb
-Definition of change of corrdinates matrix between two bases, arbitrary vector space
+Definition of change of coordinates matrix between two bases, arbitrary vector space
 
-math.la.t.vsp.change_of_basis.arb
+math.la.t.vsp.change_of_basis.exists.arb
 The change of coordinates matrix between two bases exists and is unique, arbitrary vector space.
+
+math.la.t.vsp.change_of_basis
+Multiplication by a change of coordinates matrix converts representations for different bases.
 
 
 =======================
@@ -1161,6 +1209,9 @@ Definition of rank of a matrix
 math.la.d.mat.nullity
 Definition of nullity of a matrix
 
+math.la.t.mat.lintrans.rank
+The rank of a matrix equals the rank of the linear transformation it represents.
+
 math.la.t.mat.row_space.col_space
 The row space and the column space of a matrix have the same dimension.
 
@@ -1170,20 +1221,11 @@ If A is a matrix, then the rank of A plus the nullity of A equals the number of 
 math.la.t.mat.rotation
 Matrix describing a rotation of the plane
 
-math.la.t.lintrans.surjective.col_span
-A linear transformation is onto/surjective if and only if the columns of its matrix span the codomain.
-
 math.la.d.lintrans.rank
 Definition of rank of a linear transformation
 
 math.la.d.lintrans.nullity
 Definition of nullity of a linear transformation
-
-math.la.t.lintrans.injective.ker
-A linear transformation is one-to-one/injective if and only if only 0 is mapped to 0.
-
-math.la.t.lintrans.injective.linindep
-A linear transformation is one-to-one/injective if and only if the columns of its matrix are linearly independent.
 
 math.la.t.lintrans.surjective.span
 A linear transformation is onto/surjective if and only if the columns of its matrix span the codomain.
@@ -1219,6 +1261,9 @@ Linear transformations, arbitrary setting
 math.la.d.lintrans.arb
 Definition of linear transformation/homomorphism, arbitrary vector space
 
+math.la.d.lintrans.composition.arb
+The composition of linear transformations is a linear transformation, arbitrary vector space.
+
 math.la.d.lintrans.preimage.arb
 Definition of pre-image of linear transformation, arbitrary vector space
 
@@ -1231,11 +1276,29 @@ Definition of one-to-one/injective linear transformation, arbitrary vector space
 math.la.d.lintrans.range.arb
 Definition of range of linear transformation, arbitrary vector space
 
+math.la.d.lintrans.nonsingular
+Definition of nonsingular linear transformation
+
 math.la.t.lintrans.range.vsp
 The range/image of a linear transformation is a subspace.
 
+math.la.t.lintrans.inv.vsp
+The inverse image of a subspace under a linear transformation is a subspace.
+
 math.la.d.lintrans.kernel.arb
 Definition of kernel of linear transformation, arbitrary vector space
+
+math.la.t.lintrans.kernel.arb
+The kernel of a linear transformation is a subspace, arbitrary vector space
+
+math.la.t.lintrans.ranknullity
+The rank plus the nullity of a linear transformation equals the dimension of the domain.
+
+math.la.t.lintrans.lindep
+The image of a linearly dependent set under a linear transformation is linearly dependent.
+
+math.la.t.lintrans.onto.rank
+A linear transformation is onto if and only if its rank equals the number of rows in any matrix representation.
 
 math.la.d.lintrans.invertible.arb
 Definition of invertible linear transformation, arbitrary vector space
@@ -1249,11 +1312,52 @@ Definition of matrix representation of a linear transformation with respect to b
 math.la.d.lintrans.mat.repn.self.arb
 Definition of matrix representation of a linear transformation from a vector space to itself, with respect to basis of the space, arbitrary vector space
 
-math.la.d.lintrans.mat_repn.composition.arb
-Definition of matrix representation of a composition of linear transformations, arbitrary vector space
+math.la.t.lintrans.mat_repn.scalar
+The matrix representation of a scalar multiple of linear transformations is the scalar multiple of the matrix.
+
+math.la.t.lintrans.mat_repn.sum
+The matrix representation of a sum of linear transformations is the sum of the matrices.
+
+math.la.t.lintrans.mat_repn.composition
+The matrix representation of a composition of linear transformations is the product of the matrices.
 
 math.la.d.lintrans.eig.arb
 Definition of eigenvalue of a linear transformation, arbitrary vector space
+
+===========================================
+Linear transformations: equivalence theorems
+============================================
+
+# T: V -> W is a linear transformation, and V has dimension n.
+# Each equivalence to "T is injective" is a separate topic.
+# (This is modeled after the equivalence theorms for nonsingular matrices).
+
+math.la.t.lintrans.equiv.inv
+Equivalence theorem for injective linear transformations: The inverse of T is a linear transformation on its range.
+
+math.la.t.lintrans.equiv.nullspace
+Equivalence theorem for injective linear transformations: The null space of T is 0.
+
+math.la.t.lintrans.equiv.nullity
+Equivalence theorem for injective linear transformations: The nullity of T is 0.
+
+math.la.t.lintrans.equiv.kernel
+Equivalence theorem for injective linear transformations: The kernel of T is 0.
+
+math.la.t.lintrans.equiv.z
+Equivalence theorem for injective linear transformations: T(x)=0 only for x=0.
+
+math.la.t.lintrans.equiv.rank
+Equivalence theorem for injective linear transformations: The rank of T is n.
+
+math.la.t.lintrans.equiv.rank.col
+Equivalence theorem for injective linear transformations: The rank of T is equals the number of columns in any matrix representation..
+
+math.la.t.lintrans.equiv.basis
+Equivalence theorem for injective linear transformations: The image of a basis for V is a basis for the range of T.
+
+math.la.t.lintrans.equiv.linindep
+Equivalence theorem for injective linear transformations: The columns of the matrix of T are linearly independent.
 
 ============================
 Eigenvalues and eigenvectors
@@ -1368,6 +1472,9 @@ Definition of orthogonal complement of a subspace
 math.la.t.subspace.orthogonal_complement
 The orthogonal complement of a subspace is a subspace.
 
+math.la.t.subspace.orthogonal_complement.sum
+The direct sum of a subspace and its orthogonal complement is the whole space.
+
 math.la.t.subspace.orthogonal_complement.basis
 A vector is in the orthogonal complement of a subspace if and only if it is orthogonal to every vector in a basis of the subspace.
 
@@ -1407,14 +1514,14 @@ Definition of (orthogonal) projection of one vector onto another vector
 math.la.t.vec.projection
 Formula for the (orthogonal) projection of one vector onto another vector
 
-math.la.d.projection.subspace
-Definition of (orthogonal) projection onto a subspace
-
 math.la.t.vec.projection.subspace
 A vector can be written uniquely as a sum of a vector in a subspace and a vector orthogonal to the subspace.
 
+math.la.d.vec.projection_arbitrary.subspace
+Definition of (not necessarily orthogonal) projection onto a component of a direct sum
+
 math.la.d.vec.projection.subspace
-Definition of orthogonal projection onto a subspace
+Definition of (orthogonal) projection onto a subspace
 
 math.la.t.vec.projection.element
 The projection of a vector which is in a subspace is the vector itself.
