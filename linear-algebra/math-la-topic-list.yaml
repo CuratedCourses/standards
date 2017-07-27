@@ -728,17 +728,44 @@ Formula for the determinant of a 3-by-3 matrix.
 math.la.t.mat.det.trianglar
 The determinant of a triangular matrix is the product of the entries on the diagonal.
 
+math.la.d.mat.det.elementaryoperations
+Definition of the determinant in terms of the effect of elementary row operations
+
+math.la.d.mat.det.permutation
+The permutation expansion for determinants
+
+math.la.t.mat.det.unique
+The determinant function is unique.
+
+math.la.t.mat.det.exists
+The determinant function exists.
+
+math.la.d.multilinear
+Definition of multilinear function
+
+math.la.t.det.multilinear
+A determinant is a multilinear function
+
 math.la.t.mat.det.elementaryoperations
 Theorem describing the effect of elementary row operations on the determinant of a matrix.
 
 math.la.t.mat.elementary.det
 Theorem describing the determinants of elementary matrices.
 
+math.la.t.mat.row.equal
+A matrix with two equal rows has determinant 0
+
+math.la.t.mat.row.z
+A matrix with a 0 row/column has determinant 0
+
 math.la.t.mat.det.transpose
 A matrix and its transpose have the same determinant.
 
 math.la.t.mat.det.product
 If A and B are n-by-n matrices, then det(AB)=det(A)det(B).
+
+math.la.t.mat.det.inv
+The determinant of the inverse of A is the reciprocal of the determinant of A.
 
 math.la.t.mat.det.col.volume
 The determinant of a matrix measures the area/volume of the parallelogram/parallelipiped determined by its columns.
@@ -1279,6 +1306,30 @@ Definition of range of linear transformation, arbitrary vector space
 math.la.d.lintrans.nonsingular
 Definition of nonsingular linear transformation
 
+math.la.d.lintrans.diagonalizable
+Definition of diagonalizable linear transformation
+
+math.la.d.lintrans.eig
+Definition of eigenvalue/characteristic value of a linear transformation
+
+math.la.d.lintrans.eigvec
+Definition of eigenvector/characteristic vector of a linear transformation
+
+math.la.d.lintrans.charpoly
+Definition of characteristic polynomial of a linear transformation
+
+math.la.t.lintrans.eig.exists
+A linear transformation on a finite dimentional nontrivial vector space has at least one eigenvalue.
+
+math.la.d.lintrans.eigsp
+Definition of eigenspace of a linear transformation
+
+math.la.d.lintrans.eigsp.subspace
+The eigenspace of a linear transformation is a nontrivial subspace.
+
+math.la.t.lintrans.diagonalizable.basis
+A linear transformation is diagonalizable if there is a basis such that each element is an eigenvector of the transformation.
+
 math.la.t.lintrans.range.vsp
 The range/image of a linear transformation is a subspace.
 
@@ -1364,13 +1415,13 @@ Eigenvalues and eigenvectors
 ============================
 
 math.la.d.mat.eig
-Definition of eigenvalue(s) of a matrix
+Definition of eigenvalue of a matrix
 
 math.la.d.mat.eigvec
-Definition of eigenvector(s) of a matrix
+Definition of eigenvector of a matrix
 
 math.la.d.mat.eigsp
-Definition of eigenspace(s) of a matrix
+Definition of eigenspace of a matrix
 
 math.la.t.mat.eig.triangular
 The eigenvalues of a triangular matrix are the entries on the main diagonal.
@@ -1384,8 +1435,11 @@ Definition of characteristic polynomial of a matrix
 math.la.d.mat.charpoly.eqn
 Definition of characteristic equation of a matrix
 
-math.la.d.mat.eig.multiplicity
+math.la.d.mat.eig.multiplicity.algebraic
 Definition of multiplicity of an eigenvalue
+
+math.la.d.mat.eig.multiplicity.geometric
+Definition of geometric of an eigenvalue
 
 math.la.d.mat.minpoly
 Definition of minimal polynomial of a matrix
