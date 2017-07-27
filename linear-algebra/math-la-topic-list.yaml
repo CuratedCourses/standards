@@ -388,6 +388,18 @@ The spectral theorem for symmetric matrices
 math.la.t.mat.symmetric.spectraldecomposition
 Formula for the spectral decomposition for a symmetric matrix
 
+math.la.d.mat.nilpotent
+Definition of nilpotent matrix
+
+math.la.t.mat.nilpotent.zo
+Every nilpotent matrix is similar to one with 1 on subdiagonal blocks and all other entries 0.
+
+math.la.t.mat.nilpotent.eig
+A matrix is nilpotent if and only if its only eigenvalue is 0.
+
+math.la.d.nilpotent.index
+Definition of index of nilpotency
+
 math.la.d.mat.hermitian
 Definition of Hermitian matrix
 
@@ -414,6 +426,15 @@ Definition of rank factorization of a matrix
 
 math.la.d.mat.cholesky
 Definition of Cholesky decomposition
+
+math.la.d.mat.jordan
+Definition of Jordan form
+
+math.la.t.mat.jordan
+Every square matrix is similar to one in Jordan form.
+
+math.la.t.mat.jordan.sum
+Every square matrix is similar the sum of a diagonal and a nilpotent matrix.
 
 math.la.d.mat.qr
 Definition of QR decomposition
@@ -766,6 +787,9 @@ If A and B are n-by-n matrices, then det(AB)=det(A)det(B).
 
 math.la.t.mat.det.inv
 The determinant of the inverse of A is the reciprocal of the determinant of A.
+
+math.la.t.mat.det.block
+The determinant of a block diagonal matrix is the product of the determinants of the blocks.
 
 math.la.t.mat.det.col.volume
 The determinant of a matrix measures the area/volume of the parallelogram/parallelipiped determined by its columns.
@@ -1301,7 +1325,13 @@ math.la.d.lintrans.injective.arb
 Definition of one-to-one/injective linear transformation, arbitrary vector space
 
 math.la.d.lintrans.range.arb
-Definition of range of linear transformation, arbitrary vector space
+Definition of range space of a linear transformation, arbitrary vector space
+
+math.la.d.lintrans.range.generalized.arb
+Definition of generalized range space of a linear transformation, arbitrary vector space
+
+math.la.d.lintrans.range.generalized.injective
+A linear transformation is injective on its generalized range space.
 
 math.la.d.lintrans.nonsingular
 Definition of nonsingular linear transformation
@@ -1318,6 +1348,21 @@ Definition of eigenvector/characteristic vector of a linear transformation
 math.la.d.lintrans.charpoly
 Definition of characteristic polynomial of a linear transformation
 
+math.la.d.lintrans.minpoly
+Definition of minimal polynomial of a linear transformation
+
+math.la.d.lintrans.cayleyhamilton
+The Cayley-Hamilton theorem for a linear transformation
+
+math.la.d.lintrans.minpoly.exists
+The minimal polynomial of a linear transformation exists and is unique.
+
+math.la.d.lintrans.polynomial.apply
+Definition of applying a polynomial to a linear transformation
+
+math.la.d.lintrans.minpoly.exists
+The minimal polynomial of a linear transformation exists and is unique.
+
 math.la.t.lintrans.eig.exists
 A linear transformation on a finite dimentional nontrivial vector space has at least one eigenvalue.
 
@@ -1326,6 +1371,12 @@ Definition of eigenspace of a linear transformation
 
 math.la.d.lintrans.eigsp.subspace
 The eigenspace of a linear transformation is a nontrivial subspace.
+
+math.la.d.lintrans.invariantsubspace
+Definition of invariant subspace of a linear transformation.
+
+math.la.d.lintrans.invariantsubspace.block
+If a space is the direct sum of invariant subspaces, then the linear transformation has a block diagonal representation.
 
 math.la.t.lintrans.diagonalizable.basis
 A linear transformation is diagonalizable if there is a basis such that each element is an eigenvector of the transformation.
@@ -1337,10 +1388,22 @@ math.la.t.lintrans.inv.vsp
 The inverse image of a subspace under a linear transformation is a subspace.
 
 math.la.d.lintrans.kernel.arb
-Definition of kernel of linear transformation, arbitrary vector space
+Definition of kernel/null space of linear transformation, arbitrary vector space
 
 math.la.t.lintrans.kernel.arb
-The kernel of a linear transformation is a subspace, arbitrary vector space
+The kernel/null space of a linear transformation is a subspace, arbitrary vector space
+
+math.la.d.lintrans.kernel.generalized.arb
+Definition of generalized kernel/null space of linear transformation, arbitrary vector space
+
+math.la.d.lintrans.generalized.sum
+Any vector space is the direct sum of the generalized kernel and gneralized range of a linear transformation on that space.
+
+math.la.t.lintrans.power.kernel
+The kernels of powers of a linear transformation form an ascending chain, with proper containment up to a particular power and then equality for all subsequent powers.
+
+math.la.t.lintrans.power.range
+The range spaces of powers of a linear transformation form a descending chain, with proper containment up to a particular power and then equality for all subsequent powers.
 
 math.la.t.lintrans.ranknullity
 The rank plus the nullity of a linear transformation equals the dimension of the domain.
@@ -1432,6 +1495,9 @@ Eigenvectors with distinct eigenvalues are linearly independent.
 math.la.d.mat.charpoly
 Definition of characteristic polynomial of a matrix
 
+math.la.d.mat.polynomial.apply
+Definition of applying a polynomial to a square matrix
+
 math.la.d.mat.charpoly.eqn
 Definition of characteristic equation of a matrix
 
@@ -1444,8 +1510,17 @@ Definition of geometric of an eigenvalue
 math.la.d.mat.minpoly
 Definition of minimal polynomial of a matrix
 
+math.la.d.mat.minpoly.exists
+The minimal polynomial of a square matrix exists and is unique.
+
 math.la.t.mat.charpoly.eig
 The eigenvalues of a matrix are the roots/solutions of its characteristic polynomial/equation.
+
+math.la.t.mat.charpoly.z
+The characteristic polynomial applied to the matrix gives the zero matrix.
+
+math.la.d.mat.cayleyhamilton
+The Cayley-Hamilton theorem for a matrix.
 
 math.la.t.mat.eig.multiplicity.eigenspace
 The dimension of a eigenspace is less than or equal to the multiplicity of the eigenvalue.
