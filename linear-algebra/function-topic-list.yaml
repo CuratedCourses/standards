@@ -1,0 +1,39 @@
+
+==========================================
+Functions, general terminology
+==========================================
+
+math.function.d.function
+Definition of function/mapping/transformation
+
+math.function.d.function.domain
+Definition of domain of a function/mapping/transformation
+
+math.function.d.function.codomain
+Definition of codomain of a function/mapping/transformation
+
+math.function.d.function.image
+Definition of image (of a point) under a function/mapping/transformation
+
+math.function.d.function.preimage
+Definition of pre-image (of a point) under function/mapping/transformation
+
+math.function.d.function.surjective
+Definition of onto/surjective function/mapping/transformation
+
+math.function.d.function.injective
+Definition of one-to-one/injective function/mapping/transformation
+
+math.function.d.function.range
+Definition of range of a function/mapping/transformation
+
+math.function.d.function.invertible
+Definition of invertible function/mapping/transformation
+
+===================
+Functions, examples
+===================
+
+math.function.d.permutation
+Definition of permutation
+

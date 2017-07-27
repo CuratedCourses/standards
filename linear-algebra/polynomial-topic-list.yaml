@@ -1,0 +1,54 @@
+
+[[notation
+  irred irreducible
+  disc  discriminant
+ 
+
+===========
+Polynomials
+===========
+
+math.polynomial.d.z
+Definition of the zero polynomial
+
+math.polynomial.d.degree
+Definition of degree of a polynomial
+
+math.polynomial.d.root
+Definition of root/zero of a polynomial
+
+math.polynomial.t.division
+The division theorem for polynomials
+
+math.polynomial.t.remainder_evaluation
+The remainder when dividing the polynomial p(x) by x-a is p(a).
+
+math.polynomial.t.remainder.z
+The remainder when dividing the polynomial p(x) by x-a is 0 if and only if a is a root of p.
+
+math.polynomial.d.irred
+Definition of irreducible polynomial
+
+math.polynomial.d.linear.irred
+Linear polynomials are irreducible.
+
+==================
+Polynomials over R
+==================
+
+math.polynomial.t.real.quad.irred.disc
+A quadratic polynomial over R is irreducible/has no real root if and only if its discriminant is negative.
+
+math.polynomial.t.real.odd.root
+Any odd degree polynomial over R has a real root.
+
+math.polynomial.t.real.factorization
+And polynomial over R factors uniquely into linear and quadratic factors over R.
+
+==================
+Polynomials over C
+==================
+
+math.polynomial.t.fundamentaltheoremofalgebra
+Any polynomial over C factors uniquely into linear factors over C
+

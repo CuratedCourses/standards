@@ -271,11 +271,11 @@ Table of Contents
 
 <div class="tocsec">
 <div class="numtitle"><span class="secchapnum">1.8</span><span class="secchaptitle">Introduction to Linear Transformations</span></div>
-<div class="latopic"><span class="id">math.functions.d.transformation</span><span class="description">Definition of transformation</span></div>
-<div class="latopic"><span class="id">math.functions.d.transformation.domain</span><span class="description">Definition domain of a transformation</span></div>
-<div class="latopic"><span class="id">math.functions.d.transformation.codomain</span><span class="description">Definition codomain of a transformation</span></div>
-<div class="latopic"><span class="id">math.functions.d.transformation.image</span><span class="description">Definition image (of a point) under a transformation</span></div>
-<div class="latopic"><span class="id">math.functions.d.transformation.range</span><span class="description">Definition range of a transformation</span></div>
+<div class="latopic"><span class="id">math.function.d.transformation</span><span class="description">Definition of transformation</span></div>
+<div class="latopic"><span class="id">math.function.d.transformation.domain</span><span class="description">Definition domain of a transformation</span></div>
+<div class="latopic"><span class="id">math.function.d.transformation.codomain</span><span class="description">Definition codomain of a transformation</span></div>
+<div class="latopic"><span class="id">math.function.d.transformation.image</span><span class="description">Definition image (of a point) under a transformation</span></div>
+<div class="latopic"><span class="id">math.function.d.transformation.range</span><span class="description">Definition range of a transformation</span></div>
 <div class="latopic"><span class="id">math.la.c.transformation.matrix</span><span class="description">Matrices act as a transformations by multiplying vectors</span></div>
 <div class="latopic"><span class="id">math.la.d.lintrans.coord</span><span class="description">Definition of linear transformation, coordinate vector space</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.vec.mult.lintrans</span><span class="description">Matrix-vector multiplication is a linear transformation.</span></div>
@@ -296,11 +296,11 @@ Table of Contents
 <div class="latopic"><span class="id">math.la.d.lintrans.mat.basis.standard.coord</span><span class="description">Definition of the standard matrix for a linear transformation, coordinate setting</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.rotation</span><span class="description">Matrix describing a rotation of the plane</span></div>
 <div class="latopic"><span class="id">math.la.c.lintrans.geometric.r2</span><span class="description">Geometric properties of linear transformations on R^2</span></div>
-<div class="latopic"><span class="id">math.la.math.functions.d.mapping.onto</span><span class="description">Definition of onto mapping</span></div>
-<div class="latopic"><span class="id">math.la.math.functions.d.mapping.onetoone</span><span class="description">Definition of one-to-one mapping</span></div>
-<div class="latopic"><span class="id">math.la.t.lintrans.onetoone.ker</span><span class="description">A linear transformation is one-to-one if and only if only 0 is mapped to 0.</span></div>
-<div class="latopic"><span class="id">math.la.t.lintrans.onto.span</span><span class="description">A linear transformation is onto if and only if the columns of its matrix span the codomain.</span></div>
-<div class="latopic"><span class="id">math.la.t.lintrans.onetoone.linindep</span><span class="description">A linear transformation is one-to-one if and only if the columns of its matrix are linearly independent.</span></div>
+<div class="latopic"><span class="id">math.la.math.function.d.mapping.surjective</span><span class="description">Definition of onto mapping</span></div>
+<div class="latopic"><span class="id">math.la.math.function.d.mapping.injective</span><span class="description">Definition of injective/one-to-one mapping</span></div>
+<div class="latopic"><span class="id">math.la.t.lintrans.equiv.z</span><span class="description">Equivalence theorem: T(x)=0 only for x=0.</span></div>
+<div class="latopic"><span class="id">math.la.t.lintrans.surjective.span</span><span class="description">A linear transformation is onto if and only if the columns of its matrix span the codomain.</span></div>
+<div class="latopic"><span class="id">math.la.t.lintrans.equiv.linindep</span><span class="description">Equivalence theorem: The columns of the matrix of T are linearly independent.</span></div>
 
 
 
@@ -390,8 +390,8 @@ Introductory Example: Computer Models in Aircraft Design
 <div class="tocsec">
 <div class="numtitle"><span class="secchapnum">2.3</span><span class="secchaptitle">Characterizations of Invertible Matrices</span></div>
 
-<div class="latopic"><span class="id">math.la.t.equiv.lintrans.onetoone</span><span class="description">Equivalence theorem: the linear transformation given by T(x)=Ax is one-to-one.</span></div>
-<div class="latopic"><span class="id">math.la.t.equiv.lintrans.onto</span><span class="description">Equivalence theorem: the linear transformation given by T(x)=Ax is onto.</span></div>
+<div class="latopic"><span class="id">math.la.t.equiv.lintrans.injective</span><span class="description">Equivalence theorem: the linear transformation given by T(x)=Ax is injective/one-to-one.</span></div>
+<div class="latopic"><span class="id">math.la.t.equiv.lintrans.surjective</span><span class="description">Equivalence theorem: the linear transformation given by T(x)=Ax is surjective/onto.</span></div>
 <div class="latopic"><span class="id">math.la.t.equiv.inv.left</span><span class="description">Equivalence theorem: the matrix A has a left inverse.</span></div>
 <div class="latopic"><span class="id">math.la.t.equiv.inv.right</span><span class="description">Equivalence theorem: the matrix A has a right inverse.</span></div>
 <div class="latopic"><span class="id">math.la.t.equiv.transpose.inv</span><span class="description">Equivalence theorem: the transpose of the matrix A has an inverse.</span></div>
@@ -526,17 +526,17 @@ Introductory Example: Space Flight and Control Systems
 <div class="latopic"><span class="id">math.la.t.vsp.scalar.mult.z</span><span class="description">The zero scalar multiplied by any vector equals the zero vector.</span></div>
 <div class="latopic"><span class="id">math.la.t.vsp.vector.mult.z</span><span class="description">The zero vector multiplied by any scalar equals the zero vector.</span></div>
 <div class="latopic"><span class="id">math.la.t.vsp.vector.negative</span><span class="description">The negative of a vector equals the vector multiplied by -1.</span></div>
-<div class="latopic"><span class="id">math.la.math.functions.d.polynomial.degree</span><span class="description">Definition of degree of a polynomial</span></div>
-<div class="latopic"><span class="id">math.la.math.functions.d.polynomial.z</span><span class="description">Definition of the zero polynomial</span></div>
+<div class="latopic"><span class="id">math.polynomial.d.degree</span><span class="description">Definition of degree of a polynomial</span></div>
+<div class="latopic"><span class="id">math.polynomial.d.z</span><span class="description">Definition of the zero polynomial</span></div>
 <div class="latopic"><span class="id">math.la.e.vsp.polynomial.leq_n</span><span class="description">The set of all polynomials of degree at most n is a vector space.</span></div>
 <div class="latopic"><span class="id">math.la.e.vsp.function</span><span class="description">The set of all functions on a set is a vector space.</span></div>
 <div class="latopic"><span class="id">math.la.d.vsp.subspace.arb</span><span class="description">Definition of subspace, arbitrary vector space</span></div>
-<div class="latopic"><span class="id">math.la.d.vsp.subspace.z</span><span class="description">Definition of zero subspace, arbitrary vector space</span></div>
+<div class="latopic"><span class="id">math.la.d.vsp.subspace.z.arb</span><span class="description">Definition of zero subspace, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.e.vsp.polynomial</span><span class="description">The set of all polynomials is a vector space.</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.lincomb.arb</span><span class="description">Definition of linear combination of vectors, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.span.arb</span><span class="description">Definition of span of a set of vectors, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.t.vsp.span.arb</span><span class="description">The span of a set of vectors is a subspace, arbitrary vector space.</span></div>
-<div class="latopic"><span class="id">math.la.d.vec.span.subspace.arb</span><span class="description">Definition of subspace spaned by a set of vectors, arbitrary vector space</span></div>
+<div class="latopic"><span class="id">math.la.t.vec.span.subspace.arb</span><span class="description">The span of a set of vectors is a subspace, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.d.vsp.span.set.arb</span><span class="description">Definition of spanning set for a subspace, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.d.vsp.subspace.intersection.arb.exer</span><span class="description">Definition of intersection of subspaces, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.t.vsp.subspace.intersection.arb.exer</span><span class="description">The intersection of subspaces is a subspace, arbitrary vector space</span></div>
@@ -602,7 +602,7 @@ Introductory Example: Space Flight and Control Systems
 <div class="tocsec">
 <div class="numtitle"><span class="secchapnum">4.7</span><span class="secchaptitle">Change of Basis</span></div>
 <div class="latopic"><span class="id">math.la.d.vsp.change_of_basis.arb</span><span class="description">Definition of change of corrdinates matrix between two bases, arbitrary vector space</span></div>
-<div class="latopic"><span class="id">math.la.t.vsp.change_of_basis.arb</span><span class="description">The change of coordinates matrix between two bases exists and is unique, arbitrary vector space.</span></div>
+<div class="latopic"><span class="id">math.la.t.vsp.change_of_basis.exists.arb</span><span class="description">The change of coordinates matrix between two bases exists and is unique, arbitrary vector space.</span></div>
 </div>
 
 <div class="tocsec">
@@ -648,7 +648,7 @@ Introductory Example: Dynamical Systems and Spotted Owls
 <div class="latopic"><span class="id">math.la.d.mat.charpoly.eqn</span><span class="description">Definition of characteristic equation of a matrix</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.charpoly.eqn.eig</span><span class="description">The eigenvalues of a matrix are the solutions to its characteristic equation.</span></div>
 <div class="latopic"><span class="id">math.la.d.mat.charpoly</span><span class="description">Definition of characteristic polynomial of a matrix</span></div>
-<div class="latopic"><span class="id">math.la.d.mat.eig.multiplicity</span><span class="description">Definition of multiplicity of an eigenvalue</span></div>
+<div class="latopic"><span class="id">math.la.d.mat.eig.multiplicity.algebraic</span><span class="description">Definition of algebraic multiplicity of an eigenvalue</span></div>
 <div class="latopic"><span class="id">math.la.d.mat.similar</span><span class="description">Definition of similar matrices</span></div>
 <div class="latopic"><span class="id">math.la.d.mat.similar.transform</span><span class="description">Definition of similarity transform</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.similar.eig</span><span class="description">Similar matrices have the same eigenvalues and the same characteristic polynomials.</span></div>
@@ -662,8 +662,7 @@ Introductory Example: Dynamical Systems and Spotted Owls
 <div class="latopic"><span class="id">math.la.t.mat.diagonalizable.distinct</span><span class="description">An n-by-n matrix with n distinct eigenvalues is diagonalizable</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.eig.multiplicity.eigenspace</span><span class="description">The dimension of a eigenspace is less than or equal to the multiplicity of the eigenvalue.</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.diagonalizable.eigenspace</span><span class="description">An n-by-n matrix is diagonalizable if and only if the sum of the dimensions of the eigenspaces equals n.</span></div>
-<div class="latopic"><span class="id">math.la.t.mat.diagonalizable.charpoly</span><span class="description">An n-by-n matrix is diagonalizable if and only if the characteristic polynomial factors comple
-tely, and the dimension of each eigenspace equals the multiplicity of the eigenvalue.</span></div>
+<div class="latopic"><span class="id">math.la.t.mat.diagonalizable.charpoly</span><span class="description">An n-by-n matrix is diagonalizable if and only if the characteristic polynomial factors completely, and the dimension of each eigenspace equals the multiplicity of the eigenvalue.</span></div>
 <div class="latopic"><span class="id">math.la.t.mat.diagonalizable.basis</span><span class="description">An n-by-n matrix is diagonalizable if and only if the union of the basis vectors for the eigenspaces is a basis for R^n (or C^n).</span></div>
 </div>
 
@@ -671,7 +670,7 @@ tely, and the dimension of each eigenspace equals the multiplicity of the eigenv
 <div class="numtitle"><span class="secchapnum">5.4</span><span class="secchaptitle">Eigenvectors and Linear Transformations</span></div>
 <div class="latopic"><span class="id">math.la.d.lintrans.mat.repn.arb</span><span class="description">Definition of matrix representation of a linear transformation with respect to bases of the spaces, arbitrary vector space</span></div>
 <div class="latopic"><span class="id">math.la.d.lintrans.mat.repn.self.arb</span><span class="description">Definition of matrix representation of a linear transformation from a vector space to itself, with respect to basis of the space, arbitrary vector space</span></div>
-<div class="latopic"><span class="id">math.la.UNKNOWN</span><span class="description">Not sure how to describe Theorem 8.</span></div>
+<div class="latopic"><span class="id">math.la.t.vsp.change_of_basis</span><span class="description">Not sure that is the right way to describe Theorem 8.</span></div>
 </div>
 
 <div class="tocsec">
@@ -721,7 +720,7 @@ Introductory Example: The North American Datum and GPS Navigation
 <div class="latopic"><span class="id">math.la.d.vec.norm.coord</span><span class="description">Definition of norm/length of a vector, coordinate setting</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.unit.coord</span><span class="description">Definition of unit vector, coordinate setting</span></div>
 <div class="latopic"><span class="id">math.la.d.distance.coord</span><span class="description">Definition of distance, coordinate setting</span></div>
-<div class="latopic"><span class="id">math.la.d.vec.orthogonal</span><span class="description">Definition of two vectors being orthogonal</span></div>
+<div class="latopic"><span class="id">math.la.d.vec.orthogonal.coord</span><span class="description">Definition of orthogonal vectors, coordinate setting</span></div>
 <div class="latopic"><span class="id">math.la.t.vec.orthogonal</span><span class="description">Two vectors are orthogonal if and only if the Pythagorean Theorem holds.</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.subspace.orthogonal</span><span class="description">Definition of a vector being orthogonal to a subspace</span></div>
 <div class="latopic"><span class="id">math.la.d.subspace.orthogonal_complement</span><span class="description">Definition of orthogonal complement of a subspace</span></div>
@@ -751,7 +750,7 @@ y vector in a basis of the subspace.</span></div>
 <div class="tocsec">
 <div class="numtitle"><span class="secchapnum">6.3</span><span class="secchaptitle">Orthogonal Projections</span></div>
 <div class="latopic"><span class="id">math.la.t.vec.projection.subspace</span><span class="description">A vector can be written uniquely as a sum of a vector in a subspace and a vector orthogonal to the subspace.</span></div>
-<div class="latopic"><span class="id">math.la.d.vec.projection.subspace</span><span class="description">Definition of orthogonal projection onto a subspace</span></div>
+<div class="latopic"><span class="id">math.la.d.vec.projection.subspace</span><span class="description">Definition of (orthogonal) projection onto a subspace</span></div>
 <div class="latopic"><span class="id">math.la.t.vec.projection.element</span><span class="description">The projection of a vector which is in a subspace is the vector itself.</span></div>
 <div class="latopic"><span class="id">math.la.t.vec.projection.closest</span><span class="description">The (orthogonal) projection of a vector onto a subspace is the point in the subspace closest to the vector.</span></div>
 <div class="latopic"><span class="id">math.la.t.subspace.basis.orthonormal</span><span class="description">Formula for the coordinates of the projection of a vector onto a subspace, with respect to an orthonormal basis.</span></div>
@@ -785,7 +784,7 @@ y vector in a basis of the subspace.</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.innerproduct.arb</span><span class="description">Definition of inner product, arbitrary setting</span></div>
 <div class="latopic"><span class="id">math.la.d.vsp.innerproduct.arb</span><span class="description">Definition of inner product space, arbitrary setting</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.norm.arb</span><span class="description">Definition of length/norm of a vector, arbitrary setting</span></div>
-<div class="latopic"><span class="id">math.la.d.vec.distance.arb</span><span class="description">Definition of orthogonal vectors, arbitrary setting</span></div>
+<div class="latopic"><span class="id">math.la.d.vec.distance.arb</span><span class="description">Definition of distance between vectors, arbitrary setting</span></div>
 <div class="latopic"><span class="id">math.la.d.vec.orthogonal.arb</span><span class="description">Definition of orthogonal vectors, arbitrary setting</span></div>
 <div class="latopic"><span class="id">math.la.d.gramschmidt.arb</span><span class="description">Definition of Gram-Schmidt process, arbitrary setting</span></div>
 <div class="latopic"><span class="id">math.la.t.vec.cauchyschwarz.arb</span><span class="description">The Cauchy-Schwarz inequality, arbitrary setting</span></div>
