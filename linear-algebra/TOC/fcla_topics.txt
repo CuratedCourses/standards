@@ -1,0 +1,145 @@
+
+# Chapter SLE
+
+   (p2 Subsection LA) :: math.la.d.lineqn
+Definition SLE :: math.la.d.linsys
+Definition SSLE :: math.la.d.linsys.soln
+Definition SSSLE :: math.la.d.linsys.soln_set
+
+Definition ESYS :: math.la.d.linsys.equiv
+Definition EO :: math.la.d.linsys.op
+Theorem EOPSS :: math.la.t.linsys.op
+
+Definition M :: math.la.d.mat, math.la.d.mat.m_by_n, math.la.c.mat.entry,
+Definition CV :: math.la.d.vec.col.coord, math.la.d.vec.size.coord, math.la.d.vec.coord, math.la.d.vec.component.coord
+Definition ZCV :: math.la.d.vec.z.coord
+Definition CM :: math.la.d.mat.coeff
+Definition VOC :: math.la.d.mat.constant
+Definition SOLV :: math.la.d.vec.solution
+Definition MRLS :: math.la.d.linsys.mat.repn
+Definition AM :: math.la.d.mat.augmented
+Definition RO :: math.la.d.mat.row_op
+Definition REM :: math.la.d.mat.row_op .d.mat.row_equiv
+Theorem REMES :: math.la.t.mat.row_equiv.linsys
+Definition RREF :: math.la.d.mat.rref
+  (+p[conclusion?]: pivot column) :: math.la.d.mat.pivot_col
+Theorem REMEF :: math.la.t.mat.rref.exists
+Theorem RREFU :: math.la.t.mat.rref.unique
+
+Definition CS :: math.la.d.linsys.consistent, math.la.d.linsys.inconsistent
+Definition IDV :: math.la.d.linsys.variable.dependent, math.la.d.linsys.variable.independent
+Theorem RCLS :: math.la.t.rref.consistent
+Theorem CSRN :: math.la.t.rref.pivot
+Theorem FVCS :: math.la.t.rref.pivot.free
+Theorem PSSLS :: math.la.t.linsys.zoi
+Theorem CMVEI :: math.la.t.linsys.consistent.i
+
+Definition HS :: math.la.d.linsys.homog
+Theorem HSC :: math.la.d.linsys.homog.consistent
+Definition TSHSE :: math.la.d.linsys.homog.trivial
+Theorem HMVEI :: math.la.t.linsys.homog.i
+Definition NSM :: math.la.d.mat.null_space.right
+
+Definition SQM :: math.la.d.mat.square
+Definition NM  :: math.la.d.mat.nonsingular.z, math.la.d.mat.singular
+Definition IM :: math.la.d.mat.identity
+Theorem NMRRI :: math.la.t.equiv.identity
+Theorem NMTNS :: math.la.t.equiv.nullspace
+Theorem NMUS :: math.la.t.equiv.mat.eqn.unique
+Theorem NME1 :: math.la.t.equiv.identity.rep, math.la.t.equiv.nullspace.rep, math.la.t.equiv.mat.eqn.unique.rep
+
+# Chapter V
+\chap V Vectors
+
+\sec VO Vector Operations
+
+\ssec CV Column Vectors
+Definition VSCV :: math.la.d.vec.rncn
+Definition CVE :: math.la.d.vec.equal.coord
+Definition CVA :: math.la.d.vec.sum.coord
+Definition CVSM :: math.la.d.vec.scalar.mult.coord
+
+\ssec VSP Vector Space Properties
+Theorem VSPCV :: math.la.t.vec.axioms.rncn
+
+\sec LC Linear Combinations
+
+\ssec LC Linear Combinations
+Definition LCCV :: math.la.d.vec.lincomb.coord
+Theorem SLSLC :: math.la.t.mat.eqn.lincomb
+
+\ssec VFSS Vector Form of Solution Sets
+Theorem VFSLS :: math.la.t.linsys.soln.vector
+
+\ssec PSHS Particular Solutions, Homogeneous Solutions
+Theorem PSPHS :: math.la.t.linsys.nonhomog.particular_plus_homog
+
+\sec SS Spanning Sets
+
+\ssec SSV Span of a Set of Vectors
+
+Definition SSCV :: math.la.d.vec.span.coord
+
+\ssec SSV Span of a Set of Vectors
+Definition SSCV :: math.la.d.vec.span.coord
+
+\ssec SSNS Spanning Sets of Null Spaces
+114 Theorem SSNS :: math.la.t.mat.null_space.rref.span
+
+\sesc LI Linear Independence
+
+\ssec LISV Linearly Independent Sets of Vectors
+Definition RLDCV :: math.la.d.vec.linindep.coord
+Theorem LIVHS :: math.la.t.vec.linindep.homog
+Theorem LIVRN :: math.la.t.vec.linindep.pivot
+Theorem MVSLD :: math.la.t.vec.lindep.more.rncn
+
+\ssec LINM Linear Independence and Nonsingular Matrices
+Theorem NMLIC :: math.la.t.equiv.col.linindep
+129 Theorem NME2 :: math.la.t.equiv.col.linindep.rep
+
+\ssec NSSLI Null Spaces, Spans, Linear Independence
+Theorem BNS :: math.la.t.mat.null_space.rref.basis  [[ basis not actually defined yet ]]
+
+\sec LDS Linear Dependence and Spans
+
+\ssec LDSS Linearly Dependent Sets and Spans
+Theorem DLDS :: math.la.t.vec.lindep.coord
+
+\ssec COV Casting Out Vectors
+147 Theorem BS :: math.la.t.vsp.span.basis.rref, math.la.t.vsp.span.basis
+
+\sec O Orthogonality
+
+\ssec CAV Complex Arithmetic and Vectors
+Definition CCCV :: math.la.d.vec.conjugate.cn
+Theorem CRVA :: math.la.t.vec.sum.conjugate.cn
+Theorem CRSM :: math.la.t.vec.scalar.mult.conjugate.cn
+
+\ssec IP Inner products
+Definition IP :: math.la.d.innerproduct.cn
+Theorem IPVA :: math.la.t.innerproduct.distributive.rncn
+Theorem IPSM :: math.la.t.innerproduct.commutative.scalar.cn
+Theorem IPAC :: math.la.t.innerproduct.commutative.cn
+
+\ssec N Norm
+Definition NV :: math.la.d.vec.norm.coord
+Theorem IPN :: math.la.t.vec.innerproduct.norm
+Theorem PIP :: math.la.t.innerproduct.self.positive.coord, math.la.t.innerproduct.self.z.coord
+
+\ssec OV Orthogonal Vectors
+Definition OV :: math.la.d.vec.orthogonal.coord
+Definition OSV :: math.la.d.vec.orthogonal_set
+Definition SUV :: math.la.d.vsp.basis.standard.rncn, math.la.d.vec.unit.coord [[ unit not actually defined ]]
+Theorem OSLI :: math.la.t.vec.orthogonal_set.linindep
+
+\ssec GSP Gram-Schmidt Procedure
+Theorem GSP :: math.la.d.gramschmidt, math.la.t.gramschmidt
+Definition ONS :: math.la.d.vec.orthonormal_set
+
+\chap M Matrices
+
+\sec MO Matrix Operations
+
+\ssec MEASM Matrix Equality, Addition, Scalar Multiplication
+
