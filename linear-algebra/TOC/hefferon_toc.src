@@ -60,7 +60,7 @@ math.la.c.lineqn.3.geometric
 
 \ssec II.2 Length and Angle Measures*
 math.la.d.vec.norm.coord
-math.la.d.innerproduct.real.coord
+math.la.d.innerproduct.rn
 math.la.t.vec.triangle.coord
 math.la.t.vec.cauchyschwartz.coord
 math.la.d.vec.angle.coord

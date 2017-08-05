@@ -26,11 +26,20 @@ Definition of vector, coordinate vector space
 math.la.d.vec.col.coord
 Definition of column vector, coordinate vector space
 
+math.la.d.vec.rncn
+Definition of R^n (or C^n)
+
 math.la.d.vec.size.coord
 Definition of size of a vector, coordinate vector space
 
 math.la.d.vec.component.coord
 Definition of entry/component of a vector, coordinate vector space
+
+math.la.d.vec.component.coord
+Definition of entry/component of a vector, coordinate vector space
+
+math.la.d.vec.conjugate.cn
+Definition of conjugate of a vector in C^n
 
 math.la.d.vec.z.coord
 Definition of zero vector, coordinate vector space
@@ -47,8 +56,14 @@ Vector sum/addition is commutative and associative, coordinate vector space
 math.la.e.vec.sum.geometric.r2
 Example of a sum of vectors interpreted geometrically in R^2
 
+math.la.t.vec.sum.conjugate.cn
+The conjugate of a sum of vectors in C^n is the sum of the conjugates
+
 math.la.d.vec.scalar.mult.coord
 Definition of vector-scalar multiplication, coordinate vector space
+
+math.la.t.vec.scalar.mult.conjugate.cn
+The conjugate of vector-scalar multiplication in C^n is the product of the conjugates.
 
 math.la.e.vec.scalar.mult.r2
 Example of vector-scalar multiplication in R^2
@@ -642,6 +657,9 @@ Definition of basic/dependent/leading variable in a linear system
 math.la.d.linsys.variable.independent
 Definition of free/independent variable in a linear system
 
+math.la.t.linsys.soln.vector
+Theorem describing the vector form of sulutions to a linear system.
+
 math.la.t.linsys.nonhomog.particular_plus_homog
 The solutions to a nonhomogeneous system are given by a particular solution plus the solutions to the homogeneous system.
 
@@ -843,9 +861,6 @@ Geometric description of span of a set of vectors in R^n (or C^n)
 math.la.d.vec.lindep.relation
 Definition of linear dependence relation
 
-math.la.d.vec.linindep.coord
-Definition of linearly independent set of vectors: if a linear combination is zero, then every coefficient is zero, coordinate vector space.
-
 math.la.e.vec.linindep.r3
 Determine if a particular set of vectors in R^3 in linearly independent
 
@@ -861,6 +876,9 @@ Determine if a particular vector is in the span of a set of vectors in R^2
 math.la.e.vec.span.of.r3
 Determine if a particular vector is in the span of a set of vectors in R^3
 
+math.la.d.vec.linindep.coord
+Definition of linearly independent set of vectors: if a linear combination is zero, then every coefficient is zero, coordinate vector space.
+
 math.la.t.vec.lindep.coord
 Theorem: a set of vectors is linearly dependent if and only if one of the vectors can be written as a linear combination of the other vectors, coordinate vector space.
 
@@ -869,6 +887,12 @@ Definition of linearly dependent set of vectors:  one of the vectors can be writ
 
 math.la.t.vec.linindep.coord
 Theorem: a set of vectors is linearly independent if and only if whenever a linear combination is zero, then every coefficient is zero, coordinate vector space.
+
+math.la.t.vec.linindep.homog
+A set of vectors is linearly independent if and only if the homogeneous linear system corresponding to the matrix of column vectors has only the trivial solution.
+
+math.la.t.vec.linindep.pivot
+A set of vectors is linearly independent if and only if the matrix of column vectors in reduced row-echelon form has every column as a pivot column.
 
 math.la.t.vec.lindep.zero
 If a set of vectors contains the zero vector, then the set is linearly dependent.
@@ -1020,6 +1044,9 @@ Removing a linearly dependent vector from a set does not change the span of the 
 
 math.la.t.vsp.span.basis
 A set of nonzero vectors contains (as a subset) a basis for its span.
+
+math.la.t.vsp.span.basis.rref
+The reduced row-echelon form of a matrix determines which subset of a spanning set is a basis.
 
 math.la.t.vsp.basis.coord.unique
 Each vector can be written uniquely as a linear combination of vectors from a given basis.
@@ -1232,6 +1259,12 @@ Definition of matrix null space (left)
 
 math.la.t.mat.null_space.rncn
 The null space of a matrix is a subspace of R^n (or C^n).
+
+math.la.t.mat.null_space.rref.span
+Description of a spanning set for the null space of a matrix from the reduced row-echelon form.
+
+math.la.t.mat.null_space.rref.basis
+Description of a basis for the null space of a matrix from the reduced row-echelon form.
 
 math.la.d.mat.row_space
 Definition of row space of a matrix
@@ -1544,20 +1577,26 @@ A matrix with real entries has eigenvalues occurring in conjugate pairs.
 Orthogonality and projection, coordinate setting
 ==============================================
 
-math.la.d.innerproduct.real.coord
-Definition of inner/dot product, real entries, coordinate setting
+math.la.d.innerproduct.rn
+Definition of inner/dot product on R^n
 
-math.la.d.innerproduct.complex.coord
-Definition of inner/dot product, complex entries, coordinate setting
+math.la.d.innerproduct.cn
+Definition of inner/dot product on C^n
 
-math.la.t.innerproduct.commutative.coord
-The standard inner/dot product is commutative, coordinate setting.
+math.la.t.innerproduct.commutative.rn
+The standard inner/dot product on R^n is commutative.
 
-math.la.t.innerproduct.commutative.scalar.real.coord
-The standard inner/dot product commutes with real scalar multiplication, coordinate setting.
+math.la.t.innerproduct.commutative.cn
+The standard inner/dot product on C^n is anticommutative.
 
-math.la.t.innerproduct.distributive.coord
-The standard inner/dot product distributes over addition, coordinate setting.
+math.la.t.innerproduct.commutative.scalar.rn
+The standard inner/dot product on R^n commutes with (real) scalar multiplication.
+
+math.la.t.innerproduct.commutative.scalar.cn
+The standard inner/dot product on C^n commutes/anticommutes with scalar multiplication.
+
+math.la.t.innerproduct.distributive.rncn
+The standard inner/dot product on R^n (or C^n) distributes over addition.
 
 math.la.t.innerproduct.self.positive.coord
 The standard inner/dot product of a vector with itself is non-negative, coordinate setting.
@@ -1567,6 +1606,9 @@ The standard inner/dot product of a vector with itself is zero only for the zero
 
 math.la.d.vec.norm.coord
 Definition of norm/length of a vector, coordinate setting
+
+math.la.t.vec.innerproduct.norm
+The inner product of a vector with itself is the square of its norm/length.
 
 math.la.t.vec.triangle.coord
 The triangle inequality, coordinate setting
@@ -1665,7 +1707,7 @@ math.la.d.gramschmidt
 Description of the Gram-Schmidt process
 
 math.la.t.gramschmidt
-The Gram-Schmidt process converts a basis into an orthogonal basis.
+The Gram-Schmidt process converts a linearly independent set into an orthogonal set.
 
 math.la.d.linsys.leastsquares
 Definition of least-squares solution to a linear system
