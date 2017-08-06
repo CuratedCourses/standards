@@ -123,6 +123,18 @@ Matrix addition is commutative and associative.
 math.la.t.mat.scalar.mult.commut_assoc
 Matrix-scalar multiplication is commutative, associative, and distributive.
 
+math.la.d.mat.conjugate
+Definition of conjugate of a matrix
+
+math.la.t.mat.sum.conjugate
+The conjugate of the sum of matrices is the sum of the conjugates.
+
+math.la.t.mat.scalar.conjugate
+The conjugate of a matrix-scalar product is the product of the conjugates.
+
+math.la.t.mat.conjugate.involution
+Matrix conjugation is an involution.
+
 math.la.d.mat.row_op
 Definition of row operations on a matrix
 
@@ -183,6 +195,15 @@ Every matrix is row-equivalent to a matrix in reduced row echelon form.
 math.la.t.mat.rref.unique
 Every matrix is row-equivalent to only one matrix in reduced row echelon form.
 
+math.la.d.mat.erref.of
+Definition of extended reduced row echelon form of a matrix
+
+math.la.t.mat.erref.of
+Theorem describing properties of the submatrices of the extended reduced row echelon form of a matrix
+
+math.la.t.mat.erref.spaces
+Theorem describing spaces associated to the submatrices of the extended reduced row echelon form of a matrix
+
 math.la.d.mat.pivot
 Definition of pivot
 
@@ -200,6 +221,9 @@ Example of putting a matrix in echelon form and identifying the pivot columns
 
 math.la.d.mat.vec.prod
 Definition of matrix-vector product, as a linear combination of column vectors
+
+math.la.t.mat.vec.prod.unique
+If two matrices have equal products with all vectors, then the matrices are equal.
 
 math.la.e.mat.vec.prod
 Example of matrix-vector product, as a linear combination of column vectors
@@ -221,6 +245,12 @@ Definition of matrix multiplication in terms of column vectors
 
 math.la.d.mat.mult.coord
 Definition of matrix multiplication, each entry separately
+
+math.la.t.mat.mult.coord
+Theorem describing matrix multiplication, each entry separately
+
+math.la.t.mat.mult.z
+Any matrix times the zero matrix equals the zero matrix.
 
 math.la.e.mat.mult.2x2
 Example of multiplying 2x2 matrices
@@ -258,8 +288,35 @@ Definition of transpose of a matrix
 math.la.t.mat.transpose.involution
 Matrix transpose is an involution.
 
+math.la.t.mat.transpose.conjugate
+The conjugate of the transpose is the transpose of the conjugate.
+
+math.la.d.mat.adjoint
+Definition of adjoint (conjugate transpose)
+
+math.la.t.mat.sum.adjoint
+The adjoint of a sum is the sum of the adjoints.
+
+math.la.t.mat.scalar.adjoint
+The adjoint of a matrix-scalar product is the product of the adjoint and the conjugate.
+
+math.la.t.mat.adjoint.involution
+Matrix adjoint is an involution.
+
+math.la.t.mat.sum.transpose
+The transpose of a sum of matrices is the sum of the transposes.
+
+math.la.t.mat.scalar.transpose
+Transpose commutes with scalar multiplication.
+
 math.la.t.mat.mult.transpose
 The transpose of a product of matrices is the product of the transposes in reverse order.
+
+math.la.t.mat.mult.adjoint
+The adjoint of a product of matrices is the product of the adjoints in reverse order.
+
+math.la.t.mat.mult.conjugate
+The conjugate of a product of matrices is the product of the conjugates.
 
 math.la.d.mat.inv.left
 Definition of left inverse of a matrix
@@ -276,6 +333,9 @@ Definition of invertible matrix
 math.la.t.mat.inv.leftright
 If a matrix has both a left and a right inverse, then the two are equal.
 
+math.la.t.mat.inv.oneside
+If a square matrix has a one-sided inverse, then it is a two-sided inverse.
+
 math.la.t.mat.inv.2x2
 Formula for the inverse of a 2-by-2 matrix.
 
@@ -284,6 +344,12 @@ Matrix inverse is an involution.
 
 math.la.t.mat.inv.shoesandsocks
 For n-by-n invertible matrices A and B, the product AB is invertible, and (AB)^-1=B^-1 A^-1.
+
+math.la.t.mat.prod.nonsingular
+The product of square matrices is nonsingular if and only if each factor is nonsingular.
+
+math.la.t.mat.inv.scalar
+The inverse of a scalar multiple is the reciprocal times the inverse.
 
 math.la.t.mat.inv.transpose
 Matrix transpose commutes with matrix inverse.
@@ -388,6 +454,9 @@ Definition of Markov matrix
 math.la.d.mat.symmetric
 Definition of symmetric matrix
 
+math.la.t.mat.symmetric.square
+Symmetric matrices are square.
+
 math.la.t.mat.symmetric.eig.orthogonal
 Eigenvectors of a symmetric matrix with different eigenvalues are orthogonal.
 
@@ -403,6 +472,9 @@ The spectral theorem for symmetric matrices
 math.la.t.mat.symmetric.spectraldecomposition
 Formula for the spectral decomposition for a symmetric matrix
 
+math.la.d.mat.skewsymmetric
+Definition of skew-symmetric matrix
+
 math.la.d.mat.nilpotent
 Definition of nilpotent matrix
 
@@ -416,13 +488,25 @@ math.la.d.nilpotent.index
 Definition of index of nilpotency
 
 math.la.d.mat.hermitian
-Definition of Hermitian matrix
+Definition of Hermitian/self-adjoint matrix
+
+math.la.d.mat.hermitian.innerproduct.cn
+Multiplication by a Hermitian matrix commutes with the standard inner product on C^n.
 
 math.la.d.mat.orthogonal
 Definition of orthogonal matrix
 
 math.la.d.mat.unitary
 Definition of unitary matrix
+
+math.la.t.mat.unitary.inv
+Unitary matrices are invertible.
+
+math.la.t.mat.unitary.col.orthogonal
+Unitary matrices have orthogonal rows/columns.
+
+math.la.t.mat.unitary.innerproduct
+Unitary matrices preserve inner products.
 
 math.la.d.mat.svd
 Definition of singular value decomposition (SVD)
@@ -480,7 +564,7 @@ math.la.d.mat.nonsingular.z
 Definition of nonsingular matrix: the associated homogeneous linear system has only the trivial solution
 
 math.la.d.mat.singular
-Definition of singular matrix
+Definition of singular matrix (not nonsingular)
 
 # A is an n_by_n matrix.  Each of the equivalences to  
 # "A is nonsingular" is a separate topic.  Attach that 
@@ -875,6 +959,9 @@ Determine if a particular vector is in the span of a set of vectors in R^2
 
 math.la.e.vec.span.of.r3
 Determine if a particular vector is in the span of a set of vectors in R^3
+
+math.la.d.vec.lineardependence
+Definition of a linear dependence relation on a set of vectors
 
 math.la.d.vec.linindep.coord
 Definition of linearly independent set of vectors: if a linear combination is zero, then every coefficient is zero, coordinate vector space.
@@ -1284,6 +1371,12 @@ The column space of an m-by-n matrix is a subspace of R^m (or C^m)
 math.la.t.mat.col_space.pivot
 The pivot columns of a matrix are a basis for the column space.
 
+math.la.c.mat.col_space.row_reduce
+Row operations do not necessarily preserve the column space.
+
+math.la.t.mat.row_space.pivot
+The nonzero rows of the reduced row-echelon form of a matris are a basis for the row space.
+
 math.la.d.mat.rank.column
 Definition of column rank of a matrix
 
@@ -1578,31 +1671,40 @@ Orthogonality and projection, coordinate setting
 ==============================================
 
 math.la.d.innerproduct.rn
-Definition of inner/dot product on R^n
+Definition of inner/dot product on R^n, in terms of coordinates
 
 math.la.d.innerproduct.cn
-Definition of inner/dot product on C^n
+Definition of inner/dot product on C^n, in terms of coordinates
 
 math.la.t.innerproduct.commutative.rn
-The standard inner/dot product on R^n is commutative.
+The standard inner product on R^n is commutative.
 
 math.la.t.innerproduct.commutative.cn
-The standard inner/dot product on C^n is anticommutative.
+The standard inner product on C^n is anticommutative.
 
 math.la.t.innerproduct.commutative.scalar.rn
-The standard inner/dot product on R^n commutes with (real) scalar multiplication.
+The standard inner product on R^n commutes with (real) scalar multiplication.
 
 math.la.t.innerproduct.commutative.scalar.cn
-The standard inner/dot product on C^n commutes/anticommutes with scalar multiplication.
+The standard inner product on C^n commutes/anticommutes with scalar multiplication.
 
 math.la.t.innerproduct.distributive.rncn
-The standard inner/dot product on R^n (or C^n) distributes over addition.
+The standard inner product on R^n (or C^n) distributes over addition.
 
 math.la.t.innerproduct.self.positive.coord
-The standard inner/dot product of a vector with itself is non-negative, coordinate setting.
+The standard inner product of a vector with itself is non-negative, coordinate setting.
 
 math.la.t.innerproduct.self.z.coord
-The standard inner/dot product of a vector with itself is zero only for the zero vector, coordinate setting.
+The standard inner product of a vector with itself is zero only for the zero vector, coordinate setting.
+
+math.la.t.innerproduct.mat.rn
+The standard inner product on R^n can be written as the product of a vector and the transpose of a vector.
+
+math.la.t.innerproduct.mat.cn
+The standard inner product on C^n can be written as the product of a vector and the adjoint of a vector.
+
+math.la.t.innerproduct.adjoint.cn
+A matrix turns into its adjoint when moved to the other side of the standard inner product on C^n.
 
 math.la.d.vec.norm.coord
 Definition of norm/length of a vector, coordinate setting

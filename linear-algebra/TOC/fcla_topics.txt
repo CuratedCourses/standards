@@ -89,7 +89,8 @@ Definition SSCV :: math.la.d.vec.span.coord
 \sesc LI Linear Independence
 
 \ssec LISV Linearly Independent Sets of Vectors
-Definition RLDCV :: math.la.d.vec.linindep.coord
+Definition RLDCV :: math.la.d.vec.lineardependence
+Definition LICV :: math.la.d.vec.linindep.coord
 Theorem LIVHS :: math.la.t.vec.linindep.homog
 Theorem LIVRN :: math.la.t.vec.linindep.pivot
 Theorem MVSLD :: math.la.t.vec.lindep.more.rncn
@@ -142,4 +143,136 @@ Definition ONS :: math.la.d.vec.orthonormal_set
 \sec MO Matrix Operations
 
 \ssec MEASM Matrix Equality, Addition, Scalar Multiplication
+DefinitionVSM :: math.la.d.mat.m_by_n.set   [[ called vector space, but really a set ]]
+Definition ME :: math.la.d.mat.equal
+Definition MA :: math.la.d.mat.sum
+Definition MSM :: math.la.d.mat.scalar.mult
 
+\ssec VSP Vector Space Properties
+Theorem VSPM :: math.la.e.vsp.mat.m_by_n
+Definition ZM :: Definition of zero matrix
+
+\ssec TSM Transposes and Symmetric Matrices
+Definition TM :: math.la.d.mat.transpose
+Definition SYM :: math.la.d.mat.symmetric
+Theorem SMS :: math.la.t.mat.symmetric.square
+Theorem TMA :: math.la.t.mat.sum.transpose
+Theorem TMSM :: math.la.t.mat.scalar.transpose
+Theorem TT :: math.la.t.mat.transpose.involution
+
+\ssec MCC Matrices and Complex Conjugation
+Definition CCM :: math.la.d.mat.conjugate
+Theorem CRMA :: math.la.t.matsum.conjugate
+Theorem CRMSM :: math.la.t.mat.scalar.conjugate
+Theorem CCM :: math.la.t.mat.conjugate.involution
+Theorem MCT :: math.la.t.mat.transpose.conjugate
+
+\ssec AM Adjoint of a Matrix
+Definition A :: math.la.d.mat.adjoint
+Theorem AMA :: math.la.t.mat.sum.adjoint
+Theorem AMSM :: math.la.t.mat.scalar.adjoint
+Theorem AA :: math.la.t.mat.adjoint.involution
+Exercise T30 :: math.la.d.mat.skewsymmetric
+
+\sec MM Matrix Multiplication
+
+\ssec MVP Matrix-Vector Product
+Definition MVP :: math.la.d.mat.vec.prod
+Theorem SLEMM :: math.la.t.mat.eqn.linsys
+Theorem EMMVP :: math.la.t.mat.vec.prod.unique
+
+\ssec MM Matrix Multiplication
+Definition MM :: math.la.d.mat.mult.col
+
+\ssec MMEE Matrix Multiplication, Entry-by-Entry
+Theorem EMP :: math.la.t.mat.mult.coord
+
+\ssec PMM Properties of Matrix Multiplication
+Theorem MMZM :: math.la.t.mat.mult.z
+Theorem MMIM :: math.la.t.mat.mult.identity
+Theorem MMDAA :: math.la.t.mat.mult.distributive
+Theorem MMSMM :: math.la.t.mat.scalar.prod.commut
+Theorem MMA :: math.la.t.mat.mult.assoc
+Theorem MMIP :: math.la.t.innerproduct.mat.cn
+Theorem MMCC :: math.la.t.mat.mult.conjugate
+
+Theorem MMT :: math.la.t.mat.mult.transpose
+Theorem MMAD :: math.la.t.mat.mult.adjoint
+
+\ssec HM Hermitian Matrices
+Theorem AIP :: math.la.t.innerproduct.adjoint.cn
+Definition HM :: math.la.d.mat.hermitian
+Theorem HMIP :: math.la.d.mat.hermitian.innerproduct.cn
+
+\sec MISLE
+Matrix Inverses and Systems of Linear Equations
+
+\ssec SI Solutions and Inverses
+
+\ssec IM Inverse of a Matrix
+Definition MI :: math.la.d.mat.inv, math.la.d.mat.invertible
+
+\ssec CIM Computing the Inverse of a Matrix
+Theorem TTMI :: math.la.t.mat.inv.2x2
+Theorem CINM :: math.la.t.mat.inv.augmented
+
+\ssec PMI Properties of Matrix Inverses
+Theorem SS :: math.la.t.mat.inv.shoesandsocks
+Theorem MIMI :: math.la.t.mat.inv.involution
+Theorem MIT :: math.la.t.mat.inv.transpose
+Theorem MISM :: math.la.t.mat.inv.scalar
+
+\sec MINM Matrix Inverses and Nonsingular Matrices
+
+\ssec NMI Nonsingular Matrices are Invertible
+Theorem NPNT :: math.la.t.mat.prod.nonsingular
+Theorem OSIS :: math.la.t.mat.inv.oneside
+Theorem NI :: math.la.t.equiv.inv
+Theorem SNCM :: math.la.t.eqn.mat.inv
+
+\ssec UM Unitary Matrices
+Definition UM :: math.la.d.mat.unitary
+Theorem UMI :: math.la.t.mat.unitary.inv
+Theorem CUMOS :: math.la.t.mat.unitary.col.orthogonal
+Theorem UMPIP :: math.la.t.mat.unitary.innerproduct
+
+\sec CRS Column and Row Spaces
+
+\ssec CSSE Column Spaces and Systems of Equations
+Definition CSM :: math.la.d.mat.col_space
+Theorem CSCS :: math.la.t.mat.eqn.lincomb
+
+\ssec CSSOC Column Space Spanned by Original Columns
+Theorem BCS :: math.la.t.mat.col_space.pivot  [[ basis still not defined ]]
+
+\ssec CSNM Column Space of a Nonsingular Matrix
+Theorem CSNM :: math.la.t.equiv.col.span
+
+\ssec RSM Row Space of a Matrix
+
+Definition RSM :: math.la.d.mat.row_space
+Theorem REMRS :: math.la.d.mat.row_space.row_equiv
+Theorem BRS :: math.la.t.mat.row_space.pivot [[ why say onnzero columns of the transpose instead of nonzero rows ?]]
+[[ Theorem CSRST :: omitting.because.trivial ]]
+
+\sec FS Four Subsets
+
+\ssec  LNS Left Null Space
+Definition LNS :: math.la.d.mat.null_space.left
+
+\ssec CCS Computing Column Spaces
+
+\ssec EEF Extended Echelon Form
+Definition EEF :: math.la.d.mat.erref.of
+Theorem PEEF :: math.la.t.mat.erref.of
+
+\ssec FS Four Subsets
+244 Theorem FS :: math.la.t.mat.erref.spaces
+On page 254 :: math.la.c.mat.col_space.row_reduce
+
+\chap VS Vector Spaces
+
+\sec VS Vector Spaces
+
+\ssec VS Vector Spaces
+Definition VS :: 
