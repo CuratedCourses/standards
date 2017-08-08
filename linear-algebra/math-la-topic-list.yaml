@@ -26,14 +26,23 @@ Definition of vector, coordinate vector space
 math.la.d.vec.col.coord
 Definition of column vector, coordinate vector space
 
+math.la.d.vec.rncn
+Definition of R^n (or C^n)
+
 math.la.d.vec.size.coord
 Definition of size of a vector, coordinate vector space
 
 math.la.d.vec.component.coord
 Definition of entry/component of a vector, coordinate vector space
 
+math.la.d.vec.component.coord
+Definition of entry/component of a vector, coordinate vector space
+
+math.la.d.vec.conjugate.cn
+Definition of conjugate of a vector in C^n
+
 math.la.d.vec.z.coord
-Definition of zero vector, coordinate vector space
+Definition of 0 vector, coordinate vector space
 
 math.la.d.vec.equal.coord
 Definition of equality of vectors, coordinate vector space
@@ -47,8 +56,14 @@ Vector sum/addition is commutative and associative, coordinate vector space
 math.la.e.vec.sum.geometric.r2
 Example of a sum of vectors interpreted geometrically in R^2
 
+math.la.t.vec.sum.conjugate.cn
+The conjugate of a sum of vectors in C^n is the sum of the conjugates
+
 math.la.d.vec.scalar.mult.coord
 Definition of vector-scalar multiplication, coordinate vector space
+
+math.la.t.vec.scalar.mult.conjugate.cn
+The conjugate of vector-scalar multiplication in C^n is the product of the conjugates.
 
 math.la.e.vec.scalar.mult.r2
 Example of vector-scalar multiplication in R^2
@@ -90,8 +105,8 @@ Definition of diagonal matrix
 math.la.d.mat.identity
 Definition of identity matrix
 
-math.la.d.mat.zero
-Definition of zero matrix
+math.la.d.mat.z
+Definition of 0 matrix
 
 math.la.d.mat.equal
 Definition of equality of matrices
@@ -108,6 +123,18 @@ Matrix addition is commutative and associative.
 math.la.t.mat.scalar.mult.commut_assoc
 Matrix-scalar multiplication is commutative, associative, and distributive.
 
+math.la.d.mat.conjugate
+Definition of conjugate of a matrix
+
+math.la.t.mat.sum.conjugate
+The conjugate of the sum of matrices is the sum of the conjugates.
+
+math.la.t.mat.scalar.conjugate
+The conjugate of a matrix-scalar product is the product of the conjugates.
+
+math.la.t.mat.conjugate.involution
+Matrix conjugation is an involution.
+
 math.la.d.mat.row_op
 Definition of row operations on a matrix
 
@@ -121,15 +148,18 @@ math.la.d.mat.elementary
 Definition of elementary matrix
 
 math.la.d.mat.elementary.inv
-Elementary matrices are invertible.
+Elementary matrices are invertible/nonsingular.
 
-math.la.d.mat.mult.elementary
+math.la.t.mat.elementary.prod
+A nonsingular matrix can be written as a product of elementary matrices.
+
+math.la.t.mat.mult.elementary
 Row operations are given by multiplication by elementary matrices.
 
 math.la.d.mat.row_equiv
 Definition of row equivalent matrices
 
-math.la.t.mat.row_equiv
+math.la.t.mat.row_equiv.equiv
 Row equivalence is an equivalence relation
 
 math.la.d.mat.row.leading
@@ -168,6 +198,18 @@ Every matrix is row-equivalent to a matrix in reduced row echelon form.
 math.la.t.mat.rref.unique
 Every matrix is row-equivalent to only one matrix in reduced row echelon form.
 
+math.la.d.mat.erref.of
+Definition of extended reduced row echelon form of a matrix
+
+math.la.t.mat.erref.of
+Theorem describing properties of the block matrices of the extended reduced row echelon form of a matrix
+
+math.la.t.mat.erref.spaces
+Theorem describing spaces associated to the block matrices of the extended reduced row echelon form of a matrix
+
+math.la.t.mat.erref.dimension
+Theorem describing the dimension of spaces associated to the block matrices of the extended reduced row echelon form of a matrix
+
 math.la.d.mat.pivot
 Definition of pivot
 
@@ -185,6 +227,9 @@ Example of putting a matrix in echelon form and identifying the pivot columns
 
 math.la.d.mat.vec.prod
 Definition of matrix-vector product, as a linear combination of column vectors
+
+math.la.t.mat.vec.prod.unique
+If two matrices have equal products with all vectors, then the matrices are equal.
 
 math.la.e.mat.vec.prod
 Example of matrix-vector product, as a linear combination of column vectors
@@ -206,6 +251,12 @@ Definition of matrix multiplication in terms of column vectors
 
 math.la.d.mat.mult.coord
 Definition of matrix multiplication, each entry separately
+
+math.la.t.mat.mult.coord
+Theorem describing matrix multiplication, each entry separately
+
+math.la.t.mat.mult.z
+Any matrix times the 0 matrix equals the 0 matrix.
 
 math.la.e.mat.mult.2x2
 Example of multiplying 2x2 matrices
@@ -243,8 +294,35 @@ Definition of transpose of a matrix
 math.la.t.mat.transpose.involution
 Matrix transpose is an involution.
 
+math.la.t.mat.transpose.conjugate
+The conjugate of the transpose is the transpose of the conjugate.
+
+math.la.d.mat.adjoint
+Definition of adjoint (conjugate transpose)
+
+math.la.t.mat.sum.adjoint
+The adjoint of a sum is the sum of the adjoints.
+
+math.la.t.mat.scalar.adjoint
+The adjoint of a matrix-scalar product is the product of the adjoint and the conjugate.
+
+math.la.t.mat.adjoint.involution
+Matrix adjoint is an involution.
+
+math.la.t.mat.sum.transpose
+The transpose of a sum of matrices is the sum of the transposes.
+
+math.la.t.mat.scalar.transpose
+Transpose commutes with scalar multiplication.
+
 math.la.t.mat.mult.transpose
 The transpose of a product of matrices is the product of the transposes in reverse order.
+
+math.la.t.mat.mult.adjoint
+The adjoint of a product of matrices is the product of the adjoints in reverse order.
+
+math.la.t.mat.mult.conjugate
+The conjugate of a product of matrices is the product of the conjugates.
 
 math.la.d.mat.inv.left
 Definition of left inverse of a matrix
@@ -261,6 +339,9 @@ Definition of invertible matrix
 math.la.t.mat.inv.leftright
 If a matrix has both a left and a right inverse, then the two are equal.
 
+math.la.t.mat.inv.oneside
+If a square matrix has a one-sided inverse, then it is a two-sided inverse.
+
 math.la.t.mat.inv.2x2
 Formula for the inverse of a 2-by-2 matrix.
 
@@ -269,6 +350,12 @@ Matrix inverse is an involution.
 
 math.la.t.mat.inv.shoesandsocks
 For n-by-n invertible matrices A and B, the product AB is invertible, and (AB)^-1=B^-1 A^-1.
+
+math.la.t.mat.prod.nonsingular
+The product of square matrices is nonsingular if and only if each factor is nonsingular.
+
+math.la.t.mat.inv.scalar
+The inverse of a scalar multiple is the reciprocal times the inverse.
 
 math.la.t.mat.inv.transpose
 Matrix transpose commutes with matrix inverse.
@@ -317,7 +404,7 @@ math.la.t.mat.diagonalizable.eigenspace
 An n-by-n matrix is diagonalizable if and only if the sum of the dimensions of the eigenspaces equals n.
 
 math.la.t.mat.diagonalizable.charpoly
-An n-by-n matrix is diagonalizable if and only if the characteristic polynomial factors completely, and the dimension of each eigenspace equals the multiplicity of the eigenvalue.
+An n-by-n matrix is diagonalizable if and only if the characteristic polynomial factors completely, and the dimension of each eigenspace equals the (algebraic) multiplicity of the eigenvalue.
 
 math.la.t.mat.diagonalized_by
 A diagonalizable matrix is diagonalized by a matrix having the eigenvectors as columns.
@@ -343,7 +430,7 @@ Matrix multiplication can be viewed as the dot product of a row vector of column
 math.la.d.mat.equiv
 Definition of equivalent matrices
 
-math.la.t.mat.equiv
+math.la.t.mat.equiv.map
 Equivalent matrices represent the same linear transformation with resect to appropriate bases.
 
 math.la.t.mat.equiv.diag
@@ -373,6 +460,9 @@ Definition of Markov matrix
 math.la.d.mat.symmetric
 Definition of symmetric matrix
 
+math.la.t.mat.symmetric.square
+Symmetric matrices are square.
+
 math.la.t.mat.symmetric.eig.orthogonal
 Eigenvectors of a symmetric matrix with different eigenvalues are orthogonal.
 
@@ -388,6 +478,9 @@ The spectral theorem for symmetric matrices
 math.la.t.mat.symmetric.spectraldecomposition
 Formula for the spectral decomposition for a symmetric matrix
 
+math.la.d.mat.skewsymmetric
+Definition of skew-symmetric matrix
+
 math.la.d.mat.nilpotent
 Definition of nilpotent matrix
 
@@ -401,13 +494,28 @@ math.la.d.nilpotent.index
 Definition of index of nilpotency
 
 math.la.d.mat.hermitian
-Definition of Hermitian matrix
+Definition of Hermitian/self-adjoint matrix
+
+math.la.d.mat.hermitian.innerproduct.cn
+Multiplication by a Hermitian matrix commutes with the standard inner product on C^n.
 
 math.la.d.mat.orthogonal
 Definition of orthogonal matrix
 
 math.la.d.mat.unitary
 Definition of unitary matrix
+
+math.la.t.mat.unitary.inv
+Unitary matrices are invertible.
+
+math.la.t.mat.unitary.col.orthogonal
+Unitary matrices have orthogonal (orthonormal) rows/columns.
+
+math.la.t.mat.unitary.innerproduct
+Unitary matrices preserve inner products.
+
+math.la.t.mat.unitary.basis.orthogonal
+Unitary matrices preserve orthogonal (orthonormal) bases.
 
 math.la.d.mat.svd
 Definition of singular value decomposition (SVD)
@@ -465,7 +573,7 @@ math.la.d.mat.nonsingular.z
 Definition of nonsingular matrix: the associated homogeneous linear system has only the trivial solution
 
 math.la.d.mat.singular
-Definition of singular matrix
+Definition of singular matrix (not nonsingular)
 
 # A is an n_by_n matrix.  Each of the equivalences to  
 # "A is nonsingular" is a separate topic.  Attach that 
@@ -546,10 +654,10 @@ math.la.t.equiv.nullspace
 Equivalence theorem for nonsingular matrices: the null space of the matrix A is {0}.
 
 math.la.t.equiv.nullity
-Equivalence theorem for nonsingular matrices: the nullity of the matrix A is zero.
+Equivalence theorem for nonsingular matrices: the nullity of the matrix A is 0.
 
 math.la.t.equiv.eig
-Equivalence theorem for nonsingular matrices: the matrix A does not have zero as an eigenvalue.
+Equivalence theorem for nonsingular matrices: the matrix A does not have 0 as an eigenvalue.
 
 math.la.t.equiv.change_of_basis
 Equivalence theorem for nonsingular matrices: the matrix A is a change-of-basis matrix.
@@ -634,13 +742,16 @@ math.la.t.linsys.homog.nontrivial
 A homogeneous system has a nontrivial solution if and only if it has a free variable.
 
 math.la.t.linsys.zoi
-Linear systems have zero, one, or infinitely many solutions.
+Linear systems have 0, 1, or infinitely many solutions.
 
 math.la.d.linsys.variable.dependent
 Definition of basic/dependent/leading variable in a linear system
 
 math.la.d.linsys.variable.independent
 Definition of free/independent variable in a linear system
+
+math.la.t.linsys.soln.vector
+Theorem describing the vector form of sulutions to a linear system.
 
 math.la.t.linsys.nonhomog.particular_plus_homog
 The solutions to a nonhomogeneous system are given by a particular solution plus the solutions to the homogeneous system.
@@ -726,13 +837,16 @@ math.la.d.mat.trace
 Definition of trace of a matrix
 
 math.la.d.mat.cofactor
-Definition of cofactor of a matrix
+Definition of cofactor/submatrix of a matrix
 
 math.la.d.mat.det.cofactor
 Definition of determinant of a matrix as a cofactor expansion across the first row
 
-math.la.t.mat.det.cofactor
-The determinant of a matrix can be computed as a cofactor expansion across any row or down any column.
+math.la.t.mat.det.cofactor.row
+The determinant of a matrix can be computed as a cofactor expansion across any row.
+
+math.la.t.mat.det.cofactor.col
+The determinant of a matrix can be computed as a cofactor expansion down any column.
 
 math.la.d.mat.det.echelon
 Definition of determinant of a matrix as a product of the diagonal entries in a non-scaled echelon form.
@@ -767,14 +881,20 @@ Definition of multilinear function
 math.la.t.det.multilinear
 A determinant is a multilinear function
 
-math.la.t.mat.det.elementaryoperations
-Theorem describing the effect of elementary row operations on the determinant of a matrix.
+math.la.t.mat.det.add_mult
+Adding a multiple of one row to another row does not change the determinant.
+
+math.la.t.mat.det.switch
+Switching two rows multiplies the determinant by -1.
+
+math.la.t.mat.det.scalar
+Multiplying a row by a scalar multiplies the determinant by that scalar.
 
 math.la.t.mat.elementary.det
 Theorem describing the determinants of elementary matrices.
 
 math.la.t.mat.row.equal
-A matrix with two equal rows has determinant 0
+A matrix with two equal rows/columns has determinant 0
 
 math.la.t.mat.row.z
 A matrix with a 0 row/column has determinant 0
@@ -835,16 +955,16 @@ math.la.d.vec.span.subspace.coord
 Definition of subspace spanned by a set of a set of vectors, coordinate vector space
 
 math.la.d.vsp.subspace.z.coord
-Definition of the zero/trivial subspace
+Definition of the 0/trivial subspace
 
 math.la.c.vec.span.geometric.rncn
 Geometric description of span of a set of vectors in R^n (or C^n)
 
 math.la.d.vec.lindep.relation
-Definition of linear dependence relation
+Definition of linear dependence relation on a set of vectors
 
-math.la.d.vec.linindep.coord
-Definition of linearly independent set of vectors: if a linear combination is zero, then every coefficient is zero, coordinate vector space.
+math.la.d.vec.lindep.relation.trivial
+Definition of trivial linear dependence relation on a set of vectors
 
 math.la.e.vec.linindep.r3
 Determine if a particular set of vectors in R^3 in linearly independent
@@ -861,6 +981,9 @@ Determine if a particular vector is in the span of a set of vectors in R^2
 math.la.e.vec.span.of.r3
 Determine if a particular vector is in the span of a set of vectors in R^3
 
+math.la.d.vec.linindep.coord
+Definition of linearly independent set of vectors: if a linear combination is 0, then every coefficient is 0, coordinate vector space.
+
 math.la.t.vec.lindep.coord
 Theorem: a set of vectors is linearly dependent if and only if one of the vectors can be written as a linear combination of the other vectors, coordinate vector space.
 
@@ -868,10 +991,16 @@ math.la.d.vec.lindep.coord
 Definition of linearly dependent set of vectors:  one of the vectors can be written as a linear combination of the other vectors, coordinate vector space.
 
 math.la.t.vec.linindep.coord
-Theorem: a set of vectors is linearly independent if and only if whenever a linear combination is zero, then every coefficient is zero, coordinate vector space.
+Theorem: a set of vectors is linearly independent if and only if whenever a linear combination is 0, then every coefficient is 0, coordinate vector space.
 
-math.la.t.vec.lindep.zero
-If a set of vectors contains the zero vector, then the set is linearly dependent.
+math.la.t.vec.linindep.homog
+A set of vectors is linearly independent if and only if the homogeneous linear system corresponding to the matrix of column vectors has only the trivial solution.
+
+math.la.t.vec.linindep.pivot
+A set of vectors is linearly independent if and only if the matrix of column vectors in reduced row-echelon form has every column as a pivot column.
+
+math.la.t.vec.lindep.z
+If a set of vectors contains the 0 vector, then the set is linearly dependent.
 
 math.la.t.vec.lindep.two
 A set of two vectors is linearly dependent if and only if neither is a scalar multiple of the other.
@@ -885,11 +1014,17 @@ Definition of basis of a vector space (or subspace), coordinate vector space
 math.la.d.vsp.basis.standard.rncn
 Definition of the standard/natural basis of R^n (or C^n)
 
+math.la.t.vsp.basis.standard.rncn
+The standard/natural basis of R^n (or C^n) is a basis.
+
 math.la.d.vsp.basis.coord.change.rncn
 Definition of change-of-coordinates matrix relative to a given basis of R^n (or C^n)
 
 math.la.d.vsp.basis.standard.leq_n
 Definition of the standard basis of the polynomials of degree at most n
+
+math.la.d.vsp.basis.standard.m_by_n
+Definition of the standard basis of the m by n matrices
 
 math.la.d.vsp.basis.relative.coord
 Definition of coordinates relative to a given basis, coordinate vector space
@@ -928,26 +1063,32 @@ Definition of vector-scalar multiplication, arbitrary vector space
 math.la.d.vsp.axioms.arb
 Axioms of a vector space, arbitrary vector space
 
-math.la.d.vsp.z
-Definition of the trivial/zero vector space, arbitrary vector space
+math.la.t.vsp.z.unique
+The 0 vector is unique.
 
 math.la.d.vsp.vector.negative
 The additive inverse of a vector is called the negative of the vector.
 
+math.la.d.vsp.vector.negative.unique
+The additive inverse of a vector is unique.
+
 math.la.t.vsp.scalar.mult.z
-The zero scalar multiplied by any vector equals the zero vector.
+The 0 scalar multiplied by any vector equals the 0 vector.
 
 math.la.t.vsp.vector.mult.z
-The zero vector multiplied by any scalar equals the zero vector.
+The 0 vector multiplied by any scalar equals the 0 vector.
+
+math.la.t.vsp.mult.z
+If the product of a vector and a scalar is 0, then one of them is 0.
 
 math.la.t.vsp.vector.negative
-The negative of a vector equals the vector multiplied by -1.
+The additive inverse of a vector equals the vector multiplied by -1.
 
 math.la.d.vsp.subspace.arb
 Definition of subspace, arbitrary vector space
 
 math.la.d.vsp.subspace.z.arb
-Definition of zero/trivial subspace, arbitrary vector space
+Definition of 0/trivial subspace, arbitrary vector space
 
 math.la.d.vec.lincomb.arb
 Definition of linear combination of vectors, arbitrary vector space
@@ -962,7 +1103,7 @@ math.la.t.vec.span.subspace.arb
 The span of a set of vectors is a subspace, arbitrary vector space
 
 math.la.d.vsp.span.set.arb
-Definition of spanning/generating set for a subspace, arbitrary vector space
+Definition of spanning/generating set for a space or subspace, arbitrary vector space
 
 math.la.d.vsp.subspace.intersection.arb
 Definition of intersection of subspaces, arbitrary vector space
@@ -998,7 +1139,7 @@ math.la.t.vsp.subspace.sum.arb
 The sum of subspaces is a subspace, arbitrary vector space.
 
 math.la.d.vec.linindep.arb
-Definition of linearly indepentent set of vectors: if a linear combination is zero, then every coefficient is zero, arbitrary vector space.
+Definition of linearly independent set of vectors: if a linear combination is 0, then every coefficient is 0, arbitrary vector space.
 
 math.la.t.vec.lindep.arb
 Theorem: a set of vectors is linearly dependent if and only if one of the vectors can be written as a linear combination of the other vectors, arbitrary vector space.
@@ -1007,7 +1148,7 @@ math.la.d.vec.lindep.arb
 Definition of linearly dependent set of vectors:  one of the vectors can be written as a linear combination of the other vectors, arbitrary vector space.
 
 math.la.t.vec.linindep.arb
-Theorem: a set of vectors is linearly independent if and only if whenever a linear combination is zero, then every coefficient is zero, arbitrary vector space.
+Theorem: a set of vectors is linearly independent if and only if whenever a linear combination is 0, then every coefficient is 0, arbitrary vector space.
 
 math.la.d.vsp.basis.arb
 Definition of basis of a vector space (or subspace), arbitrary vector space
@@ -1020,6 +1161,9 @@ Removing a linearly dependent vector from a set does not change the span of the 
 
 math.la.t.vsp.span.basis
 A set of nonzero vectors contains (as a subset) a basis for its span.
+
+math.la.t.vsp.span.basis.rref
+The reduced row-echelon form of a matrix determines which subset of a spanning set is a basis.
 
 math.la.t.vsp.basis.coord.unique
 Each vector can be written uniquely as a linear combination of vectors from a given basis.
@@ -1069,8 +1213,17 @@ Definition of dimension of a vector space (or subspace) being finite or infinite
 math.la.d.vsp.dim.arb
 Definition of dimension of a vector space (or subspace), arbitrary vector space
 
+math.la.t.vsp.dim.arb
+The dimension of a vector space (or subspace) is well-defined, arbitrary vector space.
+
 math.la.t.vsp.dim.more.lindep.arb
 A set of vectors containing more elements than the dimension of the space must be linearly dependent, arbitrary vector space.
+
+math.la.t.vsp.dim.less.span.arb
+A set of vectors containing fewer elements than the dimension of the space cannot span, arbitrary vector space.
+
+math.la.t.vsp.linindep.extend
+Adjoining an element not in the span of a linearly independent set gives another linearly independent set.
 
 math.la.t.vsp.linindep.basis.arb
 Any linearly independent set can be expanded to a basis for the (sub)space, arbitrary vector space.
@@ -1078,8 +1231,11 @@ Any linearly independent set can be expanded to a basis for the (sub)space, arbi
 math.la.t.vsp.subspace.dim.arb
 The dimension of a subspace is less than or equal to the dimension of the whole space, arbitrary vector space.
 
+math.la.t.vsp.subspace.dim.equal
+If two finite dimensional subspaces have the same dimension and one is contained in the other, then they are equal.
+
 math.la.t.vsp.dim.span.linindep.arb
-If a vector space has dimension n, then any subset set of n vectors is linearly indepentent if and only if it spans, arbitrary vector space.
+If a vector space has dimension n, then any subset set of n vectors is linearly independent if and only if it spans, arbitrary vector space.
 
 math.la.t.vsp.dim.span.arb
 If a vector space has dimension n, then any subset set of n vectors that spans the space must be a basis, arbitrary vector space.
@@ -1101,6 +1257,9 @@ Multiplication by a change of coordinates matrix converts representations for di
 Vector spaces: examples
 =======================
 # In all examples, the provision "under the usual operations" is assumed.
+
+math.la.e.vsp.z
+The set containing only 0 is a vector space.
 
 math.la.e.vsp.rn
 R^n is a vector space.
@@ -1128,6 +1287,30 @@ The set of all polynomials of degree at most n is a vector space.
 
 math.la.e.vsp.mat.m_by_n
 The set of m by n matrices is a vector space.
+
+math.la.e.vsp.sequence
+The set of all sequences is a vector space.
+
+math.la.e.vsp.function
+The set of all functions on a set is a vector space.
+
+math.la.e.vsp.crazy
+The crazy vector space is a vector space.
+
+math.la.e.vsp.row
+The row space of a matrix is a vector space
+
+math.la.e.vsp.col
+The column space of a matrix is a vector space
+
+math.la.t.mat.null_space.rncn
+The null space of a matrix is a subspace of R^n (or C^n).
+
+math.la.t.mat.null_space.left.rncn
+The left null space of a matrix is a subspace of R^m (or C^m).
+
+math.la.t.lintrans.vsp
+The set of linear transformations between two vector spaces is a vector space.
 
 ===========================================
 Linear transformations, general terminology
@@ -1210,7 +1393,7 @@ math.la.c.lintrans.geometric.r2
 Geometric properties of linear transformations on R^2
 
 math.la.t.lintrans.z
-A linear transformation maps zero to zero.
+A linear transformation maps 0 to 0.
 
 math.la.t.lintrans.lincomb
 A linear transformation of a linear combination is the linear combination of the linear transformation
@@ -1230,8 +1413,11 @@ Definition of matrix null space (right)
 math.la.d.mat.null_space.left
 Definition of matrix null space (left)
 
-math.la.t.mat.null_space.rncn
-The null space of a matrix is a subspace of R^n (or C^n).
+math.la.t.mat.null_space.rref.span
+Description of a spanning set for the null space of a matrix from the reduced row-echelon form.
+
+math.la.t.mat.null_space.rref.basis
+Description of a basis for the null space of a matrix from the reduced row-echelon form.
 
 math.la.d.mat.row_space
 Definition of row space of a matrix
@@ -1251,6 +1437,12 @@ The column space of an m-by-n matrix is a subspace of R^m (or C^m)
 math.la.t.mat.col_space.pivot
 The pivot columns of a matrix are a basis for the column space.
 
+math.la.c.mat.col_space.row_reduce
+Row operations do not necessarily preserve the column space.
+
+math.la.t.mat.row_space.pivot
+The nonzero rows of the reduced row-echelon form of a matris are a basis for the row space.
+
 math.la.d.mat.rank.column
 Definition of column rank of a matrix
 
@@ -1259,6 +1451,9 @@ Definition of rank of a matrix
 
 math.la.d.mat.nullity
 Definition of nullity of a matrix
+
+math.la.t.mat.rank.pivot
+The rank of a matrix equals number of pivots in a reduced row echelon form.
 
 math.la.t.mat.lintrans.rank
 The rank of a matrix equals the rank of the linear transformation it represents.
@@ -1312,11 +1507,35 @@ Linear transformations, arbitrary setting
 math.la.d.lintrans.arb
 Definition of linear transformation/homomorphism, arbitrary vector space
 
+math.la.d.lintrans.sum.arb
+Definition of sum of linear transformations, arbitrary vector space
+
+math.la.t.lintrans.sum.arb
+The sum of linear transformations is a linear transformation, arbitrary vector space
+
+math.la.d.lintrans.scalar.arb
+Definition of scalar multiple of a linear transformation, arbitrary vector space
+
+math.la.t.lintrans.scalar.arb
+A scalar multiple of a linear transformation is a linear transformation, arbitrary vector space
+
 math.la.d.lintrans.composition.arb
+Definition of composition of linear transformations, arbitrary vector space.
+
+math.la.t.lintrans.composition.arb
 The composition of linear transformations is a linear transformation, arbitrary vector space.
+
+math.la.t.lintrans.composition.injective.arb
+The composition of injective linear transformations is injective, arbitrary vector space.
+
+math.la.t.lintrans.composition.surjective.arb
+The composition of surjective linear transformations is surjective, arbitrary vector space.
 
 math.la.d.lintrans.preimage.arb
 Definition of pre-image of linear transformation, arbitrary vector space
+
+math.la.t.lintrans.preimage.translation.arb
+The preimage of a vector is a translation of the kernel of the linear transformation, arbitrary vector space
 
 math.la.d.lintrans.surjective.arb
 Definition of onto/surjective linear transformation, arbitrary vector space
@@ -1324,8 +1543,26 @@ Definition of onto/surjective linear transformation, arbitrary vector space
 math.la.d.lintrans.injective.arb
 Definition of one-to-one/injective linear transformation, arbitrary vector space
 
+math.la.t.lintrans.injective.linindep
+The image of a linearly independent set under an injective linear transformation is linearly independent.
+
+math.la.t.lintrans.injective.dim
+The dimension of the domain of an injective linear transformation is at most the dimension of the codomain.
+
+math.la.t.lintrans.surjective.dim
+The dimension of the domain of a surjective linear transformation is at least the dimension of the codomain.
+
 math.la.d.lintrans.range.arb
-Definition of range space of a linear transformation, arbitrary vector space
+Definition of range of a linear transformation, arbitrary vector space
+
+math.la.t.lintrans.range.subsp.arb
+The range of a linear transformation is a subspace, arbitrary vector space
+
+math.la.t.lintrans.range.span.arb
+The the image of a spanning set is a spanning set for the range space, arbitrary vector space
+
+math.la.t.lintrans.basis.span.surjective.arb
+A linear transformation is surjective if and only if the image of a basis is a spanning set, arbitrary vector space
 
 math.la.d.lintrans.range.generalized.arb
 Definition of generalized range space of a linear transformation, arbitrary vector space
@@ -1417,9 +1654,6 @@ A linear transformation is onto if and only if its rank equals the number of row
 math.la.d.lintrans.invertible.arb
 Definition of invertible linear transformation, arbitrary vector space
 
-math.la.t.lintrans.vsp
-The set of linear transformations between two vector spaces is a vector space.
-
 math.la.d.lintrans.mat.repn.arb
 Definition of matrix representation of a linear transformation with respect to bases of the spaces, arbitrary vector space
 
@@ -1486,8 +1720,32 @@ Definition of eigenvector of a matrix
 math.la.d.mat.eigsp
 Definition of eigenspace of a matrix
 
+math.la.t.mat.eigsp.subsp
+An eigenspace of a matrix is a nontrivial subspace.
+
+math.la.t.mat.eigsp.nullspace
+An eigenspace of a matrix is the null space of a related matrix.
+
+math.la.d.mat.eig.exists
+Definition of eigenvalue of a matrix
+
 math.la.t.mat.eig.triangular
 The eigenvalues of a triangular matrix are the entries on the main diagonal.
+
+math.la.t.mat.eig.scalar
+The eigenvalues of a scalar multiple of a matrix are the scalar multiples of the eigenvalues.
+
+math.la.t.mat.eig.power
+The eigenvalues of a power of a matrix are the power the eigenvalues.
+
+math.la.t.mat.eig.polynomial
+The eigenvalues of a polynomial of a matrix are the polynomial of the eigenvalues.
+
+math.la.t.mat.eig.inv
+The eigenvalues of the inverse of a nonsingular matrix are the reciprocals of the eigenvalues.
+
+math.la.t.mat.eig.transpose
+A matrix and its transpose have the same eigenvalues/characteristic polynomial.
 
 math.la.t.mat.eigvec.linindep
 Eigenvectors with distinct eigenvalues are linearly independent.
@@ -1502,10 +1760,13 @@ math.la.d.mat.charpoly.eqn
 Definition of characteristic equation of a matrix
 
 math.la.d.mat.eig.multiplicity.algebraic
-Definition of multiplicity of an eigenvalue
+Definition of (algebraic) multiplicity of an eigenvalue
 
 math.la.d.mat.eig.multiplicity.geometric
-Definition of geometric of an eigenvalue
+Definition of geometric multiplicity of an eigenvalue
+
+math.la.d.mat.eig.number
+An n-by-n matrix nas n (complex) eigenvalues, counted according to algebraic multiplicity.
 
 math.la.d.mat.minpoly
 Definition of minimal polynomial of a matrix
@@ -1517,16 +1778,19 @@ math.la.t.mat.charpoly.eig
 The eigenvalues of a matrix are the roots/solutions of its characteristic polynomial/equation.
 
 math.la.t.mat.charpoly.z
-The characteristic polynomial applied to the matrix gives the zero matrix.
+The characteristic polynomial applied to the matrix gives the 0 matrix.
 
 math.la.d.mat.cayleyhamilton
 The Cayley-Hamilton theorem for a matrix.
 
 math.la.t.mat.eig.multiplicity.eigenspace
-The dimension of a eigenspace is less than or equal to the multiplicity of the eigenvalue.
+The dimension of a eigenspace is less than or equal to the (algebraic) multiplicity of the eigenvalue.
 
 math.la.d.mat.similar
 Definition of similar matrices
+
+math.la.t.mat.similar.equiv
+Similarity of matrices in an equivalence relation.
 
 math.la.d.mat.similar.transform
 Definition of similarity transform
@@ -1540,33 +1804,57 @@ Definition of positive-definite matrix
 math.la.t.mat.real.eig.cn
 A matrix with real entries has eigenvalues occurring in conjugate pairs.
 
+math.la.t.mat.hermitian.eig.real
+Hermitian matrices have real eigenvalues.
+
+math.la.t.mat.hermitian.eigvec.orthogonal
+Distinct eigenvalues of a Hermitian matrix have orthogonal eigenvectors.
+
 ==============================================
 Orthogonality and projection, coordinate setting
 ==============================================
 
-math.la.d.innerproduct.real.coord
-Definition of inner/dot product, real entries, coordinate setting
+math.la.d.innerproduct.rn
+Definition of inner/dot product on R^n, in terms of coordinates
 
-math.la.d.innerproduct.complex.coord
-Definition of inner/dot product, complex entries, coordinate setting
+math.la.d.innerproduct.cn
+Definition of inner/dot product on C^n, in terms of coordinates
 
-math.la.t.innerproduct.commutative.coord
-The standard inner/dot product is commutative, coordinate setting.
+math.la.t.innerproduct.commutative.rn
+The standard inner product on R^n is commutative.
 
-math.la.t.innerproduct.commutative.scalar.real.coord
-The standard inner/dot product commutes with real scalar multiplication, coordinate setting.
+math.la.t.innerproduct.commutative.cn
+The standard inner product on C^n is anticommutative.
 
-math.la.t.innerproduct.distributive.coord
-The standard inner/dot product distributes over addition, coordinate setting.
+math.la.t.innerproduct.commutative.scalar.rn
+The standard inner product on R^n commutes with (real) scalar multiplication.
+
+math.la.t.innerproduct.commutative.scalar.cn
+The standard inner product on C^n commutes/anticommutes with scalar multiplication.
+
+math.la.t.innerproduct.distributive.rncn
+The standard inner product on R^n (or C^n) distributes over addition.
 
 math.la.t.innerproduct.self.positive.coord
-The standard inner/dot product of a vector with itself is non-negative, coordinate setting.
+The standard inner product of a vector with itself is non-negative, coordinate setting.
 
 math.la.t.innerproduct.self.z.coord
-The standard inner/dot product of a vector with itself is zero only for the zero vector, coordinate setting.
+The standard inner product of a vector with itself is 0 only for the 0 vector, coordinate setting.
+
+math.la.t.innerproduct.mat.rn
+The standard inner product on R^n can be written as the product of a vector and the transpose of a vector.
+
+math.la.t.innerproduct.mat.cn
+The standard inner product on C^n can be written as the product of a vector and the adjoint of a vector.
+
+math.la.t.innerproduct.adjoint.cn
+A matrix turns into its adjoint when moved to the other side of the standard inner product on C^n.
 
 math.la.d.vec.norm.coord
 Definition of norm/length of a vector, coordinate setting
+
+math.la.t.vec.innerproduct.norm
+The inner product of a vector with itself is the square of its norm/length.
 
 math.la.t.vec.triangle.coord
 The triangle inequality, coordinate setting
@@ -1635,7 +1923,7 @@ math.la.t.mat.col.orthonormal.dot.rn
 A matrix with real entries and orthonormal columns preserves dot products.
 
 math.la.t.subspace.basis.orthogonal
-Formula for the coordinates of a vector with respect to an orthogonal basis.
+Formula for the coordinates of a vector with respect to an orthogonal/orthonormal basis.
 
 math.la.d.vec.projection
 Definition of (orthogonal) projection of one vector onto another vector
@@ -1665,7 +1953,7 @@ math.la.d.gramschmidt
 Description of the Gram-Schmidt process
 
 math.la.t.gramschmidt
-The Gram-Schmidt process converts a basis into an orthogonal basis.
+The Gram-Schmidt process converts a linearly independent set into an orthogonal set.
 
 math.la.d.linsys.leastsquares
 Definition of least-squares solution to a linear system

@@ -60,7 +60,7 @@ math.la.c.lineqn.3.geometric
 
 \ssec II.2 Length and Angle Measures*
 math.la.d.vec.norm.coord
-math.la.d.innerproduct.real.coord
+math.la.d.innerproduct.rn
 math.la.t.vec.triangle.coord
 math.la.t.vec.cauchyschwartz.coord
 math.la.d.vec.angle.coord
@@ -74,7 +74,7 @@ math.la.c.mat.gaussjordan
 math.la.d.mat.rref
 math.la.t.linsys.op
 math.la.t.mat.row_equiv
-math.la.d.mat.row_equiv
+math.la.d.mat.row_equiv.equiv
 
 
 \ssec III.2 The Linear Combination Lemma
@@ -94,7 +94,7 @@ Topic:AnalyzingNetworks
 math.la.d.vec.arb
 math.la.d.scalar.arb
 math.la.d.vsp.axioms.arb
-math.la.d.vsp.z
+math.la.e.vsp.z
 math.la.e.vsp.rn
 math.la.e.vsp.polynomial.leq_n
 math.la.e.vsp.mat.m_by_n
@@ -237,10 +237,10 @@ math.la.d.mat.scalar.mult
 math.la.d.mat.sum
 math.la.t.lintrans.mat_repn.scalar
 math.la.t.lintrans.mat_repn.sum
-math.la.d.mat.zero
+math.la.d.mat.z
 
 \ssec IV.2 Matrix Multiplication
-math.la.d.lintrans.composition.arb
+math.la.t.lintrans.composition.arb
 math.la.d.mat.mult.coord
 math.la.t.lintrans.mat_repn.composition
 math.la.t.mat.mult.assoc
@@ -254,7 +254,7 @@ math.la.d.mat.identity
 math.la.d.mat.diagonal
 math.la.d.mat.permutation
 math.la.d.mat.elementary
-math.la.d.mat.mult.elementary
+math.la.t.mat.mult.elementary
 math.la.d.mat.trace
 math.la.d.mat.triangular.upper
 math.la.d.mat.markov
@@ -280,7 +280,7 @@ math.la.t.equiv.identitymap
 
 \ssec V.2 Changing Map Representations
 math.la.d.mat.equiv
-math.la.t.mat.equiv
+math.la.t.mat.equiv.map
 math.la.t.mat.equiv.diag
 math.la.t.mat.equiv.rank
 
