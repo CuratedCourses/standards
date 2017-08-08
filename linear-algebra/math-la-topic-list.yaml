@@ -1507,17 +1507,38 @@ Linear transformations, arbitrary setting
 math.la.d.lintrans.arb
 Definition of linear transformation/homomorphism, arbitrary vector space
 
+math.la.d.lintrans.sum.arb
+Definition of sum of linear transformations, arbitrary vector space
+
+math.la.t.lintrans.sum.arb
+The sum of linear transformations is a linear transformation, arbitrary vector space
+
+math.la.d.lintrans.scalar.arb
+Definition of scalar multiple of a linear transformation, arbitrary vector space
+
+math.la.t.lintrans.scalar.arb
+A scalar multiple of a linear transformation is a linear transformation, arbitrary vector space
+
 math.la.d.lintrans.composition.arb
+Definition of composition of linear transformations, arbitrary vector space.
+
+math.la.t.lintrans.composition.arb
 The composition of linear transformations is a linear transformation, arbitrary vector space.
 
 math.la.d.lintrans.preimage.arb
 Definition of pre-image of linear transformation, arbitrary vector space
+
+math.la.t.lintrans.preimage.translation.arb
+The preimage of a vector is a translation of the kernel of the linear transformation, arbitrary vector space
 
 math.la.d.lintrans.surjective.arb
 Definition of onto/surjective linear transformation, arbitrary vector space
 
 math.la.d.lintrans.injective.arb
 Definition of one-to-one/injective linear transformation, arbitrary vector space
+
+math.la.d.lintrans.injective.linindep
+The image if a linearly independent set under an injective linear transformation is linearly independent.
 
 math.la.d.lintrans.range.arb
 Definition of range space of a linear transformation, arbitrary vector space

@@ -240,7 +240,7 @@ math.la.t.lintrans.mat_repn.sum
 math.la.d.mat.z
 
 \ssec IV.2 Matrix Multiplication
-math.la.d.lintrans.composition.arb
+math.la.t.lintrans.composition.arb
 math.la.d.mat.mult.coord
 math.la.t.lintrans.mat_repn.composition
 math.la.t.mat.mult.assoc

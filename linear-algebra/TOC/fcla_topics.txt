@@ -496,6 +496,49 @@ Theorem LTTZZ :: math.la.t.lintrans.z
 
 \ssec MLT Matrices and Linear Transformations
 
+Theorem MBLT :: math.la.c.transformation.matrix
+
+Theorem MLTCV :: math.la.t.lintrans.mat.basis.standard.coord
+
+\ssec LTLC Linear Transformations and Linear Combinations
+
+Theorem LTLC :: math.la.t.lintrans.lincomb
+Theorem LTDB :: math.la.t.lintrans.basis
+
+\ssec PI Pre-Images
+
+Definition PI :: math.la.d.lintrans.preimage.arb
+
+\ssec NLTFO New Linear Transformations From Old
+Definition LTA :: math.la.d.lintrans.sum.arb
+
+Theorem SLTLT :: math.la.t.lintrans.sum.arb
+Definition LTSM :: math.la.d.lintrans.scalar.arb
+Theorem MLTLT :: math.la.t.lintrans.scalar.arb
+Theorem VSLT :: math.la.t.lintrans.vsp
+Definition LTC :: math.la.d.lintrans.composition.arb
+Theorem CLTLT :: math.la.t.lintrans.composition.arb
+
+\sec ILT Injective Linear Transformations
+
+\ssec ILT Injective Linear Transformations
+Definition ILT :: math.la.d.lintrans.injective.arb
+
+\ssec EILT Examples of Injective Linear Transformations
+
+\ssec KLT Kernel of a Linear Transformation
+
+Definition KLT :: math.la.d.lintrans.kernel.arb
+
+Theorem KLTS :: math.la.t.lintrans.kernel.arb
+Theorem PKI :: math.la.t.lintrans.preimage.translation.arb
+Theorem KILT :: math.la.t.lintrans.equiv.kernel
+
+\ssec ILTLI Injective Linear Transformations and Linear Independence
+Theorem ILTLI :: math.la.d.lintrans.injective.linindep
+Theorem ILTB :: math.la.t.lintrans.equiv.basis
+
+\ssec ILTD Injective Linear Transformations and Dimension
 
 
 
