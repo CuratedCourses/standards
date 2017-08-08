@@ -1525,6 +1525,12 @@ Definition of composition of linear transformations, arbitrary vector space.
 math.la.t.lintrans.composition.arb
 The composition of linear transformations is a linear transformation, arbitrary vector space.
 
+math.la.t.lintrans.composition.injective.arb
+The composition of injective linear transformations is injective, arbitrary vector space.
+
+math.la.t.lintrans.composition.surjective.arb
+The composition of surjective linear transformations is surjective, arbitrary vector space.
+
 math.la.d.lintrans.preimage.arb
 Definition of pre-image of linear transformation, arbitrary vector space
 
@@ -1537,11 +1543,26 @@ Definition of onto/surjective linear transformation, arbitrary vector space
 math.la.d.lintrans.injective.arb
 Definition of one-to-one/injective linear transformation, arbitrary vector space
 
-math.la.d.lintrans.injective.linindep
-The image if a linearly independent set under an injective linear transformation is linearly independent.
+math.la.t.lintrans.injective.linindep
+The image of a linearly independent set under an injective linear transformation is linearly independent.
+
+math.la.t.lintrans.injective.dim
+The dimension of the domain of an injective linear transformation is at most the dimension of the codomain.
+
+math.la.t.lintrans.surjective.dim
+The dimension of the domain of a surjective linear transformation is at least the dimension of the codomain.
 
 math.la.d.lintrans.range.arb
-Definition of range space of a linear transformation, arbitrary vector space
+Definition of range of a linear transformation, arbitrary vector space
+
+math.la.t.lintrans.range.subsp.arb
+The range of a linear transformation is a subspace, arbitrary vector space
+
+math.la.t.lintrans.range.span.arb
+The the image of a spanning set is a spanning set for the range space, arbitrary vector space
+
+math.la.t.lintrans.basis.span.surjective.arb
+A linear transformation is surjective if and only if the image of a basis is a spanning set, arbitrary vector space
 
 math.la.d.lintrans.range.generalized.arb
 Definition of generalized range space of a linear transformation, arbitrary vector space

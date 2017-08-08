@@ -535,12 +535,42 @@ Theorem PKI :: math.la.t.lintrans.preimage.translation.arb
 Theorem KILT :: math.la.t.lintrans.equiv.kernel
 
 \ssec ILTLI Injective Linear Transformations and Linear Independence
-Theorem ILTLI :: math.la.d.lintrans.injective.linindep
+Theorem ILTLI :: math.la.t.lintrans.injective.linindep
 Theorem ILTB :: math.la.t.lintrans.equiv.basis
 
 \ssec ILTD Injective Linear Transformations and Dimension
+Theorem ILTD :: math.la.t.lintrans.injective.dim
 
+\ssec CILT Composition of Injective Linear Transformations
+Theorem CILTI :: math.la.t.lintrans.composition.injective.arb
 
+\sec SLT Surjective Linear Transformations
+
+\ssec SLT Surjective Linear Transformations
+Definition SLT :: math.la.d.lintrans.surjective.arb
+
+\ssec ESLT Examples of Surjective Linear Transformations
+
+\ssec RLT Range of a Linear Transformation
+Definition RLT :: math.la.d.lintrans.range.arb
+Theorem RLTS :: math.la.t.lintrans.range.subsp.arb
+[[ omit Theorem RSLT ]]
+
+\ssec SSSLT Spanning Sets and Surjective Linear Transformations
+Theorem SSRLT :: math.la.t.lintrans.range.span.arb
+[[ omit Theorem RPI ]]
+Theorem SLTB :: math.la.t.lintrans.basis.span.surjective.arb
+
+\ssec SLTD Surjective Linear Transformations and Dimension
+Theorem SLTD :: math.la.t.lintrans.surjective.dim
+
+\ssec CSLT Composition of Surjective Linear Transformations`
+Theorem CSLTS :: math.la.t.lintrans.composition.surjective.arb
+
+\sec IVLT Invertible Linear Transformations
+
+\ssec IVLT Invertible Linear Transformations
+Definition IDLT :: 
 
 
 
