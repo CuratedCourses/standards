@@ -94,7 +94,7 @@ Topic:AnalyzingNetworks
 math.la.d.vec.arb
 math.la.d.scalar.arb
 math.la.d.vsp.axioms.arb
-math.la.d.vsp.z
+math.la.e.vsp.z
 math.la.e.vsp.rn
 math.la.e.vsp.polynomial.leq_n
 math.la.e.vsp.mat.m_by_n
@@ -254,7 +254,7 @@ math.la.d.mat.identity
 math.la.d.mat.diagonal
 math.la.d.mat.permutation
 math.la.d.mat.elementary
-math.la.d.mat.mult.elementary
+math.la.t.mat.mult.elementary
 math.la.d.mat.trace
 math.la.d.mat.triangular.upper
 math.la.d.mat.markov

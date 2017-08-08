@@ -89,7 +89,7 @@ Definition SSCV :: math.la.d.vec.span.coord
 \sesc LI Linear Independence
 
 \ssec LISV Linearly Independent Sets of Vectors
-Definition RLDCV :: math.la.d.vec.lineardependence
+Definition RLDCV :: math.la.d.vec.lindep.relation, math.la.d.vec.lindep.relation.trivial
 Definition LICV :: math.la.d.vec.linindep.coord
 Theorem LIVHS :: math.la.t.vec.linindep.homog
 Theorem LIVRN :: math.la.t.vec.linindep.pivot
@@ -275,4 +275,123 @@ On page 254 :: math.la.c.mat.col_space.row_reduce
 \sec VS Vector Spaces
 
 \ssec VS Vector Spaces
-Definition VS :: 
+Definition VS :: math.la.d.vec.add.arb, math.la.d.vec.scalar.mult.arb, math.la.d.vsp.axioms.arb, math.la.d.vec.arb
+In text :: math.foundation.d.axiom
+Example VSCV :: math.la.e.vsp.cn
+Example VSM :: math.la.e.vsp.mat.m_by_n
+Example VSP :: math.la.e.vsp.polynomial.leq_n
+Example VSIS :: math.la.e.vsp.sequence
+Example VSF :: math.la.e.vsp.function
+Example VSS :: math.la.e.vsp.z
+Example CVS :: math.la.e.vsp.crazy
+
+\ssec VSP Vector Space Properties
+Theorem ZVU :: math.la.t.vsp.z.unique
+Theorem AIU :: math.la.d.vsp.vector.negative.unique
+Theorem ZSSM :: math.la.t.vsp.scalar.mult.z
+Theorem ZVSM :: The zero vector multiplied by any scalar equals the zero vector.
+Theorem AISM :: The negative of a vector equals the vector multiplied by -1.
+
+Theorem SMEZV :: math.la.t.vsp.mult.z
+
+\ssec RD Recycling Definitions
+
+\sec S Subspaces
+
+\ssec S Subspaces
+Definition S :: math.la.d.vsp.subspace.arb
+
+\ssec TS Testing Subspaces
+Theorem TSS :: math.la.t.vsp.subspace.lincomb.arb
+Definition TS :: math.la.d.vsp.subspace.z.arb
+Theorem NSMS :: math.la.t.mat.null_space.rncn
+
+\ssec TSS The Span of a Set
+Definition LC :: math.la.d.vec.lincomb.arb
+Definition SS :: math.la.d.vec.span.arb
+Theorem SSS :: math.la.t.vec.span.subspace.arb
+
+\ssec SC Subspace Constructions
+Theorem CSMS :: math.la.e.vsp.row
+Theorem RSMS :: math.la.e.vsp.col
+Theorem LNSMS :: math.la.t.mat.null_space.left.rncn
+
+\sec LISS Linear Independence and Spanning Sets
+
+\ssec LI Linear Independence
+Definition RLD :: math.la.d.vec.lindep.relation.rep, math.la.d.vec.lindep.relation.trvial.rep
+Definition LI :: math.la.d.vec.linindep.arb
+
+\ssec SS Spanning Sets
+Definition SSVS :: math.la.d.vsp.span.set.arb
+
+\ssec VR Vector Representation
+Theorem VRRB :: math.la.t.vsp.basis.coord.unique  [[ basis still not defined? ]]
+
+\sec B Bases
+
+\ssec B Bases
+Definition B :: math.la.d.vsp.basis.arb
+Theorem SUVB :: math.la.t.vsp.basis.standard.rncn
+Example BP :: math.la.d.vsp.basis.standard.leq_n
+Example BM :: math.la.d.vsp.basis.standard.m_by_n
+
+\ssec BSCV Bases for Spans of Column Vectors
+
+\ssec BNM Bases and Nonsingular Matrices
+Theorem CNMB :: math.la.t.equiv.col.basis
+
+\ssec OBC Orthonormal Bases and Coordinates
+Theorem COB :: math.la.t.subspace.basis.orthogonal
+Theorem UMCOB :: math.la.t.mat.unitary.basis.orthogonal
+
+\sec D Dimension
+
+\ssec D Dimension
+Definition D :: math.la.d.vsp.dim.arb, math.la.d.vsp.dim.finite_infinite.arb
+Theorem SSLD :: math.la.t.vsp.dim.more.lindep.arb
+Theorem BIS :: math.la.t.vsp.dim.arb
+
+\ssec DVS Dimension of Vector Spaces
+[[ examples of dimensions of spaces omitted ]]
+
+\ssec RNM Rank and Nullity of a Matrix
+Definition NOM :: math.la.d.mat.nullity
+Definition ROM :: math.la.d.mat.rank
+Theorem CRN :: math.la.t.mat.rank.pivot
+Theorem RPNC :: math.la.t.mat.ranknullity
+
+\ssec RNNM Rank and Nullity of a Nonsingular Matrix
+Theorem RNNM :: math.la.t.equiv.rank, math.la.t.equiv.nullity
+
+\sec PD Properties of Dimension
+
+\ssec GT Goldilocks’ Theorem
+Theorem ELIS :: math.la.t.vsp.linindep.extend
+Theorem G :: math.la.t.vsp.dim.more.lindep.arb, math.la.t.vsp.dim.less.span.arb, math.la.t.vsp.dim.span.linindep.arb
+Theorem PSSD :: math.la.t.vsp.subspace.dim.arb
+Theorem EDYES :: math.la.t.vsp.subspace.dim.equal
+
+\ssec RT Ranks and Transposes
+Theorem RMRT :: math.la.t.mat.row_space.col_space [[ said very differently ]]
+
+\ssec DFS Dimension of Four Subspaces
+Theorem DFS :: math.la.t.mat.erref.dimension
+
+\chap D Determinants
+
+\sec DM Determinant of a Matrix
+
+\ssec EM Elementary Matrices
+Definition ELEM :: math.la.d.mat.elementary
+Theorem EMDRO :: math.la.t.mat.mult.elementary
+Theorem EMN :: math.la.d.mat.elementary.inv
+Theorem NMPEM :: math.la.d.mat.elementary.prod
+
+\ssec DD Definition of the Determinant
+
+########
+
+p259, after Definiiton VS:
+  A vector space is composed of three objects, a set and two operations.
+  # comma should be a colon.
