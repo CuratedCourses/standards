@@ -74,7 +74,7 @@ math.la.c.mat.gaussjordan
 math.la.d.mat.rref
 math.la.t.linsys.op
 math.la.t.mat.row_equiv
-math.la.d.mat.row_equiv
+math.la.d.mat.row_equiv.equiv
 
 
 \ssec III.2 The Linear Combination Lemma
@@ -237,7 +237,7 @@ math.la.d.mat.scalar.mult
 math.la.d.mat.sum
 math.la.t.lintrans.mat_repn.scalar
 math.la.t.lintrans.mat_repn.sum
-math.la.d.mat.zero
+math.la.d.mat.z
 
 \ssec IV.2 Matrix Multiplication
 math.la.d.lintrans.composition.arb
@@ -280,7 +280,7 @@ math.la.t.equiv.identitymap
 
 \ssec V.2 Changing Map Representations
 math.la.d.mat.equiv
-math.la.t.mat.equiv
+math.la.t.mat.equiv.map
 math.la.t.mat.equiv.diag
 math.la.t.mat.equiv.rank
 

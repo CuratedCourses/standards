@@ -150,7 +150,7 @@ Definition MSM :: math.la.d.mat.scalar.mult
 
 \ssec VSP Vector Space Properties
 Theorem VSPM :: math.la.e.vsp.mat.m_by_n
-Definition ZM :: Definition of zero matrix
+Definition ZM :: math.la.d.mat.z
 
 \ssec TSM Transposes and Symmetric Matrices
 Definition TM :: math.la.d.mat.transpose
@@ -252,7 +252,7 @@ Theorem CSNM :: math.la.t.equiv.col.span
 
 Definition RSM :: math.la.d.mat.row_space
 Theorem REMRS :: math.la.d.mat.row_space.row_equiv
-Theorem BRS :: math.la.t.mat.row_space.pivot [[ why say onnzero columns of the transpose instead of nonzero rows ?]]
+Theorem BRS :: math.la.t.mat.row_space.pivot [[ why say nonzero columns of the transpose instead of nonzero rows ?]]
 [[ Theorem CSRST :: omitting.because.trivial ]]
 
 \sec FS Four Subsets
@@ -289,8 +289,8 @@ Example CVS :: math.la.e.vsp.crazy
 Theorem ZVU :: math.la.t.vsp.z.unique
 Theorem AIU :: math.la.d.vsp.vector.negative.unique
 Theorem ZSSM :: math.la.t.vsp.scalar.mult.z
-Theorem ZVSM :: The zero vector multiplied by any scalar equals the zero vector.
-Theorem AISM :: The negative of a vector equals the vector multiplied by -1.
+Theorem ZVSM :: math.la.t.vsp.vector.mult.z
+Theorem AISM :: math.la.t.vsp.vector.negative
 
 Theorem SMEZV :: math.la.t.vsp.mult.z
 
@@ -366,7 +366,7 @@ Theorem RNNM :: math.la.t.equiv.rank, math.la.t.equiv.nullity
 
 \sec PD Properties of Dimension
 
-\ssec GT Goldilocks’ Theorem
+\ssec GT Goldilocks' Theorem
 Theorem ELIS :: math.la.t.vsp.linindep.extend
 Theorem G :: math.la.t.vsp.dim.more.lindep.arb, math.la.t.vsp.dim.less.span.arb, math.la.t.vsp.dim.span.linindep.arb
 Theorem PSSD :: math.la.t.vsp.subspace.dim.arb
@@ -389,6 +389,117 @@ Theorem EMN :: math.la.d.mat.elementary.inv
 Theorem NMPEM :: math.la.d.mat.elementary.prod
 
 \ssec DD Definition of the Determinant
+Definition SM :: math.la.d.mat.cofactor
+Definition DM :: math.la.d.mat.det.cofactor
+Theorem DMST :: math.la.t.mat.det.2x2
+
+\ssec CD Computing Determinants
+
+Theorem DER :: math.la.t.mat.det.cofactor.row
+Theorem DT :: math.la.t.mat.det.transpose
+Theorem DEC :: math.la.t.mat.det.cofactor.col
+
+\sec PDM Properties of Determinants of Matrices
+
+\ssec DRO Determinants and Row Operations
+Theorem DZRC :: math.la.t.mat.row.z
+Theorem DRCS :: math.la.t.mat.det.switch
+Theorem DRCM :: math.la.t.mat.det.scalar
+Theorem DERC :: math.la.t.mat.row.equal
+Theorem DRCMA :: math.la.t.mat.det.add_mult
+
+\ssec DROEM Determinants, Row Operations, Elementary Matrices
+[[ omit Theorem DIM ]]
+Theorem DEM :: math.la.t.mat.elementary.det
+[[ omit Theorem DEMMM ]]
+
+\ssec DNMMM Determinants, Nonsingular Matrices, Matrix Multiplication
+Theorem SMZD :: math.la.t.equiv.det
+Theorem DRMM :: math.la.t.mat.det.product
+
+\chap E Eigenvalues
+
+\sec EE Eigenvalues and Eigenvectors
+
+\ssec EEM Eigenvalues and Eigenvectors of a Matrix
+Definition EEM :: math.la.d.mat.eigvec, math.la.d.mat.eig
+
+\ssec PM Polynomials and Matrices
+
+\ssec EEE Existence of Eigenvalues and Eigenvectors
+[[ omit Theorem EMHE ]]
+
+\ssec CEE Computing Eigenvalues and Eigenvectors
+Definition CP :: math.la.d.mat.charpoly
+Theorem EMRCP :: math.la.t.mat.charpoly.eig
+Definition EM :: math.la.d.mat.eigsp
+Theorem EMS :: math.la.t.mat.eigsp.subsp
+Theorem EMNS :: math.la.t.mat.eigsp.nullspace
+
+\ssec ECEE Examples of Computing Eigenvalues and Eigenvectors
+Definition AME :: math.la.d.mat.eig.multiplicity.algebraic
+Definition GME :: math.la.d.mat.eig.multiplicity.geometric
+
+\sec PEE Properties of Eigenvalues and Eigenvectors
+
+\ssec BPE Basic Properties of Eigenvalues
+Theorem EDELI :: math.la.t.mat.eigvec.linindep
+
+Theorem SMZE :: math.la.t.equiv.eig
+Theorem ESMM :: math.la.t.mat.eig.scalar
+Theorem EOMP :: math.la.t.mat.eig.power
+Theorem EPM :: math.la.t.mat.eig.polynomial
+Theorem EIM :: math.la.t.mat.eig.inv
+Theorem ETM :: math.la.t.mat.eig.transpose
+Theorem ERMCP :: math.la.t.mat.real.eig.cn
+
+\ssec ME Multiplicities of Eigenvalues
+
+[[ omit Theorem DCP ]]
+Theorem NEM :: math.la.d.mat.eig.number
+Theorem ME :: math.la.t.mat.eig.multiplicity.eigenspace
+[[ omit Theorem MNEM ]]
+
+\ssec EHM Eigenvalues of Hermitian Matrices
+Theorem HMRE :: math.la.t.mat.hermitian.eig.real
+Theorem HMOE :: math.la.t.mat.hermitian.eigvec.orthogonal
+
+\sec SD Similarity and Diagonalization
+
+\ssec SM Similar Matrices
+Definition SIM :: math.la.d.mat.similar
+
+\ssec PSM Properties of Similar Matrices
+Theorem SER :: math.la.t.mat.similar.equiv
+Theorem SMEE :: math.la.t.mat.similar.eig
+
+\ssec D Diagonalization
+Definition DIM :: math.la.d.mat.diagonal
+
+Definition DZM :: math.la.d.mat.diagonalizable, math.la.d.mat.diagonalization
+Theorem DC :: math.la.t.mat.diagonalizable
+Theorem DMFE :: math.la.t.mat.diagonalizable.charpoly
+Theorem DED :: math.la.t.mat.diagonalizable.distinct
+
+\ssec FS Fibonacci Sequences
+[[ omitted ]]
+
+\chap LT Linear Transformations
+
+\sec LT Linear Transformations
+
+\ssec LT Linear Transformations
+Definition LT :: math.la.d.lintrans.arb
+Theorem LTTZZ :: math.la.t.lintrans.z
+
+\ssec LTC Linear Transformation Cartoons
+
+\ssec MLT Matrices and Linear Transformations
+
+
+
+
+
 
 ########
 
