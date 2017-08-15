@@ -599,7 +599,81 @@ Theorem RPNDD ::amath.la.t.lintrans.ranknullity
 \sec VR Vector Representations
 
 \ssec VR Vector Representations
-Definition VR :: 
+Definition VR :: math.la.d.vsp.basis.coord.vector.arb
+Theorem VRLT :: math.la.t.vsp.basis.coord.lin.arb
+Theorem VRI :: math.la.t.vsp.basis.coord.injective.arb
+Theorem VRS :: math.la.t.vsp.basis.coord.surjective.arb
+
+\ssec CVS Characterization of Vector Spaces
+Theorem CFDVS :: math.la.t.vsp.isomorphic.rncn
+Theorem IFDVS :: math.la.t.vsp.isomorphic.dim, math.la.t.vsp.dim.isomorphic
+
+\ssec CP Coordinatization Principle
+Theorem CLI :: math.la.t.vsp.linindep.coord
+[ omit Theorem CSS ?]
+
+\sec MR Matrix Representations
+
+\ssec MR Matrix Representations
+Definition MR :: math.la.d.lintrans.mat.repn.arb
+Theorem FTMR :: math.la.t.lintrans.mat.repn.arb
+
+\ssec NRFO New Representations from Old
+
+Theorem MRSLT :: math.la.t.lintrans.mat_repn.sum
+Theorem MRMLT :: math.la.t.lintrans.mat_repn.scalar
+Theorem MRCLT :: math.la.t.lintrans.mat_repn.composition
+
+\ssec PMR Properties of Matrix Representations
+[Theorem KNSI omit?] 
+[Theorem RCSI omit?]
+
+\ssec IVLT Invertible Linear Transformations
+Theorem IMR :: math.la.t.lintrans.mat_repn.inv
+Theorem IMILT :: math.la.t.equiv.lintrans.inv
+
+\sec CB Change of Basis
+
+\ssec EELT Eigenvalues and Eigenvectors of Linear Transformations
+Definition EELT :: math.la.d.lintrans.eig, math.la.d.lintrans.eigvec
+
+\ssec CBM Change-of-Basis Matrix
+Definition CBM :: math.la.d.vsp.change_of_basis.arb
+Theorem CB :: math.la.t.vsp.change_of_basis
+Theorem ICBM :: math.la.t.vsp.change_of_basis.inv
+
+\ssec MRS Matrix Representations and Similarity
+[Theorem MRCB omit]
+Theorem SCB :: math.la.t.vsp.change_of_basis.conjugate
+Theorem EER :: math.la.t.lintrans.mat_repn.eig
+
+\ssec CELT Computing Eigenvectors of Linear Transformations
+
+\sec OD Orthonormal Diagonalization
+
+\ssec TM Triangular Matrices
+
+Definition UTM :: math.la.d.mat.triangular.upper
+Definition LTM :: math.la.d.mat.triangular.upper
+Theorem PTMT :: math.la.t.mat.triangular.prod
+Theorem ITMT :: math.la.t.mat.triangular.inv
+
+\ssec UTMR Upper Triangular Matrix Representation
+Theorem UTMR :: math.la.t.lintrans.mat_repn.triangular
+Theorem OBUTR :: math.la.t.mat.triangular.unitary
+
+\ssec NM Normal Matrices
+Definition NRML :: math.la.d.mat.normal
+
+\ssec OD Orthonormal Diagonalization 
+Theorem OD :: math.la.t.mat.normal.diagonalize
+Theorem OBNM :: math.la.t.mat.normal.eigenval
+
+
+
+
+
+
 
 ########
 

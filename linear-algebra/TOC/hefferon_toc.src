@@ -219,6 +219,7 @@ math.la.t.lintrans.equiv.basis
 
 \ssec III.1 Representing Linear Maps with Matrices
 math.la.d.lintrans.mat.repn.arb
+math.la.t.lintrans.mat.repn.arb
 math.la.d.mat.vec.prod.coord
 math.la.d.mat.vec.prod
 
