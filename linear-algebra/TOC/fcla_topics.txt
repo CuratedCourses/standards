@@ -570,9 +570,36 @@ Theorem CSLTS :: math.la.t.lintrans.composition.surjective.arb
 \sec IVLT Invertible Linear Transformations
 
 \ssec IVLT Invertible Linear Transformations
-Definition IDLT :: 
+Definition IDLT :: math.la.d.lintrans.identity
+Definition IVLT :: math.la.d.lintrans.invertible.arb, math.la.d.lintrans.inv.arb
+Theorem ILTLT :: math.la.t.lintrans.inv.arb
+Theorem IILT :: math.la.t.lintrans.inv.involution.arb
 
+\ssec IV Invertibility
 
+Theorem ILTIS :: math.la.t.lintrans.invertible.arb
+Theorem CIVLT :: math.la.t.lintrans.composition.invertible.arb
+Theorem ICLT :: math.la.t.lintrans.inv.shoesandsocks
+
+\ssec SI Structure and Isomorphism
+Definition IVS :: math.la.d.vsp.isomorphism
+Theorem IVSED :: math.la.t.vsp.isomorphic.dim
+
+\ssec RNLT Rank and Nullity of a Linear Transformation
+Definition ROLT :: math.la.d.lintrans.rank
+Definition NOLT :: math.la.d.lintrans.nullity
+Theorem ROSLT :: math.la.t.lintrans.surjective.rank
+Theorem NOILT :: math.la.t.lintrans.equiv.nullity
+Theorem RPNDD ::amath.la.t.lintrans.ranknullity
+
+\ssec SLELT Systems of Linear Equations and Linear Transformations
+
+\chap R Representations
+
+\sec VR Vector Representations
+
+\ssec VR Vector Representations
+Definition VR :: 
 
 ########
 
