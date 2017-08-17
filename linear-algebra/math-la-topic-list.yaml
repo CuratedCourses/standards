@@ -448,6 +448,15 @@ Definition of an upper triangular matrix
 math.la.d.mat.triangular.lower
 Definition of a lower triangular matrix
 
+math.la.t.mat.triangular.prod
+The product of upper/lower triangular matrices is upper/lower triangular.
+
+math.la.t.mat.triangular.inv
+The inverse of an invertible upper/lower triangular matrix is upper/lower triangular.
+
+math.la.t.mat.triangular.unitary
+Every square matrix is conjugate, via a unitary matrix, to an upper triangular matrix.
+
 math.la.d.mat.band
 Definition of band matrix
 
@@ -516,6 +525,15 @@ Unitary matrices preserve inner products.
 
 math.la.t.mat.unitary.basis.orthogonal
 Unitary matrices preserve orthogonal (orthonormal) bases.
+
+math.la.d.mat.normal
+Definition of normal matrix
+
+math.la.t.mat.normal.diagonalize
+A matrix is orthogonally diagonalizable if and only if it is normal (The principal axis theorem).
+
+math.la.t.mat.normal.eigenval
+The eigenvectors of a normal matrix are an orthonormal basis.
 
 math.la.d.mat.svd
 Definition of singular value decomposition (SVD)
@@ -641,7 +659,7 @@ Equivalence theorem for nonsingular matrices: the linear transformation given by
 math.la.t.equiv.lintrans.inv
 Equivalence theorem for nonsingular matrices: the linear transformation given by T(x)=Ax has an inverse.
 
-math.la.t.equiv.lintrans.isommorphism
+math.la.t.equiv.lintrans.isomorphism
 Equivalence theorem for nonsingular matrices: the linear transformation given by T(x)=Ax is an isomorphism.
 
 math.la.t.equiv.det
@@ -1156,6 +1174,9 @@ Definition of basis of a vector space (or subspace), arbitrary vector space
 math.la.t.vsp.linindep.subset
 A subset of a linearly independent set is linearly independent.
 
+math.la.t.vsp.linindep.coord
+A set is linearly independent if and only if the set of coordinate vectors with respect to any basis is linearly independent.
+
 math.la.t.vsp.span.lindep
 Removing a linearly dependent vector from a set does not change the span of the set.
 
@@ -1180,11 +1201,17 @@ If B is a basis containind b and the b coordinate of c is nonzero, the replacing
 math.la.d.vsp.basis.coord.vector.arb
 Definition of coordinate vector/mapping/representation relative to a given basis, arbitrary vector space
 
-math.la.t.vsp.basis.coord.vector.arb
-The coordinate vector/mapping relative to a given basis is a bijective linear mapping to R^n (or C^n).
+math.la.t.vsp.basis.coord.lin.arb
+The coordinate vector relative to a given basis is a linear mapping to R^n (or C^n).
+
+math.la.t.vsp.basis.coord.injective.arb
+The coordinate vector relative to a given basis is an injective linear mapping to R^n (or C^n).
+
+math.la.t.vsp.basis.coord.surjective.arb
+The coordinate vector relative to a given basis is a surjective linear mapping to R^n (or C^n).
 
 math.la.d.vsp.isomorphism
-Definition of isomorphism between vector spaces
+Definition of isomorphic/isomorphism between vector spaces
 
 math.la.t.vsp.isomorphism.inv
 The inverse of an isomorphism is an isomorphism.
@@ -1252,6 +1279,12 @@ The change of coordinates matrix between two bases exists and is unique, arbitra
 math.la.t.vsp.change_of_basis
 Multiplication by a change of coordinates matrix converts representations for different bases.
 
+math.la.t.vsp.change_of_basis.inv
+Change of coordinates matrices are invertible, and the inverse changes coordinates in the other direction.
+
+math.la.t.vsp.change_of_basis.conjugate
+Conjugating by a change of coordinates matrix converts matrix representations with respect to different bases.
+
 
 =======================
 Vector spaces: examples
@@ -1312,19 +1345,6 @@ The left null space of a matrix is a subspace of R^m (or C^m).
 math.la.t.lintrans.vsp
 The set of linear transformations between two vector spaces is a vector space.
 
-===========================================
-Linear transformations, general terminology
-===========================================
-
-math.la.d.trans.injective
-Definition of injective/one-to-one linear transformation
-
-math.la.d.trans.surjective
-Definition of surjective/onto linear transformation
-
-math.la.d.trans.bijective
-Definition of bijective linear transformation
-
 ==========================================
 Linear transformations, coordinate setting (matrices as linear transformations)
 ==========================================
@@ -1358,6 +1378,9 @@ Definition of kernel of linear transformation, coordinate vector space
 
 math.la.d.lintrans.invertible.coord
 Definition of invertible linear transformation, coordinate vector space
+
+math.la.d.lintrans.inv.coord
+Definition of inverse of a linear transformation, coordinate vector space
 
 math.la.e.lintrans.generic.r2
 Example of a linear transformation on R^2: generic
@@ -1474,7 +1497,7 @@ math.la.d.lintrans.nullity
 Definition of nullity of a linear transformation
 
 math.la.t.lintrans.surjective.span
-A linear transformation is onto/surjective if and only if the columns of its matrix span the codomain.
+A linear transformation is surjective if and only if the columns of its matrix span the codomain.
 
 math.la.d.lintrans.mat.basis.standard.coord
 Definition of the standard matrix for a linear transformation, coordinate setting
@@ -1485,9 +1508,6 @@ A linear transformation is given by a matrix whose columns are the images of the
 math.la.t.lintrans.mat.basis
 A linear transformation is given by a matrix with respect to a given basis.
 
-math.la.d.lintrans.invariant_subspace
-Definition of invariant subspace under linear transformation
-
 math.la.d.lintrans.nilpotent
 Definition of nilpotent linear transformation
 
@@ -1497,15 +1517,15 @@ Definition of matrix representation of a linear transformation, coordinate vecto
 math.la.t.lintrans.mat_repn.composition.coord
 Matrix representation of a composition of linear transformations is given by a matrix product, coordinate vector space
 
-math.la.d.lintrans.eig.coord
-Definition of eigenvalue of a linear transformation, coordinate vector space
-
 ========================================
 Linear transformations, arbitrary setting
 ========================================
 
 math.la.d.lintrans.arb
 Definition of linear transformation/homomorphism, arbitrary vector space
+
+math.la.d.lintrans.identity
+Definition of identity linear transformation
 
 math.la.d.lintrans.sum.arb
 Definition of sum of linear transformations, arbitrary vector space
@@ -1531,6 +1551,12 @@ The composition of injective linear transformations is injective, arbitrary vect
 math.la.t.lintrans.composition.surjective.arb
 The composition of surjective linear transformations is surjective, arbitrary vector space.
 
+math.la.t.lintrans.inv.shoesandsocks
+For invertible linear transformations A and B, the composition AB is invertible, and (AB)^-1=B^-1 A^-1.
+
+math.la.t.lintrans.composition.invertible.arb
+The composition of invertible linear transformations is invertible, arbitrary vector space.
+
 math.la.d.lintrans.preimage.arb
 Definition of pre-image of linear transformation, arbitrary vector space
 
@@ -1551,6 +1577,9 @@ The dimension of the domain of an injective linear transformation is at most the
 
 math.la.t.lintrans.surjective.dim
 The dimension of the domain of a surjective linear transformation is at least the dimension of the codomain.
+
+math.la.t.lintrans.surjective.rank
+A linear transformation is surjective if and only if the rank equals the dimension of the codomain.
 
 math.la.d.lintrans.range.arb
 Definition of range of a linear transformation, arbitrary vector space
@@ -1654,8 +1683,23 @@ A linear transformation is onto if and only if its rank equals the number of row
 math.la.d.lintrans.invertible.arb
 Definition of invertible linear transformation, arbitrary vector space
 
+math.la.t.lintrans.invertible.arb
+A linear transformation is invertible if and only if it is injective and surjective, arbitrary vector space
+
+math.la.d.lintrans.inv.arb
+Definition of inverse of a linear transformation, arbitrary vector space
+
+math.la.t.lintrans.inv.arb
+The inverse of a linear transformation is a linear transformation, arbitrary vector space
+
+math.la.t.lintrans.inv.involution.arb
+The inverse of the inverse of a linear transformation is the original linear transformation, arbitrary vector space
+
 math.la.d.lintrans.mat.repn.arb
 Definition of matrix representation of a linear transformation with respect to bases of the spaces, arbitrary vector space
+
+math.la.t.lintrans.mat.repn.arb
+A linear transformation is given by multiplying by its matrix representation with respect to bases of the spaces, arbitrary vector space.
 
 math.la.d.lintrans.mat.repn.self.arb
 Definition of matrix representation of a linear transformation from a vector space to itself, with respect to basis of the space, arbitrary vector space
@@ -1669,8 +1713,14 @@ The matrix representation of a sum of linear transformations is the sum of the m
 math.la.t.lintrans.mat_repn.composition
 The matrix representation of a composition of linear transformations is the product of the matrices.
 
-math.la.d.lintrans.eig.arb
-Definition of eigenvalue of a linear transformation, arbitrary vector space
+math.la.t.lintrans.mat_repn.inv
+The matrix representation of the inverse of linear transformations is the inverse of the matricix.
+
+math.la.t.lintrans.mat_repn.eig
+A linear transformation has the same eigenvalues and eigenvectors as any matrix representation.
+
+math.la.t.lintrans.mat_repn.triangular
+A linear transformation has a representation as an upper triangular matrix.
 
 ===========================================
 Linear transformations: equivalence theorems

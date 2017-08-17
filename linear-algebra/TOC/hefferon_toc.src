@@ -219,6 +219,7 @@ math.la.t.lintrans.equiv.basis
 
 \ssec III.1 Representing Linear Maps with Matrices
 math.la.d.lintrans.mat.repn.arb
+math.la.t.lintrans.mat.repn.arb
 math.la.d.mat.vec.prod.coord
 math.la.d.mat.vec.prod
 
@@ -228,7 +229,7 @@ math.la.t.mat.lintrans.rank
 math.la.t.lintrans.equiv.rank.col
 math.la.t.lintrans.onto.rank
 math.la.d.lintrans.nonsingular
-math.la.t.equiv.lintrans.isommorphism
+math.la.t.equiv.lintrans.isomorphism
 
 \sec IV Matrix Operations
 
