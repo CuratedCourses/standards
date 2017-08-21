@@ -186,6 +186,7 @@ Definition ZM :: math.la.d.mat.z
 
 \ssec TSM Transposes and Symmetric Matrices
 Definition TM :: math.la.d.mat.transpose
+in text :: math.la.d.mat.thediagonal
 Definition SYM :: math.la.d.mat.symmetric
 Theorem SMS :: math.la.t.mat.symmetric.square
 Theorem TMA :: math.la.t.mat.sum.transpose
@@ -214,6 +215,7 @@ Theorem SLEMM :: math.la.t.mat.eqn.linsys
 Theorem EMMVP :: math.la.t.mat.vec.prod.unique
 
 \ssec MM Matrix Multiplication
+general :: math.la.c.mat.mult
 Definition MM :: math.la.d.mat.mult.col
 
 \ssec MMEE Matrix Multiplication, Entry-by-Entry
@@ -416,6 +418,7 @@ Theorem EMN :: math.la.d.mat.elementary.inv
 Theorem NMPEM :: math.la.d.mat.elementary.prod
 
 \ssec DD Definition of the Determinant
+in text :: math.la.c.mat.det
 Definition SM :: math.la.d.mat.cofactor
 Definition DM :: math.la.d.mat.det.cofactor
 Theorem DMST :: math.la.t.mat.det.2x2

@@ -242,6 +242,7 @@ math.la.d.mat.z
 
 \ssec IV.2 Matrix Multiplication
 math.la.t.lintrans.composition.arb
+math.la.c.mat.mult
 math.la.d.mat.mult.coord
 math.la.t.lintrans.mat_repn.composition
 math.la.t.mat.mult.assoc
@@ -318,6 +319,7 @@ Topic:OrthonormalMatrices
 \sec I Definition
 
 \ssec I.1 Exploration*
+math.la.c.mat.det
 math.la.t.mat.det.2x2
 math.la.t.mat.det.3x3
 
