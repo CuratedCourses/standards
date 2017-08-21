@@ -246,6 +246,9 @@ Matrix-vector product is associative
 math.la.t.mat.scalar.prod.commut
 Matrix-scalar product is commutative
 
+math.la.c.mat.mult
+The concept of matrix multiplication
+
 math.la.d.mat.mult.col
 Definition of matrix multiplication in terms of column vectors
 
@@ -779,7 +782,7 @@ Linear systems and matrices
 ==================
 
 math.la.d.mat.augmented
-Definition of augmented matrix of a linear system
+Definition of augmented matrix (of a linear system)
 
 math.la.d.mat.coeff
 Definition of coefficient matrix of a linear system
@@ -856,6 +859,9 @@ Definition of trace of a matrix
 
 math.la.d.mat.cofactor
 Definition of cofactor/submatrix of a matrix
+
+math.la.c.mat.det
+The concept of determinant
 
 math.la.d.mat.det.cofactor
 Definition of determinant of a matrix as a cofactor expansion across the first row
