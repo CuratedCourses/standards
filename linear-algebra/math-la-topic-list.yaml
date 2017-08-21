@@ -782,7 +782,7 @@ Linear systems and matrices
 ==================
 
 math.la.d.mat.augmented
-Definition of augmented matrix of a linear system
+Definition of augmented matrix (of a linear system)
 
 math.la.d.mat.coeff
 Definition of coefficient matrix of a linear system
