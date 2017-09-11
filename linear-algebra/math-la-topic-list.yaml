@@ -71,9 +71,6 @@ Example of vector-scalar multiplication in R^2
 math.la.t.vec.sum.geometric.rncn
 Vector sum/addition interpreted geometrically in R^n (or C^n)
 
-math.la.t.vec.axioms.rncn
-The vector space properties of R^n (or C^n)
-
 ========
 Matrices: basics and algebra
 ========
