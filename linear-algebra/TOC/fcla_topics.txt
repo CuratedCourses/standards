@@ -4,7 +4,7 @@
 \sec WILA What is Linear Algebra
 
 \ssec LA Linear + Algebra
-(p2 Subsection LA) :: math.la.d.lineqn
+Subsection LA :: math.la.d.lineqn
 
 \ssec AA An Application
 
@@ -25,7 +25,7 @@ Theorem EOPSS :: math.la.t.linsys.op
 \sec RREF Reduced Row-Echelon Form
 
 \ssec MVNSE Matrix and Vector Notation for Systems of Equations
-Definition M :: math.la.d.mat, math.la.d.mat.m_by_n, math.la.c.mat.entry,
+Definition M :: math.la.d.mat, math.la.d.mat.m_by_n, math.la.c.mat.entry
 Definition CV :: math.la.d.vec.col.coord, math.la.d.vec.size.coord, math.la.d.vec.coord, math.la.d.vec.component.coord
 Definition ZCV :: math.la.d.vec.z.coord
 Definition CM :: math.la.d.mat.coeff
@@ -40,8 +40,7 @@ Definition REM :: math.la.d.mat.row_op .d.mat.row_equiv
 Theorem REMES :: math.la.t.mat.row_equiv.linsys
 
 \ssec RREF Reduced Row-Echelon Form
-Definition RREF :: math.la.d.mat.rref
-+p postlude :: math.la.d.mat.pivot_col, math.la.d.mat.row.leading
+Definition RREF :: math.la.d.mat.rref, math.la.d.mat.pivot_col, math.la.d.mat.row.leading
 Theorem REMEF :: math.la.t.mat.rref.exists
 Theorem RREFU :: math.la.t.mat.rref.unique
 
@@ -73,7 +72,7 @@ Definition NSM :: math.la.d.mat.null_space.right
 
 \ssec NM Nonsingular Matrices
 Definition SQM :: math.la.d.mat.square
-Definition NM  :: math.la.d.mat.nonsingular.z, math.la.d.mat.singular
+Definition NM :: math.la.d.mat.nonsingular.z, math.la.d.mat.singular
 Definition IM :: math.la.d.mat.identity
 Theorem NMRRI :: math.la.t.equiv.identity
 
@@ -93,7 +92,7 @@ Definition CVA :: math.la.d.vec.sum.coord
 Definition CVSM :: math.la.d.vec.scalar.mult.coord
 
 \ssec VSP Vector Space Properties
-Theorem VSPCV :: math.la.t.vec.axioms.rncn
+Theorem VSPCV :: math.la.t.vec.sum.coord
 
 \sec LC Linear Combinations
 
@@ -118,7 +117,7 @@ Definition SSCV :: math.la.d.vec.span.coord
 \ssec SSNS Spanning Sets of Null Spaces
 Theorem SSNS :: math.la.t.mat.null_space.rref.span
 
-\sesc LI Linear Independence
+\sec LI Linear Independence
 
 \ssec LISV Linearly Independent Sets of Vectors
 Definition RLDCV :: math.la.d.vec.lindep.relation, math.la.d.vec.lindep.relation.trivial
@@ -215,7 +214,7 @@ Theorem SLEMM :: math.la.t.mat.eqn.linsys
 Theorem EMMVP :: math.la.t.mat.vec.prod.unique
 
 \ssec MM Matrix Multiplication
-general :: math.la.c.mat.mult
+section general :: math.la.c.mat.mult
 Definition MM :: math.la.d.mat.mult.col
 
 \ssec MMEE Matrix Multiplication, Entry-by-Entry
@@ -237,8 +236,7 @@ Theorem AIP :: math.la.t.innerproduct.adjoint.cn
 Definition HM :: math.la.d.mat.hermitian
 Theorem HMIP :: math.la.d.mat.hermitian.innerproduct.cn
 
-\sec MISLE
-Matrix Inverses and Systems of Linear Equations
+\sec MISLE Matrix Inverses and Systems of Linear Equations
 
 \ssec SI Solutions and Inverses
 
@@ -288,7 +286,7 @@ Theorem BRS :: math.la.t.mat.row_space.pivot
 
 \sec FS Four Subsets
 
-\ssec  LNS Left Null Space
+\ssec LNS Left Null Space
 Definition LNS :: math.la.d.mat.null_space.left
 
 \ssec CCS Computing Column Spaces
@@ -601,7 +599,7 @@ Definition ROLT :: math.la.d.lintrans.rank
 Definition NOLT :: math.la.d.lintrans.nullity
 Theorem ROSLT :: math.la.t.lintrans.surjective.rank
 Theorem NOILT :: math.la.t.lintrans.equiv.nullity
-Theorem RPNDD ::amath.la.t.lintrans.ranknullity
+Theorem RPNDD :: math.la.t.lintrans.ranknullity
 
 \ssec SLELT Systems of Linear Equations and Linear Transformations
 
