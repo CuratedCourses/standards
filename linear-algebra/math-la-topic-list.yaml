@@ -10,14 +10,15 @@
 #  Definitions, theorems, concepts and applications
 #
 # See linear-algebra/topicscheme.txt for a discussion of the topic identifiers 
-#
-# all of the ids below should be prepended by math.la
+
+math.la
+Linear algebra
 
 ============================
 Vectors in coordinate spaces
 ============================
 
-math.la.d.scalar
+math.la.d.scalar.coord
 Definition of scalar, coordinate vector space
 
 math.la.d.vec.coord
@@ -1779,8 +1780,8 @@ An eigenspace of a matrix is a nontrivial subspace.
 math.la.t.mat.eigsp.nullspace
 An eigenspace of a matrix is the null space of a related matrix.
 
-math.la.d.mat.eig.exists
-Definition of eigenvalue of a matrix
+math.la.t.mat.eig.exists
+Every matrix has an eigenvalue over the complex numbers.
 
 math.la.t.mat.eig.triangular
 The eigenvalues of a triangular matrix are the entries on the main diagonal.
