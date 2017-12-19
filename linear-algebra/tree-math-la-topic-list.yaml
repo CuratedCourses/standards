@@ -17,23 +17,26 @@ Linear algebra
   math.la.c.linsys
   Linear systems of equations
 
-    math.la.d.lineqn
-    Definition of linear equation
+    math.la.c.linsys.terminology
+    Basic terminology
 
-    math.la.d.lineqn.coeff
-    Definition of coefficients of a linear equation
+      math.la.d.lineqn
+      Definition of linear equation
 
-    math.la.d.lineqn.soln
-    Definition of solution to a linear equation
+      math.la.d.lineqn.coeff
+      Definition of coefficients of a linear equation
 
-    math.la.d.linsys
-    Definition of system of linear equations
+      math.la.d.lineqn.soln
+      Definition of solution to a linear equation
 
-    math.la.d.linsys.soln
-    Definition of solution to a system of linear equations
+      math.la.d.linsys
+      Definition of system of linear equations
 
-    math.la.d.linsys.soln_set
-    Definition of solution set of a system of linear equations
+      math.la.d.linsys.soln
+      Definition of solution to a system of linear equations
+
+      math.la.d.linsys.soln_set
+      Definition of solution set of a system of linear equations
 
     math.la.c.linsys.soln_set.parameter
     Parametric form of the solution set of a system of linear equations
@@ -810,6 +813,30 @@ Linear algebra
       math.la.t.equiv.identitymap
       Equivalence theorem for nonsingular matrices: the matrix A represents the identity map with respect to some pair of bases.
 
+    math.la.c.mat.rank
+    Rank and mullity
+
+      math.la.d.mat.rank.column
+       Definition of column rank of a matrix
+
+       math.la.d.mat.rank
+       Definition of rank of a matrix
+
+       math.la.d.mat.nullity
+       Definition of nullity of a matrix
+
+       math.la.t.mat.rank.pivot
+       The rank of a matrix equals number of pivots in a reduced row echelon form.
+
+       math.la.t.mat.lintrans.rank
+       The rank of a matrix equals the rank of the linear transformation it represents.
+
+       math.la.t.mat.row_space.col_space
+       The row space and the column space of a matrix have the same dimension.
+
+       math.la.t.mat.ranknullity
+       If A is a matrix, then the rank of A plus the nullity of A equals the number of columns of A.
+
     math.la.c.mat.eig
     Eigenvalues and eigenvectors
 
@@ -819,86 +846,216 @@ Linear algebra
       math.la.d.mat.eigvec
       Definition of eigenvector of a matrix
 
-      math.la.d.mat.eigsp
-      Definition of eigenspace of a matrix
+      math.la.c.mat.eigsp
+      Eigenspaces
 
-      math.la.t.mat.eigsp.subsp
-      An eigenspace of a matrix is a nontrivial subspace.
+        math.la.d.mat.eigsp
+        Definition of eigenspace of a matrix
 
-      math.la.t.mat.eigsp.nullspace
-      An eigenspace of a matrix is the null space of a related matrix.
+        math.la.t.mat.eigsp.subsp
+        An eigenspace of a matrix is a nontrivial subspace.
 
-      math.la.d.mat.eig.exists
-      Definition of eigenvalue of a matrix
+        math.la.t.mat.eigsp.nullspace
+        An eigenspace of a matrix is the null space of a related matrix.
 
-      math.la.t.mat.eig.triangular
-      The eigenvalues of a triangular matrix are the entries on the main diagonal.
+      math.la.t.mat.eig.exists
+      Every matrix has an eigenvalue over the complex numbers.
 
-      math.la.t.mat.eig.scalar
-      The eigenvalues of a scalar multiple of a matrix are the scalar multiples of the eigenvalues.
+      math.la.d.mat.eig.operations
+      Eigenvalues and operations on matrices
 
-      math.la.t.mat.eig.power
-      The eigenvalues of a power of a matrix are the power the eigenvalues.
+        math.la.t.mat.eig.scalar
+        The eigenvalues of a scalar multiple of a matrix are the scalar multiples of the eigenvalues.
 
-      math.la.t.mat.eig.polynomial
-      The eigenvalues of a polynomial of a matrix are the polynomial of the eigenvalues.
+        math.la.t.mat.eig.power
+        The eigenvalues of a power of a matrix are the power the eigenvalues.
 
-      math.la.t.mat.eig.inv
-      The eigenvalues of the inverse of a nonsingular matrix are the reciprocals of the eigenvalues.
+        math.la.t.mat.eig.polynomial
+        The eigenvalues of a polynomial of a matrix are the polynomial of the eigenvalues.
 
-      math.la.t.mat.eig.transpose
-      A matrix and its transpose have the same eigenvalues/characteristic polynomial.
+        math.la.t.mat.eig.inv
+        The eigenvalues of the inverse of a nonsingular matrix are the reciprocals of the eigenvalues.
+
+        math.la.t.mat.eig.transpose
+        A matrix and its transpose have the same eigenvalues/characteristic polynomial.
 
       math.la.t.mat.eigvec.linindep
       Eigenvectors with distinct eigenvalues are linearly independent.
 
-      math.la.d.mat.charpoly
-      Definition of characteristic polynomial of a matrix
+      math.la.c.mat.eig.multiplicity
+      Multiplicity
 
-      math.la.d.mat.polynomial.apply
-      Definition of applying a polynomial to a square matrix
+        math.la.d.mat.eig.multiplicity.algebraic
+        Definition of (algebraic) multiplicity of an eigenvalue
 
-      math.la.d.mat.charpoly.eqn
-      Definition of characteristic equation of a matrix
+        math.la.d.mat.eig.multiplicity.geometric
+        Definition of geometric multiplicity of an eigenvalue
 
-      math.la.d.mat.eig.multiplicity.algebraic
-      Definition of (algebraic) multiplicity of an eigenvalue
+        math.la.d.mat.eig.number
+        An n-by-n matrix nas n (complex) eigenvalues, counted according to algebraic multiplicity.
 
-      math.la.d.mat.eig.multiplicity.geometric
-      Definition of geometric multiplicity of an eigenvalue
+      math.la.c.mat.polynomial
+      Characteristic and minimal polynomials
 
-      math.la.d.mat.eig.number
-      An n-by-n matrix nas n (complex) eigenvalues, counted according to algebraic multiplicity.
+        math.la.d.mat.polynomial.apply
+        Definition of applying a polynomial to a square matrix
 
-      math.la.d.mat.minpoly
-      Definition of minimal polynomial of a matrix
+        math.la.d.mat.charpoly
+        Definition of characteristic polynomial of a matrix
 
-      math.la.d.mat.minpoly.exists
-      The minimal polynomial of a square matrix exists and is unique.
+        math.la.d.mat.charpoly.eqn
+        Definition of characteristic equation of a matrix
 
-      math.la.t.mat.charpoly.eig
-      The eigenvalues of a matrix are the roots/solutions of its characteristic polynomial/equation.
+        math.la.d.mat.minpoly
+        Definition of minimal polynomial of a matrix
 
-      math.la.t.mat.charpoly.z
-      The characteristic polynomial applied to the matrix gives the 0 matrix.
+        math.la.d.mat.minpoly.exists
+        The minimal polynomial of a square matrix exists and is unique.
 
-      math.la.d.mat.cayleyhamilton
-      The Cayley-Hamilton theorem for a matrix.
+        math.la.t.mat.charpoly.eig
+        The eigenvalues of a matrix are the roots/solutions of its characteristic polynomial/equation.
+
+        math.la.t.mat.charpoly.z
+        The characteristic polynomial applied to the matrix gives the 0 matrix.
+
+        math.la.d.mat.cayleyhamilton
+        The Cayley-Hamilton theorem for a matrix.
 
       math.la.t.mat.eig.multiplicity.eigenspace
       The dimension of a eigenspace is less than or equal to the (algebraic) multiplicity of the eigenvalue.
 
-      math.la.d.mat.positive_definite
-      Definition of positive-definite matrix
+      math.la.c.mat.eig.types
+      Particular types of matrices
 
-      math.la.t.mat.real.eig.cn
-      A matrix with real entries has eigenvalues occurring in conjugate pairs.
+        math.la.t.mat.eig.triangular
+        The eigenvalues of a triangular matrix are the entries on the main diagonal.
 
-      math.la.t.mat.hermitian.eig.real
-      Hermitian matrices have real eigenvalues.
+        math.la.t.mat.real.eig.cn
+        A matrix with real entries has eigenvalues occurring in conjugate pairs.
 
-      math.la.t.mat.hermitian.eigvec.orthogonal
-      Distinct eigenvalues of a Hermitian matrix have orthogonal eigenvectors.
+        math.la.t.mat.hermitian.eig.real
+        Hermitian matrices have real eigenvalues.
+
+        math.la.t.mat.hermitian.eigvec.orthogonal
+        Distinct eigenvalues of a Hermitian matrix have orthogonal eigenvectors.
+
+        math.la.d.mat.positive_definite
+        Definition of positive-definite matrix
+
+    math.la.c.mat.det
+    Determinants
+
+      math.la.d.mat.trace
+      Definition of trace of a matrix
+
+      math.la.c.mat.cofactor
+      Cofactors
+
+        math.la.d.mat.cofactor
+        Definition of cofactor/submatrix of a matrix
+
+        math.la.d.mat.det.cofactor
+        Definition of determinant of a matrix as a cofactor expansion across the first row
+
+        math.la.t.mat.det.cofactor.row
+        The determinant of a matrix can be computed as a cofactor expansion across any row.
+
+        math.la.t.mat.det.cofactor.col
+        The determinant of a matrix can be computed as a cofactor expansion down any column.
+
+        math.la.t.mat.inv.cofactors
+        The inverse of a matrix can be expressed in terms of its matrix of cofactors.
+
+        math.la.t.cramer
+        Cramer's rule
+
+      math.la.c.mat.det.operations
+      Determinants and operations on matrices
+
+        math.la.d.mat.det.echelon
+        Definition of determinant of a matrix as a product of the diagonal entries in a non-scaled echelon form.
+
+        math.la.t.mat.det.echelon
+        The determinant of a matrix can be expressed as a product of the diagonal entries in a non-scaled echelon form.
+
+        math.la.d.mat.det.elementaryoperations
+        Definition of the determinant in terms of the effect of elementary row operations
+
+        math.la.d.mat.det.permutation
+        The permutation expansion for determinants
+
+        math.la.t.mat.det.transpose
+        A matrix and its transpose have the same determinant.
+
+        math.la.t.mat.det.product
+        If A and B are n-by-n matrices, then det(AB)=det(A)det(B).
+
+        math.la.t.mat.det.inv
+        The determinant of the inverse of A is the reciprocal of the determinant of A.
+
+        math.la.t.mat.det.block
+        The determinant of a block diagonal matrix is the product of the determinants of the blocks.
+
+      math.la.c.mat.det.axiomatic
+      Determinants axiomatically
+
+        math.la.d.multilinear
+        Definition of multilinear function
+
+        math.la.t.mat.det.exists
+        The determinant function exists.
+
+        math.la.t.mat.det.unique
+        The determinant function is unique.
+
+        math.la.t.det.multilinear
+        A determinant is a multilinear function
+
+        math.la.t.mat.det.add_mult
+        Adding a multiple of one row to another row does not change the determinant.
+
+        math.la.t.mat.det.switch
+        Switching two rows multiplies the determinant by -1.
+
+        math.la.t.mat.det.scalar
+        Multiplying a row by a scalar multiplies the determinant by that scalar.
+
+        math.la.t.mat.row.equal
+        A matrix with two equal rows/columns has determinant 0
+
+        math.la.t.mat.row.z
+        A matrix with a 0 row/column has determinant 0
+
+      math.la.c.mat.det.types
+      Particular types of matrices
+
+        math.la.t.mat.det.2x2
+        Formula for the determinant of a 2-by-2 matrix.
+
+        math.la.t.mat.det.3x3
+        Formula for the determinant of a 3-by-3 matrix.
+
+        math.la.t.mat.det.trianglar
+        The determinant of a triangular matrix is the product of the entries on the diagonal.
+
+        math.la.t.mat.elementary.det
+        Theorem describing the determinants of elementary matrices.
+
+      math.la.t.mat.det.col.volume
+      The determinant of a matrix measures the area/volume of the parallelogram/parallelipiped determined by its columns.
+
+      math.la.t.lintrans.det.volume
+      The determinant of the matrix of a linear transformation is the factor by which the area/volume changes.
+
+      math.la.d.mat.classicaladjoint
+      Definition of adjugate/classical adjoint of a matrix
+
+      math.la.c.mat.illconditioned
+      A matrix is called ill-conditioned if it is nearly singular
+
+      math.la.c.mat.conditionnumber
+      The condition number of matrix measures how close it is to being singular
+
 
   math.la.c.linsys.mat
   Linear systems and matrices
@@ -980,108 +1137,6 @@ Linear algebra
 
       math.la.t.rref.pivot.free
       The number of pivots in the reduced row echelon form of a consistent system determines the number of free variables in the solution set.
-
-    math.la.c.mat.det
-    Determinants
-
-      math.la.d.mat.trace
-      Definition of trace of a matrix
-
-      math.la.d.mat.cofactor
-      Definition of cofactor/submatrix of a matrix
-
-      math.la.d.mat.det.cofactor
-      Definition of determinant of a matrix as a cofactor expansion across the first row
-
-      math.la.t.mat.det.cofactor.row
-      The determinant of a matrix can be computed as a cofactor expansion across any row.
-
-      math.la.t.mat.det.cofactor.col
-      The determinant of a matrix can be computed as a cofactor expansion down any column.
-
-      math.la.d.mat.det.echelon
-      Definition of determinant of a matrix as a product of the diagonal entries in a non-scaled echelon form.
-
-      math.la.t.mat.det.echelon
-      The determinant of a matrix can be expressed as a product of the diagonal entries in a non-scaled echelon form.
-
-      math.la.t.mat.det.2x2
-      Formula for the determinant of a 2-by-2 matrix.
-
-      math.la.t.mat.det.3x3
-      Formula for the determinant of a 3-by-3 matrix.
-
-      math.la.t.mat.det.trianglar
-      The determinant of a triangular matrix is the product of the entries on the diagonal.
-
-      math.la.d.mat.det.elementaryoperations
-      Definition of the determinant in terms of the effect of elementary row operations
-
-      math.la.d.mat.det.permutation
-      The permutation expansion for determinants
-
-      math.la.t.mat.det.unique
-      The determinant function is unique.
-
-      math.la.t.mat.det.exists
-      The determinant function exists.
-
-      math.la.d.multilinear
-      Definition of multilinear function
-
-      math.la.t.det.multilinear
-      A determinant is a multilinear function
-
-      math.la.t.mat.det.add_mult
-      Adding a multiple of one row to another row does not change the determinant.
-
-      math.la.t.mat.det.switch
-      Switching two rows multiplies the determinant by -1.
-
-      math.la.t.mat.det.scalar
-      Multiplying a row by a scalar multiplies the determinant by that scalar.
-
-      math.la.t.mat.elementary.det
-      Theorem describing the determinants of elementary matrices.
-
-      math.la.t.mat.row.equal
-      A matrix with two equal rows/columns has determinant 0
-
-      math.la.t.mat.row.z
-      A matrix with a 0 row/column has determinant 0
-
-      math.la.t.mat.det.transpose
-      A matrix and its transpose have the same determinant.
-
-      math.la.t.mat.det.product
-      If A and B are n-by-n matrices, then det(AB)=det(A)det(B).
-
-      math.la.t.mat.det.inv
-      The determinant of the inverse of A is the reciprocal of the determinant of A.
-
-      math.la.t.mat.det.block
-      The determinant of a block diagonal matrix is the product of the determinants of the blocks.
-
-      math.la.t.mat.det.col.volume
-      The determinant of a matrix measures the area/volume of the parallelogram/parallelipiped determined by its columns.
-
-      math.la.t.lintrans.det.volume
-      The determinant of the matrix of a linear transformation is the factor by which the area/volume changes.
-
-      math.la.d.mat.classicaladjoint
-      Definition of adjugate/classical adjoint of a matrix
-
-      math.la.t.mat.inv.cofactors
-      The inverse of a matrix can be expressed in terms of its matrix of cofactors.
-
-      math.la.t.cramer
-      Cramer's rule
-
-      math.la.c.mat.illconditioned
-      A matrix is called ill-conditioned if it is nearly singular
-
-      math.la.c.mat.conditionnumber
-      The condition number of matrix measures how close it is to being singular
 
   math.la.c.vsp
   Vector spaces
@@ -1282,92 +1337,98 @@ Linear algebra
       math.la.d.lintrans.coord
       Linear transformations
 
-        math.la.d.lintrans.coord
-        Definition of linear transformation, coordinate vector space
+        math.la.c.lintrans.basic.coord
+        Terminology
 
-        math.la.d.lintrans.domain.coord
-        Definition of domain of a linear transformation, coordinate vector space
+          math.la.d.lintrans.coord
+          Definition of linear transformation, coordinate vector space
 
-        math.la.d.lintrans.codomain.coord
-        Definition of codomain of a linear transformation, coordinate vector space
+          math.la.d.lintrans.domain.coord
+          Definition of domain of a linear transformation, coordinate vector space
 
-        math.la.d.lintrans.image.coord
-        Definition of image (of a point) under a linear transformation, coordinate vector space
+          math.la.d.lintrans.codomain.coord
+          Definition of codomain of a linear transformation, coordinate vector space
 
-        math.la.d.lintrans.preimage.coord
-        Definition of pre-image (of a point) under a linear transformation, coordinate vector space
+          math.la.d.lintrans.image.coord
+          Definition of image (of a point) under a linear transformation, coordinate vector space
 
-        math.la.d.lintrans.surjective.coord
-        Definition of onto/surjective linear transformation, coordinate vector space
+          math.la.d.lintrans.preimage.coord
+          Definition of pre-image (of a point) under a linear transformation, coordinate vector space
 
-        math.la.d.lintrans.injective.coord
-        Definition of one-to-one/injective linear transformation, coordinate vector space
+          math.la.d.lintrans.surjective.coord
+          Definition of onto/surjective linear transformation, coordinate vector space
 
-        math.la.d.lintrans.range.coord
-        Definition of range of linear transformation, coordinate vector space
+          math.la.d.lintrans.injective.coord
+          Definition of one-to-one/injective linear transformation, coordinate vector space
 
-        math.la.d.lintrans.kernel.coord
-        Definition of kernel of linear transformation, coordinate vector space
+          math.la.d.lintrans.range.coord
+          Definition of range of linear transformation, coordinate vector space
 
-        math.la.d.lintrans.invertible.coord
-        Definition of invertible linear transformation, coordinate vector space
+          math.la.d.lintrans.kernel.coord
+          Definition of kernel of linear transformation, coordinate vector space
 
-        math.la.d.lintrans.inv.coord
-        Definition of inverse of a linear transformation, coordinate vector space
+          math.la.d.lintrans.invertible.coord
+          Definition of invertible linear transformation, coordinate vector space
 
-        math.la.e.lintrans.generic.r2
-        Example of a linear transformation on R^2: generic
+          math.la.d.lintrans.inv.coord
+          Definition of inverse of a linear transformation, coordinate vector space
 
-        math.la.e.lintrans.shear.r2
-        Example of a linear transformation on R^2: shear
-
-        math.la.e.lintrans.rotation.r2
-        Example of a linear transformation on R^2: rotation
-
-        math.la.e.lintrans.projection.r2
-        Example of a linear transformation on R^2: projection
-
-        math.la.e.lintrans.rotation.r3
-        Example of a linear transformation on R^3: rotation
-
-        math.la.c.lintrans.r2.region
-        Visualise a linear transformation on R^2 by looking at the image of a region
-
-        math.la.e.lintrans.not
-        Non-example of a linear transformation
-
-        math.la.c.transformation.matrix
-        Matrices act as a transformations by multiplying vectors
-
-        math.la.t.mat.vec.mult.lintrans
-        Matrix-vector multiplication is a linear transformation.
+          math.la.e.lintrans.not
+          Non-example of a linear transformation
 
         math.la.c.lintrans.geometric
         Geometric properties of linear transformations
 
-        math.la.c.lintrans.geometric.r2
-        Geometric properties of linear transformations on R^2
+          math.la.c.lintrans.r2.region
+          Visualise a linear transformation on R^2 by looking at the image of a region
 
-        math.la.t.lintrans.z
-        A linear transformation maps 0 to 0.
+          math.la.c.lintrans.geometric.r2
+          Geometric properties of linear transformations on R^2
 
-        math.la.t.lintrans.lincomb
-        A linear transformation of a linear combination is the linear combination of the linear transformation
+        math.la.c.mat.transformation
+        Matrices as linear transformations
 
-        math.la.t.lintrans.basis
-        A linear transformation is determined by its action ona basis.
+          math.la.c.transformation.matrix
+          Matrices act as a transformation by multiplying vectors
 
-        math.la.d.lintrans.basis.extension
-        Definition of how the action of a linear transformation on a basis extends to the whole space
+          math.la.t.mat.vec.mult.lintrans
+          Matrix-vector multiplication is a linear transformation.
 
-        math.la.t.linsys.homog.soln_preimage
-        The solutions of a homogeneous system are the pre-image (of 0) of a linear transformation.
+          math.la.d.lintrans.mat.basis.standard.coord
+          Definition of the standard matrix for a linear transformation, coordinate setting
 
-        math.la.d.mat.null_space.right
-        Definition of matrix null space (right)
+          math.la.t.lintrans.mat.basis.standard.coord
+          A linear transformation is given by a matrix whose columns are the images of the standard basis vectors, coordinate setting.
 
-        math.la.d.mat.null_space.left
-        Definition of matrix null space (left)
+          math.la.t.lintrans.mat.basis
+          A linear transformation is given by a matrix with respect to a given basis.
+
+          math.la.d.lintrans.nilpotent
+          Definition of nilpotent linear transformation
+
+          math.la.d.lintrans.mat.repn.coord
+          Definition of matrix representation of a linear transformation, coordinate vector space
+
+          math.la.t.lintrans.mat_repn.composition.coord
+          Matrix representation of a composition of linear transformations is given by a matrix product, coordinate vector space
+
+        math.la.c.lintrans.basic
+        Basic properties of linear transformations
+
+          math.la.t.lintrans.z
+          A linear transformation maps 0 to 0.
+
+          math.la.t.lintrans.lincomb
+          A linear transformation of a linear combination is the linear combination of the linear transformation
+
+          math.la.t.lintrans.basis
+          A linear transformation is determined by its action on a basis.
+
+          math.la.d.lintrans.basis.extension
+          Definition of how the action of a linear transformation on a basis extends to the whole space
+
+          math.la.t.linsys.homog.soln_preimage
+          The solutions of a homogeneous system are the pre-image (of 0) of a linear transformation.
 
         math.la.t.mat.null_space.rref.span
         Description of a spanning set for the null space of a matrix from the reduced row-echelon form.
@@ -1375,81 +1436,71 @@ Linear algebra
         math.la.t.mat.null_space.rref.basis
         Description of a basis for the null space of a matrix from the reduced row-echelon form.
 
-        math.la.d.mat.row_space
-        Definition of row space of a matrix
-
-        math.la.d.mat.row_space.row_equiv
-        Row equivalent matrices have the same row space.
-
         math.la.d.mat.echelon.linindep
         The nonzero rows of an echelon form of a matrix are linearly independent.
 
-        math.la.d.mat.col_space
-        Definition of column space of a matrix
+        math.la.c.mat.subspace
+        Subspaces associated to a matrix
 
-        math.la.t.mat.col_space.rncn
-        The column space of an m-by-n matrix is a subspace of R^m (or C^m)
+          math.la.d.mat.null_space.right
+          Definition of matrix null space (right)
 
-        math.la.t.mat.col_space.pivot
-        The pivot columns of a matrix are a basis for the column space.
+          math.la.d.mat.null_space.left
+          Definition of matrix null space (left)
 
-        math.la.c.mat.col_space.row_reduce
-        Row operations do not necessarily preserve the column space.
+          math.la.d.mat.col_space
+          Definition of column space of a matrix
 
-        math.la.t.mat.row_space.pivot
-        The nonzero rows of the reduced row-echelon form of a matris are a basis for the row space.
+          math.la.t.mat.col_space.rncn
+          The column space of an m-by-n matrix is a subspace of R^m (or C^m)
 
-        math.la.d.mat.rank.column
-        Definition of column rank of a matrix
+          math.la.t.mat.col_space.pivot
+          The pivot columns of a matrix are a basis for the column space.
 
-        math.la.d.mat.rank
-        Definition of rank of a matrix
+          math.la.c.mat.col_space.row_reduce
+          Row operations do not necessarily preserve the column space.
 
-        math.la.d.mat.nullity
-        Definition of nullity of a matrix
+          math.la.t.mat.row_space.pivot
+          The nonzero rows of the reduced row-echelon form of a matris are a basis for the row space.
 
-        math.la.t.mat.rank.pivot
-        The rank of a matrix equals number of pivots in a reduced row echelon form.
+          math.la.d.mat.row_space
+          Definition of row space of a matrix
 
-        math.la.t.mat.lintrans.rank
-        The rank of a matrix equals the rank of the linear transformation it represents.
+          math.la.d.mat.row_space.row_equiv
+          Row equivalent matrices have the same row space.
 
-        math.la.t.mat.row_space.col_space
-        The row space and the column space of a matrix have the same dimension.
+        math.la.c.lintrans.rank
+        Rank and nullity
 
-        math.la.t.mat.ranknullity
-        If A is a matrix, then the rank of A plus the nullity of A equals the number of columns of A.
+          math.la.d.lintrans.rank
+          Definition of rank of a linear transformation
 
-        math.la.t.mat.rotation
-        Matrix describing a rotation of the plane
+          math.la.d.lintrans.nullity
+          Definition of nullity of a linear transformation
 
-        math.la.d.lintrans.rank
-        Definition of rank of a linear transformation
+          math.la.t.lintrans.surjective.span
+          A linear transformation is surjective if and only if the columns of its matrix span the codomain.
 
-        math.la.d.lintrans.nullity
-        Definition of nullity of a linear transformation
+        math.la.c.litrans.example
+        Examples
 
-        math.la.t.lintrans.surjective.span
-        A linear transformation is surjective if and only if the columns of its matrix span the codomain.
+          math.la.t.mat.rotation
+          Matrix describing a rotation of the plane
 
-        math.la.d.lintrans.mat.basis.standard.coord
-        Definition of the standard matrix for a linear transformation, coordinate setting
+          math.la.e.lintrans.generic.r2
+          Example of a linear transformation on R^2: generic
 
-        math.la.t.lintrans.mat.basis.standard.coord
-        A linear transformation is given by a matrix whose columns are the images of the standard basis vectors, coordinate setting.
+          math.la.e.lintrans.shear.r2
+          Example of a linear transformation on R^2: shear
 
-        math.la.t.lintrans.mat.basis
-        A linear transformation is given by a matrix with respect to a given basis.
+          math.la.e.lintrans.rotation.r2
+          Example of a linear transformation on R^2: rotation
 
-        math.la.d.lintrans.nilpotent
-        Definition of nilpotent linear transformation
+          math.la.e.lintrans.projection.r2
+          Example of a linear transformation on R^2: projection
 
-        math.la.d.lintrans.mat.repn.coord
-        Definition of matrix representation of a linear transformation, coordinate vector space
-
-        math.la.t.lintrans.mat_repn.composition.coord
-        Matrix representation of a composition of linear transformations is given by a matrix product, coordinate vector space
-
+          math.la.e.lintrans.rotation.r3
+          Example of a linear transformation on R^3: rotation
 
       math.la.c.vec.orthog_proj.coord
       Orthogonality and projection
@@ -1882,58 +1933,74 @@ Linear algebra
         math.la.t.vsp.dim.more.lindep.arb
         A set of vectors containing more elements than the dimension of the space must be linearly dependent, arbitrary vector space.
 
-
-
-      math.la.d.lintrans.abs
+      math.la.c.lintrans.arb
       Linear transformations
 
-        math.la.d.lintrans.arb
-        Definition of linear transformation/homomorphism, arbitrary vector space
+        math.la.c.lintrans.basic.arb
+        Terminology
 
-        math.la.d.lintrans.identity
-        Definition of identity linear transformation
+          math.la.d.lintrans.arb
+          Definition of linear transformation/homomorphism, arbitrary vector space
 
-        math.la.d.lintrans.sum.arb
-        Definition of sum of linear transformations, arbitrary vector space
+          math.la.d.lintrans.identity
+          Definition of identity linear transformation
 
-        math.la.t.lintrans.sum.arb
-        The sum of linear transformations is a linear transformation, arbitrary vector space
+          math.la.d.lintrans.sum.arb
+          Definition of sum of linear transformations, arbitrary vector space
 
-        math.la.d.lintrans.scalar.arb
-        Definition of scalar multiple of a linear transformation, arbitrary vector space
+          math.la.t.lintrans.sum.arb
+          The sum of linear transformations is a linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.scalar.arb
-        A scalar multiple of a linear transformation is a linear transformation, arbitrary vector space
+          math.la.d.lintrans.scalar.arb
+          Definition of scalar multiple of a linear transformation, arbitrary vector space
 
-        math.la.d.lintrans.composition.arb
-        Definition of composition of linear transformations, arbitrary vector space.
+          math.la.t.lintrans.scalar.arb
+          A scalar multiple of a linear transformation is a linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.composition.arb
-        The composition of linear transformations is a linear transformation, arbitrary vector space.
+          math.la.d.lintrans.preimage.arb
+          Definition of pre-image of linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.composition.injective.arb
-        The composition of injective linear transformations is injective, arbitrary vector space.
+          math.la.d.lintrans.surjective.arb
+          Definition of onto/surjective linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.composition.surjective.arb
-        The composition of surjective linear transformations is surjective, arbitrary vector space.
+          math.la.d.lintrans.range.arb
+          Definition of range of a linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.inv.shoesandsocks
-        For invertible linear transformations A and B, the composition AB is invertible, and (AB)^-1=B^-1 A^-1.
+          math.la.d.lintrans.invertible.arb
+          Definition of invertible/nonsingular linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.composition.invertible.arb
-        The composition of invertible linear transformations is invertible, arbitrary vector space.
+          math.la.d.lintrans.inv.arb
+          Definition of inverse of a linear transformation, arbitrary vector space
 
-        math.la.d.lintrans.preimage.arb
-        Definition of pre-image of linear transformation, arbitrary vector space
+        math.la.c.lintrans.composition.arb
+        Composition
+
+          math.la.d.lintrans.composition.arb
+          Definition of composition of linear transformations, arbitrary vector space.
+
+          math.la.t.lintrans.composition.arb
+          The composition of linear transformations is a linear transformation, arbitrary vector space.
+
+          math.la.t.lintrans.composition.injective.arb
+          The composition of injective linear transformations is injective, arbitrary vector space.
+
+          math.la.t.lintrans.composition.surjective.arb
+          The composition of surjective linear transformations is surjective, arbitrary vector space.
+
+          math.la.t.lintrans.composition.invertible.arb
+          The composition of invertible linear transformations is invertible, arbitrary vector space.
+
+          math.la.t.lintrans.inv.arb
+          The inverse of a linear transformation is a linear transformation, arbitrary vector space
+
+          math.la.t.lintrans.inv.involution.arb
+          The inverse of the inverse of a linear transformation is the original linear transformation, arbitrary vector space
+
+          math.la.t.lintrans.inv.shoesandsocks
+          For invertible linear transformations A and B, the composition AB is invertible, and (AB)^-1=B^-1 A^-1.
 
         math.la.t.lintrans.preimage.translation.arb
         The preimage of a vector is a translation of the kernel of the linear transformation, arbitrary vector space
-
-        math.la.d.lintrans.surjective.arb
-        Definition of onto/surjective linear transformation, arbitrary vector space
-
-        math.la.d.lintrans.injective.arb
-        Definition of one-to-one/injective linear transformation, arbitrary vector space
 
         math.la.t.lintrans.injective.linindep
         The image of a linearly independent set under an injective linear transformation is linearly independent.
@@ -1946,9 +2013,6 @@ Linear algebra
 
         math.la.t.lintrans.surjective.rank
         A linear transformation is surjective if and only if the rank equals the dimension of the codomain.
-
-        math.la.d.lintrans.range.arb
-        Definition of range of a linear transformation, arbitrary vector space
 
         math.la.t.lintrans.range.subsp.arb
         The range of a linear transformation is a subspace, arbitrary vector space
@@ -1965,77 +2029,77 @@ Linear algebra
         math.la.d.lintrans.range.generalized.injective
         A linear transformation is injective on its generalized range space.
 
-        math.la.d.lintrans.nonsingular
-        Definition of nonsingular linear transformation
-
         math.la.d.lintrans.diagonalizable
         Definition of diagonalizable linear transformation
 
-        math.la.d.lintrans.eig
-        Definition of eigenvalue/characteristic value of a linear transformation
+        math.la.c.lintrans.eig.arb
+        Eigenvalues and eigenvectors
 
-        math.la.d.lintrans.eigvec
-        Definition of eigenvector/characteristic vector of a linear transformation
+          math.la.d.lintrans.eig
+          Definition of eigenvalue/characteristic value of a linear transformation
 
-        math.la.d.lintrans.charpoly
-        Definition of characteristic polynomial of a linear transformation
+          math.la.d.lintrans.eigvec
+          Definition of eigenvector/characteristic vector of a linear transformation
 
-        math.la.d.lintrans.minpoly
-        Definition of minimal polynomial of a linear transformation
+          math.la.d.lintrans.charpoly
+          Definition of characteristic polynomial of a linear transformation
 
-        math.la.d.lintrans.cayleyhamilton
-        The Cayley-Hamilton theorem for a linear transformation
+          math.la.d.lintrans.minpoly
+          Definition of minimal polynomial of a linear transformation
 
-        math.la.d.lintrans.minpoly.exists
-        The minimal polynomial of a linear transformation exists and is unique.
+          math.la.d.lintrans.cayleyhamilton
+          The Cayley-Hamilton theorem for a linear transformation
 
-        math.la.d.lintrans.polynomial.apply
-        Definition of applying a polynomial to a linear transformation
+          math.la.d.lintrans.minpoly.exists
+          The minimal polynomial of a linear transformation exists and is unique.
 
-        math.la.d.lintrans.minpoly.exists
-        The minimal polynomial of a linear transformation exists and is unique.
+          math.la.d.lintrans.polynomial.apply
+          Definition of applying a polynomial to a linear transformation
 
-        math.la.t.lintrans.eig.exists
-        A linear transformation on a finite dimentional nontrivial vector space has at least one eigenvalue.
+          math.la.t.lintrans.eig.exists
+          A linear transformation on a finite dimentional nontrivial vector space has at least one eigenvalue.
 
-        math.la.d.lintrans.eigsp
-        Definition of eigenspace of a linear transformation
+          math.la.d.lintrans.eigsp
+          Definition of eigenspace of a linear transformation
 
-        math.la.d.lintrans.eigsp.subspace
-        The eigenspace of a linear transformation is a nontrivial subspace.
+          math.la.d.lintrans.eigsp.subspace
+          The eigenspace of a linear transformation is a nontrivial subspace.
 
-        math.la.d.lintrans.invariantsubspace
-        Definition of invariant subspace of a linear transformation.
+          math.la.d.lintrans.invariantsubspace
+          Definition of invariant subspace of a linear transformation.
 
-        math.la.d.lintrans.invariantsubspace.block
-        If a space is the direct sum of invariant subspaces, then the linear transformation has a block diagonal representation.
+          math.la.d.lintrans.invariantsubspace.block
+          If a space is the direct sum of invariant subspaces, then the linear transformation has a block diagonal representation.
 
         math.la.t.lintrans.diagonalizable.basis
         A linear transformation is diagonalizable if there is a basis such that each element is an eigenvector of the transformation.
 
-        math.la.t.lintrans.range.vsp
-        The range/image of a linear transformation is a subspace.
+        math.la.c.lintrans.subspace.arb
+        Subspaces associated to a linear transformation
 
-        math.la.t.lintrans.inv.vsp
-        The inverse image of a subspace under a linear transformation is a subspace.
+          math.la.t.lintrans.range.vsp
+          The range/image of a linear transformation is a subspace.
 
-        math.la.d.lintrans.kernel.arb
-        Definition of kernel/null space of linear transformation, arbitrary vector space
+          math.la.t.lintrans.inv.vsp
+          The inverse image of a subspace under a linear transformation is a subspace.
 
-        math.la.t.lintrans.kernel.arb
-        The kernel/null space of a linear transformation is a subspace, arbitrary vector space
+          math.la.d.lintrans.kernel.arb
+          Definition of kernel/null space of linear transformation, arbitrary vector space
 
-        math.la.d.lintrans.kernel.generalized.arb
-        Definition of generalized kernel/null space of linear transformation, arbitrary vector space
+          math.la.t.lintrans.kernel.arb
+          The kernel/null space of a linear transformation is a subspace, arbitrary vector space
 
-        math.la.d.lintrans.generalized.sum
-        Any vector space is the direct sum of the generalized kernel and gneralized range of a linear transformation on that space.
+          math.la.d.lintrans.kernel.generalized.arb
+          Definition of generalized kernel/null space of linear transformation, arbitrary vector space
 
-        math.la.t.lintrans.power.kernel
-        The kernels of powers of a linear transformation form an ascending chain, with proper containment up to a particular power and then equality for all subsequent powers.
+          math.la.d.lintrans.generalized.sum
+          Any vector space is the direct sum of the generalized kernel and gneralized range of a linear transformation on that space.
 
-        math.la.t.lintrans.power.range
-        The range spaces of powers of a linear transformation form a descending chain, with proper containment up to a particular power and then equality for all subsequent powers.
+          math.la.t.lintrans.power.kernel
+          The kernels of powers of a linear transformation form an ascending chain, with proper containment up to a particular power and then equality for all subsequent powers.
+
+          math.la.t.lintrans.power.range
+          The range spaces of powers of a linear transformation form a descending chain, with proper containment up to a particular power and then equality for all subsequent powers.
 
         math.la.t.lintrans.ranknullity
         The rank plus the nullity of a linear transformation equals the dimension of the domain.
@@ -2046,20 +2110,8 @@ Linear algebra
         math.la.t.lintrans.onto.rank
         A linear transformation is onto if and only if its rank equals the number of rows in any matrix representation.
 
-        math.la.d.lintrans.invertible.arb
-        Definition of invertible linear transformation, arbitrary vector space
-
         math.la.t.lintrans.invertible.arb
         A linear transformation is invertible if and only if it is injective and surjective, arbitrary vector space
-
-        math.la.d.lintrans.inv.arb
-        Definition of inverse of a linear transformation, arbitrary vector space
-
-        math.la.t.lintrans.inv.arb
-        The inverse of a linear transformation is a linear transformation, arbitrary vector space
-
-        math.la.t.lintrans.inv.involution.arb
-        The inverse of the inverse of a linear transformation is the original linear transformation, arbitrary vector space
 
         math.la.d.lintrans.mat.repn.arb
         Definition of matrix representation of a linear transformation with respect to bases of the spaces, arbitrary vector space
@@ -2093,6 +2145,9 @@ Linear algebra
           # T: V -> W is a linear transformation, and V has dimension n.
           # Each equivalence to "T is injective" is a separate topic.
           # (This is modeled after the equivalence theorms for nonsingular matrices).
+
+          math.la.d.lintrans.injective.arb
+          Definition of one-to-one/injective linear transformation, arbitrary vector space
 
           math.la.t.lintrans.equiv.inv
           Equivalence theorem for injective linear transformations: The inverse of T is a linear transformation on its range.
