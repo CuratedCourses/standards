@@ -474,7 +474,7 @@ Linear algebra
         math.la.d.mat.elementary.inv
         Elementary matrices are invertible/nonsingular.
 
-      math.la.c.mat.triamgular
+      math.la.c.mat.triangular
       Triangular matrices
 
         math.la.d.mat.triangular.upper
@@ -2047,7 +2047,7 @@ Linear algebra
           math.la.d.lintrans.minpoly
           Definition of minimal polynomial of a linear transformation
 
-          math.la.d.lintrans.cayleyhamilton
+          math.la.t.lintrans.cayleyhamilton
           The Cayley-Hamilton theorem for a linear transformation
 
           math.la.d.lintrans.minpoly.exists
@@ -2285,23 +2285,144 @@ Linear algebra
     math.la.a.differentialequation
     Applications to differential equations
 
-    math.la.a.markovchain
-    Applications to Markov chains
-
     math.la.a.bandmatrix
     Applications of band matrices
 
     math.la.a.errorcorrectingcode
     Applications to error-correcting code
 
-    math.la.a.inputoutput
-    Application Leontief input-output analysis
-
     math.la.a.voting
     Applications to voting and social choice
 
     math.la.a.cubicspline
     Applications to cubic spline
+
+    math.la.a.linsys.networkflow
+    Applications of linear systems to Network flow
+
+    math.la.a.engineering.networkflow
+    Applications to Network flow in engineering
+
+    math.la.a.networks.traffic
+    Applications to traffic networks
+
+    math.la.a.linsys.circuits
+    Applications of linear systems to Electrical networks
+
+    math.la.a.physics.circuits
+    Applications to Electrical networks in Physics
+
+    math.la.a.engineering.circuits
+    Applications to Electrical networks in engineering
+
+    math.la.a.linsys.chemreaction
+    Applications to chemical reactions
+
+    math.la.a.chemistry.reactions
+    Applications to reactions in Chemistry
+
+    math.la.a.mat.directedgraph
+    Applications to Directed graphs
+
+    math.la.a.inputoutput
+    Applications to Leontief input-output analysis
+
+    math.la.a.mat.inputoutput
+    Applications of matrices to Leontief input-output analysis
+
+    math.la.a.economics.inputoutput
+    Applications to Leontief input-output analysis in Economics
+
+    math.la.a.markovchain
+    Applications to Markov Chains
+
+    math.la.a.mat.markov
+    Applications of matrices to Markov Chains
+
+    math.la.d.markovchain
+    Definition of Markov chain
+
+    math.la.d.mat.stochastic
+    Definition of stochastic matrix
+
+    math.la.d.mat.transition
+    Definition of transition matrix
+
+    math.la.a.det.polyinterpolation
+    Applications of determinants to Polynomial interpolation
+
+    math.la.a.mat.polyinterpolation
+    Applications of matrices to Polynomial interpolation
+
+    math.la.a.biology.population
+    Applications to population growth in biology
+
+    math.la.a.mat.eig.population
+    Applications of eigenvectors to population growth
+
+    math.la.d.mat.eig.lineardynamicalsystem
+    Definition of linear dynamical system
+
+    math.la.a.mat.eig.pagerank
+    Application to Google Page Rank
+
+    math.la.a.mat.eig.linearrecurrence
+    Applications to linear recurrence
+
+    math.la.d.mat.eig.linearrecurrence
+    Definition of linear recurrence
+
+    math.la.a.mat.diagonalize.odesystems
+    Application of diagonalization to systems of ODEs
+
+    math.la.a.odes.odesystems
+    Applications to Systems of Differential equations
+
+    math.la.a.compsci.computergraphics
+    Applications to graphics in Computer Science
+
+    math.la.a.lintrans.computergraphics
+    Applications of linear transformations to computer graphics
+
+    math.la.a.lintrans.geometric.computergraphics
+    Applications of vector geometry to Computer Graphics
+
+    math.la.a.statistics.correlation
+    Applications to correlation in Statistics
+
+    math.la.a.statistics.variation
+    Applications to variance in Statistics
+
+    math.la.a.vec.correlation
+    Applications of vectors to Correlation and Variance
+
+    math.la.t.polynomials.factortheorem
+    Factor theorem for polynomials
+
+    math.la.t.polynomials.remaindertheorem
+    Remainder theorem for polynomials
+
+    math.la.t.polynomials.taylortheorem
+    Taylor's theorem for polynomials
+
+    math.la.t.polynomials.lagrangeinterpolation
+    Lagrange interpolation expansion theorem
+
+    math.la.a.mat.errorcorrecting
+    Applications of matrices to Error Correcting Codes
+
+    math.la.a.compsci.errorcorrecting
+    Applications to Error Correcting Codes in Computer Science
+
+    math.la.a.mat.orthog.constrainedopt
+    Applications to Constrained optimization
+
+    math.la.a.statistics.princompanal
+    Applications to Principal Component Analysis in Statistics
+
+    math.la.a.mat.diagonalize.princompanal 
+    Applications of diagonalization to Statistical Principal Component Analysis
+
 
   math.la.c.other
   Other
