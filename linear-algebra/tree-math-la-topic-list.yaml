@@ -918,7 +918,7 @@ Linear algebra
         math.la.t.mat.charpoly.z
         The characteristic polynomial applied to the matrix gives the 0 matrix.
 
-        math.la.d.mat.cayleyhamilton
+        math.la.t.mat.cayleyhamilton
         The Cayley-Hamilton theorem for a matrix.
 
       math.la.t.mat.eig.multiplicity.eigenspace
