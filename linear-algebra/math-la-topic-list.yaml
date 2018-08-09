@@ -1621,7 +1621,7 @@ Definition of characteristic polynomial of a linear transformation
 math.la.d.lintrans.minpoly
 Definition of minimal polynomial of a linear transformation
 
-math.la.d.lintrans.cayleyhamilton
+math.la.t.lintrans.cayleyhamilton
 The Cayley-Hamilton theorem for a linear transformation
 
 math.la.d.lintrans.minpoly.exists
@@ -1834,7 +1834,7 @@ The eigenvalues of a matrix are the roots/solutions of its characteristic polyno
 math.la.t.mat.charpoly.z
 The characteristic polynomial applied to the matrix gives the 0 matrix.
 
-math.la.d.mat.cayleyhamilton
+math.la.t.mat.cayleyhamilton
 The Cayley-Hamilton theorem for a matrix.
 
 math.la.t.mat.eig.multiplicity.eigenspace

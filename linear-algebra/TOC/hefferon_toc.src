@@ -427,8 +427,8 @@ math.la.d.lintrans.minpoly
 math.la.d.mat.minpoly
 math.la.d.mat.minpoly.exists
 math.la.d.lintrans.minpoly.exists
-math.la.d.lintrans.cayleyhamilton
-math.la.d.mat.cayleyhamilton
+math.la.t.lintrans.cayleyhamilton
+math.la.t.mat.cayleyhamilton
 math.la.t.mat.charpoly.z
 
 \ssec IV.2 Jordan Canonical Form*
