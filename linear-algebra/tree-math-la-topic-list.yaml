@@ -352,7 +352,7 @@ Linear algebra
         If a matrix has both a left and a right inverse, then the two are equal.
 
         math.la.t.mat.inv.oneside
-        If a square matrix has a one-sided inverse, then it is a two-sided inverse.
+        If a square matrix has a one-sided inverse, then it has a two-sided inverse.
 
         math.la.t.mat.inv.2x2
         Formula for the inverse of a 2-by-2 matrix.
