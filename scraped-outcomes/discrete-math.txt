@@ -1,0 +1,232 @@
+{"text": "Explain the Rule of Sum and Rule of Product", "author": "Sylvia Carlisle", "id": "explain_rule_of_sum_and_product"}
+{"text": "Derive/explain counting formulas from the rule of sum and product and simpler formulas", "author": "Sylvia Carlisle", "id": "derive_counting_formulas"}
+{"text": "Use the Rule of Product to count the size of a Cartesian Product set", "author": "Sylvia Carlisle", "id": "count_cartesian_product"}
+{"text": "Use cartesian product in combination with other operations to build sets, determine elements of cartesian products", "author": "Sylvia Carlisle", "id": "build_sets_with_cartesian_product"}
+{"text": "Use the multiplication principle appropriately within a counting problem, including choosing sets in an appropriate order, applying cases as necessary, and using complements.", "author": "MTH 315", "id": "use_multiplication_principle_counting"}
+{"text": "Apply the technique of counting by complement", "author": "Sylvia Carlisle", "id": "counting_by_complement"}
+{"text": "count using the addition and multiplication principles and P.I.E.,, identifying which technique is appropriate", "author": "Jessica Sidman", "id": "count_using_principles_pie"}
+{"text": "counting methods and when to use them.", "author": "Jessica Sidman", "id": "counting_methods"}
+{"text": "Identify when a problem involves selection with repetition versus the other counting methods", "author": "Sylvia Carlisle", "id": "identify_selection_repetition"}
+{"text": "Count the number of selections with repetition taken from a collection of distinguishable objects", "author": "Sylvia Carlisle", "id": "count_selections_with_repetition"}
+{"text": "Count the number of selections from a collection of distinguishable objects", "author": "Sylvia Carlisle", "id": "count_selections_distinguishable_objects"}
+{"text": "Count the number of ways indistinguishable objects can be put in distinct containers", "author": "Sylvia Carlisle", "id": "count_ways_indistinguishable_objects_distinct_containers"}
+{"text": "Apply simple combinations of tools to solve straightforward counting problems", "author": "Sylvia Carlisle", "id": "solve_straightforward_counting_problems"}
+{"text": "Evaluate potential answers to counting problems and explain why they are correct or incorrect", "author": "Sylvia Carlisle", "id": "evaluate_counting_answers"}
+{"text": "Solve counting problems involving sets and subsets, including inclusion/exclusion problems with at most 3 sets.", "author": "Sylvia Carlisle", "id": "solve_counting_problems"}
+{"text": "Use Inclusion-Exclusion on at most 3 sets to count the sizes of sets", "author": "Sylvia Carlisle", "id": "count_sizes_of_sets_using_inclusion_exclusion"}
+{"text": "Count numbers of subsets of a set satisfying certain conditions", "author": "Sylvia Carlisle", "id": "count_subsets_satisfying_conditions"}
+{"text": "Count the number of onto functions between two finite sets with certain conditions", "author": "Sylvia Carlisle", "id": "count_onto_functions_between_finite_sets"}
+{"text": "Count the number of functions, 1-1 functions, onto functions, and invertible functions between two sets.", "author": "Sylvia Carlisle", "id": "count_functions_between_sets"}
+{"text": "Count the number of relations, the number of functions, the number of one-to-one functions, the number of bijections (equiv. invertible functions) between two finite sets with given conditions", "author": "Sylvia Carlisle", "id": "count_relations_functions"}
+{"text": "Use relations, functions, one-to-one functions and bijective functions, onto functions and/or stirling numbers of the second kind in combinatorial explanations", "author": "Sylvia Carlisle", "id": "use_relations_functions"}
+{"text": "Use onto functions and/or Stirling numbers of the second kind to solve word problems", "author": "Sylvia Carlisle", "id": "solve_word_problems_with_onto_functions"}
+{"text": "Use onto function and/or Stirling number of the second kind to solve problems.", "author": "Sylvia Carlisle", "id": "solve_problems_using_onto_function_and_stirling_number"}
+{"text": "Evaluate Stirling numbers of the second kind", "author": "Sylvia Carlisle", "id": "evaluate_stirling_numbers"}
+{"text": "use the binomial theorem to prove combinatorial identities", "author": "Jessica Sidman", "id": "prove_combinatorial_identities_with_binomial_theorem"}
+{"text": "Find combinatorial proofs for mathematical identities", "author": "Debra Borkovitz", "id": "find_combinatorial_proofs"}
+{"text": "Use set ideas and notation in combinatorial proofs", "author": "Sylvia Carlisle", "id": "use_set_ideas_combinatorial_proofs"}
+{"text": "write proofs using sets and set-theoretic notation.", "author": "Jessica Sidman", "id": "write_proofs_using_set_notation"}
+{"text": "Write proofs of properties and theorems about sets", "author": "Sylvia Carlisle", "id": "write_set_proofs"}
+{"text": "Learn to write proofs", "author": "Debra Borkovitz", "id": "write_proofs"}
+{"text": "Write proofs that are easily readable", "author": "Sylvia Carlisle", "id": "write_readable_proofs"}
+{"text": "Provide clear reasons for conclusions in proofs", "author": "Sylvia Carlisle", "id": "provide_clear_reasons_in_proofs"}
+{"text": "State the overall conclusion explicitly at the end of proofs", "author": "Sylvia Carlisle", "id": "state_conclusion_proofs"}
+{"text": "Avoid including irrelevant detail in proofs", "author": "Sylvia Carlisle", "id": "avoid_irrelevant_detail_in_proofs"}
+{"text": "Use precise and specific language in proofs", "author": "Sylvia Carlisle", "id": "use_precise_language_in_proofs"}
+{"text": "Demonstrate fluency in using correct notation, definitions, and terminology in proofs", "author": "Sylvia Carlisle", "id": "demonstrate_fluency_in_notation"}
+{"text": "Not need to restate definitions inside a proof", "author": "Sylvia Carlisle", "id": "no_restate_definitions_proof"}
+{"text": "write proofs applying the L1 definitions", "author": "Jessica Sidman", "id": "write_proofs_L1_definitions"}
+{"text": "use the L1 number theory definitions in proofs that may involve significant algebraic thinking as well as other concepts including induction, proof by contradiction/contrapositive, and function concepts like surjectivity and injectivity (two sets)", "author": "Jessica Sidman", "id": "use_l1_number_theory_defs_in_proofs"}
+{"text": "di\u21b5erent proof techniques and be able to apply them in various contexts.", "author": "Jessica Sidman", "id": "apply_proof_techniques"}
+{"text": "Apply proof techniques", "author": "Debra Borkovitz", "id": "apply_proof_techniques"}
+{"text": "Ensure the logical form of the argument is valid in proofs", "author": "Sylvia Carlisle", "id": "validate_argument_form_in_proofs"}
+{"text": "Construct logically valid proofs of mathematical statements.", "author": "David Clark", "id": "construct_valid_proofs"}
+{"text": "Given definitions and axioms, write proofs, both direct and by contradiction or contrapositives", "author": "Sylvia Carlisle", "id": "write_proofs"}
+{"text": "Prove statements directly or by contradiction.", "author": "Sylvia Carlisle", "id": "prove_statements"}
+{"text": "correctly set up and complete a proof by contradiction", "author": "Jessica Sidman", "id": "proof_by_contradiction"}
+{"text": "correctly set up and complete a proof by contrapositive", "author": "Jessica Sidman", "id": "proof_by_contrapositive"}
+{"text": "Identify and construct inverses, converses and contrapositives of statements", "author": "Sylvia Carlisle", "id": "construct_inverses_converses_contrapositives"}
+{"text": "Identify inverses, converses, and contrapositives of implications and quantified statements.", "author": "Sylvia Carlisle", "id": "identify_inverses_converses_contrapositives"}
+{"text": "move fluently between statements given in logical notation and statements written in words involving and, or, implication, and their negations", "author": "Jessica Sidman", "id": "translate_logical_statements"}
+{"text": "Translate and interpret between statements written in English and logical symbols", "author": "Sylvia Carlisle", "id": "translate_and_interpret"}
+{"text": "Translate between English sentences and quantified symbolic statements", "author": "Sylvia Carlisle", "id": "translate_english_to_quantified"}
+{"text": "Determine the truth values of quantified statements.", "author": "Sylvia Carlisle", "id": "determine_truth_values_quantified_statements"}
+{"text": "Determine truth values of logical statements.", "author": "Sylvia Carlisle", "id": "determine_truth_values"}
+{"text": "Determine the truth value of a quantified statement by logic or by providing an example/counterexample as appropriate", "author": "Sylvia Carlisle", "id": "determine_truth_value_quantified_statement"}
+{"text": "write and interpret statements with the quantifiers 9 and 8, using a truth table when needed", "author": "Jessica Sidman", "id": "write_and_interpret_quantifier_statements"}
+{"text": "Write down truth tables for logical connectives", "author": "Sylvia Carlisle", "id": "write_truth_tables"}
+{"text": "Write a truth table for a compound statement and determine truth values of compound statements", "author": "Sylvia Carlisle", "id": "write_truth_table"}
+{"text": "determine if an L1 statement is true or not with sufficient context, using a truth table when needed", "author": "Jessica Sidman", "id": "determine_l1_statement_truth"}
+{"text": "demonstrate the L1 and L2 logic learning objectives with statements that have complicated sentence structure (usually at least two quantifiers)", "author": "Jessica Sidman", "id": "demonstrate_l1_l2_logic_learning_objectives_with_complicated_sentence_structure"}
+{"text": "Learn propositional logic", "author": "Debra Borkovitz", "id": "learn_prop_logic"}
+{"text": "State the major laws of logic by name", "author": "Sylvia Carlisle", "id": "state_major_laws_of_logic"}
+{"text": "Use the laws of logic and other equivalences to manipulate or simplify symbolic statements", "author": "Sylvia Carlisle", "id": "manipulate_symbolic_statements"}
+{"text": "Apply a quantifier rule of inference to appropriate premises to arrive at correct conclusions- simple symbolic arguments", "author": "Sylvia Carlisle", "id": "apply_quantifier_rule"}
+{"text": "Apply one or more rules of inference to premises to arrive at a correct conclusion", "author": "Sylvia Carlisle", "id": "apply_rules_of_inference"}
+{"text": "Identify which rule of inference is being used in a given part of an argument", "author": "Sylvia Carlisle", "id": "identify_rule_of_inference"}
+{"text": "Recognize whether an argument is valid or invalid, and justify with a rule of inference, argument, truth table or counterexample", "author": "Sylvia Carlisle", "id": "recognize_argument_validity"}
+{"text": "Determine if logical arguments are valid or invalid.", "author": "Sylvia Carlisle", "id": "determine_validity_of_logical_arguments"}
+{"text": "Evaluate the validity of an attempted proof, and identify and explain any errors", "author": "Sylvia Carlisle", "id": "evaluate_proof_validity"}
+{"text": "Demonstrate the ability to identify and correct minor mistakes", "author": "Sylvia Carlisle", "id": "correct_minor_mistakes"}
+{"text": "Demonstrate the ability to avoid major mistakes", "author": "Sylvia Carlisle", "id": "avoid_major_mistakes"}
+{"text": "Understand the difference between minor mistakes and major mistakes", "author": "Sylvia Carlisle", "id": "understand_difference_minor_major_mistakes"}
+{"text": "Fix errors in answers to earn a Progressing grade", "author": "Sylvia Carlisle", "id": "fix_errors_progressing"}
+{"text": "Make a good-faith effort to complete all questions on the assignment", "author": "Sylvia Carlisle", "id": "complete_assignment"}
+{"text": "Communicate your work clearly and completely, including defining and identifying all sets.", "author": "MTH 315", "id": "communicate_work_sets"}
+{"text": "Learn to interpret and use notation to describe sets", "author": "Debra Borkovitz", "id": "interpret_and_use_notation_sets"}
+{"text": "Translate a verbal description of a set into correct set notation", "author": "Sylvia Carlisle", "id": "translate_set_description_to_notation"}
+{"text": "Simplify a symbolic description of a set using the \u201cLaws of Set Theory\u201d", "author": "Sylvia Carlisle", "id": "simplify_set_theory"}
+{"text": "State the definitions of the set theoretic symbols and common notations for \u201cfamous\u201d sets", "author": "Sylvia Carlisle", "id": "define_set_symbols"}
+{"text": "the language of sets and performing basic operations with sets.", "author": "Jessica Sidman", "id": "sets_operations"}
+{"text": "write fluently with set-builder notation and know when to use it.", "author": "Jessica Sidman", "id": "write_fluently_set_builder_notation"}
+{"text": "write fluently with important examples of sets including the empty set, the natural numbers, the integers, the real numbers, the rational numbers, and finite sets.", "author": "Jessica Sidman", "id": "write_sets_examples"}
+{"text": "demonstrate advanced reasoning about sets, including an infinite number of sets", "author": "Jessica Sidman", "id": "reasoning_about_sets"}
+{"text": "Learn set theory", "author": "Debra Borkovitz", "id": "learn_set_theory"}
+{"text": "use and interpret basic set theory terminology including subset, product, intersection, power set, cardinality, and union.", "author": "Jessica Sidman", "id": "use_basic_set_theory_terminology"}
+{"text": "Find the elements, cardinality, subsets and proper subsets of a set given a description in symbols or words", "author": "Sylvia Carlisle", "id": "find_set_elements"}
+{"text": "Determine the truth value of a statement about sets.", "author": "Sylvia Carlisle", "id": "determine_truth_value_of_statement_about_sets"}
+{"text": "Evaluate as true or false general implications about set membership, containment and proper containment", "author": "Sylvia Carlisle", "id": "evaluate_set_membership_implications"}
+{"text": "Identify when a set is empty", "author": "Sylvia Carlisle", "id": "identify_empty_set"}
+{"text": "Identify if a statement is open or closed", "author": "Sylvia Carlisle", "id": "identify_statement_type"}
+{"text": "Change an open statement into a closed statement by substitution", "author": "Sylvia Carlisle", "id": "change_open_to_closed_by_substitution"}
+{"text": "Construct, simplify and rephrase negations of statements", "author": "Sylvia Carlisle", "id": "simplify_negations"}
+{"text": "Identify if a sentence is a statement, and if it is primitive or compound", "author": "Sylvia Carlisle", "id": "identify_sentence_type"}
+{"text": "elementary logic and will be able to extract logical statements from a wide range of settings.", "author": "Jessica Sidman", "id": "extract_logical_statements"}
+{"text": "Recognize and correctly use the major logical connectives", "author": "Sylvia Carlisle", "id": "recognize_and_use_logical_connectives"}
+{"text": "Avoid using strings of equations or random words/sentences with no logical connection in proofs", "author": "Sylvia Carlisle", "id": "avoid_random_equations_in_proofs"}
+{"text": "Use correct grammar and punctuation in proofs", "author": "Sylvia Carlisle", "id": "use_correct_grammar"}
+{"text": "write a direct proof in paragraph form, citing definitions and theorems when appropriate.", "author": "Jessica Sidman", "id": "write_direct_proof"}
+{"text": "Write proofs regarding functions and properties of functions, compositions, inverses, images and preimages", "author": "Sylvia Carlisle", "id": "write_function_proofs"}
+{"text": "Determine the composition and inverse of functions given by formulas or lists or diagrams", "author": "Sylvia Carlisle", "id": "determine_composition_inverse_functions"}
+{"text": "determine (with proof) if an abstract function that is a composition of functions is injective or surjective", "author": "Jessica Sidman", "id": "determine_composition_injective_surjective"}
+{"text": "determine (with proof) if a specific function is injective or surjective", "author": "Jessica Sidman", "id": "determine_injective_surjective"}
+{"text": "Determine whether a function is injective, surjective, or bijective", "author": "Debra Borkovitz", "id": "determine_function_properties"}
+{"text": "Determine whether a function is bijective/invertible", "author": "Sylvia Carlisle", "id": "determine_function_bijectivity"}
+{"text": "determine if a function on finite sets is injective or surjective", "author": "Jessica Sidman", "id": "determine_function_injective_surjective"}
+{"text": "determine if a relation on two finite sets is a function", "author": "Jessica Sidman", "id": "determine_relation_function"}
+{"text": "Identify what is and is not a relation and identify whether a relation is a function", "author": "Sylvia Carlisle", "id": "identify_relations_and_functions"}
+{"text": "Translate between descriptions of relations and functions using words, graphs, lists, and symbols.", "author": "Sylvia Carlisle", "id": "translate_relations_functions"}
+{"text": "Translate between descriptions of functions using words, graphs, lists and symbols", "author": "Sylvia Carlisle", "id": "translate_function_descriptions"}
+{"text": "Use function notation and vocabulary correctly", "author": "Debra Borkovitz", "id": "use_function_notation"}
+{"text": "Use correct vocabulary and notation in problem solutions", "author": "Sylvia Carlisle", "id": "use_correct_vocabulary_notation"}
+{"text": "Define personal notation clearly at the beginning of problems", "author": "Sylvia Carlisle", "id": "define_personal_notation"}
+{"text": "Define invented symbols explicitly in proofs", "author": "Sylvia Carlisle", "id": "define_invented_symbols"}
+{"text": "Name proof techniques explicitly", "author": "Sylvia Carlisle", "id": "name_proof_techniques_explicitly"}
+{"text": "Write proofs by induction or strong induction to prove properties of structures or sets that are recursively defined", "author": "Sylvia Carlisle", "id": "prove_properties_recursively"}
+{"text": "Write proofs by strong induction with linear equations and/or recursively defined sequences, logical symbols or sets", "author": "Sylvia Carlisle", "id": "write_proofs_induction_linear_equations"}
+{"text": "Write proofs by induction (both regular and strong induction).", "author": "Sylvia Carlisle", "id": "write_induction_proofs"}
+{"text": "Write induction proofs", "author": "Debra Borkovitz", "id": "write_induction_proofs"}
+{"text": "Write proofs by induction of equalities with summations", "author": "Sylvia Carlisle", "id": "write_proofs_induction_equalities_summations"}
+{"text": "Conjecture and prove an equality with summations based on examples", "author": "Sylvia Carlisle", "id": "prove_equality_with_summations"}
+{"text": "Prove equalities and inequalities involving recursively defined sequences- especially the Fibonacci and Lucas numbers, by using induction or strong induction", "author": "Sylvia Carlisle", "id": "prove_equalities_recursively_defined_sequences"}
+{"text": "Give recursive definitions for sequences involving linear, quadratic and exponential terms and factorials", "author": "Sylvia Carlisle", "id": "define_sequence_terms"}
+{"text": "Calculate terms in a given recurrence formula. Find initial terms when given a formula and a description of a situation.", "author": "MTH 315", "id": "calculate_recurrence_terms"}
+{"text": "Create a recurrence for a given situation, including initial terms, and justify your formula through partitioning or showing how objects contain smaller copies. Critique a given explanation for a recurrence relation.", "author": "MTH 315", "id": "create_recurrence"}
+{"text": "Identify and correctly count situations involving unordered and ordered repetition, using \u201cdots and sticks\u201d and division as appropriate. Identify the dots, sticks, and repeated elements in a problem.", "author": "MTH 315", "id": "count_situations_with_dots_and_sticks"}
+{"text": "Explain how \u201cdots and sticks\u201d count unordered repetition, why division is necessary for ordered repetition, and identify why each method is appropriate in a given situation.", "author": "MTH 315", "id": "explain_dots_and_sticks_count_repetition"}
+{"text": "Solve enumeration problems involving lists with repetition, permutations, combinations, combinations with repetition, including problems that combine two or more of these concepts.", "author": "Sylvia Carlisle", "id": "solve_enumeration_problems"}
+{"text": "Compute numerical values and solve problems involving permutations and combinations", "author": "Debra Borkovitz", "id": "compute_permutations_combinations"}
+{"text": "Distinguish a combination problem from a linear arrangement problem", "author": "Sylvia Carlisle", "id": "distinguish_combination_linear"}
+{"text": "Count the number of linear arrangements", "author": "Sylvia Carlisle", "id": "count_linear_arrangements"}
+{"text": "Use permutations and r-permutations appropriately within a counting problem. Use factorials and the shortcut formula as necessary. Avoid over- or under-counting.", "author": "MTH 315", "id": "use_permutations_and_r_permutations"}
+{"text": "Use combinations appropriately within a counting problem. Use the binomial symbol correctly and write out the shortcut formula as necessary. Avoid over- or under-counting.", "author": "MTH 315", "id": "use_combinations_counting_problem"}
+{"text": "Identify why order does not matter in a problem, be able to justify the shortcut formula, and find multiple ways to solve a problem using combinations.", "author": "MTH 315", "id": "order_does_not_matter_combinations"}
+{"text": "Identify why order matters in a problem and be able to justify the shortcut formula.", "author": "MTH 315", "id": "justify_order_matters"}
+{"text": "Find and justify relevant data and make relevant assumptions to solve a problem with the principle, critique and correct others\u2019 uses of the principle, and identify why the principle is appropriate in a given scenario.", "author": "MTH 315", "id": "find_justify_data_assumptions"}
+{"text": "Use the principle for 4 sets, critique and correct others\u2019 uses of the principle, and identify why the principle is appropriate in a given scenario.", "author": "MTH 315", "id": "use_principle_critique_correct_identify_appropriate"}
+{"text": "Use the principle to calculate the cardinalities of various sets, including unions, complements, and others, for 2 or 3 sets. Use set notation correctly.", "author": "MTH 315", "id": "calculate_set_cardinalities"}
+{"text": "Find the intersection, union, complement, and symmetric difference of two or more sets.", "author": "Sylvia Carlisle", "id": "set_operations"}
+{"text": "Sketch a Venn Diagram representing a compound set or a word problem", "author": "Sylvia Carlisle", "id": "sketch_venn_diagram_compound_set"}
+{"text": "Use Venn Diagrams", "author": "Debra Borkovitz", "id": "use_venn_diagrams"}
+{"text": "Recognize and solve counting problems using the Twelvefold way chart", "author": "Debra Borkovitz", "id": "solve_counting_problems"}
+{"text": "Develop skills in counting and permutations", "author": "Debra Borkovitz", "id": "counting_and_permutations"}
+{"text": "use factorials and binomial coefficients to count permutations and combinations", "author": "Jessica Sidman", "id": "count_permutations_combinations"}
+{"text": "Formulate combinatorial arguments for facts about factorials, powers and binomials", "author": "Sylvia Carlisle", "id": "formulate_combinatorial_arguments"}
+{"text": "Write proofs by induction or strong induction of inequalities with factorials and/or powers", "author": "Sylvia Carlisle", "id": "prove_inequalities_factorials_powers"}
+{"text": "State the Principle of Mathematical Induction, The Principle of Strong Mathematical Induction and the Well Ordering Principle", "author": "Sylvia Carlisle", "id": "state_math_induction_principles"}
+{"text": "explain the logic of the base case, induction hypothesis and induction step, and implement the technique of proof by induction correctly", "author": "Jessica Sidman", "id": "explain_proof_by_induction"}
+{"text": "Understand the structure, pattern, and proof in discrete mathematics.", "author": "David Clark", "id": "understand_structure_pattern_proof_discrete_math"}
+{"text": "Understand the foundations of discrete mathematics", "author": "Debra Borkovitz", "id": "foundations_of_discrete_mathematics"}
+{"text": "Introduce students to discrete mathematics, covering especially the topics noted below.", "author": "Sylvia Carlisle", "id": "introduce_students_to_discrete_mathematics"}
+{"text": "Introduce applications of discrete mathematics, especially to science and engineering.", "author": "Sylvia Carlisle", "id": "apply_discrete_mathematics"}
+{"text": "Apply discrete mathematics techniques to solve real-life problems.", "author": "David Clark", "id": "apply_discrete_math"}
+{"text": "Improve mathematical modeling and analytical problem solving skills, especially with discrete mathematics topics.", "author": "Sylvia Carlisle", "id": "improve_math_modeling_discrete_math"}
+{"text": "Develop problem-solving skills", "author": "Debra Borkovitz", "id": "develop_problem_solving"}
+{"text": "Develop reasoning skills", "author": "Debra Borkovitz", "id": "develop_reasoning_skills"}
+{"text": "Demonstrate understanding of concepts in problems", "author": "Sylvia Carlisle", "id": "understand_concepts_in_problems"}
+{"text": "Write a thoughtful and thorough reflection about the topics we\u2019ve studied this semester and the connections between them. Identify and explain connections between topics and/or real world problems. Explain, with relevant examples, how you have used reasoning, problem-solving, communication, multiple representations, and/or connecting ideas to help develop your mathematical understanding.", "author": "MTH 315", "id": "reflect_on_topics_and_connections"}
+{"text": "Learn to communicate mathematical ideas", "author": "Debra Borkovitz", "id": "communicate_mathematical_ideas"}
+{"text": "Develop ability to communicate mathematically.", "author": "Sylvia Carlisle", "id": "communicate_mathematically"}
+{"text": "Help students grow as mathematical thinkers", "author": "Debra Borkovitz", "id": "grow_as_mathematical_thinkers"}
+{"text": "Learn math from a new point of view.", "author": "David Clark", "id": "learn_math_new_pov"}
+{"text": "Develop a deep understanding of the ideas outlined in the course.", "author": "David Clark", "id": "understand_course_ideas"}
+{"text": "Develop skills in making connections", "author": "Debra Borkovitz", "id": "develop_skills_making_connections"}
+{"text": "Develop communication skills", "author": "Debra Borkovitz", "id": "develop_communication_skills"}
+{"text": "Demonstrate proper written communication of discrete mathematics concepts and methods.", "author": "David Clark", "id": "demonstrate_written_communication_discrete_math"}
+{"text": "Apply standards for mathematical practice successfully in mathematical work.", "author": "David Clark", "id": "apply_standards_math_practice"}
+{"text": "Apply the CCSS Standards for Mathematical Practice successfully in mathematical work.", "author": "David Clark", "id": "apply_ccss_standards_math_practice"}
+{"text": "Improve ability to see patterns, make conjectures, and write proofs independently.", "author": "David Clark", "id": "improve_pattern_conjecture_proof"}
+{"text": "Avoid making large logical leaps without explanation in proofs", "author": "Sylvia Carlisle", "id": "avoid_large_logical_leaps_in_proofs"}
+{"text": "State assumptions explicitly in proofs", "author": "Sylvia Carlisle", "id": "state_assumptions_in_proofs"}
+{"text": "Write proofs by induction or strong induction in situations where the connection with Z+ may not be immediately obvious", "author": "Sylvia Carlisle", "id": "write_induction_proofs"}
+{"text": "write proofs involving graphs", "author": "Jessica Sidman", "id": "write_graph_proofs"}
+{"text": "fundamentals of graph theory.", "author": "Jessica Sidman", "id": "graph_theory_fundamentals"}
+{"text": "recall basic graph theory definitions including: graph, vertex, edge, degree, path, cycle, tree, connected, planar graph, circuit, walk", "author": "Jessica Sidman", "id": "recall_graph_theory_definitions"}
+{"text": "Use and work with basic terms such as \u201cgraph\u201d, \u201cvertex\u201d, \u201cedge\u201d, \u201cdegree\u201d, etc. correctly in the context of graph theory problems. Use graph notation correctly (such as writing the names of edges, using sets of vertices or edges, using degrees, etc.). Use the degree sum formula correctly. Be able to identify and work with common families of graphs and their properties, such as complete graphs, wheels, complete bipartite graphs, etc.", "author": "MTH 315", "id": "use_basic_graph_terms_and_notation"}
+{"text": "give examples of graphs exhibiting properties described by our definitions and important theorems (about vertex degree, trees, and planarity)", "author": "Jessica Sidman", "id": "graph_properties_examples"}
+{"text": "Determine general classes of graphs do (or don\u2019t) have these types of walks, and justify using the structure of the graphs, walks, and theorems from class.", "author": "MTH 315", "id": "determine_graph_walk_classes"}
+{"text": "Use counting methods to count the number of different types of walks within a graph, use walks within other definitions (such as \u201cconnected\u201d), and describe special types of walks based on their properties.", "author": "MTH 315", "id": "count_walks_in_graph"}
+{"text": "Define, identify, and use the terms \u201cwalk\u201d, \u201ctrail\u201d, \u201cpath\u201d, \u201ccircuit\u201d, and \u201ccycle\u201d, including open and closed variations. Distinguish between them and understand their relationships.", "author": "MTH 315", "id": "define_identify_use_walk_trail_path_circuit_cycle"}
+{"text": "Find an example of each of Eulerian circuit or trail, and Hamiltonian cycle or path, in a given graph or explain why they can\u2019t be found. Explain how to construct a trail/path from a given circuit/cycle. State the definition of each kind of walk.", "author": "MTH 315", "id": "find_eulerian_hamiltonian_graph"}
+{"text": "Model discrete real-life problems using enumerative and graph theory concepts.", "author": "David Clark", "id": "model_discrete_problems"}
+{"text": "Identify discrete structures correctly.", "author": "David Clark", "id": "identify_discrete_structures"}
+{"text": "Learn combinatorics with applications", "author": "Debra Borkovitz", "id": "learn_combinatorics"}
+{"text": "apply counting techniques to compute basic probabilities", "author": "Jessica Sidman", "id": "compute_basic_probabilities"}
+{"text": "Learn elementary probability theory", "author": "Debra Borkovitz", "id": "learn_elementary_probability_theory"}
+{"text": "elementary discrete probability.", "author": "Jessica Sidman", "id": "elementary_discrete_probability"}
+{"text": "Calculate the probability of an event given as a subset of a sample space.", "author": "Sylvia Carlisle", "id": "calculate_probability_given_subset"}
+{"text": "Determine the preimage of a subset of the codomain of a function", "author": "Sylvia Carlisle", "id": "determine_preimage_subset_codomain"}
+{"text": "Find the domain, codomain and range of a function, and calculate images of elements and sets", "author": "Sylvia Carlisle", "id": "find_domain_codomain_range_calculate_images"}
+{"text": "Identify whether a function is one-to-one and/or onto", "author": "Sylvia Carlisle", "id": "identify_function_properties"}
+{"text": "Identify whether or not a function is one-to-one or onto.", "author": "Sylvia Carlisle", "id": "identify_function_properties"}
+{"text": "functions and their properties.", "author": "Jessica Sidman", "id": "functions_and_properties"}
+{"text": "Recognize and solve problems involving general or injective functions", "author": "Debra Borkovitz", "id": "solve_general_injective_functions"}
+{"text": "Solve more difficult, open-ended problems involving multiple tools and clearly explain your answers", "author": "Sylvia Carlisle", "id": "solve_difficult_problems"}
+{"text": "Provide relevant work and explanations in English/Mathspeak to justify answers", "author": "Sylvia Carlisle", "id": "justify_answers"}
+{"text": "Explain answers sufficiently to convince skeptical readers", "author": "Sylvia Carlisle", "id": "explain_sufficiently"}
+{"text": "Given a scenario, identify pigeons and pigeonholes and use the basic principle to come to a correct conclusion, with justification.", "author": "MTH 315", "id": "identify_pigeons_pigeonholes"}
+{"text": "Solve problems using the standard form of the pigeonhole principle.", "author": "Sylvia Carlisle", "id": "solve_problems_pigeonhole"}
+{"text": "use the pigeonhole principle", "author": "Jessica Sidman", "id": "apply_pigeonhole_principle"}
+{"text": "Recognize and solve word problems involving the Pigeonhole Principle", "author": "Sylvia Carlisle", "id": "solve_word_problems_pigeonhole_principle"}
+{"text": "Use basic facts about divisibility to solve problems, including word problems", "author": "Sylvia Carlisle", "id": "solve_problems_using_divisibility"}
+{"text": "basic number theory (properties of the integers) related to divisibility.", "author": "Jessica Sidman", "id": "basic_number_theory_divisibility"}
+{"text": "Prove basic statements about divisibility and primes from the definitions, or disprove them by counterexample.", "author": "Sylvia Carlisle", "id": "prove_divisibility_primes"}
+{"text": "Prove statements about divisibility, gcd, lcm and primes from the definitions, or disprove by counterexample", "author": "Sylvia Carlisle", "id": "prove_divisibility_gcd_lcm_primes"}
+{"text": "Use the fact that products of primes are unique to solve divisibility relations", "author": "Sylvia Carlisle", "id": "unique_prime_products"}
+{"text": "Use products of primes to count divisors of a given integer with given conditions", "author": "Sylvia Carlisle", "id": "count_divisors_with_conditions"}
+{"text": "Use products of primes to count the number of divisors of a positive integer with given conditions.", "author": "Sylvia Carlisle", "id": "count_divisors_with_primes"}
+{"text": "Write an integer as a product of primes", "author": "Sylvia Carlisle", "id": "write_integer_as_product_of_primes"}
+{"text": "Write GCD as a linear combo of two integers", "author": "Sylvia Carlisle", "id": "write_gcd_linear_combo"}
+{"text": "perform the Euclidean algorithm correctly to compute the gcd of two integers", "author": "Jessica Sidman", "id": "compute_gcd_using_euclidean_algorithm"}
+{"text": "Calculate GCDs (and LCMs) using the Euclidean Algorithm", "author": "Sylvia Carlisle", "id": "calculate_gcds_using_euclidean_algorithm"}
+{"text": "Determine greatest common divisors using the Euclidean Algorithm.", "author": "Sylvia Carlisle", "id": "determine_gcd_euclidean_algorithm"}
+{"text": "Use the Euclidean Algorithm to find the greatest common divisor", "author": "Debra Borkovitz", "id": "find_gcd_using_euclidean_algorithm"}
+{"text": "Find a linear combination which expresses the greatest common divisor of two integers.", "author": "Sylvia Carlisle", "id": "find_linear_combination_gcd"}
+{"text": "Find the number of integer solutions to linear equations with unit coefficients", "author": "Sylvia Carlisle", "id": "count_integer_solutions_linear_equations"}
+{"text": "Learn number theory", "author": "Debra Borkovitz", "id": "learn_number_theory"}
+{"text": "recall the definitions of prime number, divisibility, congruence, greatest common divisor, quotient and remainder accurately and give examples of each", "author": "Jessica Sidman", "id": "recall_prime_divisibility_congruence_gcd_quotient_remainder"}
+{"text": "Find quotients and remainders as specified in the division algorithm.", "author": "Sylvia Carlisle", "id": "find_quotients_remainders"}
+{"text": "Calculate quotients and remainders as in the division algorithm", "author": "Sylvia Carlisle", "id": "calculate_quotients_remainders"}
+{"text": "Work with numbers in different bases, convert to new base using division", "author": "Sylvia Carlisle", "id": "work_with_numbers_in_different_bases"}
+{"text": "Use the binomial and multinomial theorems to find coefficients of expanded binomials and multinomials", "author": "Sylvia Carlisle", "id": "find_coefficients_expanded_binomials_multinomials"}
+{"text": "use the counting interpretation of a binomial coefficient in a combinatorial proof", "author": "Jessica Sidman", "id": "counting_interpretation_combinatorial_proof"}
+{"text": "Use the formula for the number of circular permutations correctly", "author": "Sylvia Carlisle", "id": "use_circular_permutations_formula"}
+{"text": "Interpret a definition as a biconditional even if not written that way", "author": "Sylvia Carlisle", "id": "interpret_biconditional"}
+{"text": "Present answers clearly and organized in own words", "author": "Sylvia Carlisle", "id": "present_answers_clearly"}
+{"text": "Write answers neatly with adequate room for comments", "author": "Sylvia Carlisle", "id": "write_neatly_with_comments"}
+{"text": "Attempt all questions on worksheets", "author": "Sylvia Carlisle", "id": "attempt_all_worksheet_questions"}
+{"text": "Submit worksheets by the deadline", "author": "Sylvia Carlisle", "id": "submit_worksheets_by_deadline"}
+{"text": "Include CM number and name on the first page of worksheets", "author": "Sylvia Carlisle", "id": "include_cm_number_name_worksheets"}
+{"text": "Prove that square roots of integers that are not perfect squares are irrational", "author": "Sylvia Carlisle", "id": "prove_irrational_square_roots"}
+{"text": "Create a precise conjecture statement based on data. Write a correct, complete, and clear proof that follows MTH 210 style, using an appropriate proof method. In particular, correctly use induction in a graph theory proof, including clearly identifying the claim, verifying a valid basis case, and appropriately \u201cbreaking down\u201d in the induction step.", "author": "MTH 315", "id": "create_conjecture_proof_induction"}
+{"text": "Cite collaborators and outside sources", "author": "Sylvia Carlisle", "id": "cite_collaborators"}

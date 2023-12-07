@@ -1,0 +1,38 @@
+{"text": "Demonstrate knowledge of mathematical content involving functions (algebraic, exponential, logarithmic, and trigonometric), domains, ranges, graphs, equations, and inequalities", "author": "Rachel Weir", "id": "math_functions_knowledge"}
+{"text": "Equations and Inequalities: Successful Precalculus students are proficient at solving a wide array of equations and inequalities involving linear, quadratic, higher-order polynomial, rational, exponential, logarithmic, radical, piecewise-defined (including absolute value), and trigonometric functions.", "author": "Ohio Math Initiative", "id": "solve_equations_and_inequalities"}
+{"text": "Functions: Successful Precalculus students demonstrate a deep understanding of functions whether they are described verbally, numerically, graphically, or algebraically (both explicitly and implicitly). Students should be proficient working with the following families of functions: linear, quadratic, higher-order polynomial, rational, exponential, logarithmic, radical, piecewise-defined (including absolute value), and periodic functions.", "author": "Ohio Math Initiative", "id": "functions_understanding"}
+{"text": "Modeling with Functions: Successful Precalculus students should have experience in using and creating mathematics which models a wide range of phenomena.", "author": "Ohio Math Initiative", "id": "modeling_with_functions"}
+{"text": "Appropriate Use of Technology: Successful Precalculus students are proficient at choosing and applying technology to assist in analyzing functions.", "author": "Ohio Math Initiative", "id": "use_technology_analyze_functions"}
+{"text": "Equivalencies: Successful Precalculus students are proficient in creating equivalencies in order to simplify expressions, solve equations and inequalities, or take advantage of a common structure or form.", "author": "Ohio Math Initiative", "id": "equivalencies"}
+{"text": "Reasons Mathematically: Successful Precalculus students demonstrate a proficiency at reasoning mathematically.", "author": "Ohio Math Initiative", "id": "reason_mathematically"}
+{"text": "Geometry: Successful Precalculus students demonstrate a deep understanding of the measurements of right triangles, right triangles as building blocks of general triangles, and right triangles as a bridge between circular measurements and rectangular measurements.", "author": "Ohio Math Initiative", "id": "geometry_measurements"}
+{"text": "Write correct and complete mathematical proofs of precalculus results", "author": "Rachel Weir", "id": "write_precalc_proofs"}
+{"text": "Use the methods of precalculus to solve applied problems that model real-world situations", "author": "Rachel Weir", "id": "solve_applied_problems_precalculus"}
+{"text": "Identify the work habits and study skills required to be successful in this course and in subsequent math courses", "author": "Rachel Weir", "id": "work_habits_study_skills"}
+{"text": "Students who successfully complete this course will be able to show mastery on a set of mathematical tasks called standards.", "author": "Sharona Krinsky", "id": "math_standards_mastery"}
+{"text": "We will have approximately 47 standards that will be assessed during the semester.", "author": "Sharona Krinsky", "id": "assess_standards"}
+{"text": "See the end of this syllabus for a detailed list of the standards that will be assessed.", "author": "Sharona Krinsky", "id": "assessed_standards"}
+{"text": "Objectives to Master", "author": "Rachel Weir", "id": "objectives_to_master"}
+{"text": "Goal Setting", "author": "Rachel Weir", "id": "goal_setting"}
+{"text": "Class Participation", "author": "Rachel Weir", "id": "class_participation"}
+{"text": "Contribute positively to the classroom community", "author": "Rachel Weir", "id": "contribute_to_classroom_community"}
+{"text": "Learning Reflections", "author": "Rachel Weir", "id": "learning_reflections"}
+{"text": "Prior Knowledge Solutions", "author": "Rachel Weir", "id": "prior_knowledge_solutions"}
+{"text": "Solve systems of linear equations.", "author": "Chad Wiley", "id": "solve_linear_equations"}
+{"text": "Graph linear functions and find equations of straight lines.", "author": "Chad Wiley", "id": "graph_linear_functions"}
+{"text": "Find and graph inverses of functions.", "author": "Chad Wiley", "id": "find_graph_inverses"}
+{"text": "Graph and determine properties of inverse trigonometric functions.", "author": "Chad Wiley", "id": "graph_inverse_trig_functions"}
+{"text": "Graph and determine properties of trigonometric functions.", "author": "Chad Wiley", "id": "graph_trig_functions"}
+{"text": "Graph and determine properties of logarithmic functions.", "author": "Chad Wiley", "id": "graph_log_functions"}
+{"text": "Graph and determine properties of exponential functions.", "author": "Chad Wiley", "id": "graph_exponential_properties"}
+{"text": "Graph and determine properties of rational functions.", "author": "Chad Wiley", "id": "graph_and_determine_properties_of_rational_functions"}
+{"text": "Determine properties of polynomials from their graphs and vice versa.", "author": "Chad Wiley", "id": "determine_properties_of_polynomials"}
+{"text": "Perform transformations on graphs of functions.", "author": "Chad Wiley", "id": "transform_graphs"}
+{"text": "Compose and decompose functions.", "author": "Chad Wiley", "id": "compose_decompose_functions"}
+{"text": "Decompose rational functions using the method of partial fractions.", "author": "Chad Wiley", "id": "decompose_rational_functions_partial_fractions"}
+{"text": "Divide one polynomial by another.", "author": "Chad Wiley", "id": "divide_polynomials"}
+{"text": "Find zeros of polynomials.", "author": "Chad Wiley", "id": "find_zeros_of_polynomials"}
+{"text": "Evaluate trigonometric functions.", "author": "Chad Wiley", "id": "evaluate_trig_functions"}
+{"text": "Solve equations involving exponentials and logarithms.", "author": "Chad Wiley", "id": "solve_equations_exponentials_logarithms"}
+{"text": "Application Problem", "author": "Rachel Weir", "id": "application_problem"}
+{"text": "Proof Problem", "author": "Rachel Weir", "id": "proof_problem"}

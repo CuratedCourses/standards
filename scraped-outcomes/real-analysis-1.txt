@@ -1,0 +1,113 @@
+{"text": "You will be able to write clearly, concisely, and precisely\u2014this is a writing-intensive course. This involves Writing in prose, Using proper mathematical style, Using proper mathematical notation, Using precise language, Writing enough to communicate what you need to, but no more.", "author": "Bret Benesh", "id": "write_clearly_concisely_precisely"}
+{"text": "Learn the conventions of writing mathematics and formal proofs.", "author": "Robert Campbell", "id": "learn_math_conventions"}
+{"text": "Develop a good writing style for mathematical proofs, including making sure the writing flows, not starting a sentence with a variable or symbol, not using common blackboard abbreviations in proofs, and not using contractions in formal writing.", "author": "Robert Campbell", "id": "develop_writing_style_for_mathematical_proofs"}
+{"text": "Understand the practical issues related to writing proofs, such as writing multiple drafts, ending proofs with the symbol or Q.E.D, defining any symbol or variable that is introduced, pointing out when the hypotheses of the statement are used, using the first person plural when writing proofs, being careful when using pronouns, and taking care with word order.", "author": "Robert Campbell", "id": "understand_practical_issues_writing_proofs"}
+{"text": "Deeper expertise in using definitions and writing proofs", "author": "Matt Salomone", "id": "deeper_expertise_definitions_proofs"}
+{"text": "You will understand the structure and importance of proofs. Proofs are a form of persuasive writing that are logical, comprehensible, and explanatory. This involves Evaluating existing proofs, Creating your own proofs.", "author": "Bret Benesh", "id": "understand_structure_importance_proofs"}
+{"text": "Understand what a proof is and its importance in advanced mathematics.", "author": "Robert Campbell", "id": "understand_proof_importance"}
+{"text": "Understand the criteria on which a mathematical proof is judged: correctness, clarity, and conciseness.", "author": "Robert Campbell", "id": "judge_proof_criteria"}
+{"text": "Write correct and complete mathematical proofs of Real Analysis results", "author": "Rachel Weir", "id": "write_math_proofs_real_analysis"}
+{"text": "Independently develop correct proofs of Real Analysis results", "author": "Rachel Weir", "id": "develop_correct_proofs_real_analysis"}
+{"text": "State important Real Analysis definitions and theorems accurately", "author": "Rachel Weir", "id": "state_real_analysis_definitions_theorems"}
+{"text": "Know basic theorems and definitions.", "author": "Amanda Harsy", "id": "know_basic_theorems_definitions"}
+{"text": "You will understand the structure and importance of theorems. This involves Stating theorems accurately, paying particularly close assumptions to their assumptions and conclusions, Determining where the conditions of a theorem hold in a particular situation, Recognizing logically-equivalent forms of a theorem, Formulating and testing conjectures.", "author": "Bret Benesh", "id": "understand_theorems"}
+{"text": "You will be able to abstract appropriately. This involves Being comfortable with a minimal amount of details, Being able to apply a theorem to a particular case, Generalize based on common properties of specific examples.", "author": "Bret Benesh", "id": "abstract_appropriately"}
+{"text": "Present mathematics orally in a clear and complete manner", "author": "Rachel Weir", "id": "present_math_orally"}
+{"text": "Effectively navigate the notational and logical forms of mathematical analysis", "author": "Matt Salomone", "id": "navigate_notational_logical_forms"}
+{"text": "Apply the standard rules of English usage in mathematical writing, including punctuating equations and mathematical symbols, writing in complete sentences, and using Latin abbreviations correctly.", "author": "Robert Campbell", "id": "apply_standard_rules_of_english_usage"}
+{"text": "Use mathematical symbols correctly.", "author": "Bret Benesh", "id": "use_math_symbols"}
+{"text": "Use LATEX for mathematical symbols.", "author": "Bret Benesh", "id": "use_latex_math_symbols"}
+{"text": "Do not start a sentence with a mathematical symbol.", "author": "Bret Benesh", "id": "avoid_starting_sentence_with_math_symbol"}
+{"text": "Make sure that you introduce every symbol you use.", "author": "Bret Benesh", "id": "introduce_symbols"}
+{"text": "Do not use symbols like \u2203, \u2200, \u00ac, \u2228, \u2227, and =\u21d2 . Instead, use their English equivalents.", "author": "Bret Benesh", "id": "avoid_symbolic_notation"}
+{"text": "Use appropriate quantifiers, once.", "author": "Bret Benesh", "id": "use_appropriate_quantifiers"}
+{"text": "Do not use ambiguous pronouns.", "author": "Bret Benesh", "id": "avoid_ambiguous_pronouns"}
+{"text": "Use English words liberally in a grammatically correct fashion.", "author": "Bret Benesh", "id": "use_english_words_correctly"}
+{"text": "Use whitespace appropriately.", "author": "Bret Benesh", "id": "use_whitespace_appropriately"}
+{"text": "Compact", "author": "Robert Campbell", "id": "compact"}
+{"text": "apply one of the three equivalent definitions of compactness.", "author": "Bret Benesh", "id": "apply_compactness_definition"}
+{"text": "apply the definition of open and closed sets.", "author": "Bret Benesh", "id": "apply_open_closed_sets"}
+{"text": "apply the definition of continuity.", "author": "Bret Benesh", "id": "apply_continuity_definition"}
+{"text": "Continuity", "author": "Robert Campbell", "id": "continuity"}
+{"text": "Uniform continuity", "author": "Robert Campbell", "id": "uniform_continuity"}
+{"text": "apply the definition of uniform continuity.", "author": "Bret Benesh", "id": "apply_uniform_continuity"}
+{"text": "Understand uniform continuity and its definition.", "author": "Amanda Harsy", "id": "understand_uniform_continuity"}
+{"text": "Understand the sequence definition of uniform continuity.", "author": "Amanda Harsy", "id": "understand_sequence_uniform_continuity"}
+{"text": "Understand the sequence definition of continuity.", "author": "Amanda Harsy", "id": "understand_sequence_continuity"}
+{"text": "Understand the delta-epsilon definition of continuity.", "author": "Amanda Harsy", "id": "understand_delta_epsilon_continuity"}
+{"text": "Understand the delta-epsilon limit proof.", "author": "Amanda Harsy", "id": "understand_delta_epsilon_limit_proof"}
+{"text": "Prove using a \u000f, \u03b4 proof that lim (x2 + x \u2212 5) = 1.", "author": "Amanda Harsy", "id": "prove_limit_x2_plus_x_minus_5_equals_1"}
+{"text": "Prove that the function f (x) = x2 + 3 is continuous.", "author": "Amanda Harsy", "id": "prove_function_continuous"}
+{"text": "Be able to prove that a function is continuous or not continuous.", "author": "Amanda Harsy", "id": "prove_function_continuity"}
+{"text": "Prove that a given function is discontinuous at a certain point.", "author": "Amanda Harsy", "id": "prove_function_discontinuous"}
+{"text": "Prove or disprove the differentiability of a given function at a certain point.", "author": "Amanda Harsy", "id": "prove_disprove_differentiability"}
+{"text": "apply the definition of differentiability.", "author": "Bret Benesh", "id": "apply_differentiability"}
+{"text": "Differentiable", "author": "Robert Campbell", "id": "differentiable"}
+{"text": "Derivative", "author": "Robert Campbell", "id": "derivative_learning"}
+{"text": "Formalize the notion of the derivative of a function", "author": "Chad Wiley", "id": "formalize_derivative"}
+{"text": "Formalize the notion of continuity of a function", "author": "Chad Wiley", "id": "formalize_continuity"}
+{"text": "The foundations that make continuous functions possible", "author": "Matt Salomone", "id": "foundations_continuous_functions"}
+{"text": "Demonstrate how continuous functions are 'made possible' by properties of the real numbers", "author": "Matt Salomone", "id": "continuous_functions_properties_real_numbers"}
+{"text": "Derive important properties of continuous and differentiable functions", "author": "Chad Wiley", "id": "derive_properties_continuous_differentiable"}
+{"text": "Be able to prove basic theorems using the definition of the derivative.", "author": "Amanda Harsy", "id": "prove_basic_theorems_using_derivative"}
+{"text": "Understand the Mean Value Theorem and be able to apply it.", "author": "Amanda Harsy", "id": "understand_mean_value_theorem"}
+{"text": "Mean Value Theorem", "author": "Robert Campbell", "id": "mean_value_theorem"}
+{"text": "Intermediate Value Theorem", "author": "Robert Campbell", "id": "intermediate_value_theorem"}
+{"text": "Understand the Intermediate Value Theorem and be able to apply it.", "author": "Amanda Harsy", "id": "apply_intermediate_value_theorem"}
+{"text": "Understand the Extreme Value Theorem and be able to apply it.", "author": "Amanda Harsy", "id": "understand_extreme_value_theorem"}
+{"text": "State the formal mathematical definition of the derivative, Intermediate Value Theorem, \u03b4, \u000f definition of uniformly continuous function, \u03b4, \u000f definition of continuous function, Extreme Value Theorem.", "author": "Amanda Harsy", "id": "define_derivative_IVT_uniform_continuous_continuous_EVT"}
+{"text": "State the formal mathematical definition for advanced concepts such as Cauchy sequence, bounded sequence, monotonically increasing sequence, Bolzano-Weierstrass Theorem, \u03b4, \u000f definition of limit, and Monotone Convergence Theorem.", "author": "Amanda Harsy", "id": "define_advanced_math_concepts"}
+{"text": "State the formal mathematical definition for basic definitions and theorems such as supremum, Completeness Axiom for the Real Numbers, convergence of a sequence, triangle inequality, definition for a dense set, and equivalent forms of the Archimedean Property.", "author": "Amanda Harsy", "id": "state_math_defs_theorems"}
+{"text": "use suprema/infima/the Completeness Axiom.", "author": "Bret Benesh", "id": "use_completeness_axiom"}
+{"text": "Supremum", "author": "Robert Campbell", "id": "supremum_property"}
+{"text": "Prove basic concepts using definitions of supremum, convergence, sequence, and induction.", "author": "Amanda Harsy", "id": "prove_basic_concepts"}
+{"text": "Understand basic definitions and theorems about sups, infs, and sequences.", "author": "Amanda Harsy", "id": "understand_basic_definitions_theorems_sups_infs_sequences"}
+{"text": "Be able to determine sups, infs, max, bounded, monotone, limsups, etc for sequences.", "author": "Amanda Harsy", "id": "determine_sequence_properties"}
+{"text": "The related properties enjoyed by sequences of real numbers", "author": "Matt Salomone", "id": "related_properties_real_numbers"}
+{"text": "Understand the role of sequences and their interrelated properties in constructing the real numbers", "author": "Matt Salomone", "id": "understand_role_sequences_real_numbers"}
+{"text": "The axiomatic structure on which the real numbers are built", "author": "Matt Salomone", "id": "real_number_axioms"}
+{"text": "Understand the axiomatic foundations of the real number field and its important subsystems", "author": "Matt Salomone", "id": "understand_axiomatic_foundations_real_number_field"}
+{"text": "Some topological features of subsets of the real numbers", "author": "Matt Salomone", "id": "topological_features_real_numbers"}
+{"text": "Understand how differences in topological properties of sets give rise to different behaviors within them", "author": "Matt Salomone", "id": "topological_properties_behavior"}
+{"text": "Give examples or counterexamples for basic concepts such as subsets, upper bounds, supremum, and dense proper subsets.", "author": "Amanda Harsy", "id": "examples_counterexamples_basic_concepts"}
+{"text": "All counterexamples should be concrete, specific, and as simple as possible.", "author": "Bret Benesh", "id": "concrete_specific_simple_counterexamples"}
+{"text": "Give examples or counterexamples for advanced concepts such as convergent sequence, subsequential limits, Cauchy sequence, and monotone sequence.", "author": "Amanda Harsy", "id": "examples_counterexamples_advanced_concepts"}
+{"text": "Give examples or counterexamples for concepts such as discontinuous function, continuous function, uniformly continuous function.", "author": "Amanda Harsy", "id": "examples_counterexamples_continuous_functions"}
+{"text": "Determine which of the given continuous functions are uniformly continuous on the given domain.", "author": "Amanda Harsy", "id": "determine_uniform_continuous"}
+{"text": "Be able to find derivatives using the definition of the derivative of piecewise functions.", "author": "Amanda Harsy", "id": "find_derivatives_piecewise"}
+{"text": "Understand the consequences of continuity and differentiation.", "author": "Amanda Harsy", "id": "understand_consequences_continuity_differentiation"}
+{"text": "Understand the consequences of MVT Theorems.", "author": "Amanda Harsy", "id": "understand_mvt_consequences"}
+{"text": "Understand Rolle\u2019s Theorem and be able to apply it.", "author": "Amanda Harsy", "id": "understand_rolles_theorem"}
+{"text": "Rolle\u2019s Theorem", "author": "Robert Campbell", "id": "rolles_theorem"}
+{"text": "Fundamental Theorem of Calculus", "author": "Robert Campbell", "id": "fundamental_theorem_calculus"}
+{"text": "Formalize the notion of the integral of a function", "author": "Chad Wiley", "id": "formalize_integral_function"}
+{"text": "Darboux-integrable", "author": "Robert Campbell", "id": "darboux_integrable"}
+{"text": "apply the definition of integrable.", "author": "Bret Benesh", "id": "apply_integrable_definition"}
+{"text": "Riemann-integrable", "author": "Robert Campbell", "id": "riemann_integrable"}
+{"text": "Partition", "author": "Robert Campbell", "id": "partitioning"}
+{"text": "Sequence", "author": "Robert Campbell", "id": "sequence"}
+{"text": "Answer questions about a given sequence.", "author": "Amanda Harsy", "id": "answer_sequence_questions"}
+{"text": "Monotone Convergence Theorem for Sequences", "author": "Robert Campbell", "id": "monotone_convergence_theorem_sequences"}
+{"text": "apply the definition of convergence/divergence of sequences.", "author": "Bret Benesh", "id": "apply_convergence_divergence"}
+{"text": "apply the definition of limit of a function.", "author": "Bret Benesh", "id": "apply_limit_definition"}
+{"text": "Limit", "author": "Robert Campbell", "id": "limit"}
+{"text": "Squeeze Theorem", "author": "Robert Campbell", "id": "squeeze_theorem"}
+{"text": "Bounded", "author": "Robert Campbell", "id": "bounded"}
+{"text": "Infemum", "author": "Robert Campbell", "id": "infemum"}
+{"text": "Local maximum/minimum", "author": "Robert Campbell", "id": "local_max_min"}
+{"text": "All of the specifications for the Weekly Problems except for the requirement that the assignment be on time.", "author": "Bret Benesh", "id": "weekly_problems_specifications_except_on_time"}
+{"text": "Submit the assignment at the beginning of the appropriate class period.", "author": "Bret Benesh", "id": "submit_assignment_early"}
+{"text": "You submit this assignment in on time.", "author": "Bret Benesh", "id": "submit_assignment_on_time"}
+{"text": "Review all examples from Notes and Ice sheets and homework.", "author": "Amanda Harsy", "id": "review_examples"}
+{"text": "Do not write down anything that has not yet been proven.", "author": "Bret Benesh", "id": "do_not_write_unproven"}
+{"text": "Do not use the conclusion to help prove the conclusion.", "author": "Bret Benesh", "id": "avoid_using_conclusion_to_prove_itself"}
+{"text": "State the problem or theorem you are proving.", "author": "Bret Benesh", "id": "state_problem_or_theorem"}
+{"text": "Attempt every assigned problem.", "author": "Bret Benesh", "id": "attempt_assigned_problems"}
+{"text": "Write strings of equalities/inequalities in the correct order.", "author": "Bret Benesh", "id": "write_order_of_inequalities"}
+{"text": "Formalize the notion of convergence of sequences and series", "author": "Chad Wiley", "id": "convergence_of_sequences_and_series"}
+{"text": "Compare and contrast the properties of polynomials and power series", "author": "Chad Wiley", "id": "compare_properties_polynomials_power_series"}
+{"text": "Prove that, for any differentiable functions, f and g, (f \u00b7 g)0 (a) = f 0 (a)g(a) + f (a)g 0 (a).", "author": "Amanda Harsy", "id": "prove_derivative_product_rule"}
+{"text": "The proof should be mostly complete and correct.", "author": "Bret Benesh", "id": "proof_mostly_complete"}
+{"text": "Do not include examples in your proof.", "author": "Bret Benesh", "id": "exclude_examples_in_proof"}
+{"text": "Give sufficient detail for a peer to follow your argument.", "author": "Bret Benesh", "id": "provide_sufficient_detail_for_peer_argument"}
+An error occurred: 'identifier'

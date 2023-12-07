@@ -1,0 +1,340 @@
+{"text": "characterize the types of solutions to systems of linear equations using appropriate notation and vocabulary.", "author": "Tom Mahoney", "id": "characterize_solutions_linear_equations"}
+{"text": "Characterize the solution set of a system of linear equations.", "author": "Matt Salomone", "id": "characterize_solution_set_linear_equations"}
+{"text": "compute the solution set for a system of linear equations.", "author": "Drew Lewis", "id": "compute_solution_set_linear_equations"}
+{"text": "Solve Systems of Linear Equations", "author": "Robert Campbell", "id": "solve_linear_equations"}
+{"text": "Solving systems of linear equations", "author": "Amanda Harsy", "id": "solve_linear_equations"}
+{"text": "Solving Systems of Equations", "author": "Bret Benesh", "id": "solve_systems_equations"}
+{"text": "Solve systems of equations by hand and using a CAS.", "author": "Christine von Renesse", "id": "solve_equations"}
+{"text": "Apply various tools for solving systems of linear equations.", "author": "Tom Mahoney", "id": "solve_linear_equations"}
+{"text": "Apply the concepts and methods of linear algebra (e.g., solving systems of linear equations using Gaussian or Gauss-Jordan elimination) to solve a variety of problems.", "author": "David Clark", "id": "apply_linear_algebra"}
+{"text": "Use linear algebra to solve real world problems.", "author": "Christine von Renesse", "id": "solve_real_world_problems_linear_algebra"}
+{"text": "Apply the techniques of linear algebra to real-world phenomena.", "author": "David Clark", "id": "apply_linear_algebra_real_world"}
+{"text": "Understanding and application of linear algebra in various applications", "author": "Debra K. Borkovitz", "id": "understanding_and_application_of_linear_algebra"}
+{"text": "Understanding and application of computer methods in linear algebra", "author": "Debra K. Borkovitz", "id": "understanding_and_application_of_computer_methods_in_linear_algebra"}
+{"text": "Understanding and application of matrix algebra", "author": "Debra K. Borkovitz", "id": "matrix_algebra_understanding"}
+{"text": "Using matrix algebra and the related matrices", "author": "Amanda Harsy", "id": "matrix_algebra"}
+{"text": "multiply matrices.", "author": "Drew Lewis", "id": "multiply_matrices"}
+{"text": "Matrix Operations", "author": "Bret Benesh", "id": "matrix_operations"}
+{"text": "Perform algebraic operations on vectors and matrices.", "author": "Matt Salomone", "id": "perform_algebraic_operations_vectors_matrices"}
+{"text": "perform algebraic operations with matrices, including addition, subtraction, scalar multiplication, matrix multiplication, and transposition.", "author": "Tom Mahoney", "id": "perform_matrix_operations"}
+{"text": "Perform fundamental operations in the algebra of matrices, including multiplying and inverting matrices.", "author": "Drew Lewis", "id": "perform_matrix_operations"}
+{"text": "Compute matrix operations by hand and using a CAS.", "author": "Christine von Renesse", "id": "compute_matrix_operations"}
+{"text": "represent a row operation as matrix multiplication, and compute how the operation affects the determinant.", "author": "Drew Lewis", "id": "compute_determinant_row_operation"}
+{"text": "compute the determinant of a matrix by first using row operations.  compute the determinant of a matrix by using properties of the determinant function.", "author": "Tom Mahoney", "id": "compute_determinant_matrix"}
+{"text": "compute the determinant of a square matrix.", "author": "Drew Lewis", "id": "compute_determinant"}
+{"text": "Compute determinants and invert matrices.", "author": "Christine von Renesse", "id": "compute_determinants_invert_matrices"}
+{"text": "Computing and using determinants", "author": "Amanda Harsy", "id": "compute_and_use_determinants"}
+{"text": "Understanding and application of determinants", "author": "Debra K. Borkovitz", "id": "understanding_and_application_of_determinants"}
+{"text": "Demonstrate theoretical connections relating determinants of square matrices with the properties of those matrices.", "author": "Matt Salomone", "id": "determine_properties_of_square_matrices"}
+{"text": "Demonstrate theoretical connections between eigenvalues/eigenspaces and other important properties of square matrices.", "author": "Matt Salomone", "id": "demonstrate_eigenvalues_connections"}
+{"text": "Understand the concepts of eigenvalue, eigenvector, and eigenspace", "author": "Robert Campbell", "id": "understand_eigenvalue_concepts"}
+{"text": "Define Eigenvector and Eigenvalue", "author": "Robert Campbell", "id": "define_eigenvector_eigenvalue"}
+{"text": "Eigenvalues and Eigenvectors", "author": "Bret Benesh", "id": "eigenvalues_and_eigenvectors"}
+{"text": "Eigenvector", "author": "Bret Benesh", "id": "eigenvector"}
+{"text": "Computing and using eigenvectors and eigenvalues", "author": "Amanda Harsy", "id": "compute_eigenvectors"}
+{"text": "Compute eigenvectors and eigenvalues and use them in applications.", "author": "Christine von Renesse", "id": "compute_eigenvectors_and_eigenvalues"}
+{"text": "Understanding and application of eigenvalues and eigenvectors, canonical decomposition", "author": "Debra K. Borkovitz", "id": "eigenvalues_and_eigenvectors"}
+{"text": "Identify Eigenvalues and Eigenvectors of a Linear Operator", "author": "Robert Campbell", "id": "identify_eigenvalues_eigenvectors"}
+{"text": "Calculate Eigenvalues and Eigenvectors of a Linear Transformation", "author": "Robert Campbell", "id": "calculate_eigenvalues_eigenvectors"}
+{"text": "Calculate the Matrix Associated to a Linear Transformation", "author": "Robert Campbell", "id": "calculate_matrix_linear_transformation"}
+{"text": "Given its effect on basis vectors, determine a matrix representing a linear transformation.", "author": "Matt Salomone", "id": "determine_matrix_linear_transformation"}
+{"text": "Identify Linear Transformations", "author": "Robert Campbell", "id": "identify_linear_transformations"}
+{"text": "Linear Transformations", "author": "Bret Benesh", "id": "linear_transformations"}
+{"text": "Linear Transformation", "author": "Bret Benesh", "id": "linear_transformation"}
+{"text": "Define Linear Transformation", "author": "Robert Campbell", "id": "define_linear_transformation"}
+{"text": "Understand the definition and properties of a linear transformation", "author": "Robert Campbell", "id": "understand_linear_transformation"}
+{"text": "Understand the concepts of domain and codomain of a linear transformation", "author": "Robert Campbell", "id": "understand_domain_codomain_linear_transformation"}
+{"text": "Determine the Domain and Codomain of a Linear Transformation", "author": "Robert Campbell", "id": "determine_domain_codomain_linear_transformation"}
+{"text": "Determine the Image of a Linear Transformation", "author": "Robert Campbell", "id": "determine_image_linear_transformation"}
+{"text": "Determine the Kernel of a Linear Transformation", "author": "Robert Campbell", "id": "determine_kernel_linear_transformation"}
+{"text": "compute a basis for the kernel and a basis for the image of a linear map.", "author": "Drew Lewis", "id": "compute_kernel_image_basis"}
+{"text": "compute the null space and column space of a matrix.  compute the kernel and range of a linear transformation.", "author": "Tom Mahoney", "id": "compute_null_column_space_kernel_range"}
+{"text": "Understand the concepts of kernel and nullspace of a linear transformation", "author": "Robert Campbell", "id": "understand_kernel_nullspace_linear_transformation"}
+{"text": "Understand the concept of nullity of a linear transformation", "author": "Robert Campbell", "id": "understand_nullity_linear_transformation"}
+{"text": "Determine the Nullity of a Linear Transformation", "author": "Robert Campbell", "id": "determine_nullity_linear_transformation"}
+{"text": "Determine if a Linear Transformation is Injective", "author": "Robert Campbell", "id": "determine_linear_transformation_injective"}
+{"text": "determine if a given linear map is injective and/or surjective.", "author": "Drew Lewis", "id": "determine_linearmap_injective_surjective"}
+{"text": "Determine if a Linear Transformation is Surjective", "author": "Robert Campbell", "id": "determine_linear_transformation_surjective"}
+{"text": "Determine if a Linear Transformation is an Isomorphism", "author": "Robert Campbell", "id": "determine_linear_transformation_isomorphism"}
+{"text": "Determine the Invertibility of a Linear Transformation", "author": "Robert Campbell", "id": "determine_invertibility_linear_transformation"}
+{"text": "Calculate the Inverse of a Linear Transformation", "author": "Robert Campbell", "id": "calculate_inverse_linear_transformation"}
+{"text": "compute the inverse matrix of an invertible matrix.", "author": "Drew Lewis", "id": "compute_inverse_matrix"}
+{"text": "compute the inverse of a matrix, when it exists.", "author": "Tom Mahoney", "id": "compute_inverse_matrix"}
+{"text": "Determine the inverse of a matrix using Gaussian elimination and use the inverse to solve a linear system.", "author": "Matt Salomone", "id": "inverse_matrix_gaussian_elimination"}
+{"text": "Solve systems of linear equations using row operations and Gaussian elimination.", "author": "Matt Salomone", "id": "solve_linear_equations"}
+{"text": "Understanding and application of Gaussian elimination", "author": "Debra K. Borkovitz", "id": "gaussian_elimination_understanding"}
+{"text": "Constructing and using diagonalization, QR factorization, and Singular Value Decomposition to solve systems of equations and other application problems", "author": "Amanda Harsy", "id": "solve_equations_with_decomposition"}
+{"text": "Model phenomena using vectors and matrices and solve applied problems.", "author": "Matt Salomone", "id": "model_phenomena_vectors_matrices"}
+{"text": "Applying linear algebra techniques like least squares, Markov processes, and Cramer's Rule to complete data-driven applications", "author": "Amanda Harsy", "id": "apply_linear_algebra_techniques"}
+{"text": "solve systems of linear equations using row operations.  determine if a matrix is in echelon or reduced echelon form.  perform row operations to achieve reduced echelon form.", "author": "Tom Mahoney", "id": "solve_linear_equations"}
+{"text": "put a matrix in reduced row echelon form.", "author": "Drew Lewis", "id": "rref_matrix"}
+{"text": "compute the row space of a matrix.  compute the rank and nullity of a matrix.", "author": "Tom Mahoney", "id": "compute_row_space_rank_nullity"}
+{"text": "Find a basis for the row space, column space, and null space of a matrix.", "author": "Matt Salomone", "id": "find_basis_spaces"}
+{"text": "find a basis for the eigenspace of a square matrix associated with a given eigenvalue.", "author": "Drew Lewis", "id": "find_basis_eigenspace"}
+{"text": "Determine eigenvectors of a matrix associated to a given eigenvalue and (where appropriate) a basis for the associated eigenspace.", "author": "Matt Salomone", "id": "determine_eigenvectors"}
+{"text": "Given a matrix and its eigenvalues, I can find associated eigenvectors. I can find the eigenspace of a matrix for a specified eigenvalue. I can use the characteristic equation of a matrix to determine its eigenvalues (along with their multiplicities).", "author": "Tom Mahoney", "id": "find_eigenvectors_eigenspace_characteristic_equation"}
+{"text": "Determine the eigenvalues of a square matrix and their multiplicities, by finding and solving its characteristic polynomial equation.", "author": "Matt Salomone", "id": "determine_eigenvalues_characteristic_polynomial"}
+{"text": "find the eigenvalues of a 2 \u00d7 2 matrix.", "author": "Drew Lewis", "id": "find_eigenvalues_2x2_matrix"}
+{"text": "Eigenvalue", "author": "Bret Benesh", "id": "eigenvalue"}
+{"text": "Diagonalize matrices.", "author": "Christine von Renesse", "id": "diagonalize_matrices"}
+{"text": "Understand the concepts of similar and diagonalizable linear transformations", "author": "Robert Campbell", "id": "understand_sim_diag_linear_transformations"}
+{"text": "Classify geometry of transformations using eigenvectors.", "author": "Matt Salomone", "id": "classify_geometry_transformations_eigenvectors"}
+{"text": "Determine geometric information about a linear transformation, including computing determinants, eigenvalues, and eigenvectors.", "author": "Drew Lewis", "id": "determine_geometric_info_linear_transformation"}
+{"text": "Interpret matrix transformations geometrically.", "author": "Christine von Renesse", "id": "interpret_matrix_transformations_geometrically"}
+{"text": "Interpret the structure of matrices both algebraically and geometrically.", "author": "Tom Mahoney", "id": "interpret_matrix_structure"}
+{"text": "Understand the concepts of geometric and algebraic multiplicity", "author": "Robert Campbell", "id": "understand_geometric_algebraic_multiplicity"}
+{"text": "Understand the concept of characteristic polynomial", "author": "Robert Campbell", "id": "understand_characteristic_polynomial"}
+{"text": "Calculate the Characteristic Polynomial of a Linear Transformation", "author": "Robert Campbell", "id": "calculate_characteristic_polynomial"}
+{"text": "Calculate the Determinant of a Linear Transformation", "author": "Robert Campbell", "id": "calculate_determinant_linear_transformation"}
+{"text": "Determine the Rank of a Linear Transformation", "author": "Robert Campbell", "id": "determine_rank_linear_transformation"}
+{"text": "Understand the concept of rank of a linear transformation", "author": "Robert Campbell", "id": "understand_rank_linear_transformation"}
+{"text": "Understand the concepts of injective and surjective linear transformations", "author": "Robert Campbell", "id": "understand_concepts_injective_surjective_linear_transformations"}
+{"text": "Understand the concepts of inverse and invertible linear transformations", "author": "Robert Campbell", "id": "understand_inverse_linear_transformations"}
+{"text": "Understand the concepts of image and range of a linear transformation", "author": "Robert Campbell", "id": "understand_image_range_linear_transformation"}
+{"text": "Understand that the null space, the range, and the space of linear transformations are vector spaces.", "author": "Christine von Renesse", "id": "understand_vector_spaces"}
+{"text": "Understand the definition and properties of a vector space", "author": "Robert Campbell", "id": "understand_vector_space"}
+{"text": "Define Vector Space", "author": "Robert Campbell", "id": "define_vector_space"}
+{"text": "Vector Space", "author": "Bret Benesh", "id": "vector_space"}
+{"text": "Identify Vector Spaces", "author": "Robert Campbell", "id": "identify_vector_spaces"}
+{"text": "Describe vector spaces and their subspaces.", "author": "Tom Mahoney", "id": "describe_vector_spaces"}
+{"text": "Vector spaces and Subspaces", "author": "Bret Benesh", "id": "vector_spaces_subspaces"}
+{"text": "Subspace", "author": "Bret Benesh", "id": "subspace_learning"}
+{"text": "Identify Subspaces", "author": "Robert Campbell", "id": "identify_subspaces"}
+{"text": "determine if a subset of Rn is a subspace or not.", "author": "Drew Lewis", "id": "determine_subset_subspace_Rn"}
+{"text": "Determine whether a subset of a vector space is a vector subspace (or not).", "author": "Matt Salomone", "id": "determine_vector_subspace"}
+{"text": "Determine whether or not a set with given operations is a vector space or a subspace of another vector space.", "author": "Drew Lewis", "id": "determine_vector_space"}
+{"text": "state the definition of a vector space.  determine whether a set of vectors forms a vector space.", "author": "Tom Mahoney", "id": "define_vector_space"}
+{"text": "determine whether a set of vectors forms a basis for a vector space.  find the dimension of a vector space or a subspace of a vector space.", "author": "Tom Mahoney", "id": "determine_basis_and_dimension"}
+{"text": "Determine if a Set of Vectors forms a Basis", "author": "Robert Campbell", "id": "check_vectors_basis"}
+{"text": "Determine whether a set of vectors is linearly independent, a spanning set for a given vector subspace, and a basis for that subspace.", "author": "Matt Salomone", "id": "determine_linear_independence_spanning_basis"}
+{"text": "Determine properties of sets of vectors such as whether they are linearly independent, whether they span, and whether they are a basis of a given subspace.", "author": "Drew Lewis", "id": "determine_properties_of_vectors"}
+{"text": "write a proof to show whether a set of vectors is a linearly independent or a linearly dependent set.", "author": "Tom Mahoney", "id": "prove_vector_independence"}
+{"text": "determine if a set of Euclidean vectors is linearly dependent or independent.", "author": "Drew Lewis", "id": "determine_linear_dependence"}
+{"text": "Determine if a Set of Vectors is (In)Dependent", "author": "Robert Campbell", "id": "determine_vector_dependence"}
+{"text": "Determine if a given vector is a linear combination of a given set of vectors.", "author": "Matt Salomone", "id": "check_linear_combination"}
+{"text": "determine if a Euclidean vector can be written as a linear combination of a given set of Euclidean vectors.", "author": "Drew Lewis", "id": "check_linear_combination"}
+{"text": "determine if a set of Euclidean vectors spans Rn.", "author": "Drew Lewis", "id": "determine_spans_rn"}
+{"text": "determine if a set of Euclidean vectors is a basis of Rn.", "author": "Drew Lewis", "id": "determine_basis_of_Rn"}
+{"text": "compute a basis for the subspace spanned by a given set of Euclidean vectors.", "author": "Drew Lewis", "id": "compute_subspace_basis"}
+{"text": "Determine the Span of a Set of Vectors", "author": "Robert Campbell", "id": "determine_span_of_vectors"}
+{"text": "Understand the concept of span and spanning set", "author": "Robert Campbell", "id": "understand_spanning_concept"}
+{"text": "Span (the noun)", "author": "Bret Benesh", "id": "span_noun"}
+{"text": "Span (the verb)", "author": "Bret Benesh", "id": "span_verb"}
+{"text": "Recognizing the concepts of the terms span, linear independence, basis, and dimension, and applying these concepts to various vector spaces and subspaces", "author": "Amanda Harsy", "id": "recognize_concepts_span_linear_independence_basis_dimension"}
+{"text": "Students will be able to determine the span of a set of vectors, if a set of vectors is (in)dependent, if a set of vectors is a basis, the dimension of a vector space, domain, codomain, kernel, nullity, image, and rank of a linear transformation, the invertibility of a linear transformation, characteristic polynomial, trace, and determinant of a linear transformation, if a linear transformation is injective, surjective, an isomorphism, and the matrix of a linear transformation.", "author": "Robert Campbell", "id": "determine_span_vectors"}
+{"text": "Students will be able to identify fields, vector spaces, subspaces, eigenvalues, eigenvectors, inner products, orthogonality and orthonormality of a set of vectors, and similar linear transformations.", "author": "Robert Campbell", "id": "identify_linear_concepts"}
+{"text": "Students will be able to define a field, vector space, linear transformation, eigenvector, and eigenvalue.", "author": "Robert Campbell", "id": "define_field_vector_space_linear_transformation_eigenvector_eigenvalue"}
+{"text": "Students will be able to calculate inner products, norms, eigenvalues, and eigenvectors.", "author": "Robert Campbell", "id": "calculate_inner_products_norms_eigenvalues_eigenvectors"}
+{"text": "Students will be able to do arithmetic in fields and vector spaces.", "author": "Robert Campbell", "id": "arithmetic_in_fields_and_vector_spaces"}
+{"text": "Students will be able to solve systems of linear equations.", "author": "Robert Campbell", "id": "solve_linear_equations"}
+{"text": "Using technological tools such as computer algebra systems and graphing calculators for visualization and calculation of linear algebra concepts", "author": "Amanda Harsy", "id": "use_technological_tools_linear_algebra"}
+{"text": "perform algebraic operations with vectors, including addition, subtraction, scalar multiplication, and dot products, and linear combinations.  represent a system of linear equations as a linear combination of vectors, and vice versa.  compute the Span of a set of vectors.", "author": "Tom Mahoney", "id": "vector_operations"}
+{"text": "translate back and forth between a system of linear equations and the corresponding augmented matrix.", "author": "Drew Lewis", "id": "translate_linear_equations_matrix"}
+{"text": "Solution of linear systems", "author": "Debra K. Borkovitz", "id": "solve_linear_systems"}
+{"text": "Describe the solution space of a linear system.", "author": "Matt Salomone", "id": "describe_solution_space_linear_system"}
+{"text": "Identify the pivots in a system of linear equations and discuss their effects on the nature of the system's solution set.", "author": "Matt Salomone", "id": "identify_pivots_in_linear_equations"}
+{"text": "find a basis for the solution set of a homogeneous system of equations.", "author": "Drew Lewis", "id": "find_basis_homogeneous_system"}
+{"text": "Find bases for different vector spaces and subspaces.", "author": "Christine von Renesse", "id": "find_bases_vector_spaces_subspaces"}
+{"text": "Bases and Dimension", "author": "Bret Benesh", "id": "bases_and_dimension"}
+{"text": "Basis", "author": "Bret Benesh", "id": "basis"}
+{"text": "Understand the definition and properties of a basis", "author": "Robert Campbell", "id": "understand_basis_definition_properties"}
+{"text": "Understand the concept of a matrix associated to a basis", "author": "Robert Campbell", "id": "understand_matrix_basis"}
+{"text": "Understand the general definition of vector space, subspace and basis.", "author": "Christine von Renesse", "id": "understand_vector_space_subspace_basis"}
+{"text": "Understand the definition and properties of a subspace", "author": "Robert Campbell", "id": "understand_subspace_definition_properties"}
+{"text": "state the properties of a subspace of a vector space, and in particular for Rn .", "author": "Tom Mahoney", "id": "state_properties_subspace_Rn"}
+{"text": "compute the dimension of a subspace of Rn.", "author": "Drew Lewis", "id": "compute_subspace_dimension"}
+{"text": "Determine the Dimension of a Vector Space", "author": "Robert Campbell", "id": "determine_dimension_vector_space"}
+{"text": "Understand the concept of dimension of a vector space", "author": "Robert Campbell", "id": "understand_dimension_vector_space"}
+{"text": "Dimension", "author": "Bret Benesh", "id": "dimension"}
+{"text": "Rank", "author": "Bret Benesh", "id": "rank_learning"}
+{"text": "State the Rank-Nullity Theorem", "author": "Robert Campbell", "id": "state_rank_nullity_theorem"}
+{"text": "Students will be able to state the rank-nullity theorem.", "author": "Robert Campbell", "id": "state_rank_nullity_theorem"}
+{"text": "Nullity", "author": "Bret Benesh", "id": "nullity"}
+{"text": "Null Space", "author": "Bret Benesh", "id": "null_space"}
+{"text": "Null Spaces", "author": "Bret Benesh", "id": "null_spaces"}
+{"text": "show why an example satisfies a given vector space property, but does not satisfy another given property.", "author": "Drew Lewis", "id": "example_vector_space_properties"}
+{"text": "(Dis)Prove Basic (Non)Properties of Vector Spaces", "author": "Robert Campbell", "id": "prove_basic_vector_space_properties"}
+{"text": "Students will be able to (dis)prove basic (non)properties of vector spaces and basic (non)properties of linear transformations.", "author": "Robert Campbell", "id": "prove_disprove_vector_properties"}
+{"text": "(Dis)Prove Basic (Non)Properties of Linear Transformations", "author": "Robert Campbell", "id": "prove_basic_properties_linear_transformations"}
+{"text": "state the definition of a linear transformation.  prove whether or not a function is a linear transformation.  translate between the geometric and algebraic (matrix) representations of a linear transformation.", "author": "Tom Mahoney", "id": "linear_transformation"}
+{"text": "Using and determining formulas and representations of linear transformations", "author": "Amanda Harsy", "id": "use_determine_linear_transformations"}
+{"text": "Use linear systems to infer properties of transformations.", "author": "Matt Salomone", "id": "infer_properties_of_transformations"}
+{"text": "Determine if Transformations are Similar", "author": "Robert Campbell", "id": "determine_similarity_transformations"}
+{"text": "translate back and forth between a linear transformation of Euclidean spaces and its standard matrix, and perform related computations.", "author": "Drew Lewis", "id": "linear_transformation_matrix_computations"}
+{"text": "Construct and use invertible matrices that effect changes of coordinates.", "author": "Matt Salomone", "id": "use_invertible_matrices_for_coordinate_changes"}
+{"text": "Use transformations to define and change coordinates.", "author": "Matt Salomone", "id": "use_transformations_to_define_and_change_coordinates"}
+{"text": "Determine the coordinate expression of a given vector with respect to a given basis.", "author": "Matt Salomone", "id": "determine_coordinate_expression_of_vector"}
+{"text": "Determine the Orthogonality/Orthonormality of a Set of Vectors", "author": "Robert Campbell", "id": "determine_orthogonality"}
+{"text": "Determining and using orthogonality", "author": "Amanda Harsy", "id": "determine_and_use_orthogonality"}
+{"text": "Understanding and application of orthogonality and least squares", "author": "Debra K. Borkovitz", "id": "understanding_orthogonality_least_squares"}
+{"text": "Understand the concepts of orthogonal vectors, orthogonal set, orthogonal basis, and orthogonal to a space", "author": "Robert Campbell", "id": "understand_orthogonal_concepts"}
+{"text": "Understand the concepts of unit vector, orthonormal set, and orthonormal basis", "author": "Robert Campbell", "id": "understand_unit_vector_orthonormal"}
+{"text": "Understanding and application of vector spaces, bases, norms", "author": "Debra K. Borkovitz", "id": "understanding_and_application_of_vector_spaces_bases_norms"}
+{"text": "Understand the concept of norm of a vector", "author": "Robert Campbell", "id": "understand_norm_vector"}
+{"text": "Understand the concept of a linear operator", "author": "Robert Campbell", "id": "understand_linear_operator"}
+{"text": "Understand the concepts of trace and determinant of a linear operator", "author": "Robert Campbell", "id": "understand_trace_determinant_linear_operator"}
+{"text": "Calculate the Trace of a Linear Transformation", "author": "Robert Campbell", "id": "calculate_trace_linear_transformation"}
+{"text": "Use and apply algebraic properties of a linear tranformation.", "author": "Drew Lewis", "id": "apply_algebraic_properties_linear_transformation"}
+{"text": "determine if a map between vector spaces of polynomials is linear or not.", "author": "Drew Lewis", "id": "determine_linearity_of_polynomial_map"}
+{"text": "Vector Space Isomorphism", "author": "Bret Benesh", "id": "vector_space_isomorphism"}
+{"text": "Understand the concept of isomorphism", "author": "Robert Campbell", "id": "understand_isomorphism"}
+{"text": "Understand the definition and properties of a field in the context of linear algebra", "author": "Robert Campbell", "id": "understand_field_properties_linear_algebra"}
+{"text": "Define Field", "author": "Robert Campbell", "id": "define_field"}
+{"text": "Identify Fields", "author": "Robert Campbell", "id": "identify_fields"}
+{"text": "Do Arithmetic in Fields", "author": "Robert Campbell", "id": "do_arithmetic_in_fields"}
+{"text": "Do Arithmetic in Vector Spaces", "author": "Robert Campbell", "id": "arithmetic_in_vector_spaces"}
+{"text": "list the eight defining properties of a vector space, infer which of these properties a given example satisfies, and thus determine if the example is a vector space.", "author": "Drew Lewis", "id": "determine_vector_space_properties"}
+{"text": "All formal definitions have an example in the portfolio.", "author": "Bret Benesh", "id": "formal_definitions_with_example"}
+{"text": "All formal definitions have a non-example in the portfolio.", "author": "Bret Benesh", "id": "formal_definitions_non_example"}
+{"text": "All formal definitions in the chapter are written in the portfolio.", "author": "Bret Benesh", "id": "formal_definitions_written"}
+{"text": "All (necessary) sections are included and labeled in the portfolio.", "author": "Bret Benesh", "id": "include_all_sections_in_portfolio"}
+{"text": "All sections contain the right information in the portfolio.", "author": "Bret Benesh", "id": "sections_contain_right_info"}
+{"text": "Every Theorem (Proposition, Lemma, Corollary) is stated in the portfolio.", "author": "Bret Benesh", "id": "theorem_stated_in_portfolio"}
+{"text": "Every Theorem (Proposition, Lemma, Corollary) is proven in the portfolio.", "author": "Bret Benesh", "id": "prove_theorems_in_portfolio"}
+{"text": "Every problem in the chapter has a solution in the portfolio.", "author": "Bret Benesh", "id": "chapter_problems_have_portfolio_solution"}
+{"text": "Portfolio should be turned in on time.", "author": "Bret Benesh", "id": "portfolio_turned_in_on_time"}
+{"text": "Students should submit their assignments on time.", "author": "Bret Benesh", "id": "submit_assignments_on_time"}
+{"text": "Students should attempt every assigned problem and show their attempts.", "author": "Bret Benesh", "id": "attempt_assigned_problems"}
+{"text": "Students should state the problem or theorem they are proving.", "author": "Bret Benesh", "id": "state_problem_or_theorem"}
+{"text": "Students must be willing to present what they and/or their team thought about the problem.", "author": "Bret Benesh", "id": "present_thoughts_about_problem"}
+{"text": "Students should give sufficient detail for a peer to follow their argument.", "author": "Bret Benesh", "id": "provide_sufficient_detail_for_peer_argument"}
+{"text": "Students should assess their level of confidence that they correctly answered the question.", "author": "Bret Benesh", "id": "assess_confidence_correct_answer"}
+{"text": "Students should provide a correct, comprehensive, and thorough explanation using an appropriate combination of English sentences and mathematical symbols.", "author": "Bret Benesh", "id": "explain_using_english_and_math_symbols"}
+{"text": "Students should use mathematical symbols correctly.", "author": "Bret Benesh", "id": "use_mathematical_symbols_correctly"}
+{"text": "Students should use LATEX for mathematical symbols.", "author": "Bret Benesh", "id": "use_latex_math_symbols"}
+{"text": "Students should introduce every symbol they use.", "author": "Bret Benesh", "id": "introduce_symbols"}
+{"text": "Students should use appropriate quantifiers, once.", "author": "Bret Benesh", "id": "use_appropriate_quantifiers"}
+{"text": "Students should not use symbols like \u2203, \u2200, \u00ac, \u2228, \u2227, and =\u21d2. Instead, use their English equivalents.", "author": "Bret Benesh", "id": "avoid_logical_symbols"}
+{"text": "Students should use English words liberally in a grammatically correct fashion.", "author": "Bret Benesh", "id": "use_english_words_correctly"}
+{"text": "Students should not use ambiguous pronouns.", "author": "Bret Benesh", "id": "avoid_ambiguous_pronouns"}
+{"text": "Students should use whitespace appropriately.", "author": "Bret Benesh", "id": "use_whitespace_appropriately"}
+{"text": "Students should write strings of equalities/inequalities in the correct order.", "author": "Bret Benesh", "id": "write_order_of_equalities_inequalities"}
+{"text": "You will be able to write clearly, concisely, and precisely\u2014this is a writing-intensive course. This involves Writing in prose, Using proper mathematical style, Using proper mathematical notation, Using precise language, Writing enough to communicate what you need to, but no more.", "author": "Bret Benesh", "id": "write_clearly_concisely_precisely"}
+{"text": "Effectively and precisely communicate mathematical ideas. This includes improving writing techniques, reading for comprehension, and verbal communication.", "author": "David Clark", "id": "communicate_mathematical_ideas"}
+{"text": "Communicate mathematical ideals in writing and orally.", "author": "Christine von Renesse", "id": "communicate_math_ideals"}
+{"text": "Develop communication and writing skills in a mathematical setting", "author": "Robert Campbell", "id": "develop_communication_writing_math"}
+{"text": "Learn to read, write, and present mathematics in a manner that further improves your technical communication skills. This includes improving your ability to read mathematics for comprehension, as well as writing clear and well explained solutions to problems and presenting these to peers.", "author": "David Clark", "id": "improve_technical_communication_skills"}
+{"text": "Be more confident in doing mathematics.", "author": "Christine von Renesse", "id": "be_more_confident_in_mathematics"}
+{"text": "Realize that mathematics is more about creating and deep thinking than memorizing procedures.", "author": "Christine von Renesse", "id": "mathematics_creativity"}
+{"text": "Recognize and challenge their own beliefs and feelings about mathematics.", "author": "Christine von Renesse", "id": "recognize_challenge_beliefs_mathematics"}
+{"text": "Only accept mathematics that makes sense to them.", "author": "Christine von Renesse", "id": "accept_mathematics_sense"}
+{"text": "Be curious about mathematics.", "author": "Christine von Renesse", "id": "be_curious_math"}
+{"text": "Describing and leveraging the interdependency of different areas of mathematics, the connections between mathematics and other disciplines, and the historical context for the development of mathematical ideas", "author": "Amanda Harsy", "id": "interdependency_of_mathematics"}
+{"text": "Explain the importance of theorems to the subject.", "author": "Robert Campbell", "id": "explain_theorems_importance"}
+{"text": "You will understand the structure and importance of theorems. This involves Stating theorems accurately, paying particularly close assumptions to their assumptions and conclusions, Determining where the conditions of a theorem hold in a particular situation, Recognizing logically-equivalent forms of a theorem, Formulating and testing conjectures.", "author": "Bret Benesh", "id": "understand_theorems"}
+{"text": "Create proofs for theorems.", "author": "Robert Campbell", "id": "create_proofs"}
+{"text": "Writing clear and concise formal proofs of mathematical theorems, and evaluating the validity of proofs written by others", "author": "Amanda Harsy", "id": "write_proofs"}
+{"text": "Write correct, clear, and concise proofs.", "author": "Robert Campbell", "id": "write_correct_proofs"}
+{"text": "Apply the standard rules of English usage to proof writing.", "author": "Robert Campbell", "id": "apply_standard_rules_proof_writing"}
+{"text": "Proofs are written with your classmates as your audience.", "author": "Bret Benesh", "id": "proofs_with_classmates_as_audience"}
+{"text": "You will understand the structure and importance of proofs. Proofs are a form of persuasive writing that are logical, comprehensible, and explanatory. This involves Evaluating existing proofs, Creating your own proofs.", "author": "Bret Benesh", "id": "understand_structure_and_importance_of_proofs"}
+{"text": "Answer: What do you think is the purpose of proofs?", "author": "Bret Benesh", "id": "purpose_of_proofs"}
+{"text": "Describe your thought process about how you approach thinking about a new proof.", "author": "Bret Benesh", "id": "approach_new_proof_thought_process"}
+{"text": "Accurately evaluate the validity of a proof.", "author": "Robert Campbell", "id": "evaluate_proof_validity"}
+{"text": "Proofs are (mostly) free of the types of errors described in Section 4.", "author": "Bret Benesh", "id": "proofs_error_free"}
+{"text": "Solutions to problems are (mostly) free of the types of errors described in Section 4.", "author": "Bret Benesh", "id": "error_free_solutions"}
+{"text": "Understand the theorems predicting solutions of systems of equations.", "author": "Christine von Renesse", "id": "understand_systems_of_equations_theorems"}
+{"text": "State theorems.", "author": "Robert Campbell", "id": "state_theorems"}
+{"text": "State definitions.", "author": "Robert Campbell", "id": "state_definitions"}
+{"text": "Give examples and non-examples (when appropriate) of a definition.", "author": "Robert Campbell", "id": "give_examples_definition"}
+{"text": "Create small, relevant, illustrative examples.", "author": "Robert Campbell", "id": "create_small_relevant_examples"}
+{"text": "Generalize results.", "author": "Robert Campbell", "id": "generalize_results"}
+{"text": "You will be able to abstract appropriately. This involves Being comfortable with a minimal amount of details, Being able to apply a theorem to a particular case, Generalize based on common properties of specific examples.", "author": "Bret Benesh", "id": "abstract_appropriately"}
+{"text": "Improve your abstract and critical reasoning skills.", "author": "David Clark", "id": "improve_abstract_critical_reasoning"}
+{"text": "Demonstrate abstract and critical reasoning skills.", "author": "David Clark", "id": "demonstrate_abstract_reasoning"}
+{"text": "Enjoy the challenge of reasoning.", "author": "Christine von Renesse", "id": "enjoy_reasoning"}
+{"text": "Ask well-posed questions and conjectures.", "author": "Robert Campbell", "id": "ask_well_posed_questions"}
+{"text": "Discover/read/explain formal proofs of class conjectures and theorems.", "author": "Christine von Renesse", "id": "discover_formal_proofs"}
+{"text": "Explain which proof in the chapter you are most proud of solving and why.", "author": "Bret Benesh", "id": "proud_proof_explanation"}
+{"text": "Explain which proof in the chapter was the most difficult for you and why.", "author": "Bret Benesh", "id": "most_difficult_proof_explanation"}
+{"text": "Students should not include examples in their proof.", "author": "Bret Benesh", "id": "no_examples_in_proof"}
+{"text": "Students should not write down anything that has not yet been proven.", "author": "Bret Benesh", "id": "avoid_unproven_writing"}
+{"text": "Students should not use the conclusion to help prove the conclusion.", "author": "Bret Benesh", "id": "avoid_using_conclusion_to_prove_itself"}
+{"text": "Students should not look to resources outside the context of this course for help.", "author": "Bret Benesh", "id": "avoid_external_resources"}
+{"text": "Develop a deep understanding of the course material", "author": "Robert Campbell", "id": "understand_course_material"}
+{"text": "Demonstrate mastery of the course material", "author": "Robert Campbell", "id": "demonstrate_mastery"}
+{"text": "Demonstrate mastery on each objective throughout the semester", "author": "Robert Campbell", "id": "demonstrate_mastery"}
+{"text": "Master the learning objectives", "author": "Robert Campbell", "id": "master_learning_objectives"}
+{"text": "Assist others in their learning.", "author": "Robert Campbell", "id": "assist_others_learning"}
+{"text": "Work well with other students.", "author": "Christine von Renesse", "id": "collaborate_with_peers"}
+{"text": "Be engaged and active in your learning during class", "author": "Robert Campbell", "id": "engage_in_class_learning"}
+{"text": "Be engaged and active in your learning after class", "author": "Robert Campbell", "id": "engage_after_class"}
+{"text": "Actively engage in learning", "author": "Robert Campbell", "id": "actively_engage_learning"}
+{"text": "Practice self-regulated learning", "author": "Robert Campbell", "id": "practice_self_regulated_learning"}
+{"text": "Prepare and engage in class", "author": "Robert Campbell", "id": "prepare_and_engage_in_class"}
+{"text": "Come to class prepared.", "author": "Robert Campbell", "id": "come_to_class_prepared"}
+{"text": "Be prepared and ready to try/learn when coming to class.", "author": "Christine von Renesse", "id": "be_prepared_to_try_learn"}
+{"text": "Prepare diligently before class and come to class ready to work", "author": "Robert Campbell", "id": "prepare_diligently"}
+{"text": "Prepare before class for success", "author": "Robert Campbell", "id": "prepare_before_class"}
+{"text": "Attend class", "author": "Robert Campbell", "id": "attend_class"}
+{"text": "Respect and contribute to the class community", "author": "Robert Campbell", "id": "respect_and_contribute"}
+{"text": "Develop a deep understanding of the ideas outlined in the course.", "author": "David Clark", "id": "understand_course_ideas"}
+{"text": "Recognize how they learn best and put a plan into action.", "author": "Christine von Renesse", "id": "recognize_learning_plan"}
+{"text": "Be ok making mistakes and learning from them.", "author": "Christine von Renesse", "id": "ok_mistakes_learning"}
+{"text": "Admit not knowing and ask questions to learn.", "author": "Christine von Renesse", "id": "admit_not_knowing"}
+{"text": "Ask questions and seek help when needed", "author": "Robert Campbell", "id": "ask_questions"}
+{"text": "Identify previous steps that led to understanding.", "author": "Robert Campbell", "id": "identify_previous_steps"}
+{"text": "Demonstrate mastery of outcomes", "author": "Robert Campbell", "id": "demonstrate_mastery"}
+{"text": "Gain social competence in negotiating different ways of thinking.", "author": "Christine von Renesse", "id": "gain_social_competence_negotiating_ways_of_thinking"}
+{"text": "Present your thinking clearly and concisely.", "author": "Robert Campbell", "id": "present_thinking_clearly"}
+{"text": "You will develop a healthy respect for the importance of definitions. This involves Internalizing definitions so that you truly understand them, Stating definitions and explain notation, Identifying whether or not an object meets the conditions of a given definition, Giving examples that both satisfy and do not satisfy a given definition, Testing an unfamiliar definition using examples, Creating your own definitions.", "author": "Bret Benesh", "id": "develop_healthy_respect_for_definitions"}
+{"text": "Understand precise mathematical definitions in order to determine whether a given object satisfies them or not.", "author": "Matt Salomone", "id": "determine_object_satisfaction"}
+{"text": "Show whether or not an object meets the conditions of a definition.", "author": "Robert Campbell", "id": "check_object_conditions"}
+{"text": "Recognize logically-equivalent forms of a theorem.", "author": "Robert Campbell", "id": "recognize_logically_equivalent_forms"}
+{"text": "Apply a theorem to a particular case.", "author": "Robert Campbell", "id": "apply_theorem_to_case"}
+{"text": "Solving mathematics problems as a member of a group and in front of a group", "author": "Amanda Harsy", "id": "solve_math_problems_group"}
+{"text": "Work in teams to develop problem solving strategies to solve problems and communicate solutions.", "author": "David Clark", "id": "team_problem_solving"}
+{"text": "Solving problems through the appropriate technology", "author": "Amanda Harsy", "id": "solve_problems_with_technology"}
+{"text": "Modeling the essential components of a problem mathematically so that it can be solved through mathematical means", "author": "Amanda Harsy", "id": "modeling_problem_mathematically"}
+{"text": "Analyzing vectors in Rn geometrically and algebraically", "author": "Amanda Harsy", "id": "analyze_vectors_rn"}
+{"text": "Represent linear objects in R^n in different ways.", "author": "Christine von Renesse", "id": "represent_linear_objects_in_rn"}
+{"text": "Linear Combination", "author": "Bret Benesh", "id": "linear_combination"}
+{"text": "Linear Dependent", "author": "Bret Benesh", "id": "linear_dependent"}
+{"text": "Linear Independent", "author": "Bret Benesh", "id": "linear_independent"}
+{"text": "Understand the concepts of linear independence and dependence", "author": "Robert Campbell", "id": "understand_linear_independence"}
+{"text": "Understanding of fundamental theory and row-echelon form", "author": "Debra K. Borkovitz", "id": "fundamental_theory_row_echelon"}
+{"text": "Explain basic concepts of Markov chains and dynamical systems.", "author": "Christine von Renesse", "id": "explain_markov_dynamics"}
+{"text": "Understand the concept of an inner product and an inner product space", "author": "Robert Campbell", "id": "understand_inner_product"}
+{"text": "Identify Inner Products", "author": "Robert Campbell", "id": "identify_inner_products"}
+{"text": "Calculate Inner Products and Norms", "author": "Robert Campbell", "id": "calculate_inner_products_and_norms"}
+{"text": "Determinent of a 2 \times 2 matrix", "author": "Bret Benesh", "id": "determinant_2x2_matrix"}
+{"text": "Determinent of a 3 \times 3 matrix", "author": "Bret Benesh", "id": "determinant_3x3_matrix"}
+{"text": "determine if a square matrix is invertible or not.", "author": "Drew Lewis", "id": "check_matrix_invertibility"}
+{"text": "state several equivalent conditions for a matrix to be invertible.  determine whether a given matrix is invertible.", "author": "Tom Mahoney", "id": "matrix_invertible_conditions"}
+{"text": "Characterize invertible matrices.", "author": "Tom Mahoney", "id": "characterize_invertible_matrices"}
+{"text": "Demonstrate theoretical connections related to matrix algebra, especially those related to invertibility of a matrix, its rank, and its nullity.", "author": "Matt Salomone", "id": "matrix_algebra_theoretical_connections"}
+{"text": "Topics you will be quizzed on: Vector Spaces and Subspaces, Bases and Dimension, Solving Systems of Equations, Linear Transformations, Null Spaces, Matrix Operations, Ranges, Eigenvalues and Eigenvectors", "author": "Bret Benesh", "id": "topics_quizzed_on"}
+{"text": "solve exercises related to standards V3-S4 when posed in terms of polynomials or matrices.", "author": "Drew Lewis", "id": "solve_exercises_standards_v3_s4_polynomials_matrices"}
+{"text": "Calculate the determinant of a square matrix using row-reduction, LU factorization, and/or cofactor expansion strategies.", "author": "Matt Salomone", "id": "calculate_determinant_matrix"}
+{"text": "Classify the geometric effects of a given matrix using its eigenvalues and eigenvectors, and use diagonalization to \u201cDIY\u201d a matrix with desired effects.", "author": "Matt Salomone", "id": "classify_geometric_effects_using_eigenvalues"}
+{"text": "Characteristic Equation", "author": "Bret Benesh", "id": "characteristic_equation"}
+{"text": "EV-1", "author": "Tom Mahoney", "id": "ev_1"}
+{"text": "LE-1", "author": "Tom Mahoney", "id": "le_1"}
+{"text": "LE-3", "author": "Tom Mahoney", "id": "le_3"}
+{"text": "LE-2", "author": "Tom Mahoney", "id": "le_2"}
+{"text": "LE-4", "author": "Tom Mahoney", "id": "le_4"}
+{"text": "LE-5", "author": "Tom Mahoney", "id": "le_5"}
+{"text": "VS-5", "author": "Tom Mahoney", "id": "vs_5"}
+{"text": "VS-4", "author": "Tom Mahoney", "id": "vs_4"}
+{"text": "VS-3", "author": "Tom Mahoney", "id": "vs_3"}
+{"text": "VS-2", "author": "Tom Mahoney", "id": "vs_2"}
+{"text": "VS-1", "author": "Tom Mahoney", "id": "vs1"}
+{"text": "MA-1", "author": "Tom Mahoney", "id": "ma_1"}
+{"text": "MA-3", "author": "Tom Mahoney", "id": "ma_3"}
+{"text": "MA-2", "author": "Tom Mahoney", "id": "ma_2"}
+{"text": "MA-4", "author": "Tom Mahoney", "id": "ma_4"}
+{"text": "Range", "author": "Bret Benesh", "id": "determine_range"}
+{"text": "Ranges", "author": "Bret Benesh", "id": "ranges"}
+{"text": "Understand the specifications for acceptable work", "author": "Robert Campbell", "id": "understand_specifications"}
+{"text": "Revise and resubmit work in case of progressing marks", "author": "Robert Campbell", "id": "revise_resubmit_work"}
+{"text": "Have productive failure.", "author": "Robert Campbell", "id": "productive_failure"}
+{"text": "Persevere when it gets difficult and frustrating.", "author": "Christine von Renesse", "id": "persevere_difficult"}
+{"text": "Adopt a growth mindset", "author": "Robert Campbell", "id": "adopt_growth_mindset"}
+{"text": "Find work partners that have similar speed, curiosity and learning edge.", "author": "Christine von Renesse", "id": "find_similar_work_partners"}
+{"text": "One-to-One", "author": "Bret Benesh", "id": "one_to_one_relationship"}
+{"text": "Onto", "author": "Bret Benesh", "id": "onto"}
+{"text": "Composition of Functions", "author": "Bret Benesh", "id": "composition_of_functions"}
+{"text": "Invertible Function", "author": "Bret Benesh", "id": "invertible_function"}
+{"text": "All counterexamples should be concrete, specific, and as simple as possible.", "author": "Bret Benesh", "id": "concrete_specific_simple_counterexamples"}
+{"text": "All writing uses proper grammar, spelling, and punctuation.", "author": "Bret Benesh", "id": "writing_grammar_punctuation"}
+{"text": "Review and solidify material previously discussed", "author": "Robert Campbell", "id": "review_and_solidify_material"}

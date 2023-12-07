@@ -1,0 +1,47 @@
+{"text": "Topic", "author": "Bret Benesh", "id": "topic"}
+{"text": "Supposition", "author": "Bret Benesh", "id": "supposition_learning"}
+{"text": "You will be in the habit of employing supposition when you encounter new ideas (\n\"What if the idea were tweaked to be slightly different. What would happen then?).", "author": "Bret Benesh", "id": "employ_supposition"}
+{"text": "You will be in the habit of making connections between new ideas and old.", "author": "Bret Benesh", "id": "make_connections_between_new_and_old"}
+{"text": "You will be in the habit of employing different perspectives by determining how other people think about a situation.", "author": "Bret Benesh", "id": "employing_different_perspectives"}
+{"text": "Perspectives", "author": "Bret Benesh", "id": "perspectives"}
+{"text": "Describe and illustrate how mathematicians think and work.", "author": "Christine von Renesse", "id": "describe_illustrate_mathematicians_think_work"}
+{"text": "Communicate mathematical ideas and reasoning in written and oral form.", "author": "Christine von Renesse", "id": "communicate_mathematical_ideas"}
+{"text": "Communicate mathematical ideas effectively", "author": "Sarah Greenwald", "id": "communicate_math_ideas"}
+{"text": "Communicate excitement about aspects of mathematics.", "author": "Christine von Renesse", "id": "communicate_excitement_math"}
+{"text": "Demonstrate the development of a broader perception of mathematics and its place in the world.", "author": "Christine von Renesse", "id": "develop_broader_perception_of_math"}
+{"text": "Understand the role of mathematics in everyday life", "author": "Sarah Greenwald", "id": "mathematics_in_everyday_life"}
+{"text": "See mathematics as a science of patterns.", "author": "Christine von Renesse", "id": "mathematics_patterns"}
+{"text": "Be curious about mathematics.", "author": "Christine von Renesse", "id": "be_curious_math"}
+{"text": "Recognize and challenge their beliefs and feelings about mathematics.", "author": "Christine von Renesse", "id": "recognize_challenge_beliefs_mathematics"}
+{"text": "Only accept mathematics that makes sense to them.", "author": "Christine von Renesse", "id": "accept_mathematics_sense"}
+{"text": "Evaluate other students\u2019 mathematical thinking and reasoning.", "author": "Christine von Renesse", "id": "evaluate_students_math_reasoning"}
+{"text": "Develop critical thinking skills through mathematical reasoning", "author": "Sarah Greenwald", "id": "develop_critical_thinking_math_reasoning"}
+{"text": "Realize that mathematics is more about creating and deep thinking than memorizing procedures.", "author": "Christine von Renesse", "id": "mathematics_creativity"}
+{"text": "Be more confident in doing mathematics.", "author": "Christine von Renesse", "id": "be_more_confident_in_mathematics"}
+{"text": "Describe how mathematics is connected to other disciplines, e.g. criminal justice, music or sports.", "author": "Christine von Renesse", "id": "mathematics_connection_to_other_disciplines"}
+{"text": "Appreciate the beauty and utility of mathematics in various fields", "author": "Sarah Greenwald", "id": "appreciate_beauty_utility_mathematics"}
+{"text": "Apply mathematical concepts to real-world problems", "author": "Sarah Greenwald", "id": "apply_math_concepts_real_world"}
+{"text": "Analyze and interpret data using mathematical tools", "author": "Sarah Greenwald", "id": "analyze_data_math_tools"}
+{"text": "You will be in the habit of using heuristics (\n\"rules of thumb\") to help you solve problems.", "author": "Bret Benesh", "id": "use_heuristics_to_solve_problems"}
+{"text": "Heuristics", "author": "Bret Benesh", "id": "heuristics"}
+{"text": "Planning", "author": "Bret Benesh", "id": "planning"}
+{"text": "You will be in the habit of planning before acting.", "author": "Bret Benesh", "id": "plan_before_acting"}
+{"text": "Recognize how they learn best and put a plan into action.", "author": "Christine von Renesse", "id": "recognize_learning_plan"}
+{"text": "Be ok making mistakes and learning from them.", "author": "Christine von Renesse", "id": "ok_mistakes_learning"}
+{"text": "Admit not knowing and ask questions to learn.", "author": "Christine von Renesse", "id": "admit_not_knowing"}
+{"text": "Be prepared and ready to try/learn when coming to class.", "author": "Christine von Renesse", "id": "be_prepared_to_try_learn"}
+{"text": "Work well with other students.", "author": "Christine von Renesse", "id": "collaborate_with_students"}
+{"text": "You will improve your written and verbal communication skills.", "author": "Bret Benesh", "id": "improve_communication_skills"}
+{"text": "Written communication", "author": "Bret Benesh", "id": "written_communication"}
+{"text": "Describe and execute inductive and deductive reasoning.", "author": "Christine von Renesse", "id": "execute_inductive_deductive_reasoning"}
+{"text": "Enjoy the challenge of reasoning.", "author": "Christine von Renesse", "id": "enjoy_reasoning"}
+{"text": "Analyze the value of inquiring why a conjecture is true.", "author": "Christine von Renesse", "id": "analyze_conjecture_inquiry"}
+{"text": "Create and test abstract mathematical conjectures.", "author": "Christine von Renesse", "id": "create_test_conjectures"}
+{"text": "Explain how there is still injustice in mathematics (STEM) education happening.", "author": "Christine von Renesse", "id": "injustice_in_math_education"}
+{"text": "Gain social competence in negotiating different ways of thinking.", "author": "Christine von Renesse", "id": "gain_social_competence_negotiating_ways_of_thinking"}
+{"text": "Find work partners that have similar speed, curiosity and learning edge.", "author": "Christine von Renesse", "id": "find_similar_work_partners"}
+{"text": "Connections", "author": "Bret Benesh", "id": "connections"}
+{"text": "Problem reports", "author": "Bret Benesh", "id": "problem_reports"}
+{"text": "Evidence", "author": "Bret Benesh", "id": "evidence"}
+{"text": "You will be in the habit of providing and demanding evidence for any assertion.", "author": "Bret Benesh", "id": "evidence_for_assertion"}
+{"text": "Persevere when it gets difficult and frustrating.", "author": "Christine von Renesse", "id": "persevere_difficult"}

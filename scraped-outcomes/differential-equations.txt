@@ -1,0 +1,157 @@
+{"text": "Know what complex numbers are, how to represent them in the form a + bi and especially in polar form and exponential form r(cos \u03b8 + i sin \u03b8) = rei\u03b8", "author": "Sylvia Carlisle", "id": "understand_complex_numbers_representation"}
+{"text": "Know how to find the real and imaginary parts of complex numbers", "author": "Sylvia Carlisle", "id": "find_complex_parts"}
+{"text": "Be able to add, subtract, multiply and divide complex numbers, and find the modulus and the conjugate", "author": "Sylvia Carlisle", "id": "perform_complex_operations"}
+{"text": "Know DeMoivre\u2019s theorem and how to use it to find powers and roots of complex numbers", "author": "Sylvia Carlisle", "id": "demoivre_theorem_powers_roots"}
+{"text": "Know how to calculate ex+iy , know Euler\u2019s formula and why it is true", "author": "Sylvia Carlisle", "id": "calculate_euler_formula"}
+{"text": "use Euler\u2019s method to construct solutions to ODEs.", "author": "Dunmyre", "id": "use_eulers_method_ode"}
+{"text": "use Euler\u2019s method to find approximate solution to first order ODEs", "author": "Drew Lewis", "id": "approximate_solution_first_order_odes"}
+{"text": "use Euler\u2019s method to find approximate solutions to systems of first order ODEs", "author": "Drew Lewis", "id": "approximate_solutions_with_euler"}
+{"text": "Use numerical approximation methods to solve and apply ordinary differential equations.", "author": "Drew Lewis", "id": "solve_apply_ode_approximation"}
+{"text": "Solve and apply first order ordinary differential equations.", "author": "Drew Lewis", "id": "solve_apply_first_order_ode"}
+{"text": "Solve and apply linear constant coefficient ordinary differential equations.", "author": "Drew Lewis", "id": "solve_linear_ode"}
+{"text": "Solve and apply systems of linear ordinary differential equations.", "author": "Drew Lewis", "id": "solve_apply_linear_ode"}
+{"text": "solve systems of constant coefficient ODEs", "author": "Drew Lewis", "id": "solve_constant_coefficient_ODEs"}
+{"text": "solve initial value problems for constant coefficient ODEs", "author": "Drew Lewis", "id": "solve_initial_value_problems_cc_odes"}
+{"text": "solve initial value problems for ODEs with discontinuous coefficients", "author": "Drew Lewis", "id": "solve_ivp_discontinuous_odes"}
+{"text": "Solve and apply ordinary differential equations involving discontinuous functions.", "author": "Drew Lewis", "id": "solve_apply_ode_discontinuous"}
+{"text": "find the general solution to a separable first order ODE", "author": "Drew Lewis", "id": "find_general_solution_separable_ode"}
+{"text": "find the general solution to an exact first order ODE", "author": "Drew Lewis", "id": "find_general_solution_exact_first_order_ode"}
+{"text": "find the general solution to a first order linear ODE", "author": "Drew Lewis", "id": "solve_first_order_linear_ode"}
+{"text": "find the general solution to a first order constant coefficient ODE.", "author": "Drew Lewis", "id": "solve_first_order_ode"}
+{"text": "find the general solution to a homogeneous second order constant coefficient ODE.", "author": "Drew Lewis", "id": "solve_homogeneous_second_order_ODE"}
+{"text": "find the general solution to a nonhomogeneous second order constant coefficient ODE", "author": "Drew Lewis", "id": "solve_nonhomogeneous_second_order_ODE"}
+{"text": "Be able to use the method of undetermined coefficients to solve Non-homogeneous systems", "author": "Sylvia Carlisle", "id": "solve_nonhomogeneous_systems"}
+{"text": "Be able to use the eigenvalue method to solve homogeneous linear systems w/constant coeffs by hand in the case of 2 or 3 unknowns in the case where some of the eigenvalues are complex", "author": "Sylvia Carlisle", "id": "solve_homogeneous_linear_systems"}
+{"text": "Be able to use the eigenvalue method to solve homogeneous linear systems w/constant coeffs by hand in the case of 2 or 3 unknowns, in the case of distinct real eigenvalues, and in the case of repeated real eigenvalues (with a non-defective matrix or a defective matrix)", "author": "Sylvia Carlisle", "id": "solve_homogeneous_linear_systems"}
+{"text": "use eigenvectors / straight-line solutions to find analytic solutions to ODEs.", "author": "Dunmyre", "id": "find_analytic_solutions_ode"}
+{"text": "find eigenvector / straight-line solutions to construct phase planes and qualitative solutions to ODEs.", "author": "Dunmyre", "id": "find_eigenvector_solutions"}
+{"text": "find and use nullclines to construct phase planes and qualitative solutions to ODEs.", "author": "Dunmyre", "id": "construct_phase_planes"}
+{"text": "construct and use phase lines to solve ODEs.", "author": "Dunmyre", "id": "solve_odes_with_phase_lines"}
+{"text": "Know how to use Maple to sketch phase portraits. Also you may want to know how to get a plot of a specific solution- e.g. using dsolve numeric and odeplot", "author": "Sylvia Carlisle", "id": "maple_sketch_phase_portraits"}
+{"text": "Be able to use Maple, especially dsolve numeric and odeplot and related commands to help you solve the systems in these problems", "author": "Sylvia Carlisle", "id": "use_maple_to_solve_systems"}
+{"text": "Be able to use Maple to assist your solution process (e.g. with finding eigenvectors and with solving algebraic systems) especially for larger systems. Know how to use dsolve on systems", "author": "Sylvia Carlisle", "id": "maple_assist_solution_process"}
+{"text": "Be able to use Maple to help you solve separable equations, either using integrate or dsolve", "author": "Sylvia Carlisle", "id": "solve_separable_equations_with_maple"}
+{"text": "Be able to recognize and solve separable differential equations by hand, you may want to review some integration techniques and formulas", "author": "Sylvia Carlisle", "id": "solve_separable_diff_eq"}
+{"text": "use the reverse product rule (aka integrating factor) to find analytic solutions to ODEs.", "author": "Dunmyre", "id": "find_analytic_solutions_using_reverse_product_rule"}
+{"text": "use the Laplace transform to find analytic solutions to ODEs.", "author": "Dunmyre", "id": "laplace_transform_ode"}
+{"text": "compute the Laplace transform of a function", "author": "Drew Lewis", "id": "laplace_transform"}
+{"text": "Calculate Fourier coefficients by hand and by Maple", "author": "Sylvia Carlisle", "id": "calculate_fourier_coefficients"}
+{"text": "Know how to use Maple efficiently to assist with solving for the coefficients", "author": "Sylvia Carlisle", "id": "use_maple_efficiently"}
+{"text": "Present and annotate any Maple output included in the answer neatly", "author": "Sylvia Carlisle", "id": "present_annotate_maple_output"}
+{"text": "Cite all collaborators and outside sources, including Maple/Calculators", "author": "Sylvia Carlisle", "id": "cite_collaborators"}
+{"text": "I do expect you to be able to set up word problems (like the mixing problem with CO gas in the tent from class variable volume) where the coefficients turn out not to be constant. Then, you can use Maple (or techniques from DE 1 if you know them) to solve", "author": "Sylvia Carlisle", "id": "solve_variable_coefficient_word_problems"}
+{"text": "Word problems like balancing chemical equations and other word problems involving linear systems of equations", "author": "Sylvia Carlisle", "id": "solve_word_problems_linear_equations"}
+{"text": "Solve mathematical problems.", "author": "Drew Lewis", "id": "solve_math_problems"}
+{"text": "Write as though your audience knows the main ideas and tools of our course and of calculus/algebra, but they have not seen the particular problem you are working on", "author": "Sylvia Carlisle", "id": "write_with_course_knowledge"}
+{"text": "Explain every answer in a project clearly in English/math-speak, presenting the relationship between the work and the answer using correct calculations, logic and vocabulary", "author": "Sylvia Carlisle", "id": "explain_relationship_between_work_and_answer"}
+{"text": "Present answers clearly and organized, including all relevant work and explanations in English/Math-speak to justify your answers", "author": "Sylvia Carlisle", "id": "present_answers_clearly"}
+{"text": "Write up an answer addressing the question: WHY do I know my answer is correct? How can I prove it to myself and the reader?", "author": "Sylvia Carlisle", "id": "prove_correctness_of_answer"}
+{"text": "Obtain a correct answer, and be able to defend and explain it using correct logic and vocabulary.", "author": "Sylvia Carlisle", "id": "defend_explain_correct_answer"}
+{"text": "Pass Problems on Quizzes and Exams by providing answers free of major errors and justified by sufficient relevant work and/or written explanation", "author": "Sylvia Carlisle", "id": "pass_problems_with_justified_answers"}
+{"text": "Demonstrate a good-faith effort to do all questions on the assignment correctly and completely", "author": "Sylvia Carlisle", "id": "demonstrate_good_faith_effort"}
+{"text": "Submit assignments by the deadline, with neat presentation and adequate room for comments", "author": "Sylvia Carlisle", "id": "submit_assignments_neatly_with_comments"}
+{"text": "Present to the class and/or to your group and participate in class activities.", "author": "Sylvia Carlisle", "id": "present_and_participate"}
+{"text": "Be a cooperative and productive group member.", "author": "Sylvia Carlisle", "id": "cooperative_group_member"}
+{"text": "Understand what is meant by duplication, and be able to identify when it happens and deal with it by adjusting your guess for yp", "author": "Sylvia Carlisle", "id": "identify_duplication"}
+{"text": "Recall and explain relationships between the ideas listed above in general", "author": "Sylvia Carlisle", "id": "recall_explain_relationships"}
+{"text": "Delve deeper into the material and/or see a special topic that is an application through Projects", "author": "Sylvia Carlisle", "id": "delve_deeper_projects"}
+{"text": "Demonstrate understanding of the material, which is different from just being able to perform calculations.", "author": "Sylvia Carlisle", "id": "understanding_material"}
+{"text": "Convert relevant information into various mathematical forms (e.g., equations, graphs, diagrams, tables, words).", "author": "Drew Lewis", "id": "convert_information_math_forms"}
+{"text": "Use correct vocabulary and notation in mathematical work", "author": "Sylvia Carlisle", "id": "use_correct_vocabulary_notation_math"}
+{"text": "Define all variables with correct units at the beginning of the writeup for Problems involving modeling a \u201creal-world\u201d situation", "author": "Sylvia Carlisle", "id": "define_variables_with_units"}
+{"text": "Be able to set up and solve differential equations to model real-world situations", "author": "Sylvia Carlisle", "id": "solve_differential_equations"}
+{"text": "Be able to set up systems of DEs and IVP which model real-world situations. These may include, mixing problems, radioactive series and spring-mass-dashpot systems among others", "author": "Sylvia Carlisle", "id": "model_real_world_situations"}
+{"text": "Be able to use the tools from the earlier sections (especially classifying critical points and the phase plane method) to analyze autonomous systems when they are used as models", "author": "Sylvia Carlisle", "id": "analyze_autonomous_systems"}
+{"text": "Be able to find the critical points of a given autonomous system", "author": "Sylvia Carlisle", "id": "find_critical_points"}
+{"text": "Be able to look at the eigenvalues of a linear system and \u201cclassify\u201d the critical point based on those eigenvalues (That is, say stable vs unstable, and give the type of critical point)", "author": "Sylvia Carlisle", "id": "classify_critical_point"}
+{"text": "Know how classifying the critical point (0,0) of the linearization gives you information (or not!) about the type of critical point in the original system", "author": "Sylvia Carlisle", "id": "classify_critical_point"}
+{"text": "Know how to linearize a non-linear system near a critical point. Calculate a Jacobian and interpret its values", "author": "Sylvia Carlisle", "id": "linearize_nonlinear_system"}
+{"text": "Be able to set up and solve the equation dy/dx = G(x,y) to figure out what trajectories look like and help classify critical points (your book calls this the \u201dphase plane method\u201d)", "author": "Sylvia Carlisle", "id": "solve_equation_dy_dx_G"}
+{"text": "Be able to explain the connection between what the trajectories in a phase plane look like and the properties of different solutions to \u201creal world\u201d problems (like periodicity, damping, stability/instability)", "author": "Sylvia Carlisle", "id": "explain_connection_between_trajectories_and_properties"}
+{"text": "Recall facts about Existence/Uniqueness of solutions and explain what they mean for phase portraits", "author": "Sylvia Carlisle", "id": "recall_existence_uniqueness_solutions"}
+{"text": "Be able to look at the eigenvalues and vectors of a linear system and draw a basic sketch of the phase portrait by hand", "author": "Sylvia Carlisle", "id": "analyze_linear_system_phase_portrait"}
+{"text": "Know what is meant by autonomous system, vector field, direction field, critical point, equilibrium solution, periodic, solution curve, trajectory, phase portrait", "author": "Sylvia Carlisle", "id": "autonomous_system"}
+{"text": "explain where aspects of the context are represented in a system of ODEs (e.g. predator/prey).", "author": "Dunmyre", "id": "explain_context_representation_in_odes"}
+{"text": "model the populations of two interacting populations with a system of ODEs", "author": "Drew Lewis", "id": "model_interacting_populations_with_odes"}
+{"text": "model systems of coupled mechanical oscillators using a system of ODEs", "author": "Drew Lewis", "id": "model_coupled_oscillators_odes"}
+{"text": "model (free or forced, damped or undamped) mechanical oscillators with a second order ODE", "author": "Drew Lewis", "id": "model_mechanical_oscillators_ode"}
+{"text": "model mechanical oscillators undergoing discontinuous acceleration", "author": "Drew Lewis", "id": "model_mechanical_oscillators_discontinuous_acceleration"}
+{"text": "model the motion of an object undergoing discontinuous acceleration", "author": "Drew Lewis", "id": "model_discontinuous_acceleration"}
+{"text": "model the motion of a falling object with linear drag", "author": "Drew Lewis", "id": "model_falling_object_linear_drag"}
+{"text": "model the motion of an object with quadratic drag", "author": "Drew Lewis", "id": "model_motion_with_quadratic_drag"}
+{"text": "construct and use direction fields to solve ordinary di\ufb00erential equations (ODEs).", "author": "Dunmyre", "id": "solve_odes_with_direction_fields"}
+{"text": "given a slope field, sketch a trajectory of a solution to a first order ODE", "author": "Drew Lewis", "id": "sketch_trajectory_of_solution"}
+{"text": "determine when a unique solution exists for a first order ODE", "author": "Drew Lewis", "id": "determine_unique_solution_first_order_ode"}
+{"text": "determine when a unique solution exists for a second order linear ODE", "author": "Drew Lewis", "id": "determine_unique_solution_second_order_linear_ODE"}
+{"text": "determine when a unique solution exists for a system of first order ODEs", "author": "Drew Lewis", "id": "determine_unique_solution_ode"}
+{"text": "Know how to tell if a homogeneous system has any non-trivial solutions by looking at whether A is singular or non-singular", "author": "Sylvia Carlisle", "id": "check_homogeneous_system_solutions"}
+{"text": "Know what a fundamental set of solutions is, and how to write down the general solution of a homogeneous system", "author": "Sylvia Carlisle", "id": "fundamental_solutions_homogeneous_system"}
+{"text": "Understand how the solutions of a Nonhomogeneous system are related to the solutions of the associated homogeneous system (Thm 10.1.6)", "author": "Sylvia Carlisle", "id": "understand_nonhomogeneous_homogeneous_relationship"}
+{"text": "Understand the connection between solutions of homogeneous system A~x = 0 and the non-homogeneous system A~x = ~b", "author": "Sylvia Carlisle", "id": "understand_connection_homogeneous_non_homogeneous"}
+{"text": "Use inverse matrices to help solve linear systems in form A~x = ~b", "author": "Sylvia Carlisle", "id": "solve_linear_systems_with_inverse_matrices"}
+{"text": "Know how to write a system of linear equations as in matrix form A~x = ~b (or equivalently AX = B in the book\u2019s notation) and as an augmented matrix", "author": "Sylvia Carlisle", "id": "write_linear_equations_matrix_form"}
+{"text": "Solve systems of linear algebraic equations by using row-reduction on the augmented matrix", "author": "Sylvia Carlisle", "id": "solve_linear_equations_row_reduction"}
+{"text": "Find the inverse of any given matrix via row reduction", "author": "Sylvia Carlisle", "id": "find_inverse_matrix_row_reduction"}
+{"text": "Perform row operations to do Gaussian elimination (to put a matrix in rowechelon form) or Gauss-Jordan elimination (to get to rref.)", "author": "Sylvia Carlisle", "id": "perform_gaussian_elimination"}
+{"text": "Recognize row echelon form and reduced row echelon form", "author": "Sylvia Carlisle", "id": "recognize_row_echelon_form"}
+{"text": "Know that the rank of a matrix A is the number of leading ones in (reduced) row echelon form of A", "author": "Sylvia Carlisle", "id": "matrix_rank"}
+{"text": "Use rank to help determine the number of solutions to a linear system and the number of parameters in the solution set", "author": "Sylvia Carlisle", "id": "determine_number_of_solutions"}
+{"text": "Calculate and describe a solution set in terms of parameters in the case that a system has infinitely many solutions", "author": "Sylvia Carlisle", "id": "calculate_solution_set_with_parameters"}
+{"text": "Visualize infinite solution sets with parameters as graphs of lines and planes etc", "author": "Sylvia Carlisle", "id": "visualize_infinite_solution_sets"}
+{"text": "Be able to sketch and interpret pictures of solution sets for systems in R2 or R3", "author": "Sylvia Carlisle", "id": "sketch_solution_sets"}
+{"text": "Be able to describe the span of a given set of vectors in R2 and R3", "author": "Sylvia Carlisle", "id": "describe_span_of_vectors"}
+{"text": "Be able to figure out if a set of vectors is linearly independent or not", "author": "Sylvia Carlisle", "id": "check_linear_independence"}
+{"text": "Know what linearly independent means for solutions of a given system and how to determine whether a given set of solutions is linearly independent or dependent", "author": "Sylvia Carlisle", "id": "determine_linear_independence"}
+{"text": "Know what a solution vector is and how to verify if a given vector of functions is a solution vector of a given system", "author": "Sylvia Carlisle", "id": "verify_solution_vector"}
+{"text": "Given a DE and a function, be able to tell whether the given function is a solution of the DE", "author": "Sylvia Carlisle", "id": "check_solution_of_de"}
+{"text": "Know what a solution of a DE is (whether implicit or explicit), and what an interval of validity is", "author": "Sylvia Carlisle", "id": "know_solution_of_DE_and_interval_of_validity"}
+{"text": "Recognize when there are singular (constant) solutions to your DE that don\u2019t fit the form of the general solution", "author": "Sylvia Carlisle", "id": "recognize_singular_solutions"}
+{"text": "Be able to solve linear first-order DEs with constant coefficients by hand", "author": "Sylvia Carlisle", "id": "solve_linear_first_order_des"}
+{"text": "Be able to write a 2nd order (or higher order) linear DE as a system of 1st order (or lower order) linear DEs and solve it that way", "author": "Sylvia Carlisle", "id": "write_2nd_order_linear_de_as_system_of_1st_order_linear_des"}
+{"text": "Recognize a first order, linear system of DEs, and put it into matrix form", "author": "Sylvia Carlisle", "id": "recognize_linear_system_DEs_matrix_form"}
+{"text": "Know how to find the order of a DE, and recognize whether it is linear or separable or not", "author": "Sylvia Carlisle", "id": "find_order_and_type_of_de"}
+{"text": "Know how the solutions of a corresponding homogeneous linear differential equation are used to help solve the non-homogeneous case", "author": "Sylvia Carlisle", "id": "solve_nonhomogeneous_with_homogeneous"}
+{"text": "Know what is meant by homogeneous/nonhomogeneous", "author": "Sylvia Carlisle", "id": "understand_homogeneous_nonhomogeneous"}
+{"text": "Know what a homogeneous system is, that they are always consistent and why", "author": "Sylvia Carlisle", "id": "understand_homogeneous_systems"}
+{"text": "Know the superposition principle for homogeneous systems (a linear combo of solutions is also a solution) and be able to explain why it is true", "author": "Sylvia Carlisle", "id": "superposition_principle_homogeneous_systems"}
+{"text": "Know what a general solution is versus a particular solution", "author": "Sylvia Carlisle", "id": "general_vs_particular_solution"}
+{"text": "Know what an initial value problem (IVP) is and be able to find solutions to IVPs", "author": "Sylvia Carlisle", "id": "find_solutions_to_ivps"}
+{"text": "Be able to solve IVPs given the general solution and initial values (solving linear algebraic systems will come in handy here.)", "author": "Sylvia Carlisle", "id": "solve_ivps_with_initial_values"}
+{"text": "Be able to set up a system of algebraic equations via matching coefficients to solve for the values of the undetermined coefficients", "author": "Sylvia Carlisle", "id": "solve_algebraic_equations_matching_coefficients"}
+{"text": "Know how to make a correct guess for yp and how to solve for the values of the coefficients involved", "author": "Sylvia Carlisle", "id": "solve_for_coefficients"}
+{"text": "Know what the Wronskian is, how to calculate it and what information it tells you", "author": "Sylvia Carlisle", "id": "calculate_wronskian"}
+{"text": "explain use separation of variables to find analytic solutions to ODEs.", "author": "Dunmyre", "id": "find_analytic_solutions_ode"}
+{"text": "find and classify the equillibria of an autonomous first order ODE, and describe the long term behavior of solutions", "author": "Drew Lewis", "id": "find_classify_equilibria_ODE"}
+{"text": "Generalize to higher order systems: in order higher than 2 we can often still figure out whether a critical point is stable or asymptotically stable or unstable based on the eigenvalues of the Jacobian at that critical point", "author": "Sylvia Carlisle", "id": "generalize_higher_order_systems_eigenvalues_jacobian"}
+{"text": "Know what is meant by stable, unstable, asymptotically stable, sink, source, node, spiral point, center", "author": "Sylvia Carlisle", "id": "stable_unstable_concepts"}
+{"text": "Understand how the Lotka-Volterra predator-prey model and competition models are set up and understand what the constants involved mean and their units", "author": "Sylvia Carlisle", "id": "understand_lotka_volterra_model"}
+{"text": "Be able to set up your own predator-prey, competition and SIR models given a word problem", "author": "Sylvia Carlisle", "id": "set_up_models_given_word_problem"}
+{"text": "build differential equations models for familiar situations (e.g. salty tanks).", "author": "Dunmyre", "id": "build_diff_eq_models_salty_tanks"}
+{"text": "Be able to work with complex eigenvalues and eigenvectors", "author": "Sylvia Carlisle", "id": "work_with_complex_eigenvalues"}
+{"text": "Be able to calculate eigenvalues and eigenvectors for given matrices", "author": "Sylvia Carlisle", "id": "calculate_eigenvalues_and_eigenvectors"}
+{"text": "Know how to find eigenvalues for diagonal and triangular matrices", "author": "Sylvia Carlisle", "id": "find_eigenvalues_diagonal_triangular_matrices"}
+{"text": "Find determinants of 2 \u00d7 2 and 3 \u00d7 3 matrices by hand (by any valid method.) and know the determinant of a triangular matrix is the product of its diagonal entries", "author": "Sylvia Carlisle", "id": "find_determinants_triangular_matrices"}
+{"text": "Find the determinant of a larger matrix by hand using row operations to get to a triangular matrix. Know how row operations affect the determinant", "author": "Sylvia Carlisle", "id": "determine_triangular_matrix_and_operations"}
+{"text": "Know what it means for two matrices to be row- equivalent", "author": "Sylvia Carlisle", "id": "row_equivalent_matrices"}
+{"text": "Explain all the ways to determine whether a matrix is invertible or not, and why you know they are all equivalent", "author": "Sylvia Carlisle", "id": "determine_matrix_invertibility"}
+{"text": "Know what it means for a matrix to be singular (NOT invertible) vs. nonsingular (invertible)", "author": "Sylvia Carlisle", "id": "matrix_singularity"}
+{"text": "Explain how a matrix corresponds to a special function called a transformation between vector spaces, and understand eigenvectors geometrically in this context", "author": "Sylvia Carlisle", "id": "matrix_transformation_eigenvectors"}
+{"text": "Recall and apply the definitions of eigenvector, eigenvalue and the characteristic equation of a matrix", "author": "Sylvia Carlisle", "id": "recall_apply_eigenvector_eigenvalue_characteristic_equation"}
+{"text": "Recall and apply basic matrix definitions, e.g. size, row/column vector, zero matrix, identity matrix, diagonal, triangular", "author": "Sylvia Carlisle", "id": "recall_apply_basic_matrix_defs"}
+{"text": "Recall and apply the properties of matrix addition and multiplication to solve matrix equations", "author": "Sylvia Carlisle", "id": "matrix_properties"}
+{"text": "Perform matrix operations, e.g. addition, scalar multiplication, find transposes, multiply matrices and recognize when multiplication is valid vs. not defined", "author": "Sylvia Carlisle", "id": "perform_matrix_operations"}
+{"text": "Find a basis for a vector space in straightforward examples", "author": "Sylvia Carlisle", "id": "find_basis_vector_space"}
+{"text": "Give a basis for the eigenspace of a matrix", "author": "Sylvia Carlisle", "id": "basis_eigenspace"}
+{"text": "State the definition of a vector space and of a basis for a vector space", "author": "Sylvia Carlisle", "id": "define_vector_space_and_basis"}
+{"text": "Know what a linear combination is, and the definitions of span and linear dependence/independence", "author": "Sylvia Carlisle", "id": "linear_combination_span_dependence_independence"}
+{"text": "State the definition of a Fourier Series", "author": "Sylvia Carlisle", "id": "define_fourier_series"}
+{"text": "Paraphrase the derivation of Fourier Coefficients", "author": "Sylvia Carlisle", "id": "paraphrase_fourier_coefficients"}
+{"text": "Understand convergence rules for Fourier Series, the Gibbs phenomenon", "author": "Sylvia Carlisle", "id": "fourier_series_convergence_rules"}
+{"text": "Understand extensions -even, odd and periodic and how to find the corresponding Fourier coefficients (finding cosine and sine series for a function)", "author": "Sylvia Carlisle", "id": "understand_extensions_and_find_fourier_coefficients"}
+{"text": "Sketch graphs of Fourier Series and of even/odd/periodic extensions of functions", "author": "Sylvia Carlisle", "id": "sketch_fourier_graphs"}
+{"text": "Be able to sketch complex numbers in the plane", "author": "Sylvia Carlisle", "id": "sketch_complex_numbers"}
+{"text": "Present graphs with a domain that clearly shows the relevant part of the function(s), labeled with a reasonable scale, and units given for the variables if appropriate", "author": "Sylvia Carlisle", "id": "present_graphs_with_clear_domain"}
+{"text": "Understand interval of definition/validity and be able to find one and explain your answer", "author": "Sylvia Carlisle", "id": "understand_interval_definition"}
+{"text": "Understand the difference between major and minor mistakes in mathematical work", "author": "Sylvia Carlisle", "id": "differentiate_major_minor_mistakes_math"}
+{"text": "Know what defective means and how to tell whether a given system is defective", "author": "Sylvia Carlisle", "id": "identify_defective_system"}
+{"text": "Curve fitting applications", "author": "Sylvia Carlisle", "id": "curve_fitting_applications"}

@@ -1,0 +1,44 @@
+{"text": "Interpreting Topics", "author": "Bret Benesh", "id": "interpreting_topics"}
+{"text": "Creating Topics", "author": "Bret Benesh", "id": "creating_topics"}
+{"text": "Advanced Topics", "author": "Bret Benesh", "id": "advanced_topics"}
+{"text": "Students will be able to explain power.", "author": "Robert Campbell", "id": "explain_power"}
+{"text": "Explain Power", "author": "Robert Campbell", "id": "explain_power"}
+{"text": "Inference", "author": "Bret Benesh", "id": "inference"}
+{"text": "Descriptive Statistics", "author": "Bret Benesh", "id": "descriptive_statistics"}
+{"text": "Statistical Significance", "author": "Bret Benesh", "id": "statistical_significance"}
+{"text": "Identify Statistical Significance", "author": "Robert Campbell", "id": "identify_statistical_significance"}
+{"text": "Apply statistical methods to analyze data", "author": "Robert Campbell", "id": "analyze_data_with_stats"}
+{"text": "Use statistical software to perform data analysis", "author": "Robert Campbell", "id": "perform_data_analysis"}
+{"text": "Interpret and communicate statistical results effectively", "author": "Robert Campbell", "id": "interpret_communicate_stats"}
+{"text": "Critically evaluate statistical information and research findings", "author": "Robert Campbell", "id": "evaluate_statistical_information"}
+{"text": "Students will be able to identify proper experimentation techniques, statistical significance, and type I and II errors.", "author": "Robert Campbell", "id": "identify_experimentation_techniques"}
+{"text": "Students will be able to define probability, confidence intervals, and p-values.", "author": "Robert Campbell", "id": "define_probability_confidence_intervals_p_values"}
+{"text": "Students will be able to compute means, medians, standard deviations, combinatorial probabilities, conditional probabilities, Bernoulli probabilities, confidence intervals, p-values of proportions, pvalues of means, p-values using \u03c72 , and p-values using the sign test.", "author": "Robert Campbell", "id": "compute_statistics"}
+{"text": "Students will be able to apply properties of means, medians, standard deviations, z-scores, linear regression, correlation, probability, the normal distribution, and random variables.", "author": "Robert Campbell", "id": "apply_properties_of_means_medians_standard_deviations_z_scores_linear_regression_correlation_probability_normal_distribution_random_variables"}
+{"text": "A student who has successfully completed probability and statistics\nwill be able to demonstrate a number of skills and knowledges. Refer to the student learning outcomes\nsheet on Canvas for a complete list.", "author": "Robert Campbell", "id": "probability_and_statistics_skills"}
+{"text": "A student who has successfully completed probability and statistical inference will be able to elaborately discuss the following questions.\n\u2022 What is a confidence interval and why does it work?\n\u2022 What is hypothesis testing and why does it work?\n\u2022 What is probability?", "author": "Robert Campbell", "id": "discuss_confidence_interval"}
+{"text": "Confidence Intervals", "author": "Bret Benesh", "id": "confidence_intervals"}
+{"text": "Compute Confidence Intervals", "author": "Robert Campbell", "id": "compute_confidence_intervals"}
+{"text": "Define Confidence Intervals", "author": "Robert Campbell", "id": "define_confidence_intervals"}
+{"text": "Define Probability", "author": "Robert Campbell", "id": "define_probability"}
+{"text": "Probability", "author": "Bret Benesh", "id": "probability"}
+{"text": "Simple Probability", "author": "Bret Benesh", "id": "simple_probability"}
+{"text": "Probability and Random Variables", "author": "Bret Benesh", "id": "probability_and_random_variables"}
+{"text": "Apply Properties of Probability", "author": "Robert Campbell", "id": "apply_properties_of_probability"}
+{"text": "Apply Properties of Random Variables", "author": "Robert Campbell", "id": "apply_properties_of_random_variables"}
+{"text": "Apply Properties of the Normal Distribution", "author": "Robert Campbell", "id": "apply_properties_normal_distribution"}
+{"text": "Apply Properties of Standard Deviations", "author": "Robert Campbell", "id": "apply_properties_of_standard_deviations"}
+{"text": "Standard Deviation", "author": "Bret Benesh", "id": "calculate_standard_deviation"}
+{"text": "Means, Medians, and Standard Deviations", "author": "Bret Benesh", "id": "calculate_means_medians_standard_deviations"}
+{"text": "Compute Means, Medians, and Standard Deviations", "author": "Robert Campbell", "id": "compute_means_medians_standard_deviations"}
+{"text": "Apply Properties of Means and Medians", "author": "Robert Campbell", "id": "apply_properties_of_means_and_medians"}
+{"text": "Means, Medians, and Such", "author": "Bret Benesh", "id": "calculate_means_medians"}
+{"text": "Compute p-values of Means", "author": "Robert Campbell", "id": "compute_p_value_means"}
+{"text": "p-values", "author": "Bret Benesh", "id": "calculate_p_values"}
+{"text": "Define p-values", "author": "Robert Campbell", "id": "define_p_values"}
+{"text": "Compute p-values using the Sign Test", "author": "Robert Campbell", "id": "compute_p_values_using_sign_test"}
+{"text": "Compute p-values using \u03c72", "author": "Robert Campbell", "id": "compute_p_values_chi2"}
+{"text": "\u03c72 Test", "author": "Bret Benesh", "id": "chi2_test"}
+{"text": "Sign Test", "author": "Bret Benesh", "id": "sign_test"}
+{"text": "Students will use tokens to earn points toward the learning community goal and MML average.", "author": "Justin Dunmyre", "id": "earn_points_with_tokens"}
+An error occurred: 'identifier'

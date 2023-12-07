@@ -1,0 +1,82 @@
+{"text": "P.1: I can set up a framework of assumptions and conclusions for proofs using direct proof, proof by contraposition, and proof by contradiction.", "author": "Robert Talbert", "id": "set_up_framework_proofs"}
+{"text": "P.3: I can identify the parts of a proof, including the technique used and the assumptions being made.", "author": "Robert Talbert", "id": "identify_parts_of_proof"}
+{"text": "P.4: I can perform a critical analysis of a written proof and provide a detailed explanation of the steps used in the proof.", "author": "Robert Talbert", "id": "perform_critical_analysis_proof"}
+{"text": "P.2: I can identify the predicate being used in a proof by mathematical induction and use it to set up a framework of assumptions and conclusions for an induction proof.", "author": "Robert Talbert", "id": "identify_predicate_induction_proof"}
+{"text": "predicate", "author": "Robert Talbert", "id": "predicate"}
+{"text": "preorder traversal", "author": "Robert Talbert", "id": "preorder_traversal"}
+{"text": "inorder traversal", "author": "Robert Talbert", "id": "inorder_traversal"}
+{"text": "postorder traversal", "author": "Robert Talbert", "id": "postorder_traversal"}
+{"text": "T.2: I can list the nodes of a tree in the correct order when visited using preorder, postorder, and inorder traversals.", "author": "Robert Talbert", "id": "list_tree_traversals"}
+{"text": "T.1: I can give examples of trees with combinations of important properties and determine information about a tree as a whole or about parts of the tree.", "author": "Robert Talbert", "id": "determine_properties_of_tree"}
+{"text": "tree properties", "author": "Robert Talbert", "id": "tree_properties"}
+{"text": "tree", "author": "Robert Talbert", "id": "tree"}
+{"text": "trees", "author": "Robert Talbert", "id": "identify_trees"}
+{"text": "nodes", "author": "Robert Talbert", "id": "identify_nodes"}
+{"text": "networks", "author": "Robert Talbert", "id": "networking"}
+{"text": "edges", "author": "Robert Talbert", "id": "identify_edges"}
+{"text": "graph", "author": "Robert Talbert", "id": "graphing"}
+{"text": "create a graph", "author": "Robert Talbert", "id": "create_graph"}
+{"text": "graph properties", "author": "Robert Talbert", "id": "graph_properties"}
+{"text": "fundamental concepts of graphs", "author": "Robert Talbert", "id": "graph_concepts"}
+{"text": "G.1: I can create a graph given information or rules about nodes and edges.", "author": "Robert Talbert", "id": "create_graph_from_info"}
+{"text": "G.4: I can take any representation of a graph and determine information about the entire graph or parts of the graph.", "author": "Robert Talbert", "id": "determine_graph_information"}
+{"text": "G.3: I can represent a graph in different ways and change representations from one to another.", "author": "Robert Talbert", "id": "represent_graph_in_different_ways"}
+{"text": "G.2: I can give examples of graphs having combinations of various properties and examples of graphs of special (\u201cnamed\u201d) types.", "author": "Robert Talbert", "id": "give_examples_of_graphs"}
+{"text": "G.5: I can determine whether two graphs are isomorphic.", "author": "Robert Talbert", "id": "determine_graph_isomorphism"}
+{"text": "isomorphic graphs", "author": "Robert Talbert", "id": "isomorphic_graphs"}
+{"text": "digraphs", "author": "Robert Talbert", "id": "identify_digraphs"}
+{"text": "associated algorithms", "author": "Robert Talbert", "id": "associated_algorithms"}
+{"text": "algorithm/solution development", "author": "Robert Talbert", "id": "algorithm_solution_development"}
+{"text": "problem-solving process", "author": "Robert Talbert", "id": "problem_solving_process"}
+{"text": "decomposing a problem", "author": "Robert Talbert", "id": "decompose_problem"}
+{"text": "formulating problems", "author": "Robert Talbert", "id": "formulating_problems"}
+{"text": "pattern-finding", "author": "Robert Talbert", "id": "pattern_finding"}
+{"text": "Prim's Algorithm", "author": "Robert Talbert", "id": "prims_algorithm"}
+{"text": "Kruskal's Algorithm", "author": "Robert Talbert", "id": "kruskals_algorithm"}
+{"text": "Warshall's Algorithm", "author": "Robert Talbert", "id": "warshalls_algorithm"}
+{"text": "R.4: I can determine whether two points in a set with a relation belong to the transitive closure of that relation, and I can use Warshall\u2019s Algorithm to find the matrix for the transitive closure of a relation.", "author": "Robert Talbert", "id": "determine_transitive_closure"}
+{"text": "transitive closure", "author": "Robert Talbert", "id": "transitive_closure"}
+{"text": "partially ordered set", "author": "Robert Talbert", "id": "partially_ordered_set"}
+{"text": "totally ordered set", "author": "Robert Talbert", "id": "totally_ordered_set"}
+{"text": "well-ordered set", "author": "Robert Talbert", "id": "well_ordered_set"}
+{"text": "partial orderings", "author": "Robert Talbert", "id": "partial_orderings"}
+{"text": "R.6: I can determine when a set with a relation is a partially ordered set, a totally ordered set, and a well-ordered set.", "author": "Robert Talbert", "id": "determine_set_order"}
+{"text": "R.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.", "author": "Robert Talbert", "id": "give_examples_of_relations"}
+{"text": "Properties of relations", "author": "Robert Talbert", "id": "properties_of_relations"}
+{"text": "relation", "author": "Robert Talbert", "id": "relation"}
+{"text": "equivalence relation", "author": "Robert Talbert", "id": "equivalence_relation"}
+{"text": "equivalence relations", "author": "Robert Talbert", "id": "equivalence_relations"}
+{"text": "equivalence class", "author": "Robert Talbert", "id": "equivalence_class"}
+{"text": "R.5: I can determine when a relation is an equivalence relation, and I can determine the equivalence class for an element and determine whether two elements belong to the same equivalence class.", "author": "Robert Talbert", "id": "determine_equivalence_relation"}
+{"text": "R.3: I can compute the composition of two relations (and determine when a composition cannot be computed) and raise a relation on a set to a positive integer power.", "author": "Robert Talbert", "id": "compute_relation_composition"}
+{"text": "composition of relations", "author": "Robert Talbert", "id": "relation_composition"}
+{"text": "R.1: I can represent a relation in different ways and change representations from one to another.", "author": "Robert Talbert", "id": "represent_relation"}
+{"text": "abstraction", "author": "Robert Talbert", "id": "abstraction_level"}
+{"text": "computational thinking", "author": "Robert Talbert", "id": "computational_thinking"}
+{"text": "computer science applications", "author": "Robert Talbert", "id": "cs_applications"}
+{"text": "Python programming language", "author": "Robert Talbert", "id": "python_programming"}
+{"text": "Jupyter notebook computing environment", "author": "Robert Talbert", "id": "jupyter_notebook_computing"}
+{"text": "self-assess your work", "author": "Robert Talbert", "id": "self_assess_work"}
+{"text": "critical analysis", "author": "Robert Talbert", "id": "critical_analysis"}
+{"text": "conclusions", "author": "Robert Talbert", "id": "draw_conclusions"}
+{"text": "assumptions", "author": "Robert Talbert", "id": "making_assumptions"}
+{"text": "direct proof", "author": "Robert Talbert", "id": "direct_proof"}
+{"text": "proof", "author": "Robert Talbert", "id": "proof_of_learning"}
+{"text": "proof by contradiction", "author": "Robert Talbert", "id": "proof_by_contradiction"}
+{"text": "proof by contraposition", "author": "Robert Talbert", "id": "proof_by_contraposition"}
+{"text": "induction proof", "author": "Robert Talbert", "id": "induction_proof"}
+{"text": "mathematical induction", "author": "Robert Talbert", "id": "mathematical_induction"}
+{"text": "spanning tree", "author": "Robert Talbert", "id": "spanning_tree"}
+{"text": "minimal spanning tree", "author": "Robert Talbert", "id": "minimal_spanning_tree"}
+{"text": "G.8: I can construct a spanning tree for a (connected) graph, and I can construct a minimal spanning tree for a weighted graph using Prim\u2019s Algorithm and Kruskal\u2019s Algorithm.", "author": "Robert Talbert", "id": "construct_spanning_tree"}
+{"text": "G.7: I can determine whether a graph has an Euler path or cycle, and whether it has a Hamilton path or cycle.", "author": "Robert Talbert", "id": "determine_euler_hamilton"}
+{"text": "Hamilton cycle", "author": "Robert Talbert", "id": "hamilton_cycle"}
+{"text": "Hamilton path", "author": "Robert Talbert", "id": "hamilton_path"}
+{"text": "Euler path", "author": "Robert Talbert", "id": "euler_path"}
+{"text": "Euler cycle", "author": "Robert Talbert", "id": "euler_cycle"}
+{"text": "chromatic number", "author": "Robert Talbert", "id": "chromatic_number"}
+{"text": "G.6: I can give a valid vertex coloring for a graph and determine a graph\u2019s chromatic number.", "author": "Robert Talbert", "id": "vertex_coloring_chromatic_number"}
+{"text": "vertex coloring", "author": "Robert Talbert", "id": "vertex_coloring"}
+{"text": "written and oral forms", "author": "Robert Talbert", "id": "written_and_oral_forms"}
+{"text": "effective communication", "author": "Robert Talbert", "id": "effective_communication"}
+{"text": "learn independently", "author": "Robert Talbert", "id": "learn_independently"}

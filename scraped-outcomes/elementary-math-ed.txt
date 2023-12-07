@@ -1,0 +1,128 @@
+{"text": "I will become proficient at answering students\u2019 questions about arithmetic, and I can help the student to learn to answer her own question if I do not know the answer.", "author": "Bret Benesh", "id": "answer_students_questions_arithmetic"}
+{"text": "I will become proficient at answering students\u2019 questions about the course topics, and I can help the student to learn to answer her own question if I do not know the answer.", "author": "Bret Benesh", "id": "answer_students_questions"}
+{"text": "I will be able to teach myself why something in mathematics is true, which will be very useful when I am teaching material I am unfamiliar with.", "author": "Bret Benesh", "id": "teach_myself_mathematics"}
+{"text": "I will believe that everything in mathematics makes sense, as long as one can spend enough time thinking about it.", "author": "Bret Benesh", "id": "understand_mathematics_sense"}
+{"text": "Develop a growth mindset, particularly as it relates to learning mathematics.", "author": "Sarah Wright", "id": "develop_growth_mindset_mathematics"}
+{"text": "Develop strategies to ask questions and assess the work of their future students (tiny people) and guide them through their mathematics education.", "author": "Sarah Wright", "id": "assess_students_math_education"}
+{"text": "Use correct mathematics in challenge problems.", "author": "Sarah Wright", "id": "use_correct_mathematics"}
+{"text": "Type your work in challenge problems.", "author": "Sarah Wright", "id": "type_work_challenge_problems"}
+{"text": "Provide explanations of your thinking, your work, your final answer etc. in challenge problems.", "author": "Sarah Wright", "id": "explain_thinking_challenge_problems"}
+{"text": "Provide context for the situation and/or problems you\u2019re solving in challenge problems.", "author": "Sarah Wright", "id": "provide_context_challenge_problems"}
+{"text": "Include diagrams and pictures when they are appropriate in challenge problems.", "author": "Sarah Wright", "id": "include_diagrams_in_challenge_problems"}
+{"text": "Include diagrams, computations, and/or explanations where appropriate in Quizam Problems.", "author": "Sarah Wright", "id": "include_diagrams_explanations_quizam_problems"}
+{"text": "Use correct notation and show organized work in Quizam Problems.", "author": "Sarah Wright", "id": "use_correct_notation"}
+{"text": "Use correct notation in challenge problems.", "author": "Sarah Wright", "id": "use_correct_notation"}
+{"text": "Proof-read your work in challenge problems.", "author": "Sarah Wright", "id": "proofread_challenge_problems"}
+{"text": "Follow the same formatting requirements as the challenge problems in projects.", "author": "Sarah Wright", "id": "formatting_requirements"}
+{"text": "Submit to the appropriate place on Blackboard and include your name in the name of the file as well as the text in challenge problems.", "author": "Sarah Wright", "id": "submit_to_blackboard_with_name"}
+{"text": "Submit the correct portion to the correct assignment on Blackboard in projects.", "author": "Sarah Wright", "id": "submit_correct_portion_to_assignment"}
+{"text": "Submit the assignment via Canvas by the due date.", "author": "Bret Benesh", "id": "submit_assignment_via_canvas"}
+{"text": "Submit the video link via Canvas by the due date.", "author": "Bret Benesh", "id": "submit_video_link_via_canvas"}
+{"text": "Create a video in such a way that your writing is readable, pictures are viewable, and your voice is intelligible.", "author": "Bret Benesh", "id": "create_readable_video"}
+{"text": "Convey understanding of the concept (this could be a video or a written explanation)", "author": "Sarah Wright", "id": "convey_understanding"}
+{"text": "Write a reflection of learning about this concept as it has changed over the semester", "author": "Sarah Wright", "id": "reflect_on_concept_change"}
+{"text": "Provide examples of students using (or attempting to use) non-standard methods with discussion of appropriate instructor responses", "author": "Sarah Wright", "id": "non_standard_methods_discussion"}
+{"text": "Summarize what is needed for an effective teacher\u2019s solution", "author": "Sarah Wright", "id": "effective_teachers_solution"}
+{"text": "Describe why Teacher\u2019s Solutions will be useful in your teaching practice", "author": "Sarah Wright", "id": "describe_usefulness_of_teacher_solutions"}
+{"text": "Understand and provide examples for each major operation in Teacher\u2019s Solutions", "author": "Sarah Wright", "id": "understand_provide_examples_major_operations"}
+{"text": "Understand and provide examples for word problems in Teacher\u2019s Solutions", "author": "Sarah Wright", "id": "understand_provide_examples_word_problems"}
+{"text": "Solve word problems that involve ratios or percentages.", "author": "Sarah Wright", "id": "solve_word_problems_ratios_percentages"}
+{"text": "Solve word problems that involve ratios or proportions.", "author": "Sarah Wright", "id": "solve_word_problems_ratios_proportions"}
+{"text": "Solve word problems that involve percentages.", "author": "Sarah Wright", "id": "solve_word_problems_percentages"}
+{"text": "Solve word problems that involve fractions.", "author": "Sarah Wright", "id": "solve_word_problems_fractions"}
+{"text": "Solve word problems that involve greatest common factor and least common multiple.", "author": "Sarah Wright", "id": "solve_word_problems_gcf_lcm"}
+{"text": "Use the ideas of the greatest common factor and least common multiple to solve word problems.", "author": "Sarah Wright", "id": "solve_word_problems_using_gcf_lcm"}
+{"text": "Apply mental math techniques to addition, subtraction, multiplication, and division problems.", "author": "Sarah Wright", "id": "apply_mental_math_techniques"}
+{"text": "Complete addition, subtraction, multiplication, and division problems involving decimal numbers.", "author": "Sarah Wright", "id": "solve_decimal_math_problems"}
+{"text": "Complete addition, subtraction, multiplication, and division problems involving negative numbers.", "author": "Sarah Wright", "id": "solve_negative_number_problems"}
+{"text": "Complete multi-digit addition, subtraction, multiplication, and division problems with whole numbers using the standard algorithms.", "author": "Sarah Wright", "id": "solve_multi_digit_problems"}
+{"text": "Demonstrate why the standard algorithms for addition, multiplication, and division make sense using an appropriate model in Fraction Models", "author": "Sarah Wright", "id": "understand_standard_algorithms_fraction_models"}
+{"text": "Use models to illustrate computations for each of the major operations in Fraction Models", "author": "Sarah Wright", "id": "use_models_for_fraction_operations"}
+{"text": "Understand and provide examples using different types of models in Fraction Models", "author": "Sarah Wright", "id": "understand_provide_examples_fraction_models"}
+{"text": "Provide examples using the different types of models in Whole Number Operation Models", "author": "Sarah Wright", "id": "use_whole_number_operation_models"}
+{"text": "Discuss the value of the different types of models in Whole Number Operation Models", "author": "Sarah Wright", "id": "discuss_value_whole_number_operation_models"}
+{"text": "Understand and provide examples for the major properties of the Whole Number Operation Models", "author": "Sarah Wright", "id": "understand_whole_number_operation_models"}
+{"text": "Identify properties of operations used in computations including, associativity, commutativity, identity, inverse, distribution, etc.", "author": "Sarah Wright", "id": "properties_of_operations"}
+{"text": "Identify properties of operations used in computations including associativity, commutativity, identity, inverse, distribution, etc.", "author": "Sarah Wright", "id": "properties_of_operations"}
+{"text": "Understand and provide examples of non-standard algorithms and explanations of why they work", "author": "Sarah Wright", "id": "understand_non_standard_algorithms"}
+{"text": "Discuss the role non-standard algorithms play in development of concepts", "author": "Sarah Wright", "id": "discuss_non_standard_algorithm_role"}
+{"text": "Display fluency and competency with the elementary mathematics ideas of numbers and operations as delineated by the Massachusetts State Standards.", "author": "Sarah Wright", "id": "fluency_numbers_operations"}
+{"text": "Focus on mathematical concepts and quality, rather than points: Your performance in the class is determined by actual evidence of mastery and the quality of your work relative to standards, rather than points.", "author": "Sarah Wright", "id": "focus_on_mathematical_concepts"}
+{"text": "Professional evaluation: In the working world, your performance in a job is not based on points and percentages that you earn on tests, which are then fed into a complicated formula. Instead, you make a case for your performance through actual, concrete things you do and then your boss determines how well you are doing based on the evidence.", "author": "Sarah Wright", "id": "professional_evaluation"}
+{"text": "Display correct understanding of the skill competency in Quizam Problems.", "author": "Sarah Wright", "id": "display_understanding_quizam_problems"}
+{"text": "Answer one quiz question on the topic completely correctly on a quiz.", "author": "Bret Benesh", "id": "answer_quiz_question_correctly"}
+{"text": "Complete the assigned work, making an effort to answer all the questions asked or solve the given problems.", "author": "Sarah Wright", "id": "complete_assigned_work"}
+{"text": "Turn in assignments on time.", "author": "Sarah Wright", "id": "turn_in_assignments_on_time"}
+{"text": "Share your work during in-class activities.", "author": "Sarah Wright", "id": "share_work_in_class"}
+{"text": "Contribute in some way to your group during in-class activities.", "author": "Sarah Wright", "id": "contribute_to_group_in_class"}
+{"text": "Work respectfully with the assigned people during in-class activities.", "author": "Sarah Wright", "id": "work_respectfully"}
+{"text": "Arrive on time and ready for in-class activities, follow directions, and engage with the activity with a positive outlook.", "author": "Sarah Wright", "id": "arrive_on_time_and_engage"}
+{"text": "Complete and turn in the Exit Ticket during in-class activities.", "author": "Sarah Wright", "id": "complete_exit_ticket"}
+{"text": "Transparency and student control: The requirements for each letter grade are spelled out clearly in the syllabus; to earn a grade, you know exactly what you need to do, and since the progress toward a grade depends only on checking requirements off of a checklist, it is very easy to know how you are doing in the class at any point and what you need to complete.", "author": "Sarah Wright", "id": "transparency_and_student_control"}
+{"text": "Actionable information about your learning: Because the grades on your work point to specific learning objectives, you will know exactly what you are doing well on, and what you need to work on some more.", "author": "Sarah Wright", "id": "actionable_information_about_learning"}
+{"text": "Continuous improvement: Any assignment that is graded can be revised and resubmitted to try and raise the grade. Only the highest grade you attain is recorded; improved grades overwrite previously-earned grades.", "author": "Sarah Wright", "id": "continuous_improvement"}
+{"text": "Failure tolerance: Your grade is based on the evidence that you can eventually provide of mastery, rather than a one-time all-or-nothing exam score that may or may not measure your true knowledge at the end of the semester.", "author": "Sarah Wright", "id": "failure_tolerance"}
+{"text": "Understand and appreciate productive failure.", "author": "Sarah Wright", "id": "understand_and_appreciate_productive_failure"}
+{"text": "Have at least one written paragraph explaining your work.", "author": "Bret Benesh", "id": "explain_work"}
+{"text": "Write so that your work is organized, readable, and legible.", "author": "Bret Benesh", "id": "organize_work"}
+{"text": "Organize all your work in projects.", "author": "Sarah Wright", "id": "organize_work_projects"}
+{"text": "Choose a base other than 5 or 10 and work with many of the ideas covered in class in your own special base.", "author": "Sarah Wright", "id": "work_with_special_base"}
+{"text": "Make a table for addition and multiplication of single digit numbers in your chosen base.", "author": "Sarah Wright", "id": "create_table_single_digit"}
+{"text": "Explain how to multiply and divide multi-digit numbers in your chosen base.", "author": "Sarah Wright", "id": "multiply_divide_multi_digit_numbers_base"}
+{"text": "multiply numbers in base n without converting to base 10.", "author": "Bret Benesh", "id": "multiply_numbers_base_n"}
+{"text": "divide numbers in base n without converting to base 10.", "author": "Bret Benesh", "id": "divide_numbers_base_n"}
+{"text": "convert numbers from base 10 to base n.", "author": "Bret Benesh", "id": "convert_numbers_base_10_to_base_n"}
+{"text": "convert numbers from base n to base 10.", "author": "Bret Benesh", "id": "convert_numbers_base_n_to_base_10"}
+{"text": "add numbers in base n without converting to base 10.", "author": "Bret Benesh", "id": "add_numbers_base_n"}
+{"text": "subtract numbers in base n without converting to base 10.", "author": "Bret Benesh", "id": "subtract_numbers_base_n"}
+{"text": "Use a few examples of converting numbers less than one between your chosen base and base-10.", "author": "Sarah Wright", "id": "convert_numbers_less_than_one"}
+{"text": "Create a model to convert between base-10 numbers and your number system.", "author": "Sarah Wright", "id": "convert_base_10_to_number_system"}
+{"text": "Convert between base-10 and different number systems including Roman, Egyptian, Mayan, Babylonian, and Base-5.", "author": "Sarah Wright", "id": "convert_number_systems"}
+{"text": "Convert between different number systems including Roman, Egyptian, Mayan, Babylonian, and Base-5.", "author": "Sarah Wright", "id": "convert_number_systems"}
+{"text": "Place real numbers given as fractions and/or decimals correctly on a number line.", "author": "Sarah Wright", "id": "place_real_numbers_on_number_line"}
+{"text": "Experiment with fraction forms of numbers smaller than 1.", "author": "Sarah Wright", "id": "experiment_with_fraction_forms"}
+{"text": "explain why the method of \u201cinvert and multiply\u201d for fractions gives correct answers to measurement division problems in a way that an elementary school student can understand.", "author": "Bret Benesh", "id": "explain_invert_multiply"}
+{"text": "explain why the method of \u201cinvert and multiply\u201d for fractions gives correct answers to partitive division problems in a way that an elementary school student can understand.", "author": "Bret Benesh", "id": "explain_invert_multiply"}
+{"text": "explain why the method of \u201cmultiply across\u201d for fractions gives correct answers to multiplication problems in a way that an elementary school student can understand.", "author": "Bret Benesh", "id": "explain_multiply_across_for_fractions"}
+{"text": "explain why the method of \u201cgetting common denominators\u201d for fractions gives correct answers to addition and subtraction problems in a way that an elementary school student can understand.", "author": "Bret Benesh", "id": "explain_common_denominators"}
+{"text": "explain why integer division algorithms give correct answers to division problems in a way that an elementary school student can understand.", "author": "Bret Benesh", "id": "explain_integer_division"}
+{"text": "explain why integer multiplication algorithms give correct answers to multiplication problems in a way that an elementary school student can understand.", "author": "Bret Benesh", "id": "explain_integer_multiplication"}
+{"text": "Explain how to add and subtract multi-digit numbers.", "author": "Sarah Wright", "id": "add_subtract_multi_digit_numbers"}
+{"text": "Determine a divisibility test that requires adding the digits of the number to be tested.", "author": "Sarah Wright", "id": "test_divisibility_by_adding_digits"}
+{"text": "Determine a divisibility test that requires a combination of the digits other than just adding them.", "author": "Sarah Wright", "id": "divisibility_test_combination_digits"}
+{"text": "Determine a divisibility test that requires checking the last certain number of digits.", "author": "Sarah Wright", "id": "check_last_digits_divisibility_test"}
+{"text": "Determine a divisibility test that requires checking the last digit of a number.", "author": "Sarah Wright", "id": "check_last_digit_divisibility"}
+{"text": "Correctly state and apply divisibility tests for 2, 3, 4, 5, 8, 9, 10, and 11 in the decimal system.", "author": "Sarah Wright", "id": "apply_divisibility_tests"}
+{"text": "Correctly state and apply divisibility tests for 2, 3, 4, 5, 8, 9, 10, and 11 in base-10.", "author": "Sarah Wright", "id": "apply_divisibility_tests"}
+{"text": "Determine a divisibility test for the base itself.", "author": "Sarah Wright", "id": "determine_divisibility_test"}
+{"text": "State the tests clearly in a form such as 'A number n is divisible by in base- if and only if.'", "author": "Sarah Wright", "id": "state_tests_divisible_by_in_base"}
+{"text": "Demonstrate how the divisibility tests work using some examples.", "author": "Sarah Wright", "id": "demonstrate_divisibility_tests"}
+{"text": "Provide proof for each of your divisibility tests.", "author": "Sarah Wright", "id": "prove_divisibility_tests"}
+{"text": "Provide examples of proofs using other methods", "author": "Sarah Wright", "id": "provide_examples_of_other_method_proofs"}
+{"text": "Provide examples of proofs using pictures", "author": "Sarah Wright", "id": "provide_examples_of_proofs_with_pictures"}
+{"text": "Provide examples of proofs/arguments using examples/counter examples", "author": "Sarah Wright", "id": "provide_examples_of_proofs"}
+{"text": "Understand and illustrate the relationship between Arguments, Proofs, Examples, & Definitions", "author": "Sarah Wright", "id": "understand_relationship_args_proofs_examples_defs"}
+{"text": "Provide rich examples of the concepts in question with detailed annotation", "author": "Sarah Wright", "id": "provide_examples_with_annotation"}
+{"text": "Address all the questions in and pieces of the prompt in journals.", "author": "Sarah Wright", "id": "address_questions_in_prompt"}
+{"text": "Submit your journal in the proper place on Blackboard.", "author": "Sarah Wright", "id": "submit_journal_blackboard"}
+{"text": "Proof-read your journal.", "author": "Sarah Wright", "id": "proofread_journal"}
+{"text": "Use appropriate spelling, grammar, and paragraph form.", "author": "Bret Benesh", "id": "use_appropriate_spelling_grammar_paragraph_form"}
+{"text": "Submit a single Word-type document that includes screenshots of your 20 successful constructions.", "author": "Bret Benesh", "id": "submit_word_document_with_screenshots"}
+{"text": "Do any 20 of the 25 constructions on https://kasperpeulen.github.io/.", "author": "Bret Benesh", "id": "do_20_constructions"}
+{"text": "Solve all of the Kakuro puzzles on the \u201cConceptis Kakuro\u201d app.", "author": "Bret Benesh", "id": "solve_kakuro_puzzles"}
+{"text": "Write a description of what you learned from doing the puzzles.", "author": "Bret Benesh", "id": "describe_puzzle_learning"}
+{"text": "Be brave! Try new mathematics.", "author": "Sarah Wright", "id": "be_brave_try_new_math"}
+{"text": "All of your mathematics must be correct.", "author": "Bret Benesh", "id": "correct_mathematics"}
+{"text": "You must have all of the mathematical arguments required for the problem.", "author": "Bret Benesh", "id": "mathematical_arguments"}
+{"text": "You must have not have an excessive amount of mathematical arguments that are not required for the problem.", "author": "Bret Benesh", "id": "avoid_excessive_math_arguments"}
+{"text": "Justify why there is no better solution than yours.", "author": "Bret Benesh", "id": "justify_solution_superiority"}
+{"text": "Justify using axioms.", "author": "Bret Benesh", "id": "justify_using_axioms"}
+{"text": "You must be attempting to answer the question. This will usually mean that you are explaining why something works, rather than how to do something.", "author": "Bret Benesh", "id": "attempting_to_answer_question"}
+{"text": "State the winning strategy, and explain exactly why the strategy guarantees victory\u2014regardless of what the other person does.", "author": "Bret Benesh", "id": "explain_winning_strategy"}
+{"text": "Explain the Importance of randomness.", "author": "Bret Benesh", "id": "importance_of_randomness"}
+{"text": "Write a summary of the word sampling exercise we did with the Gettysburg\u2019s address.", "author": "Bret Benesh", "id": "write_summary_word_sampling_gettysburg"}
+{"text": "Draw a word in one-point perspective.", "author": "Bret Benesh", "id": "draw_word_one_point_perspective"}
+{"text": "The word must be in one-point perspective.", "author": "Bret Benesh", "id": "one_point_perspective"}
+{"text": "The word must be at least four letters long.", "author": "Bret Benesh", "id": "word_length_min_4"}
+{"text": "The letters must be a constant width", "author": "Bret Benesh", "id": "constant_width_letters"}
+An error occurred: 'identifier'

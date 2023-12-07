@@ -1,0 +1,113 @@
+{"text": "use order of operations and properties of the real numbers to simplify and solve algebraic expressions.", "author": "Tom Mahoney", "id": "simplify_algebraic_expressions"}
+{"text": "perform operations on polynomial expressions, including multiplication, division, and factoring.", "author": "Jane Zimmerman", "id": "perform_operations_on_polynomials"}
+{"text": "multiply two polynomials and simplify their result.  factor a polynomial using various methods.", "author": "Tom Mahoney", "id": "multiply_and_factor_polynomials"}
+{"text": "solve quadratic equations using factoring, completing the square, or the quadratic formula.", "author": "Tom Mahoney", "id": "solve_quadratic_equations"}
+{"text": "Student can use quadratic functions to solve application problems.", "author": "Jane Zimmerman", "id": "solve_quadratic_application_problems"}
+{"text": "Student can use rational functions to solve application problems.", "author": "Jane Zimmerman", "id": "solve_application_problems_with_rational_functions"}
+{"text": "Student can perform operations on rational functions and solve rational equations.", "author": "Jane Zimmerman", "id": "perform_operations_rational_functions"}
+{"text": "Given information about a basic rational function, student can find a symbolic or graphical representation.", "author": "Jane Zimmerman", "id": "find_representation_rational_function"}
+{"text": "Student can identify domain, x-intercepts, y-intercepts, vertical asymptotes, and holes from a graphical or symbolic representation of a rational function.", "author": "Jane Zimmerman", "id": "identify_rational_function_properties"}
+{"text": "Student can find horizontal and slant asymptotes from a graphical or symbolic representation of a rational function.", "author": "Jane Zimmerman", "id": "find_horizontal_slant_asymptotes_rational_function"}
+{"text": "Given a logarithmic function, student can identify intercepts, asymptotes, domain/range, and sketch the graph of the function.", "author": "Jane Zimmerman", "id": "identify_intercepts_asymptotes_domain_range_sketch_graph"}
+{"text": "Student can identify features of a function given as a table or a graph, including the domain and range, the intercepts, the intervals where the function is increasing/decreasing, and the intervals where the function is positive/negative.", "author": "Jane Zimmerman", "id": "identify_function_features"}
+{"text": "Given a symbolic or verbal representation of a function, including piecewise functions, student can create a table and graph.", "author": "Jane Zimmerman", "id": "create_table_and_graph"}
+{"text": "Given a graphical or symbolic (including piecewise) representation of an absolute value function, student can find the other representations.", "author": "Jane Zimmerman", "id": "find_other_representations_absolute_value"}
+{"text": "Student can use equation or graph to find solutions to absolute value equations and inequalities.", "author": "Jane Zimmerman", "id": "solve_absolute_value_equations_inequalities"}
+{"text": "solve linear equations and inequalities that involve absolute values.  express these answers graphically, as inequalities, or with interval notation.", "author": "Tom Mahoney", "id": "solve_linear_equations_absolute_values"}
+{"text": "solve linear equations and inequalities in one variable.  express these answers graphically.  express solutions to linear inequalities in interval notation or as inequalities.", "author": "Tom Mahoney", "id": "solve_linear_equations_inequalities"}
+{"text": "Produce solutions to various algebraic equations and inequalities.", "author": "Tom Mahoney", "id": "solve_algebraic_equations"}
+{"text": "Successful College Algebra students are proficient at solving a wide array of equations and inequalities involving linear, quadratic, higher-order polynomial, rational, exponential, logarithmic, radical, and piecewise-defined functions (including absolute value).", "author": "Ricardo Moena", "id": "solve_equations_inequalities"}
+{"text": "Successful College Algebra students are proficient in creating equivalencies in order to simplify expressions, solve equations and inequalities, or take advantage of a common structure or form.", "author": "Ricardo Moena", "id": "simplify_expressions"}
+{"text": "Successful college algebra students demonstrate a proficiency at reasoning mathematically.", "author": "Ricardo Moena", "id": "proficiency_in_mathematical_reasoning"}
+{"text": "Successful College Algebra students should have experience in using and creating mathematics which model a wide range of phenomena.", "author": "Ricardo Moena", "id": "college_algebra_modeling"}
+{"text": "Successful College Algebra students are proficient at choosing and applying technology to assist in analyzing functions.", "author": "Ricardo Moena", "id": "analyze_functions_with_technology"}
+{"text": "Successful College Algebra students demonstrate a deep understanding of functions whether they are described verbally, numerically, graphically, or algebraically (both explicitly and implicitly).", "author": "Ricardo Moena", "id": "understand_functions"}
+{"text": "Student can form a meaningful composition of functions and explain what it means.", "author": "Jane Zimmerman", "id": "compose_functions"}
+{"text": "Student can interpret composite functions.", "author": "Jane Zimmerman", "id": "interpret_composite_functions"}
+{"text": "Student can find composite functions and evaluate specific values of composite functions.", "author": "Jane Zimmerman", "id": "find_evaluate_composite_functions"}
+{"text": "Student can use graphs to find composite functions and evaluate specific values of composite functions.", "author": "Jane Zimmerman", "id": "find_composite_function_values"}
+{"text": "Student can use graphs to evaluate composite functions.", "author": "Jane Zimmerman", "id": "evaluate_composite_functions_with_graphs"}
+{"text": "Student can evaluate composite functions using tables, graphs, and formulas.", "author": "Jane Zimmerman", "id": "evaluate_composite_functions"}
+{"text": "Student can find multiple functions that compose to form a given composite function.", "author": "Jane Zimmerman", "id": "find_composite_function"}
+{"text": "Student can find two functions that compose to form a given composite function.", "author": "Jane Zimmerman", "id": "find_composite_function"}
+{"text": "Student can decompose a given function into two functions and express it as a composite function.", "author": "Jane Zimmerman", "id": "decompose_function"}
+{"text": "Student can decompose a function into two separate functions.", "author": "Jane Zimmerman", "id": "decompose_function"}
+{"text": "Student can decompose a function into three functions.", "author": "Jane Zimmerman", "id": "decompose_function"}
+{"text": "Student can decompose a function into four functions.", "author": "Jane Zimmerman", "id": "decompose_function_into_four_functions"}
+{"text": "Student can express a given function as a composite of three functions.", "author": "Jane Zimmerman", "id": "express_function_as_composite"}
+{"text": "Student can evaluate and interpret a composition of two or more functions in all four representations.", "author": "Jane Zimmerman", "id": "evaluate_composition_functions"}
+{"text": "Student can interpret function notation and find and interpret function values in all four representations.", "author": "Jane Zimmerman", "id": "interpret_function_values"}
+{"text": "Student can determine if a relation is a function, given any of the four representations, and justify their conclusion.", "author": "Jane Zimmerman", "id": "determine_if_relation_is_function"}
+{"text": "Given any of the four representations of a function, student can determine if it is linear and, if so, student can find the slope and intercepts.", "author": "Jane Zimmerman", "id": "determine_linear_function_properties"}
+{"text": "Given one representation of a linear function, student can create or identify the other three.", "author": "Jane Zimmerman", "id": "create_identify_linear_function"}
+{"text": "Given one representation of an exponential function, student can create or identify the other three.", "author": "Jane Zimmerman", "id": "create_identify_exponential_functions"}
+{"text": "Given any of the four representations of a function, student can determine if the function could be exponential.", "author": "Jane Zimmerman", "id": "determine_exponential_function"}
+{"text": "Student can add, subtract, multiply, and divide functions given in all four representations, and simplify when necessary/possible.", "author": "Jane Zimmerman", "id": "perform_function_operations"}
+{"text": "Student can identify the domain, range, x-intercept, y-intercept, axis of symmetry, and vertex of a quadratic function given in any of the four representations.", "author": "Jane Zimmerman", "id": "identify_quadratic_properties"}
+{"text": "Student can find domain, range, x-intercepts, y-intercepts and point of origin of a square root function.", "author": "Jane Zimmerman", "id": "find_domain_range_intercepts_origin_square_root"}
+{"text": "Given a graph of, or information about, a quadratic function, student can find an equation for the function.", "author": "Jane Zimmerman", "id": "find_equation_for_quadratic_function"}
+{"text": "Given information about a polynomial function, student can sketch the graph and/or draw conclusions.", "author": "Jane Zimmerman", "id": "sketch_graph_polynomial"}
+{"text": "identify the degree and leading coefficient of a polynomial in standard form and from its graph.  determine the behavior of polynomials for large (positive and negative) inputs.", "author": "Tom Mahoney", "id": "identify_degree_and_leading_coefficient"}
+{"text": "graph and apply transformations to the graphs of quadratic functions.  identify the axis of symmetry for a quadratic function.  determine the minimum or maximum values of a quadratic function over an interval.", "author": "Tom Mahoney", "id": "quadratic_graph_transformations"}
+{"text": "Describe linear and quadratic functions.", "author": "Tom Mahoney", "id": "describe_linear_and_quadratic_functions"}
+{"text": "describe the solutions to a system of two linear equations.", "author": "Tom Mahoney", "id": "solve_system_of_linear_equations"}
+{"text": "solve a system of two linear equations using substitution or elimination. I model situations using a system of linear equations and use the model to form conclusions.", "author": "Tom Mahoney", "id": "solve_linear_equations"}
+{"text": "Student can find a solution, if one exists, to a system of linear equations and use it to solve application problems.", "author": "Jane Zimmerman", "id": "solve_linear_equations"}
+{"text": "Given data or a verbal description, student can find a linear model and use it to solve application problems.", "author": "Jane Zimmerman", "id": "find_linear_model"}
+{"text": "Given data or a verbal description, student can find an exponential model and use it to solve application problems.", "author": "Jane Zimmerman", "id": "find_exponential_model"}
+{"text": "use logarithmic or logistic models to solve application problems.", "author": "Jane Zimmerman", "id": "solve_application_problems_with_log_models"}
+{"text": "evaluate formulas when provided appropriate input values.  use formulas to solve real-world problems.", "author": "Tom Mahoney", "id": "evaluate_formulas"}
+{"text": "Student can apply function composition to real-world scenarios and interpret the results.", "author": "Jane Zimmerman", "id": "apply_function_composition"}
+{"text": "Student can investigate the order of function composition.", "author": "Jane Zimmerman", "id": "investigate_function_composition_order"}
+{"text": "Student can determine whether the composition of functions is commutative.", "author": "Jane Zimmerman", "id": "determine_composition_commutative"}
+{"text": "Use concepts of functions, including domains, operations, compositions, and inverses.", "author": "Tom Mahoney", "id": "use_functions_concepts"}
+{"text": "Describe the relationship between a function and its inverse.", "author": "Jane Zimmerman", "id": "function_inverse_relationship"}
+{"text": "In your own words, write the general procedure for finding the inverse of a function shown as an equation.", "author": "Jane Zimmerman", "id": "find_inverse_procedure"}
+{"text": "To find the inverse of a function shown as a table...", "author": "Jane Zimmerman", "id": "find_inverse_function_table"}
+{"text": "To determine if two functions shown as a table are inverses of each other...", "author": "Jane Zimmerman", "id": "determine_inverses_table"}
+{"text": "Two functions shown as a graph are inverses of each other if...", "author": "Jane Zimmerman", "id": "inverse_functions_graph"}
+{"text": "To find the inverse of a function shown as a graph...", "author": "Jane Zimmerman", "id": "find_inverse_function_graph"}
+{"text": "Given a numerical, graphical, or symbolic representation of a function, student can determine if the function is invertible, and if so find and evaluate its inverse.", "author": "Jane Zimmerman", "id": "determine_if_function_invertible"}
+{"text": "A function is invertible if ...", "author": "Jane Zimmerman", "id": "function_invertible"}
+{"text": "determine if a graph or expression is a function, or if a function is one-to-one.  compute the domain and range of a function.", "author": "Tom Mahoney", "id": "determine_function_properties"}
+{"text": "find the equation of a logarithmic function.  graph logarithmic functions.  determine the base and domain of a logarithmic function.", "author": "Tom Mahoney", "id": "log_function_equation_graph"}
+{"text": "apply the change of base formula to a logarithmic function.  convert between logarithmic, exponential, and radical expressions.", "author": "Tom Mahoney", "id": "change_base_formula_conversion"}
+{"text": "Convert between exponential and logarithmic forms and use logarithmic properties to solve equations.", "author": "Tom Mahoney", "id": "convert_exponential_logarithmic"}
+{"text": "use properties of exponentials and logarithms to solve equations.", "author": "Tom Mahoney", "id": "solve_equations_with_exponents_and_logs"}
+{"text": "Student can use basic properties of exponents.", "author": "Jane Zimmerman", "id": "use_basic_properties_of_exponents"}
+{"text": "Student can interpret a logarithmic statement and use basic properties of logarithms to rewrite expressions and solve equations.", "author": "Jane Zimmerman", "id": "interpret_logarithmic_statement"}
+{"text": "Students will cover Units A and B (Function Overview and Linear Functions) as well as the first two learning objectives in Unit C (Exponential and Logarithmic Functions) of the MTH 103 curriculum", "author": "Jane Zimmerman", "id": "cover_units_a_b_and_learning_objectives_c1_c2"}
+{"text": "Students will be able to use a recommended calculator for the course", "author": "Jane Zimmerman", "id": "use_recommended_calculator"}
+{"text": "Students will be able to progress to a math course where they can succeed in meeting their university math requirement", "author": "Jane Zimmerman", "id": "progress_to_math_course"}
+{"text": "Students will have a solid foundation in Algebra concepts", "author": "Jane Zimmerman", "id": "algebra_foundation"}
+{"text": "Students will be able to utilize learning opportunities such as WIN Topics, Learn It, Explore, Practice It, and Check My Understanding", "author": "Jane Zimmerman", "id": "utilize_learning_opportunities"}
+{"text": "Students will have opportunities to demonstrate mastery through quizzes, unit exams, and a final exam", "author": "Jane Zimmerman", "id": "demonstrate_mastery_quizzes_exams"}
+{"text": "Students will have a final exam at the end of the semester", "author": "Jane Zimmerman", "id": "final_exam"}
+{"text": "Students will have two evening exams in the class", "author": "Jane Zimmerman", "id": "students_will_have_two_evening_exams"}
+{"text": "Students will have 7 quizzes throughout the semester", "author": "Jane Zimmerman", "id": "quizzes_per_semester"}
+{"text": "Students will be assessed using a 4 point scale for 35 learning objectives", "author": "Jane Zimmerman", "id": "assess_using_4_point_scale_for_35_learning_objectives"}
+{"text": "Students will have their objective mastery scores averaged and converted to a course grade for the second semester of the class", "author": "Jane Zimmerman", "id": "average_objective_mastery_scores"}
+{"text": "Students will receive a Pass-No Grade (P-N) System for the first semester of the class", "author": "Jane Zimmerman", "id": "pass_no_grade_system"}
+{"text": "Students will be expected to complete homework and actively participate in class", "author": "Jane Zimmerman", "id": "complete_homework_participate_class"}
+{"text": "Estimating progress in the course", "author": "Tom Mahoney", "id": "estimating_progress"}
+{"text": "Matching pace in earning points on quizzes, office hour attempts, and future exams", "author": "Tom Mahoney", "id": "matching_pace_earning_points"}
+{"text": "Grading chart interpretation", "author": "Tom Mahoney", "id": "grading_chart_interpretation"}
+{"text": "Demonstrate the use of elementary graphing techniques.", "author": "Tom Mahoney", "id": "demonstrate_elementary_graphing"}
+{"text": "graph a function by plotting ordered pairs.  quickly and accurately graph \\", "author": "Tom Mahoney", "id": "graph_function_plot_ordered_pairs"}
+{"text": "apply horizontal and/or vertical shifts, stretches, and/or reflections to a function.  express the result of these transformations graphically or algebraically.", "author": "Tom Mahoney", "id": "transform_function"}
+{"text": "Given a graphical representation of a function, student can find one-sided and two-sided limits.", "author": "Jane Zimmerman", "id": "find_limits_of_function"}
+{"text": "Given an equation of a rational function, student can determine where the function values are positive, negative, zero, and undefined.", "author": "Jane Zimmerman", "id": "determine_rational_function_values"}
+{"text": "find the x-intercept(s) and y-intercept of a function algebraically and graphically.", "author": "Tom Mahoney", "id": "find_intercepts"}
+{"text": "express linear equations using point-slope, slope-intercept, and standard form.  determine the equation of a line through two points, or through one point with a given slope.", "author": "Tom Mahoney", "id": "linear_equations"}
+{"text": "determine the distance, midpoint, and slope between two given points.", "author": "Tom Mahoney", "id": "calculate_distance_midpoint_slope"}
+{"text": "find the equation of lines parallel or perpendicular to a given line.", "author": "Tom Mahoney", "id": "find_equation_parallel_perpendicular"}
+{"text": "simplify composite functions.  evaluate composite functions algebraically and graphically.", "author": "Tom Mahoney", "id": "simplify_composite_functions"}
+{"text": "simplify expressions involving exponents and convert between them and scientific notation.", "author": "Tom Mahoney", "id": "simplify_exponents_scientific_notation"}
+{"text": "find the equation of an exponential function given two data points.  graph exponential functions.  determine whether an exponential function represents exponential growth or decay.  determine the initial population or amount of an exponential function.", "author": "Tom Mahoney", "id": "exp_function_analysis"}
+{"text": "compute the average rate of change, minimum value, and maximum value of a function over an interval.  determine if a function is increasing or decreasing over an interval.", "author": "Tom Mahoney", "id": "compute_average_rate_change"}
+{"text": "Given a function in any of the four representations, student can evaluate the average rate of change (AROC) between two points.", "author": "Jane Zimmerman", "id": "evaluate_aroc"}
+{"text": "Student can set up and solve direct and inverse variation application problems.", "author": "Jane Zimmerman", "id": "solve_direct_inverse_variation_problems"}
+{"text": "Students will be able to use Desire2Learn and WeBWorK for online resources", "author": "Jane Zimmerman", "id": "use_d2l_and_webwork"}
+{"text": "build linear models from verbal descriptions and use the models to establish conclusions.", "author": "Tom Mahoney", "id": "build_linear_models"}
+{"text": "Explain how you can verify your answer.", "author": "Jane Zimmerman", "id": "verify_answer_explanation"}
+{"text": "Progress in MA111 College Algebra", "author": "Tom Mahoney", "id": "progress_in_college_algebra"}

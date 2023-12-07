@@ -1,0 +1,55 @@
+{"text": "Parametrize curves", "author": "Bret Benesh", "id": "parametrize_curves"}
+{"text": "Parametric surfaces", "author": "Drew Lewis", "id": "parametric_surfaces"}
+{"text": "Surfaces", "author": "Amanda Harsy", "id": "surfaces"}
+{"text": "Planes and surfaces", "author": "Drew Lewis", "id": "planes_and_surfaces"}
+{"text": "Planes and Vector Valued Functions", "author": "Amanda Harsy", "id": "planes_and_vector_valued_functions"}
+{"text": "Vector operations", "author": "Drew Lewis", "id": "vector_operations"}
+{"text": "Applications of vector calculus", "author": "Drew Lewis", "id": "vector_calculus_applications"}
+{"text": "use vector calculus tools and theorems to evaluate integrals.", "author": "Lidia Mrad", "id": "evaluate_integrals_using_vector_calculus"}
+{"text": "Vector line integrals", "author": "Drew Lewis", "id": "vector_line_integrals"}
+{"text": "Scalar line integrals", "author": "Drew Lewis", "id": "scalar_line_integrals"}
+{"text": "Compute line integrals", "author": "Bret Benesh", "id": "compute_line_integrals"}
+{"text": "Fundamental theorem of line integrals", "author": "Drew Lewis", "id": "fundamental_theorem_line_integrals"}
+{"text": "The Fundamental Theorem of Line Integrals", "author": "Amanda Harsy", "id": "fundamental_theorem_line_integrals"}
+{"text": "Line Integrals and Green's Theorem", "author": "Amanda Harsy", "id": "line_integrals_and_greens_theorem"}
+{"text": "Green's Theorem II", "author": "Drew Lewis", "id": "greens_theorem_ii"}
+{"text": "Green's Theorem I", "author": "Drew Lewis", "id": "greens_theorem_i"}
+{"text": "Generalizations of Green's Theorem", "author": "Drew Lewis", "id": "generalizations_of_greens_theorem"}
+{"text": "Divergence and Stokes' Theorems", "author": "Amanda Harsy", "id": "divergence_and_stokes_theorems"}
+{"text": "Vector surface integrals", "author": "Drew Lewis", "id": "vector_surface_integrals"}
+{"text": "Surface Integrals", "author": "Amanda Harsy", "id": "surface_integrals"}
+{"text": "Calculate surface integrals", "author": "Bret Benesh", "id": "calculate_surface_integrals"}
+{"text": "Scalar surface integrals", "author": "Drew Lewis", "id": "scalar_surface_integrals"}
+{"text": "compute multiple integrals using various coordinate systems.", "author": "Lidia Mrad", "id": "compute_multiple_integrals_coordinate_systems"}
+{"text": "Compute double integrals", "author": "Bret Benesh", "id": "compute_double_integrals"}
+{"text": "Double integrals", "author": "Drew Lewis", "id": "double_integrals"}
+{"text": "Triple integrals", "author": "Drew Lewis", "id": "triple_integrals"}
+{"text": "Compute triple integrals", "author": "Bret Benesh", "id": "compute_triple_integrals"}
+{"text": "Iterated integrals", "author": "Drew Lewis", "id": "iterated_integrals"}
+{"text": "Potential functions", "author": "Drew Lewis", "id": "potential_functions"}
+{"text": "Compute derivatives", "author": "Bret Benesh", "id": "compute_derivatives"}
+{"text": "Partial derivatives", "author": "Drew Lewis", "id": "partial_derivatives"}
+{"text": "Graphical Interpretation of Partial Derivatives", "author": "Amanda Harsy", "id": "graphical_interpretation_of_partial_derivatives"}
+{"text": "Gradient and directional derivatives", "author": "Drew Lewis", "id": "gradient_and_directional_derivatives"}
+{"text": "Tangent vectors to curves", "author": "Drew Lewis", "id": "tangent_vectors_to_curves"}
+{"text": "Use tangent plane approximations", "author": "Bret Benesh", "id": "use_tangent_plane_approximations"}
+{"text": "Curvature", "author": "Amanda Harsy", "id": "curvature_learning"}
+{"text": "Arclength", "author": "Drew Lewis", "id": "arc_length"}
+{"text": "Limits", "author": "Amanda Harsy", "id": "limits"}
+{"text": "Chain rule", "author": "Drew Lewis", "id": "chain_rule"}
+{"text": "calculate different rates of change for functions with more than one variable.", "author": "Lidia Mrad", "id": "calculate_rates_of_change"}
+{"text": "Change of variables", "author": "Drew Lewis", "id": "change_of_variables"}
+{"text": "Use Lagrange multipliers", "author": "Bret Benesh", "id": "use_lagrange_multipliers"}
+{"text": "Lagrange Multipliers", "author": "Amanda Harsy", "id": "lagrange_multipliers"}
+{"text": "Constrained optimization", "author": "Drew Lewis", "id": "constrained_optimization"}
+{"text": "Local optimization", "author": "Drew Lewis", "id": "local_optimization"}
+{"text": "Optimization and Classifying Extrema", "author": "Amanda Harsy", "id": "optimize_and_classify_extrema"}
+{"text": "Critical points", "author": "Drew Lewis", "id": "critical_points"}
+{"text": "Polar Curves", "author": "Amanda Harsy", "id": "polar_curves"}
+{"text": "Parametric Equations and Lines", "author": "Amanda Harsy", "id": "parametric_equations_and_lines"}
+{"text": "Parametrize surface patches", "author": "Bret Benesh", "id": "parametrize_surface_patches"}
+{"text": "identify and work with 2D and 3D objects.", "author": "Lidia Mrad", "id": "work_with_2d_3d_objects"}
+{"text": "Areas, volumes, and mass", "author": "Drew Lewis", "id": "calculate_areas_volumes_mass"}
+{"text": "improve mathematical communication, including reading, writing, and oral communication.", "author": "Lidia Mrad", "id": "improve_math_communication"}
+{"text": "Linearization", "author": "Drew Lewis", "id": "linearization"}
+{"text": "Vector fields", "author": "Drew Lewis", "id": "vector_fields"}

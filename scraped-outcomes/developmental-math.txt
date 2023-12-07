@@ -1,0 +1,20 @@
+{"text": "Evaluating numerical and expressions, including fractions", "author": "Matt Salomone", "id": "evaluate_numerical_expressions"}
+{"text": "Evaluate and simplify algebraic expressions, by applying properties of arithmetic and the order of operations.", "author": "Matt Salomone", "id": "evaluate_simplify_algebraic_expressions"}
+{"text": "Carry out arithmetic simplifications using the order of operations.", "author": "Matt Salomone", "id": "simplify_arithmetic_operations"}
+{"text": "Simplify arithmetic expressions involving signed numbers and rational numbers, without use of a calculator.", "author": "Matt Salomone", "id": "simplify_arithmetic_expressions"}
+{"text": "Extend rational number strategies to simplify sums, differences, products, and quotients of rational expressions.", "author": "Matt Salomone", "id": "simplify_rational_expressions"}
+{"text": "Simplifying rational and radical expressions; quadratic formula", "author": "Matt Salomone", "id": "simplify_rational_radical_quadratic"}
+{"text": "Simplify basic radical expressions, and use the quadratic formula to find exact (real) solutions to quadratic equations.", "author": "Matt Salomone", "id": "simplify_radical_and_quadratic_formula"}
+{"text": "Use factoring methods to solve monic quadratic equations and simplify single rational expressions.", "author": "Matt Salomone", "id": "solve_quadratic_equations"}
+{"text": "Performing arithmetic with, and factoring, polynomials", "author": "Matt Salomone", "id": "performing_arithmetic_with_and_factoring_polynomials"}
+{"text": "Use a combination of strategies to completely factor a polynomial expression, including grouping and the AC-method.", "author": "Matt Salomone", "id": "factor_polynomial_expression"}
+{"text": "Simplify sums, differences, and products of polynomial expressions, using a variety of visual approaches.", "author": "Matt Salomone", "id": "simplify_polynomial_expressions"}
+{"text": "Use properties of exponents to simplify expressions involving monomial arithmetic.", "author": "Matt Salomone", "id": "simplify_expressions_with_exponents"}
+{"text": "Simplifying expressions using properties of exponents", "author": "Matt Salomone", "id": "simplify_expressions_exponents"}
+{"text": "Solve linear equations and inequalities using a systematic strategy.", "author": "Matt Salomone", "id": "solve_linear_equations"}
+{"text": "Solving linear equations, inequalities, and 2x2 systems", "author": "Matt Salomone", "id": "solve_linear_equations"}
+{"text": "Use a substitution and/or elimination strategy to characterize the solution of a system of two linear equations.", "author": "Matt Salomone", "id": "solve_linear_equations"}
+{"text": "Use graphs and formulas to understand linear relationships.", "author": "Matt Salomone", "id": "understand_linear_relationships"}
+{"text": "Translate between graphical, algebraic, and data-table representations of a two-variable linear relationship.", "author": "Matt Salomone", "id": "translate_linear_relationship"}
+{"text": "Extend arithmetic properties to study the algebra of polynomials.", "author": "Matt Salomone", "id": "extend_arithmetic_properties_polynomials"}
+{"text": "Solve compound linear inequalities, including absolute\u2013value, and express answers as a graph and in interval notation.", "author": "Matt Salomone", "id": "solve_compound_linear_inequalities"}

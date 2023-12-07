@@ -1,0 +1,111 @@
+{"text": "Determine whether an element is in a set", "author": "Bret Benesh", "id": "check_element_in_set"}
+{"text": "Elements of sets", "author": "Bret Benesh", "id": "elements_of_sets"}
+{"text": "Theory of sets", "author": "Justin Dunmyre", "id": "theory_of_sets"}
+{"text": "Set equality", "author": "Bret Benesh", "id": "set_equality"}
+{"text": "Prove two sets are equal", "author": "Bret Benesh", "id": "prove_sets_equal"}
+{"text": "Prove that a set is a subset of another set or that two sets are equal.", "author": "Lidia Mrad", "id": "prove_set_subset_or_equal"}
+{"text": "Use mathematical symbols correctly. Only write = if the two objects are truly equal, and use \u2208 and \u2286 appropriately.", "author": "Bret Benesh", "id": "use_mathematical_symbols_correctly"}
+{"text": "Use appropriate quantifiers, once. Use phrases like \u201cLet x \u2208 R.\u201d Do not define variables more than once, though, unless you wish to change what the variable represents (and you should avoid redefining variables if you can help it). Additionally, you should write these statements in the correct order: write \u201cLet x = ay + z.\u201d to define x rather than \u201cLet ay + z = x.\u201d", "author": "Bret Benesh", "id": "use_appropriate_quantifiers"}
+{"text": "Your work demonstrates fluency. Use English words where appropriate, and use mathematical notation where appropriate. As an extreme example, one should write \u201cIf a natural number n is even, then n2 + 3n + 2 is also even.\u201d rather than \u201cIf a natural number is even, then so is that number squared plus three times that number plus two.\u201d Notation should be consistent throughout the problem, and all notation should be defined.", "author": "Bret Benesh", "id": "demonstrates_fluency_in_notation"}
+{"text": "Use English words liberally in a grammatically correct fashion. You are allowed to use equations and notation, but you should use English prose to describe how they relate to your ideas. Part of this is to use logical connections appropriately\u2014words like \u201ctherefore,\u201d \u201cthus,\u201d \u201cif. . . then,\u201d and \u201cif and only if\u201d are often necessary.", "author": "Bret Benesh", "id": "use_english_words_appropriately"}
+{"text": "Do not use symbols like \u2203, \u2200, \u00ac, \u2228, \u2227, and =\u21d2 . Instead, use their English equivalents.", "author": "Bret Benesh", "id": "avoid_symbolic_notation"}
+{"text": "Write a correct proof using the contrapositive or other logical equivalences.", "author": "Lidia Mrad", "id": "write_correct_proof_contrapositive"}
+{"text": "Write a correct proof by contradiction.", "author": "Lidia Mrad", "id": "write_proof_by_contradiction"}
+{"text": "Write a correct direct proof.", "author": "Lidia Mrad", "id": "write_correct_direct_proof"}
+{"text": "Write a correct proof for a biconditional statement.", "author": "Lidia Mrad", "id": "write_correct_proof_biconditional"}
+{"text": "Write a correct proof using mathematical induction.", "author": "Lidia Mrad", "id": "write_correct_proof_induction"}
+{"text": "Use Mathematical Induction", "author": "Bret Benesh", "id": "use_mathematical_induction"}
+{"text": "Mathematical induction", "author": "Bret Benesh", "id": "mathematical_induction"}
+{"text": "construct and write mathematical proofs using standard methods including direct proof, proof by contradiction, and mathematical induction", "author": "Rachel Weir", "id": "write_mathematical_proofs"}
+{"text": "Practice constructing mathematical proofs using methods including direct proofs, mathematical induction, case analysis, and contradiction", "author": "David Clark", "id": "construct_mathematical_proofs"}
+{"text": "Explain standard methods of mathematical proof (including direct proofs, logical equivalencies, proof by contradiction, mathematical induction, case analysis, and counterexamples).", "author": "David Clark", "id": "explain_standard_methods_of_mathematical_proof"}
+{"text": "Create mathematical proofs using standard methods of mathematical proof.", "author": "David Clark", "id": "create_mathematical_proofs"}
+{"text": "methods of proof in mathematics", "author": "Justin Dunmyre", "id": "proof_methods_mathematics"}
+{"text": "proving mathematical theorems", "author": "Justin Dunmyre", "id": "prove_math_theorems"}
+{"text": "Critique mathematical proofs.", "author": "David Clark", "id": "critique_mathematical_proofs"}
+{"text": "write readable, concise, and mathematically rigorous proofs using correct mathematical notation.", "author": "Lidia Mrad", "id": "write_rigorous_proofs"}
+{"text": "Read mathematical proofs and evaluate them for correctness and clarity.", "author": "Chad Wiley", "id": "read_mathematical_proofs"}
+{"text": "read, summarize, and evaluate mathematical content, including mathematical proof", "author": "Rachel Weir", "id": "read_summarize_evaluate_mathematical_content"}
+{"text": "Develop the ability to read and understand written mathematical proofs", "author": "David Clark", "id": "read_understand_math_proofs"}
+{"text": "improve the quality of mathematical communication, including reading, writing, and oral communication of proofs.", "author": "Lidia Mrad", "id": "improve_math_communication"}
+{"text": "Improve the quality of mathematical communication.", "author": "David Clark", "id": "improve_math_communication"}
+{"text": "Improve the quality of mathematical communication including writing techniques, reading comprehension, and oral communication in mathematics", "author": "David Clark", "id": "improve_math_communication"}
+{"text": "communicate mathematical reasoning through clear writing", "author": "Rachel Weir", "id": "write_math_reasoning"}
+{"text": "Develop a deep understanding of mathematical logic, proof, and writing", "author": "David Clark", "id": "understand_mathematical_logic"}
+{"text": "Apply your proof writing skills to new areas of mathematics.", "author": "Chad Wiley", "id": "apply_proof_skills"}
+{"text": "Write proofs using specialized methods (universal proofs, existence and uniqueness proofs, proof by induction, and proof by cases).", "author": "Chad Wiley", "id": "write_specialized_proofs"}
+{"text": "Write proofs using the standard methods (direct proofs, proof by contrapositive, and proof by contradiction).", "author": "Chad Wiley", "id": "write_proofs_standard_methods"}
+{"text": "You will understand the structure and importance of proofs", "author": "Bret Benesh", "id": "understand_structure_importance_proofs"}
+{"text": "You will understand the structure and importance of theorems", "author": "Bret Benesh", "id": "understand_theorems_structure"}
+{"text": "develop an understanding of the importance of definitions and theorems.", "author": "Lidia Mrad", "id": "understand_importance_definitions_theorems"}
+{"text": "You will develop a healthy respect for the importance of definitions", "author": "Bret Benesh", "id": "develop_healthy_respect_for_definitions"}
+{"text": "Develop a deep understanding of the ideas outlined above.", "author": "David Clark", "id": "understand_ideas_above"}
+{"text": "Develop logical thinking skills and the ability to think more abstractly in a proof-oriented setting.", "author": "David Clark", "id": "develop_logical_thinking"}
+{"text": "Develop talents for creative thinking and problem solving.", "author": "David Clark", "id": "develop_creative_thinking"}
+{"text": "Develop talents for creative thinking and problem solving in mathematics", "author": "David Clark", "id": "develop_talents_math"}
+{"text": "Improve ability to see patterns, make conjectures, and write proofs independently.", "author": "David Clark", "id": "improve_pattern_recognition"}
+{"text": "Communicating proofs professionally", "author": "David Clark", "id": "communicating_proofs"}
+{"text": "Do not write down anything that has not yet been proven. If you want to talk about something that you do not know is true, then you must preface that you do not know it by using the words \u201csuppose\u201d or \u201cassume.\u201d This also means that you might write your proof in a different order than how you thought of the idea.", "author": "Bret Benesh", "id": "do_not_write_unproven"}
+{"text": "Give sufficient detail for a peer to follow your argument. It is your responsibility to make sure that your thoughts are clear; it is not the reader\u2019s responsibility to guess what you are thinking. Thus, make sure that your work contains enough detail to convince a skeptical reader that your work is correct.", "author": "Bret Benesh", "id": "provide_sufficient_detail_for_argument"}
+{"text": "You will be able to write clearly, concisely, and precisely", "author": "Bret Benesh", "id": "write_clearly_concisely_precisely"}
+{"text": "You will be able to abstract appropriately", "author": "Bret Benesh", "id": "abstract_appropriately"}
+{"text": "All counterexamples should be concrete, specific, and as simple as possible.", "author": "Bret Benesh", "id": "concrete_specific_simple_counterexamples"}
+{"text": "Negate compound statements having quantifiers.", "author": "Lidia Mrad", "id": "negate_compound_quantifiers"}
+{"text": "quantifiers", "author": "Justin Dunmyre", "id": "quantifiers"}
+{"text": "mathematical logic", "author": "Justin Dunmyre", "id": "mathematical_logic"}
+{"text": "Mathematical Standards", "author": "Justin Dunmyre", "id": "mathematical_standards"}
+{"text": "Solve and generalize mathematical problems.", "author": "David Clark", "id": "solve_math_problems"}
+{"text": "become familiar with mathematical concepts outside of calculus and high school content", "author": "Rachel Weir", "id": "math_concepts_beyond_calculus"}
+{"text": "Earning + and - grades", "author": "David Clark", "id": "earning_plus_minus_grades"}
+{"text": "How final grades are assigned", "author": "David Clark", "id": "assign_final_grades"}
+{"text": "Understanding base grades", "author": "David Clark", "id": "understanding_base_grades"}
+{"text": "Reassessments and grade modification", "author": "David Clark", "id": "reassessments_and_grade_modification"}
+{"text": "Revision", "author": "Justin Dunmyre", "id": "revision"}
+{"text": "homework due", "author": "Justin Dunmyre", "id": "homework_due"}
+{"text": "Deadlines", "author": "Justin Dunmyre", "id": "meeting_deadlines"}
+{"text": "Mandatory Reporting", "author": "Justin Dunmyre", "id": "mandatory_reporting"}
+{"text": "Academic Dishonesty", "author": "Justin Dunmyre", "id": "academic_dishonesty"}
+{"text": "Disruptive Behavior", "author": "Justin Dunmyre", "id": "disruptive_behavior"}
+{"text": "Manipulate statements by negating or connecting them.", "author": "Lidia Mrad", "id": "manipulate_statements"}
+{"text": "Determine the truth value of connections using truth tables.", "author": "Lidia Mrad", "id": "determine_truth_value_using_truth_tables"}
+{"text": "Determine if a relation is an equivalence relation.", "author": "Chad Wiley", "id": "determine_equivalence_relation"}
+{"text": "Determine if a function is one-to-one or onto.", "author": "Chad Wiley", "id": "determine_function_properties"}
+{"text": "Disprove a function is onto", "author": "Bret Benesh", "id": "disprove_function_onto"}
+{"text": "Prove a function is onto", "author": "Bret Benesh", "id": "prove_function_onto"}
+{"text": "Onto functions", "author": "Bret Benesh", "id": "onto_functions"}
+{"text": "One-to-one functions", "author": "Bret Benesh", "id": "one_to_one_functions"}
+{"text": "Prove a function is one-to-one", "author": "Bret Benesh", "id": "prove_function_one_to_one"}
+{"text": "Disprove a function is one-to-one", "author": "Bret Benesh", "id": "disprove_function_one_to_one"}
+{"text": "Find the domain and range of a function.", "author": "Lidia Mrad", "id": "find_domain_range"}
+{"text": "Find the intersection, union, and complement of sets.", "author": "Lidia Mrad", "id": "find_set_operations"}
+{"text": "Determine whether a set is finite, countably infinite, or uncountably infinite.", "author": "Chad Wiley", "id": "determine_set_cardinality"}
+{"text": "Define and give examples of sequences.", "author": "Lidia Mrad", "id": "define_sequences"}
+{"text": "Prove that a sequence converges.", "author": "Lidia Mrad", "id": "prove_sequence_converges"}
+{"text": "Prove that a sequence is monotonic.", "author": "Lidia Mrad", "id": "prove_sequence_monotonic"}
+{"text": "Prove that a limit exists using the epsilon-delta definition.", "author": "Lidia Mrad", "id": "prove_limit_exists_epsilon_delta"}
+{"text": "Determine limits by using limit properties.", "author": "Lidia Mrad", "id": "determine_limits_using_limit_properties"}
+{"text": "Apply the triangle and the reverse-triangle inequalities.", "author": "Lidia Mrad", "id": "apply_triangle_inequalities"}
+{"text": "Write strings of equalities/inequalities in the correct order. Every step should be obvious. So write 0 = x2 + x = x(x + 1) instead of x2 + x = 0 = x(x + 1).", "author": "Bret Benesh", "id": "write_order_of_equalities"}
+{"text": "Use LATEX for mathematical symbols. Thus, you should write x + 3 instead of x+3.", "author": "Bret Benesh", "id": "use_latex_for_mathematical_symbols"}
+{"text": "Make sure that you introduce every symbol you use. Every variable should be defined\u2014the reader should not have to guess whether x is an integer or an irrational number.", "author": "Bret Benesh", "id": "introduce_symbols_and_define_variables"}
+{"text": "Do not start a sentence with a mathematical symbol. For instance, do not write: \u201cWe start by considering the variable x. x is an even integer.\u201d Instead, write \u201cWe start by considering x. The variable x is an even integer.\u201d or \u201cWe start by considering the variable x, which is an even integer.\u201d", "author": "Bret Benesh", "id": "avoid_starting_sentence_with_math_symbol"}
+{"text": "Use the royal we. Do not use \u201cI\u201d or \u201cyou,\u201d but rather \u201cwe.\u201d For instance, write \u201cWe now show that n is odd.\u201d", "author": "Bret Benesh", "id": "use_royal_we"}
+{"text": "Do not use ambiguous pronouns. This is particularly a problem with \u201cit.\u201d Avoid using pronouns, and make sure that any pronouns that you do choose to use are referring to something in an absolutely unambiguous way.", "author": "Bret Benesh", "id": "avoid_ambiguous_pronouns"}
+{"text": "Your work is valid. Everything you said is true and follows logically from what you have already written.", "author": "Bret Benesh", "id": "valid_work"}
+{"text": "Your work is complete. You proved the statement, covering every possible case. You have a thorough explanation of each part of your proof.", "author": "Bret Benesh", "id": "complete_proof_explanation"}
+{"text": "Do not include examples in your proof. In particular, do not use an example to prove your result, unless the theorem is of the form \u201cThere exists a . . .\u201d", "author": "Bret Benesh", "id": "avoid_using_examples_in_proofs"}
+{"text": "State the problem or theorem you are proving.", "author": "Bret Benesh", "id": "state_problem_or_theorem"}
+{"text": "Determine appropriate method of proof for a given conjecture or argument.", "author": "David Clark", "id": "determine_proof_method"}
+{"text": "Use the field axioms to prove identities of real numbers.", "author": "Lidia Mrad", "id": "prove_real_number_identities"}
+{"text": "Verify the field axioms for specific sets and operations.", "author": "Lidia Mrad", "id": "verify_field_axioms"}
+{"text": "Prove properties of the infimum and the supremum.", "author": "Lidia Mrad", "id": "prove_properties_of_infimum_supremum"}
+{"text": "Completing Preview Activities", "author": "David Clark", "id": "completing_preview_activities"}
+{"text": "Celebrations of Learning", "author": "Justin Dunmyre", "id": "celebrations_of_learning"}
+{"text": "participation in the classroom Learning Community", "author": "Justin Dunmyre", "id": "participation_in_classroom_learning_community"}
+{"text": "Accommodations", "author": "Justin Dunmyre", "id": "accommodations"}
+{"text": "Your work is readable. Your writing is aimed for a 241 student, possibly at a different university, who has not yet seen this problem. This fictional audience member may not have learned exactly the same material we learned (although they can look up definitions in our class resoures), and may be used to slightly different notation.", "author": "Bret Benesh", "id": "readable_writing_for_241_student"}
+{"text": "Use whitespace appropriately. Do not overwhelm the reader by packing everything into a very small space. Break things up into smaller paragraphs and put longer equations into its own line when appropriate.", "author": "Bret Benesh", "id": "use_whitespace_appropriately"}
+{"text": "LaTeX Write-ups", "author": "Justin Dunmyre", "id": "latex_write_ups"}
+{"text": "Lead Authorships", "author": "David Clark", "id": "lead_authorships"}
+{"text": "Mastering Learning Targets", "author": "David Clark", "id": "mastering_learning_targets"}
+{"text": "Beacon Early Warning System", "author": "Justin Dunmyre", "id": "beacon_early_warning"}

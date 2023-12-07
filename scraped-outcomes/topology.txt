@@ -1,0 +1,6 @@
+{"text": "Identify topologies and topological spaces", "author": "Chad Wiley", "id": "identify_topologies"}
+{"text": "Determine whether two spaces are homeomorphic (i.e. topologically equivalent)", "author": "Chad Wiley", "id": "determine_homeomorphism"}
+{"text": "Determine whether a space or set is connected", "author": "Chad Wiley", "id": "determine_space_connected"}
+{"text": "Determine whether a space or set is compact", "author": "Chad Wiley", "id": "determine_compactness"}
+{"text": "Determine relationships between the interiors, closures, and boundaries of sets", "author": "Chad Wiley", "id": "determine_relationships_interiors_closures_boundaries_sets"}
+{"text": "Use existing spaces to construct new ones", "author": "Chad Wiley", "id": "construct_new_spaces"}

@@ -1,0 +1,14 @@
+{"text": "Understand the connections between rational tangles and fractions.", "author": "Matt Salomone", "id": "understand_connections_rational_tangles_fractions"}
+{"text": "Determine the fraction of a rational tangle in two different ways, and trace the proof that the fraction is an invariant for rational tangles.", "author": "Matt Salomone", "id": "determine_fraction_rational_tangle"}
+{"text": "Discover how different types of twists on a rational tangle determine its tangle number.", "author": "Matt Salomone", "id": "determine_tangle_number"}
+{"text": "Argue for why rational number arithmetic necessitates certain relationships among rational tangles.", "author": "Matt Salomone", "id": "argue_rational_tangle_relationships"}
+{"text": "Calculate algebraic structures that are invariants for knots, including the fundamental quandle and the knot group, and use these to distinguish among knots.", "author": "Matt Salomone", "id": "calculate_invariants_for_knots"}
+{"text": "Use a variety of algebraic structures to classify knots.", "author": "Matt Salomone", "id": "classify_knots_using_algebraic_structures"}
+{"text": "Use numerical invariants for knots including the unknotting, bridge, and crossing numbers, to investigate relationships among classes of knots.", "author": "Matt Salomone", "id": "investigate_relationships_knots"}
+{"text": "Use numerical information to tabulate knots.", "author": "Matt Salomone", "id": "tabulate_knots_using_numerical_information"}
+{"text": "Determine and contrast several ways to notate a knot using a diagram of its crossings.", "author": "Matt Salomone", "id": "determine_contrast_notate_knot_crossings"}
+{"text": "Calculate polynomials that are invariants for knots, including the Alexander, HOMFLY, and Jones polynomials, and use these to distinguish among knots.", "author": "Matt Salomone", "id": "calculate_knot_invariants"}
+{"text": "Design resources for, and facilitate, a workshop designed for in-service teachers on knot theory and algebraic thinking.", "author": "Matt Salomone", "id": "design_workshop_knot_theory"}
+{"text": "Reinforce algebraic thinking beyond the standard curriculum.", "author": "Matt Salomone", "id": "reinforce_algebraic_thinking"}
+{"text": "Explore the nature of algebraic thinking in mathematics by identifying it in a variety of contexts beyond the standard school algebra curriculum.", "author": "Matt Salomone", "id": "explore_algebraic_thinking"}
+{"text": "Contrast several models of math teacher professional development, including the problem-based Math Teachers Circle model.", "author": "Matt Salomone", "id": "contrast_math_teacher_models"}

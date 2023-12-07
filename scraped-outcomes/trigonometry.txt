@@ -1,0 +1,42 @@
+{"text": "Describe angles in terms of degree measure and radian measure.", "author": "Chad Wiley", "id": "describe_angles_measure"}
+{"text": "Analyze angles.", "author": "Ricardo Moena", "id": "analyze_angles"}
+{"text": "Analyze right triangles.", "author": "Ricardo Moena", "id": "analyze_right_triangles"}
+{"text": "Analyze general triangles.", "author": "Ricardo Moena", "id": "analyze_general_triangles"}
+{"text": "Recognize, create, and modify graphs of standard trigonometric functions.", "author": "Chad Wiley", "id": "recognize_create_modify_trig_graphs"}
+{"text": "Calculate values of the standard trigonometric functions (sine, cosine, etc.) using properties of right angles.", "author": "Chad Wiley", "id": "calculate_trig_functions"}
+{"text": "Use reference angles to calculate values of trigonometric functions outside the first quadrant.", "author": "Chad Wiley", "id": "calculate_trig_values_outside_first_quadrant"}
+{"text": "Find reference angles for angles outside the first quadrant.", "author": "Chad Wiley", "id": "find_reference_angles_outside_first_quadrant"}
+{"text": "Solve applied problems involving right angle trigonometry.", "author": "Chad Wiley", "id": "solve_applied_problems_trigonometry"}
+{"text": "Solve problems involving the use of inverse trigonometric functions.", "author": "Chad Wiley", "id": "solve_problems_inverse_trig"}
+{"text": "understand how to use trigonometry (trigonometric functions, inverse-trigonometric functions, identities, Law of Sines & Law of Cosines) to solve problems", "author": "Emily Cilli-Turner", "id": "solve_problems_with_trigonometry"}
+{"text": "Solve problems involving the Law of Cosines.", "author": "Chad Wiley", "id": "solve_problems_law_of_cosines"}
+{"text": "Solve problems involving the Law of Sines.", "author": "Chad Wiley", "id": "solve_problems_law_of_sines"}
+{"text": "Use identities to solve trigonometric equations.", "author": "Chad Wiley", "id": "solve_trig_equations"}
+{"text": "Develop and apply advanced identities of trigonometric functions.", "author": "Chad Wiley", "id": "develop_advanced_trig_identities"}
+{"text": "Develop and apply fundamental identities of trigonometric functions.", "author": "Chad Wiley", "id": "develop_trig_identities"}
+{"text": "Develop and apply sum and difference identities of trigonometric functions.", "author": "Chad Wiley", "id": "apply_sum_difference_trig_identities"}
+{"text": "Develop and apply half- and double-angle identities of trigonometric functions.", "author": "Chad Wiley", "id": "apply_half_double_angle_identities"}
+{"text": "Successful Trigonometry students demonstrate a deep understanding of periodic functions.", "author": "Ricardo Moena", "id": "deep_understanding_periodic_functions"}
+{"text": "Create periodic models from data.", "author": "Ricardo Moena", "id": "create_periodic_models"}
+{"text": "Determine parameters of a model given the form of the model and data.", "author": "Ricardo Moena", "id": "determine_model_parameters"}
+{"text": "Interpret the function correspondence and behavior of a given model in terms of the context of the model.", "author": "Ricardo Moena", "id": "interpret_function_correspondence"}
+{"text": "Determine a reasonable applied domain for the model, as well as articulate the limitations of the model.", "author": "Ricardo Moena", "id": "determine_applied_domain_and_limitations"}
+{"text": "Cite domain restrictions resulting from solution decisions and situation restrictions and reflect these in solution set descriptions.", "author": "Ricardo Moena", "id": "cite_domain_restrictions"}
+{"text": "Recognize opportunities to create equivalencies in order to simplify workflow.", "author": "Ricardo Moena", "id": "simplify_workflow"}
+{"text": "Purposefully create equivalences and indicate where they are valid.", "author": "Ricardo Moena", "id": "create_equivalences"}
+{"text": "Recognize when a result (theorem) is applicable and use the result to make sound logical conclusions and to provide counter-examples to conjectures.", "author": "Ricardo Moena", "id": "apply_theorem"}
+{"text": "Anticipate the output from a graphing utility and make adjustments, as needed, in order to efficiently use the technology to solve a problem.", "author": "Ricardo Moena", "id": "adjust_graphing_utility"}
+{"text": "read, interpret, identify, and generate graphs of elementary functions", "author": "Emily Cilli-Turner", "id": "graph_elementary_functions"}
+{"text": "Analyze functions.", "author": "Ricardo Moena", "id": "analyze_functions"}
+{"text": "Recognize function construction/algebra as it appears in equations and inequalities and choose an appropriate solution methodology for a particular equation or inequality, as well as communicate reasons for that choice.", "author": "Ricardo Moena", "id": "recognize_function_construction"}
+{"text": "Use technology to verify solutions to equations and inequalities obtained algebraically.", "author": "Ricardo Moena", "id": "verify_equations"}
+{"text": "Use technology to obtain solutions to equations and inequalities which are difficult to obtain algebraically and know the difference between approximate and exact solutions.", "author": "Ricardo Moena", "id": "solve_equations_technology"}
+{"text": "Distinguish between exact and approximate solutions and which solution methodologies result in which kind of solutions.", "author": "Ricardo Moena", "id": "distinguish_exact_approximate_solutions"}
+{"text": "Demonstrate an understanding of the algebraic, functional, and geometric views of equation solutions.", "author": "Ricardo Moena", "id": "understand_algebraic_functional_geometric_views_of_equation_solutions"}
+{"text": "solve a system of equations by graphical and algebraic methods", "author": "Emily Cilli-Turner", "id": "solve_system_equations"}
+{"text": "apply algebraic concepts in the precalculus setting to solve problems", "author": "Emily Cilli-Turner", "id": "solve_problems_with_algebraic_concepts"}
+{"text": "Perform operations with functions including addition, subtraction, multiplication, division, composition, and inversion.", "author": "Ricardo Moena", "id": "perform_operations_with_functions"}
+{"text": "Convert between different representations of a function.", "author": "Ricardo Moena", "id": "convert_function_representations"}
+{"text": "Become Fluent with conversions using traditional equivalency families.", "author": "Ricardo Moena", "id": "fluent_with_conversions"}
+{"text": "Use correct, consistent, and coherent notation throughout the solution process to a given equation or inequality.", "author": "Ricardo Moena", "id": "use_correct_notation"}
+{"text": "represent complex numbers geometrically and in polar form", "author": "Emily Cilli-Turner", "id": "complex_numbers_representation"}

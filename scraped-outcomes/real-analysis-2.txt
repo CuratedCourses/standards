@@ -1,0 +1,3 @@
+{"text": "Prove theorems about Riemann integrable functions", "author": "Chad Wiley", "id": "prove_riemann_integrable_theorems"}
+{"text": "Prove properties of functions on \u211d and determine whether they are differentiable and integrable", "author": "Chad Wiley", "id": "prove_properties_of_functions_on_r_and_determine_differentiability_and_integrability"}
+{"text": "Prove theorems about topological properties of the real number line", "author": "Chad Wiley", "id": "prove_theorems_real_number_line"}

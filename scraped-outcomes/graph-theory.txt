@@ -1,0 +1,15 @@
+{"text": "Basic Logic and Proofs", "author": "Amanda Harsy", "id": "basic_logic_proofs"}
+{"text": "Basic Combinatorics", "author": "Amanda Harsy", "id": "basic_combinatorics"}
+{"text": "Advanced Combinatorics", "author": "Amanda Harsy", "id": "advanced_combinatorics"}
+{"text": "Generating Functions", "author": "Amanda Harsy", "id": "generating_functions"}
+{"text": "Coefficients of Generating Functions", "author": "Amanda Harsy", "id": "generating_function_coefficients"}
+{"text": "Graphical Degree Sequences", "author": "Amanda Harsy", "id": "graphical_degree_sequences"}
+{"text": "Families of Graphs", "author": "Amanda Harsy", "id": "families_of_graphs"}
+{"text": "Basic Graph Properties", "author": "Amanda Harsy", "id": "basic_graph_properties"}
+{"text": "First Theorem of Graph Theory", "author": "Amanda Harsy", "id": "first_graph_theorem"}
+{"text": "Hamiltonian Graphs", "author": "Amanda Harsy", "id": "hamiltonian_graphs"}
+{"text": "Eulerian Graphs", "author": "Amanda Harsy", "id": "eulerian_graphs"}
+{"text": "Digraphs and Tournaments", "author": "Amanda Harsy", "id": "digraphs_and_tournaments"}
+{"text": "Network Algorithms", "author": "Amanda Harsy", "id": "network_algorithms"}
+{"text": "Trees", "author": "Amanda Harsy", "id": "tree_identification"}
+{"text": "Isomorphisms", "author": "Amanda Harsy", "id": "isomorphisms"}

@@ -1,0 +1,54 @@
+{"text": "Use the fundamental theorem of calculus to compute simple definite integrals.", "author": "Drew Lewis", "id": "compute_simple_definite_integrals"}
+{"text": "Use the fundamental theorem of calculus to compute simple indefinite integrals.", "author": "Drew Lewis", "id": "compute_simple_indefinite_integrals"}
+{"text": "State, explain, and apply the fundamental theorem of calculus.", "author": "Drew Lewis", "id": "fundamental_theorem_of_calculus"}
+{"text": "Define, compute, and interpret a definite integral.", "author": "Drew Lewis", "id": "compute_definite_integral"}
+{"text": "use a variety of methods to evaluate integrals", "author": "Chad Wiley", "id": "evaluate_integrals"}
+{"text": "Integration Techniques", "author": "Amanda Harsy", "id": "integration_techniques"}
+{"text": "Advanced Integration Techniques", "author": "Amanda Harsy", "id": "advanced_integration_techniques"}
+{"text": "Identifying Advanced Integration Techniques", "author": "Amanda Harsy", "id": "identify_advanced_integration_techniques"}
+{"text": "use integrals to solve applied problems", "author": "Chad Wiley", "id": "solve_applied_problems_with_integrals"}
+{"text": "Use integration by parts to compute integrals.", "author": "Drew Lewis", "id": "compute_integrals_by_parts"}
+{"text": "Use u-substitution to compute integrals.", "author": "Drew Lewis", "id": "compute_integrals_with_u_substitution"}
+{"text": "Use a trig substitution to compute an integral.", "author": "Drew Lewis", "id": "compute_integral_with_trig_substitution"}
+{"text": "Perform techniques of integration, including u-substitution, integration by parts, decomposition into partial fractions, and trigonometric substitution.", "author": "Drew Lewis", "id": "perform_integration_techniques"}
+{"text": "Use partial fractions to compute an integral.", "author": "Drew Lewis", "id": "compute_integral_with_partial_fractions"}
+{"text": "Compute improper integrals.", "author": "Drew Lewis", "id": "compute_improper_integrals"}
+{"text": "Recognize and compute improper integrals.", "author": "Drew Lewis", "id": "compute_improper_integrals"}
+{"text": "Improper Integrals", "author": "Amanda Harsy", "id": "improper_integrals"}
+{"text": "Numerical Approximation of Integrals", "author": "Amanda Harsy", "id": "numerical_approximation_integrals"}
+{"text": "Use an integral to compute the area between curves.", "author": "Drew Lewis", "id": "compute_area_between_curves"}
+{"text": "Find the area between two curves given by equations expressed in polar coordinates.", "author": "Drew Lewis", "id": "find_area_between_polar_curves"}
+{"text": "Convert points and equations between rectangular and polar coordinates.", "author": "Drew Lewis", "id": "convert_rectangular_polar"}
+{"text": "express functions and graphs using parametric equations and polar coordinates", "author": "Chad Wiley", "id": "express_functions_parametric_polar"}
+{"text": "Describe plane curves in terms of parametric equations and polar coordinates.", "author": "Drew Lewis", "id": "describe_plane_curves"}
+{"text": "Parameterize simple planar curves.", "author": "Drew Lewis", "id": "parameterize_simple_planar_curves"}
+{"text": "Compute the arclength of a curve given by a function.", "author": "Drew Lewis", "id": "compute_arclength"}
+{"text": "Compute derivatives and integrals of hyperbolic trig functions.", "author": "Drew Lewis", "id": "compute_derivatives_integrals_hyperbolic_trig"}
+{"text": "Differentiation Techniques", "author": "Amanda Harsy", "id": "differentiation_techniques"}
+{"text": "Non-trivial Differentiation Techniques", "author": "Amanda Harsy", "id": "non_trivial_differentiation"}
+{"text": "Non-Calculus Application Questions", "author": "Amanda Harsy", "id": "non_calculus_application_questions"}
+{"text": "Apply integrals to concepts such as area, volume, arc length, mass, work, and energy.", "author": "Drew Lewis", "id": "apply_integrals_concepts"}
+{"text": "Use an integral to compute work.", "author": "Drew Lewis", "id": "compute_work_with_integral"}
+{"text": "Work and Hydrostatic Force", "author": "Amanda Harsy", "id": "work_and_hydrostatic_force"}
+{"text": "Surface Area", "author": "Amanda Harsy", "id": "calculate_surface_area"}
+{"text": "Compute the surface area of a surface of revolution.", "author": "Drew Lewis", "id": "compute_surface_area_of_surface_of_revolution"}
+{"text": "Compute the volume of a surface of revolution", "author": "Drew Lewis", "id": "compute_surface_volume"}
+{"text": "Calculating Volume", "author": "Amanda Harsy", "id": "calculate_volume"}
+{"text": "L'Hopital's Rule", "author": "Amanda Harsy", "id": "lhopitals_rule"}
+{"text": "Determine the interval of convergence of a Taylor series of a function.", "author": "Drew Lewis", "id": "determine_interval_convergence_taylor_series"}
+{"text": "Find the interval of convergence for power series, manipulate power series within their intervals of convergence, and represent analytic functions as a Taylor series.", "author": "Drew Lewis", "id": "find_interval_convergence"}
+{"text": "Compute a Taylor polynomial of a given degree for an analytic function.", "author": "Drew Lewis", "id": "compute_taylor_polynomial"}
+{"text": "Taylor Series", "author": "Amanda Harsy", "id": "taylor_series"}
+{"text": "Geometric Series", "author": "Amanda Harsy", "id": "geometric_series"}
+{"text": "Sequences and Series", "author": "Amanda Harsy", "id": "sequences_and_series"}
+{"text": "solve problems involving infinite sequences and series", "author": "Chad Wiley", "id": "solve_infinite_sequences"}
+{"text": "Manipulate infinite sequences and series.", "author": "Drew Lewis", "id": "manipulate_infinite_sequences"}
+{"text": "Tests for Series", "author": "Amanda Harsy", "id": "series_tests"}
+{"text": "Use the ratio and root tests to determine if a series converges.", "author": "Drew Lewis", "id": "determine_convergence_ratio_root"}
+{"text": "Use the integral test, comparison test, and/or the limit comparison test to determine if a series converges.", "author": "Drew Lewis", "id": "determine_series_convergence"}
+{"text": "Apply tests of convergence and divergence.", "author": "Drew Lewis", "id": "apply_tests_convergence_divergence"}
+{"text": "Explain what it means for a sequence to converge or diverge. Determine if a sequence is convergent or divergent.", "author": "Drew Lewis", "id": "convergence_divergence_sequence"}
+{"text": "Explain what it means for a series to converge or diverge. Determine if simple series, e.g. geometric series or p-series, converge.", "author": "Drew Lewis", "id": "convergence_divergence_series"}
+{"text": "Explain the difference between conditional and absolute convergence. Use the alternating series test to determine if a series converges.", "author": "Drew Lewis", "id": "explain_conditional_absolute_convergence"}
+{"text": "Interval of Convergence", "author": "Amanda Harsy", "id": "interval_of_convergence"}
+{"text": "Find an equation of the tangent line to a parametric curve at a given point.", "author": "Drew Lewis", "id": "find_tangent_equation_parametric_curve"}

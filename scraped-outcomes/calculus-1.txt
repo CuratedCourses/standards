@@ -1,0 +1,305 @@
+{"text": "state two things that a derivative measures.", "author": "Bret Benesh", "id": "measure_derivative"}
+{"text": "state two things that an integral measures.", "author": "Bret Benesh", "id": "measure_integral"}
+{"text": "measure area of bounded planar regions", "author": "Ohio Math Initiative", "id": "measure_area_of_regions"}
+{"text": "relate area functions to definite integrals", "author": "Chad Wiley", "id": "relate_area_to_definite_integrals"}
+{"text": "Compute integrals of basic functions and interpret definite integrals as areas.", "author": "Lidia Mrad", "id": "compute_integrals_and_interpret_areas"}
+{"text": "Interpret definite integrals as areas under graphs. Use a graph of a function to compute a definite integral.", "author": "Lidia Mrad", "id": "interpret_definite_integrals"}
+{"text": "Areas under graphs. Interpret areas under graphs as definite integrals. Use a graph of a function to compute a definite integral.", "author": "Drew Lewis", "id": "interpret_areas_under_graphs_as_definite_integrals"}
+{"text": "Riemann sums. Interpret areas under graphs as limits of Riemann sums.", "author": "Drew Lewis", "id": "interpret_areas_under_graphs_as_limits_of_riemann_sums"}
+{"text": "use Riemann sums to approximate the area under a graph.", "author": "Adelaide Akers", "id": "approximate_area_under_graph"}
+{"text": "use Reimann sums to approximate the area under a graph", "author": "Chad Wiley", "id": "approximate_area_under_graph"}
+{"text": "approximate distance traveled and area between curves using Riemann sums, and interpret the definite integral as a limit of Riemann sums.", "author": "Bryan Clair", "id": "approx_distance_area_riemann_sums"}
+{"text": "use Riemann sums to estimate integrals.", "author": "Bret Benesh", "id": "estimate_integrals_with_riemann_sums"}
+{"text": "Students will understand Riemann Sums.", "author": "Bryan Clair", "id": "understand_riemann_sums"}
+{"text": "Students will be able to use the fundamental theorem of calculus.", "author": "Bryan Clair", "id": "use_fundamental_theorem_of_calculus"}
+{"text": "Students will be able to integrate basic functions.", "author": "Bryan Clair", "id": "integrate_basic_functions"}
+{"text": "Students will be prepared for Calculus II.", "author": "Bryan Clair", "id": "prepare_for_calculus_ii"}
+{"text": "Taking and trying your best on the Calculus Concept Inventory and Calculus Readiness Exam.", "author": "Bret Benesh", "id": "taking_and_trying_calculus_exams"}
+{"text": "Develop a deep, conceptual, and personal understanding of the major ideas in Calculus 1.", "author": "David Clark", "id": "develop_understanding_calculus_1"}
+{"text": "Understanding the concepts of calculus.", "author": "Bret Benesh", "id": "understanding_calculus_concepts"}
+{"text": "Understand and apply the concept of limits in calculus", "author": "Bryan Clair", "id": "understand_apply_limits_calculus"}
+{"text": "Calculate, use, and explain the concept of limits.", "author": "Bryan Clair", "id": "calculate_limits"}
+{"text": "Calculate, use, and explain the idea of Limits.", "author": "David Clark", "id": "calculate_use_explain_limits"}
+{"text": "explain the meaning of a limit beyond describing how to calculate it.", "author": "Adelaide Akers", "id": "explain_limit_meaning"}
+{"text": "Understand and apply the concept of infinity in limits", "author": "Bryan Clair", "id": "understand_apply_infinity_limits"}
+{"text": "recognize and explain limits at infinity", "author": "Ohio Math Initiative", "id": "explain_limits_at_infinity"}
+{"text": "state what limits involving \u221e informally mean.", "author": "Bret Benesh", "id": "informally_state_limits_involving_infinity"}
+{"text": "state what limits informally mean.", "author": "Bret Benesh", "id": "state_limits_meaning"}
+{"text": "Students will be able to find limits.", "author": "Bryan Clair", "id": "find_limits"}
+{"text": "Students will be able to solve related rates problems.", "author": "Bryan Clair", "id": "solve_related_rates_problems"}
+{"text": "Students will be able to solve optimization problems.", "author": "Bryan Clair", "id": "solve_optimization_problems"}
+{"text": "solve optimization problems.", "author": "Bret Benesh", "id": "solve_optimization_problems"}
+{"text": "set up and use derivatives to solve applied optimization problems.", "author": "Bryan Clair", "id": "solve_applied_optimization_problems"}
+{"text": "use derivatives to solve optimization problems.", "author": "Adelaide Akers", "id": "solve_optimization_problems_with_derivatives"}
+{"text": "Use derivatives to solve application problems.", "author": "Bryan Clair", "id": "solve_application_problems_with_derivatives"}
+{"text": "Use derivatives to understand and solve genuine applications.", "author": "David Clark", "id": "solve_genuine_applications_with_derivatives"}
+{"text": "use derivatives to solve problems in the natural and physical sciences.", "author": "Adelaide Akers", "id": "solve_problems_with_derivatives"}
+{"text": "solve problems involving applications of derivatives", "author": "Chad Wiley", "id": "solve_problems_with_derivatives"}
+{"text": "Solve problems involving by using and interpreting derivatives", "author": "Tom Mahoney", "id": "solve_problems_using_derivatives"}
+{"text": "determine the sign of derivatives from word problems.", "author": "Bret Benesh", "id": "determine_derivative_sign"}
+{"text": "find derivatives using the definition of derivative.", "author": "Bret Benesh", "id": "find_derivatives_using_definition"}
+{"text": "find the derivative using its definition", "author": "Emily Cilli-Turner", "id": "find_derivative_definition"}
+{"text": "find the derivative of a function, both at a point and as a function, using the definition of the derivative.", "author": "Bryan Clair", "id": "find_derivative_definition"}
+{"text": "use the limit definition of the derivative to determine the differentiability of a function at a point.", "author": "Adelaide Akers", "id": "determine_differentiability"}
+{"text": "use the limit definition of the derivative to determine differentiability of functions.", "author": "Tom Mahoney", "id": "determine_differentiability_using_limit_definition"}
+{"text": "determine differentiability of a function via the limit definition", "author": "Chad Wiley", "id": "determine_differentiability_via_limit"}
+{"text": "graphically determine the differentiability of a function at a point (or points).", "author": "Adelaide Akers", "id": "determine_differentiability"}
+{"text": "determine where a function is continuous or differentiable given a graph or formula of the function and explain my reasoning.", "author": "Bryan Clair", "id": "determine_function_continuity_differentiability"}
+{"text": "Graphical limits. Compute limits of a function and determine where it is continuous and/or differentiable given its graph.", "author": "Drew Lewis", "id": "compute_graphical_limits"}
+{"text": "sketch curves/graphs of functions using derivatives and limits", "author": "Ohio Math Initiative", "id": "sketch_curves_using_derivatives"}
+{"text": "use derivatives and other information to sketch graphs of functions", "author": "Chad Wiley", "id": "sketch_graphs_with_derivatives"}
+{"text": "use derivatives and other information to make informed sketches graphs of functions.", "author": "Tom Mahoney", "id": "sketch_graphs_with_derivatives"}
+{"text": "use derivatives and other information to make informed sketches of the graph of a function.", "author": "Adelaide Akers", "id": "sketch_graph_with_derivatives"}
+{"text": "Make informed sketches of functions and their derivatives based on information provided in graphs, tables and descriptions.", "author": "Justin Dunmyre", "id": "sketch_functions_derivatives"}
+{"text": "Use derivatives to understand the graphical behavior of functions or to solve optimization problems.", "author": "Lidia Mrad", "id": "understand_graphical_behavior_or_solve_optimization"}
+{"text": "Students will be able to find derivatives graphically and numerically.", "author": "Bryan Clair", "id": "find_derivatives"}
+{"text": "Students will be able to symbolically compute derivatives.", "author": "Bryan Clair", "id": "compute_derivatives"}
+{"text": "Proficiently use Calculus to model, predict, and make sense of physical phenomena. Derivatives are a practical and powerful tool to do this.", "author": "Sharona Krinsky", "id": "use_calculus_to_model_phenomena"}
+{"text": "Proficiently use Calculus to model, predict, and make sense of the real world.", "author": "David Clark", "id": "use_calculus_to_model"}
+{"text": "Use functions and other pre-Calculus mathematics proficiently.", "author": "David Clark", "id": "use_functions_pre_calculus"}
+{"text": "apply precalculus concepts in the calculus setting to solve problems", "author": "Emily Cilli-Turner", "id": "apply_precalc_concepts_calculus_problems"}
+{"text": "apply calculus concepts to solve business, economics, biology, chemistry, and physics problems", "author": "Emily Cilli-Turner", "id": "apply_calculus_concepts"}
+{"text": "Use the methods of Calculus I to solve applied problems that model real-world situations", "author": "Rachel Weir", "id": "solve_applied_problems_calculus_i"}
+{"text": "Understand how Calculus naturally arises from real problems, using tools we already understand.", "author": "David Clark", "id": "understand_calculus_naturally_arises"}
+{"text": "Demonstrate mastery of the important ideas of calculus.", "author": "David Clark", "id": "demonstrate_mastery_calculus"}
+{"text": "Demonstrate knowledge of limits, continuity, differentiation, and integration", "author": "Rachel Weir", "id": "limits_continuity_differentiation_integration"}
+{"text": "Students will understand the concepts of continuity and differentiability.", "author": "Bryan Clair", "id": "understand_continuity_differentiability"}
+{"text": "communicate fluently about the concept of continuity", "author": "Ohio Math Initiative", "id": "communicate_about_continuity"}
+{"text": "Understand and apply the concept of continuity in functions", "author": "Bryan Clair", "id": "understand_apply_continuity_functions"}
+{"text": "Determine where functions are continuous and where they are discontinuous.", "author": "Lidia Mrad", "id": "determine_function_continuity"}
+{"text": "determine where functions are continuous and discontinuous", "author": "Chad Wiley", "id": "determine_function_continuity"}
+{"text": "determine the points at which a function is (and is not) continuous, and can use continuity to evaluate limits.", "author": "Adelaide Akers", "id": "determine_continuity_and_limits"}
+{"text": "determine if a function is continuous", "author": "Emily Cilli-Turner", "id": "check_function_continuity"}
+{"text": "Determine what value would make a function continuous", "author": "Bryan Clair", "id": "determine_continuous_value"}
+{"text": "Explain why a function is undefined at a certain value", "author": "Bryan Clair", "id": "explain_undefined_function"}
+{"text": "Explain and interpret the meaning of the derivative of a function.", "author": "Bryan Clair", "id": "explain_interpret_derivative"}
+{"text": "Understand the meaning of the derivative.", "author": "David Clark", "id": "understand_derivative_meaning"}
+{"text": "Interpret the derivative as a rate of change.", "author": "Justin Dunmyre", "id": "interpret_derivative_rate_change"}
+{"text": "Interpret derivatives as the instantaneous rates of change or the slope of a tangent line.", "author": "Lidia Mrad", "id": "interpret_derivatives"}
+{"text": "interpret the derivative as the slope of a tangent line", "author": "Chad Wiley", "id": "interpret_derivative_slope_tangent"}
+{"text": "Tangent lines. Find an equation of the tangent line to a differentiable function at a point.", "author": "Drew Lewis", "id": "find_tangent_line_equation"}
+{"text": "find the equation of a tangent line.", "author": "Bret Benesh", "id": "find_tangent_equation"}
+{"text": "find the equation of the tangent line to a function at a point and use the tangent line to estimate values of the function.", "author": "Bryan Clair", "id": "estimate_function_values_with_tangent_line"}
+{"text": "find the equation of the tangent line to a function at a point and use this line as a linear approximation to estimate the value of a function at nearby points.", "author": "Adelaide Akers", "id": "estimate_value_using_tangent_line"}
+{"text": "find the equation of the tangent like to a function at a point and use this line as a linear approximation to estimate the value of a function at nearby points.", "author": "Tom Mahoney", "id": "estimate_value_using_tangent"}
+{"text": "Linearization. Use a tangent line to give a linear approximation of a function.", "author": "Drew Lewis", "id": "linearization_tangent_line"}
+{"text": "Use a tangent line to give a linear approximation of a function locally.", "author": "Lidia Mrad", "id": "approximate_function_locally"}
+{"text": "use linear approximation.", "author": "Bret Benesh", "id": "linear_approximation"}
+{"text": "Approximate the derivative using graphs and tables using the best available approximation.", "author": "Justin Dunmyre", "id": "approximate_derivative"}
+{"text": "Approximate the derivative using graphs and tables by using the best available approximation", "author": "Justin Dunmyre", "id": "approximate_derivative"}
+{"text": "Use differentiation rules to calculate derivatives efficiently.", "author": "Bryan Clair", "id": "calculate_derivatives_efficiently"}
+{"text": "Use shortcuts to calculate derivatives efficiently.", "author": "David Clark", "id": "calculate_derivatives_efficiently"}
+{"text": "Compute derivatives of functions through various techniques.", "author": "Lidia Mrad", "id": "compute_derivatives"}
+{"text": "Compute derivatives of functions by applying many techniques", "author": "Tom Mahoney", "id": "compute_derivatives"}
+{"text": "compute derivatives of functions", "author": "Chad Wiley", "id": "compute_derivatives"}
+{"text": "Compute derivatives of products and quotients of functions.", "author": "Lidia Mrad", "id": "compute_derivatives_products_quotients"}
+{"text": "Product and quotient rules: Compute derivatives of products and quotients of functions.", "author": "Drew Lewis", "id": "compute_derivatives_of_products_and_quotients"}
+{"text": "compute derivatives using the product and quotient rules.", "author": "Adelaide Akers", "id": "compute_derivatives_product_quotient"}
+{"text": "compute derivatives using the chain rule.", "author": "Adelaide Akers", "id": "compute_derivatives_chain_rule"}
+{"text": "Apply the chain rule to find derivatives of composition of functions.", "author": "Lidia Mrad", "id": "apply_chain_rule_composition_derivatives"}
+{"text": "Chain rule. Derivatives of compositions of functions.", "author": "Drew Lewis", "id": "chain_rule_derivatives_compositions"}
+{"text": "compute derivatives correctly for products, quotients, and composites of functions.", "author": "Bryan Clair", "id": "compute_derivatives_products_quotients_composites"}
+{"text": "compute derivatives correctly using multiple rules in combination.", "author": "Bryan Clair", "id": "compute_derivatives_multiple_rules"}
+{"text": "compute derivatives correctly for power, polynomial, and exponential functions and the sine and cosine functions, and basic combinations of these (constant multiples, sums, differences).", "author": "Bryan Clair", "id": "compute_derivatives_power_poly_exponential_sine_cosine_combinations"}
+{"text": "Derivatives of common functions: Compute derivatives of polynomials, trigonometric, and exponential functions.", "author": "Drew Lewis", "id": "compute_derivatives_common_functions"}
+{"text": "Compute derivatives of polynomials, trigonometric, exponential, and logarithmic functions.", "author": "Lidia Mrad", "id": "compute_derivatives"}
+{"text": "compute derivatives of polynomial, exponential, and logarithmic functions.", "author": "Adelaide Akers", "id": "compute_derivatives"}
+{"text": "compute derivatives of elementary functions", "author": "Chad Wiley", "id": "compute_elementary_derivatives"}
+{"text": "Compute derivatives of functions that are given implicitly.", "author": "Lidia Mrad", "id": "compute_derivatives_implicitly"}
+{"text": "Implicit differentiation: Compute derivatives of functions given implicitly.", "author": "Drew Lewis", "id": "compute_derivatives_implicitly"}
+{"text": "Performing implicit differentiation.", "author": "Bret Benesh", "id": "performing_implicit_differentiation"}
+{"text": "solve problems that involve the use of implicit differentiation", "author": "Chad Wiley", "id": "solve_problems_with_implicit_differentiation"}
+{"text": "solve problems that involve the use of implicit and logarithmic differentiation.", "author": "Tom Mahoney", "id": "solve_problems_implicit_logarithmic_differentiation"}
+{"text": "I know the conditions for which can solve problems that involve the use of implicit and logarithmic differentiation.", "author": "Adelaide Akers", "id": "solve_problems_implicit_log_diff"}
+{"text": "Differential equations. Solve simple (separable) differential equations, including applications like exponential decay and Newton\u2019s law of heating and cooling.", "author": "Drew Lewis", "id": "solve_separable_diff_eq"}
+{"text": "use derivatives to solve problems involving related rates of change.", "author": "Adelaide Akers", "id": "solve_problems_related_rates"}
+{"text": "set up and use derivatives to solve related rates problems.", "author": "Bryan Clair", "id": "solve_related_rates_problems"}
+{"text": "set up and solve related rates and optimization problems", "author": "Emily Cilli-Turner", "id": "solve_related_rates_optimization"}
+{"text": "Solve problems involving related rates.", "author": "Lidia Mrad", "id": "solve_problems_related_rates"}
+{"text": "Related rates. Solve problems involving related rates.", "author": "Drew Lewis", "id": "solve_problems_related_rates"}
+{"text": "Setup and solve related rates problems as well as interpret my solution in the context of that problem.", "author": "Justin Dunmyre", "id": "solve_related_rates_problems"}
+{"text": "Setup and solve constrained optimization problems as well as interpret my solution in the context of that problem.", "author": "Justin Dunmyre", "id": "solve_constrained_optimization"}
+{"text": "Applied optimization. Solve various applied problems using optimization techniques.", "author": "Drew Lewis", "id": "applied_optimization"}
+{"text": "Model and solve applied problems using optimization techniques.", "author": "Lidia Mrad", "id": "model_solve_applied_problems_optimization"}
+{"text": "optimize quantities in applied problems", "author": "Ohio Math Initiative", "id": "optimize_quantities"}
+{"text": "Analyze and assess problems through calculation and by employing quantitative tools.", "author": "Justin Dunmyre", "id": "analyze_problems_quantitative_tools"}
+{"text": "assess the correctness of solutions, create and explore examples, carry out mathematical experiments, and devise and test conjectures", "author": "Ohio Math Initiative", "id": "explore_examples_and_test_conjectures"}
+{"text": "develop mathematical independence and experience open-ended inquiry", "author": "Ohio Math Initiative", "id": "mathematical_independence_inquiry"}
+{"text": "approach mathematical problems with curiosity and creativity, persist in the face of difficulties, and work creatively and self-sufficiently with mathematics", "author": "Ohio Math Initiative", "id": "solve_math_problems_creatively"}
+{"text": "Improve your mathematical communication, including reading, writing, and presenting mathematics.", "author": "Lidia Mrad", "id": "improve_math_communication"}
+{"text": "communicate mathematical ideas clearly and coherently both verbally and in writing to audiences of varying mathematical sophistication", "author": "Ohio Math Initiative", "id": "communicate_mathematical_ideas"}
+{"text": "Demonstrate proficiency in their written communication that would satisfy both academic and applied audiences.", "author": "Justin Dunmyre", "id": "written_communication_proficiency"}
+{"text": "Demonstrate proficiency and professionalism in oral communication.", "author": "Justin Dunmyre", "id": "demonstrate_professionalism_oral_communication"}
+{"text": "Practice professional communication.", "author": "David Clark", "id": "practice_professional_communication"}
+{"text": "Practice professional communication. Another top skill desired by employers is the ability to read, write, and communicate technical ideas in a professional manner.", "author": "Sharona Krinsky", "id": "practice_professional_communication"}
+{"text": "develop effective thinking and communication skills", "author": "Ohio Math Initiative", "id": "develop_thinking_communication"}
+{"text": "Practice working with others to improve your learning.", "author": "David Clark", "id": "improve_learning_with_others"}
+{"text": "Practice working with others to improve your learning. The ability to work successfully with others to achieve a common goal is a top skill desired by employers.", "author": "Sharona Krinsky", "id": "improve_learning_with_others"}
+{"text": "Understanding and applying the concepts of cooperative learning.", "author": "Bret Benesh", "id": "understanding_and_applying_cooperative_learning"}
+{"text": "Understanding and applying the concepts of self-regulated learning (SRL).", "author": "Bret Benesh", "id": "understanding_and_applying_srl"}
+{"text": "Take responsibility for your own learning.", "author": "David Clark", "id": "take_responsibility_learning"}
+{"text": "Student will develop their ethical and logical reasoning", "author": "Emily Cilli-Turner", "id": "develop_ethical_logical_reasoning"}
+{"text": "Students will strengthen their analytic skills", "author": "Emily Cilli-Turner", "id": "strengthen_analytic_skills"}
+{"text": "Students will become more competent with quantitative analysis", "author": "Emily Cilli-Turner", "id": "quantitative_analysis_competence"}
+{"text": "Identify the work habits and study skills required to be successful in this course and in subsequent math courses", "author": "Rachel Weir", "id": "work_habits_study_skills"}
+{"text": "Show mastery on a set of mathematical tasks called standards. We will have 46 standards that will be assessed during the semester.", "author": "Sharona Krinsky", "id": "math_standards_mastery"}
+{"text": "Successfully demonstrating that you have met each learning goal at least four times this semester.", "author": "Bret Benesh", "id": "demonstrate_learning_four_times"}
+{"text": "Demonstrating mastery of a subject by doing a 'Demonstration of Mastery' (DoM).", "author": "Bret Benesh", "id": "demonstration_of_mastery"}
+{"text": "Demonstrate skill and knowledge in solving problems using qualitative skills and conceptual rigor.", "author": "Justin Dunmyre", "id": "solve_problems_qualitative_rigor"}
+{"text": "developing a personal framework of problem-solving techniques (e.g. to make sense of problems, sketch and label diagrams, restate and clarify questions, identify variables and parameters, use analytical, numerical, and graphical solution methods)", "author": "Adelaide Akers", "id": "develop_personal_problem_solving_framework"}
+{"text": "creating, interpreting, and revising real-world models and solutions of problems", "author": "Adelaide Akers", "id": "create_interpret_revise_models_solutions"}
+{"text": "identify and model essential features of a complex situation, modify models as necessary for tractability, and draw useful conclusions", "author": "Ohio Math Initiative", "id": "identify_model_modify_draw"}
+{"text": "state problems carefully, articulate assumptions, understand the importance of precise definition, and reason logically to conclusions", "author": "Ohio Math Initiative", "id": "problem_definition_and_reasoning"}
+{"text": "recognize and make mathematically rigorous arguments", "author": "Ohio Math Initiative", "id": "recognize_and_make_math_rigorous_args"}
+{"text": "Write correct and complete mathematical proofs of calculus results", "author": "Rachel Weir", "id": "write_calculus_proofs"}
+{"text": "Understand how approximations can lead to exact answers. Calculus is founded on turning estimates into exact answers. Limits, derivatives, and integrals let us discover the exact behavior of real things in impossible to-measure circumstances.", "author": "Sharona Krinsky", "id": "approximations_to_exact_answers"}
+{"text": "accurately conceptualize the derivative beyond describing how to calculate it.", "author": "Adelaide Akers", "id": "conceptualize_derivative"}
+{"text": "operate the derivative as a tool", "author": "Ohio Math Initiative", "id": "operate_derivative_tool"}
+{"text": "Derivatives: Compute a simple derivative from the limit-based definition.", "author": "Drew Lewis", "id": "compute_simple_derivative"}
+{"text": "Compute a simple derivative from the limit-based definition.", "author": "Lidia Mrad", "id": "compute_derivative_from_limit"}
+{"text": "evaluate the limit of an expression at a point, using appropriate justification and notation.", "author": "Tom Mahoney", "id": "evaluate_limit_expression"}
+{"text": "evaluate the limit of an expression at a point", "author": "Chad Wiley", "id": "evaluate_limit_expression"}
+{"text": "evaluate the limit of an expression \u201cat\u201d infinity.", "author": "Adelaide Akers", "id": "evaluate_limit_at_infinity"}
+{"text": "evaluate the limit of an expression at infinity.", "author": "Tom Mahoney", "id": "evaluate_limit_at_infinity"}
+{"text": "evaluate the limit of an expression using L\u2019H\u00f4pital\u2019s Rule", "author": "Chad Wiley", "id": "evaluate_limit_lhopital"}
+{"text": "identify limits in indeterminate form and apply L\u2019Hopital\u2019s Rule to evaluate them.", "author": "Bryan Clair", "id": "evaluate_limits_with_lhopital"}
+{"text": "identify limits in indeterminate form and apply L'Hopital's Rule to evaluate them.", "author": "Bryan Clair", "id": "evaluate_limits_with_lhopital"}
+{"text": "identify limits in indeterminate form and can apply L\u2019Hospital\u2019s rule correctly.", "author": "Adelaide Akers", "id": "apply_lhospital_rule"}
+{"text": "compute limit expressions using L\u2019Hospital\u2019s rule.", "author": "Tom Mahoney", "id": "compute_limit_expressions_lhospital_rule"}
+{"text": "Calculating limits algebraically.", "author": "Bret Benesh", "id": "calculate_limits_algebraically"}
+{"text": "find limits algebraically", "author": "Ohio Math Initiative", "id": "find_limits_algebraically"}
+{"text": "solve problems involving limits", "author": "Chad Wiley", "id": "solve_problems_limits"}
+{"text": "compute limits", "author": "Emily Cilli-Turner", "id": "compute_limits"}
+{"text": "Evaluate limits of functions.", "author": "Lidia Mrad", "id": "evaluate_limits"}
+{"text": "Algebraic limits. Compute limits at a point using algebraic techniques.", "author": "Drew Lewis", "id": "compute_limits_algebraic_techniques"}
+{"text": "find the limit of a function at a point using numerical, graphical, and algebraic methods.", "author": "Bryan Clair", "id": "find_limit_methods"}
+{"text": "Approximate limits numerically and graphically.", "author": "Lidia Mrad", "id": "approximate_limits"}
+{"text": "analyze limits graphically and numerically", "author": "Ohio Math Initiative", "id": "analyze_limits"}
+{"text": "graphically evaluate the limit of an function at a point or determine that it does not exist, using appropriate justification and notation.", "author": "Adelaide Akers", "id": "evaluate_limit"}
+{"text": "algebraically evaluate the limit of an function at a point or determine that it does not exist, using appropriate justification and notation.", "author": "Adelaide Akers", "id": "evaluate_limit"}
+{"text": "identity the relationship between a function\u2019s value and its limit.", "author": "Bret Benesh", "id": "function_limit_relationship"}
+{"text": "Use basic limit properties or algebra to find limits.", "author": "Lidia Mrad", "id": "find_limits_using_limit_properties"}
+{"text": "Advanced limits. Use advanced techniques such as substitution and the squeeze theorem to compute limits.", "author": "Drew Lewis", "id": "compute_advanced_limits"}
+{"text": "Infinite limits. Compute limits at infinity, including identifying asymptotes.", "author": "Drew Lewis", "id": "compute_limits_at_infinity"}
+{"text": "estimate limits from graphs.", "author": "Bret Benesh", "id": "estimate_limits_from_graphs"}
+{"text": "estimate limits from tables of numbers.", "author": "Bret Benesh", "id": "estimate_limits_from_tables"}
+{"text": "Estimate the value of a limit accurate to two decimal places", "author": "Bryan Clair", "id": "estimate_limit_value"}
+{"text": "Calculate integrals with at least 75% accuracy.", "author": "Justin Dunmyre", "id": "calculate_integrals_with_75_percent_accuracy"}
+{"text": "Approximate the integral using graphs and tables using the best available approximation.", "author": "Justin Dunmyre", "id": "approximate_integral"}
+{"text": "Approximate the integral using graphs and tables by using the best available approximation", "author": "Justin Dunmyre", "id": "approximate_integral"}
+{"text": "approximate integrals from tables of numbers.", "author": "Bret Benesh", "id": "approximate_integrals_from_tables"}
+{"text": "computer integrals of simple functions", "author": "Chad Wiley", "id": "compute_integrals_simple_functions"}
+{"text": "evaluate integrals using only simple geometric formulas.", "author": "Bret Benesh", "id": "evaluate_integrals_geometric"}
+{"text": "evaluate a definite integral using geometric formulas and the Properties of the Definite Integral.", "author": "Bryan Clair", "id": "evaluate_definite_integral_geometric_properties"}
+{"text": "evaluate a definite integral using the Fundamental Theorem of Calculus.", "author": "Bryan Clair", "id": "evaluate_definite_integral_ftc"}
+{"text": "use the Fundamental Theorem of Calculus to evaluate definite integrals.", "author": "Adelaide Akers", "id": "evaluate_definite_integrals"}
+{"text": "Fundamental Theorem of Calculus. Use the fundamental theorem of calculus to compute simple integrals.", "author": "Drew Lewis", "id": "compute_simple_integrals_using_ftc"}
+{"text": "demonstrate the relationship between derivatives and integrals by applying the Fundamental Theorem of Calculus", "author": "Emily Cilli-Turner", "id": "derivatives_integrals_relationship"}
+{"text": "understand the Fundamental Theorem of Calculus (FTC)", "author": "Ohio Math Initiative", "id": "understand_ftc"}
+{"text": "Calculate totals and sums using the Fundamental Theorem of Calculus.", "author": "David Clark", "id": "calculate_totals_using_ftc"}
+{"text": "Use integrals and the Fundamental Theorem of Calculus to find areas and total change.", "author": "Bryan Clair", "id": "find_areas_and_total_change"}
+{"text": "Use the Fundamental Theorem of Calculus to compute definite integrals. Compute the area between two curves.", "author": "Lidia Mrad", "id": "compute_definite_integrals"}
+{"text": "Areas between curves. Compute the area between two functions.", "author": "Drew Lewis", "id": "compute_area_between_curves"}
+{"text": "use definite integrals to solve problems involving areas.", "author": "Adelaide Akers", "id": "solve_problems_using_definite_integrals"}
+{"text": "Evaluate indefinite integrals of common functions.", "author": "Lidia Mrad", "id": "evaluate_indefinite_integrals"}
+{"text": "find antiderivatives of standard functions.", "author": "Adelaide Akers", "id": "find_antiderivatives"}
+{"text": "correctly antidifferentiate basic functions and identify antiderivatives.", "author": "Bryan Clair", "id": "antidifferentiate_basic_functions"}
+{"text": "create antiderivatives", "author": "Ohio Math Initiative", "id": "create_antiderivatives"}
+{"text": "evaluate integrals using the substitution method.", "author": "Adelaide Akers", "id": "evaluate_integrals_substitution"}
+{"text": "Compute integrals via the substitution method.", "author": "Lidia Mrad", "id": "compute_integrals_substitution"}
+{"text": "Substitution Method. Compute various integrals via the substitution method.", "author": "Drew Lewis", "id": "compute_integrals_substitution"}
+{"text": "Performing u-substitution.", "author": "Bret Benesh", "id": "performing_u_substitution"}
+{"text": "correctly determine the units of a derivative.", "author": "Bret Benesh", "id": "determine_units_derivative"}
+{"text": "use derivative notation correctly, state the units of a derivative, estimate the value of a derivative using difference quotients, and correctly interpret the meaning of a derivative in context.", "author": "Bryan Clair", "id": "use_derivative_notation"}
+{"text": "Motivate the definition of a derivative as the instantaneous rate of change", "author": "Tom Mahoney", "id": "motivate_derivative_definition"}
+{"text": "Finding instantaneous rates of change.", "author": "Bret Benesh", "id": "find_instantaneous_rates"}
+{"text": "find the average rate of change of a function on an interval.", "author": "Bryan Clair", "id": "find_average_rate_change"}
+{"text": "Average value. Find the average value of a function over an interval.", "author": "Drew Lewis", "id": "find_average_value"}
+{"text": "compute average rates of change and find slopes of secant lines.", "author": "Adelaide Akers", "id": "compute_average_rates_of_change"}
+{"text": "apply differentiation techniques to find tangent lines, rates of change, and local extrema", "author": "Emily Cilli-Turner", "id": "differentiation_techniques"}
+{"text": "compute the derivative of an implicitly-defined function and find the slope of the tangent line to an implicit curve.", "author": "Bryan Clair", "id": "compute_implicit_derivative_and_slope"}
+{"text": "Find the derivatives of inverse functions.", "author": "Lidia Mrad", "id": "find_inverse_derivatives"}
+{"text": "Inverse functions. Find the derivatives of inverse functions, including logarithmic and inverse trig functions.", "author": "Drew Lewis", "id": "find_derivatives_inverse_functions"}
+{"text": "compute the derivatives correctly for logarithmic, trigonometric, and inverse trigonometric functions.", "author": "Bryan Clair", "id": "compute_derivatives_log_trig_inv_trig"}
+{"text": "compute derivatives of trigonometric and inverse trigonometric functions.", "author": "Adelaide Akers", "id": "compute_trig_derivatives"}
+{"text": "differentiate algebraic, exponential, trigonometric, and logarithmic functions, as well as combinations of these functions and their inverses", "author": "Emily Cilli-Turner", "id": "differentiate_functions"}
+{"text": "Finding derivatives of xr for any real number r; trigonometric, exponential, logarithmic functions; and sums, differences, products, quotients, and compositions thereof.", "author": "Bret Benesh", "id": "find_derivatives"}
+{"text": "Finding integrals of xr for any real number r; trigonometric, exponential, logarithmic functions; and sums and differences thereof.", "author": "Bret Benesh", "id": "find_integrals_xr"}
+{"text": "graph functions and solve equations involving exponentials and logarithms.", "author": "Tom Mahoney", "id": "graph_exponential_logarithmic_equations"}
+{"text": "evaluate and graph functions given as formulas, descriptions, and tables.", "author": "Bryan Clair", "id": "evaluate_and_graph_functions"}
+{"text": "apply differentiation to find information about a functions graph", "author": "Emily Cilli-Turner", "id": "differentiation_graph_info"}
+{"text": "Derivatives and shapes of graphs. Given a formula for a function, use its derivative(s) to identify intervals of increase and decrease, and intervals where the function is concave up and concave down.", "author": "Drew Lewis", "id": "derivatives_graphs_intervals"}
+{"text": "Local behavior of functions-graphical. Given the graph of a function, identify intervals of increase and decrease, concavity, local extrema, critical points, and inflection points.", "author": "Drew Lewis", "id": "local_behavior_of_functions"}
+{"text": "Given the graph of a function, identify local extrema, inflection points, monotonicity, and concavity.", "author": "Lidia Mrad", "id": "identify_local_extrema_inflection_points_monotonicity_concavity"}
+{"text": "find extrema or inflection points.", "author": "Bret Benesh", "id": "find_extrema_or_inflection_points"}
+{"text": "Critical points. Given a formula for a function, find all critical points, local extrema, and inflection points.", "author": "Drew Lewis", "id": "find_critical_points"}
+{"text": "find the critical values of a function, determine where the function is increasing and decreasing, and apply the First and Second Derivative Tests to classify the critical points as local extrema.", "author": "Bryan Clair", "id": "find_critical_values_and_classify_extrema"}
+{"text": "Find critical points and use the First or Second Derivative Test to classify them. Find inflection points and determine concavity.", "author": "Lidia Mrad", "id": "classify_critical_points_and_inflection_points"}
+{"text": "determine the intervals of concavity of a function and find all of its points of inflection.", "author": "Bryan Clair", "id": "find_concavity_intervals_and_inflection_points"}
+{"text": "determine intervals of increasing/decreasing or concavity.", "author": "Bret Benesh", "id": "determine_intervals_of_increasing_decreasing_or_concavity"}
+{"text": "Use Calculus to identify and interpret features of a function, such as increasing, decreasing and concavity.", "author": "Justin Dunmyre", "id": "identify_function_features"}
+{"text": "Given information about f, f\u2032, or f\u2033, I can correctly give information about f, f\u2032, or f\u2033 and the increasing/decreasing behavior and concavity of f (and vice versa).", "author": "Bryan Clair", "id": "analyze_f_properties"}
+{"text": "Given information about $f$, $f'$, or $f''$, I can correctly give information about $f$, $f'$, or $f''$ and the increasing/decreasing behavior and concavity of $f$ (and vice versa).", "author": "Bryan Clair", "id": "analyze_function_properties"}
+{"text": "determine how the sign of f /f 0 /f 00 affects increasingness/concavity.", "author": "Bret Benesh", "id": "determine_sign_f_f0_f00_affects_increasingness_concavity"}
+{"text": "estimate a function\u2019s concavity from a table.", "author": "Bret Benesh", "id": "estimate_concavity_from_table"}
+{"text": "estimate derivatives numerically.", "author": "Bret Benesh", "id": "estimate_derivatives_numerically"}
+{"text": "Calculate derivatives with at least 75% accuracy.", "author": "Justin Dunmyre", "id": "calculate_derivatives_accuracy"}
+{"text": "apply the definition of the derivative to differentiate a function at a number and extend to an interval, choose appropriate differentiation rules and apply them, and parse formulas for application of the chain rule", "author": "Ohio Math Initiative", "id": "apply_derivative_rules"}
+{"text": "Find the mins and maxes of functions by using the techniques of Calculus.", "author": "Justin Dunmyre", "id": "find_mins_maxes_calculus"}
+{"text": "use the Extreme Value Theorem to find the absolute maximum and minimum values of a continuous function on a closed interval.", "author": "Bryan Clair", "id": "find_absolute_extrema"}
+{"text": "Absolute extrema. Find extreme values on closed and bounded intervals", "author": "Drew Lewis", "id": "find_extreme_values"}
+{"text": "Find extreme values on closed and bounded intervals.", "author": "Lidia Mrad", "id": "find_extreme_values"}
+{"text": "identify critical numbers and extrema values", "author": "Ohio Math Initiative", "id": "identify_critical_numbers_extrema"}
+{"text": "interpret the first and second derivatives of a function graphically and descriptively.", "author": "Adelaide Akers", "id": "interpret_derivatives_graphically"}
+{"text": "interpret the second derivative of a function graphically", "author": "Chad Wiley", "id": "interpret_second_derivative_graphically"}
+{"text": "interpret the first derivative of a function graphically", "author": "Chad Wiley", "id": "interpret_first_derivative_graphically"}
+{"text": "Demonstrate an understanding of how to interpret numeric data and/or their graphical or symbolic representations", "author": "Rachel Weir", "id": "interpret_numeric_data"}
+{"text": "use and compare analytical, visual, and numerical perspectives in exploring mathematics", "author": "Ohio Math Initiative", "id": "explore_math_perspectives"}
+{"text": "read mathematics with understanding", "author": "Ohio Math Initiative", "id": "read_mathematics_with_understanding"}
+{"text": "Students will understand properties of elementary functions.", "author": "Bryan Clair", "id": "understand_properties_elementary_functions"}
+{"text": "Students will understand local linearity.", "author": "Bryan Clair", "id": "understand_local_linearity"}
+{"text": "Students will develop their ability to write with style and precision", "author": "Emily Cilli-Turner", "id": "write_with_style_and_precision"}
+{"text": "Contribute positively to the classroom community", "author": "Rachel Weir", "id": "contribute_to_classroom_community"}
+{"text": "collaborating productively with a group/team", "author": "Adelaide Akers", "id": "collaborating_productively"}
+{"text": "Understanding and applying the concepts of peer evaluation in a team setting.", "author": "Bret Benesh", "id": "understanding_and_applying_peer_evaluation"}
+{"text": "communicating ideas and solutions clearly and professionally", "author": "Adelaide Akers", "id": "communicating_ideas"}
+{"text": "Cultivate skills critical to interpreting scientific concepts for public understanding, including familiarity with the scientific method, information literacy, statistical data analysis, hypothesis formulation, and conceptual modeling, research project design and working collaboratively", "author": "Emily Cilli-Turner", "id": "interpret_scientific_concepts"}
+{"text": "Develop advanced scientific skills necessary to achieve an understanding of and solutions to environmental problems including physical and biological measurement techniques, statistical data analysis, hypothesis formulation and conceptual modeling, research project design and working collaboratively", "author": "Emily Cilli-Turner", "id": "develop_advanced_scientific_skills"}
+{"text": "Participate in engaged inquiry as a means of connection classroom learning to realworld environmental problem solving and establishing the skills needed for lifelong learning", "author": "Emily Cilli-Turner", "id": "engage_inquiry_realworld_problem_solving"}
+{"text": "learn to use technological tools", "author": "Ohio Math Initiative", "id": "use_technological_tools"}
+{"text": "learn to link applications and theory", "author": "Ohio Math Initiative", "id": "link_applications_theory"}
+{"text": "deduce general principles from particular instances", "author": "Ohio Math Initiative", "id": "deduce_general_principles"}
+{"text": "create examples of functions given a set of criteria.", "author": "Bret Benesh", "id": "create_function_examples"}
+{"text": "Develop and provide examples of functions that satisfy given conditions", "author": "Bryan Clair", "id": "develop_provide_function_examples"}
+{"text": "work with implicitly defined functions", "author": "Ohio Math Initiative", "id": "work_with_implicitly_defined_functions"}
+{"text": "solve problems involving intercepts, domains, compositions, and transformations of functions.", "author": "Tom Mahoney", "id": "solve_problems_with_intercepts_domains_compositions_transformations"}
+{"text": "solve problems involving slope, intercepts, inequalities, and equations of linear functions.", "author": "Tom Mahoney", "id": "solve_linear_function_problems"}
+{"text": "write \u03b4- proofs for linear functions.", "author": "Bret Benesh", "id": "write_linear_function_proofs"}
+{"text": "write \u03b4- proofs for quadratic functions.", "author": "Bret Benesh", "id": "write_delta_proofs_quadratic_functions"}
+{"text": "Completing all problems in 'Chapter 1: Precalculus Review' and 'Math 119 Material' from Chapters 2, 3, 4, and 5 on myopenmath.com.", "author": "Bret Benesh", "id": "complete_chapter_problems"}
+{"text": "I completed the What Works and What Doesn\u2019t Reflection Paper.", "author": "Bret Benesh", "id": "completed_ww_wd_reflection_paper"}
+{"text": "I completed the Mindsets Reflection Paper.", "author": "Bret Benesh", "id": "completed_mindsets_reflection_paper"}
+{"text": "I completed the QSI.", "author": "Bret Benesh", "id": "completed_qsi"}
+{"text": "I completed the CCI Pre-Test.", "author": "Bret Benesh", "id": "completed_cci_pre_test"}
+{"text": "I completed the CCI Post-Test.", "author": "Bret Benesh", "id": "completed_cci_post_test"}
+{"text": "I completed the Integrals gateway.", "author": "Bret Benesh", "id": "completed_integrals_gateway"}
+{"text": "I completed the Derivatives gateway.", "author": "Bret Benesh", "id": "completed_derivatives_gateway"}
+{"text": "I completed the Limits gateway.", "author": "Bret Benesh", "id": "completed_limits_gateway"}
+{"text": "use FToC II.", "author": "Bret Benesh", "id": "use_f_to_c_ii"}
+{"text": "apply the MVT.", "author": "Bret Benesh", "id": "apply_mvt"}
+{"text": "apply Newton\u2019s method to an equation to approximate a solution.", "author": "Tom Mahoney", "id": "approximate_solution_with_newtons_method"}
+{"text": "Use Newton\u2019s Method to approximate roots of functions or estimate where functions intersect.", "author": "Lidia Mrad", "id": "approximate_roots"}
+{"text": "Finding 'slope' and 'area' for curvy things.", "author": "Bret Benesh", "id": "find_slope_area_curvy"}
+{"text": "sketch f , f 0 , or f 00 given a graph of f , f 0 , or f 00 .", "author": "Bret Benesh", "id": "sketch_f_given_graph"}
+{"text": "graph parametric equations and find the speed of a moving particle.", "author": "Bryan Clair", "id": "graph_parametric_equations_and_find_speed"}
+{"text": "evaluate trigonometric functions at known values and for a given angle in a triangle.", "author": "Tom Mahoney", "id": "evaluate_trig_functions"}
+{"text": "operate at a high level of detail", "author": "Ohio Math Initiative", "id": "operate_at_high_detail"}
+{"text": "Interpret situations through a lens of diversity and globalization.", "author": "Justin Dunmyre", "id": "interpret_situations_diversity_globalization"}
+{"text": "Understanding the mathematics of change.", "author": "Bret Benesh", "id": "understanding_mathematics_of_change"}
+{"text": "Understanding the net change of something.", "author": "Bret Benesh", "id": "understanding_net_change"}
+{"text": "Interpret the integral as an accumulation or net change", "author": "Justin Dunmyre", "id": "interpret_integral_accumulation"}
+{"text": "Interpret the integral as an accumulation.", "author": "Justin Dunmyre", "id": "interpret_integral_accumulation"}
+{"text": "Students will understand the geometric interpretation of the integral.", "author": "Bryan Clair", "id": "understand_geometric_interpretation_integral"}
+{"text": "Be ready to work hard.", "author": "David Clark", "id": "work_hard"}
+{"text": "exercising persistence by working through perceived failure", "author": "Adelaide Akers", "id": "persistence_through_failure"}
+{"text": "Demonstrate civic oriented behaviors and apply principles of social responsibility to solve community challenges.", "author": "Justin Dunmyre", "id": "demonstrate_civic_behaviors"}

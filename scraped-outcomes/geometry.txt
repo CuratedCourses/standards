@@ -1,0 +1,10 @@
+{"text": "Identify key results about triangles and circles in Euclidean geometry.", "author": "David Clark", "id": "identify_key_results_triangles_circles_euclidean_geometry"}
+{"text": "Identify the role of neutral geometry and the parallel postulate in the development of Euclidean geometry.", "author": "David Clark", "id": "identify_role_neutral_geometry"}
+{"text": "Learn geometry from a new point of view, including a deep knowledge of Neutral and Euclidean geometry, and understanding the historical and modern development of geometry.", "author": "David Clark", "id": "learn_geometry"}
+{"text": "Develop an understanding of the fundamental concepts of axiomatic geometries.", "author": "David Clark", "id": "understand_axiomatic_geometries"}
+{"text": "Understand the importance of the axiomatic system to modern mathematics.", "author": "David Clark", "id": "importance_of_axiomatic_system"}
+{"text": "Improve ability to see patterns, make conjectures, and write proofs independently.", "author": "David Clark", "id": "improve_pattern_recognition"}
+{"text": "Write in a manner that further improves one's mathematical communication skills.", "author": "David Clark", "id": "improve_math_communication"}
+{"text": "Learn to write and present in a manner that further improves mathematical communication skills.", "author": "David Clark", "id": "improve_math_communication"}
+{"text": "Succeed in developing a deep understanding of the ideas outlined in the course.", "author": "David Clark", "id": "develop_deep_understanding"}
+{"text": "Identify connections between linear algebra and transformational geometry.", "author": "David Clark", "id": "linear_algebra_geometry_connections"}

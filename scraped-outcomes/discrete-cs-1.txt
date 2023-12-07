@@ -1,0 +1,35 @@
+{"text": "Use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language.", "author": "Robert Talbert", "id": "use_prop_vars_logical_connectives"}
+{"text": "Construct a truth table and determine the truth value of statements involving multiple statements and logical connectives.", "author": "Robert Talbert", "id": "construct_truth_table"}
+{"text": "Determine if two statements are logically equivalent.", "author": "Robert Talbert", "id": "determine_logical_equivalence"}
+{"text": "Determine if a deduction rule is logically valid.", "author": "Robert Talbert", "id": "determine_validity_of_deduction_rule"}
+{"text": "Given a statement to be proven using a proof by contradiction, identify the assumptions to be made and the statements to be proven.", "author": "Robert Talbert", "id": "prove_statement_by_contradiction"}
+{"text": "Given a statement to be proven using a proof by contrapositive, identify the assumptions to be made and the statements to be proven.", "author": "Robert Talbert", "id": "prove_statement_using_contrapositive"}
+{"text": "Given a statement to be proven using a direct proof, identify the assumptions to be made and the statements to be proven.", "author": "Robert Talbert", "id": "identify_assumptions_and_statements"}
+{"text": "Given a written proof, identify the proof technique(s) being used in the proof.", "author": "Robert Talbert", "id": "identify_proof_techniques"}
+{"text": "Given a proposed proof of a proposition, conduct a critical analysis of the proposition and its proposed proof.", "author": "Robert Talbert", "id": "analyze_proposition_proof"}
+{"text": "Communicate problem solutions and their argument for a conjecture given in a proof.", "author": "Robert Talbert", "id": "communicate_problem_solutions"}
+{"text": "Frame computational problems in terms of sets, functions, logic, and counting and then employ good problem-solving skills in coming to a reasonable solution, using computational thinking.", "author": "Robert Talbert", "id": "frame_computational_problems"}
+{"text": "Solve complex counting problems using computational thinking and the tools of combinatorics.", "author": "Robert Talbert", "id": "solve_complex_counting_problems"}
+{"text": "Use the additive and multiplicative principles to solve basic counting problems.", "author": "Robert Talbert", "id": "solve_basic_counting_problems"}
+{"text": "Calculate a binomial coefficient, and correctly apply the binomial coefficient to solve a counting problem.", "author": "Robert Talbert", "id": "calculate_binomial_coefficient"}
+{"text": "Calculate combinations and permutations, and correctly apply combinations and permutations to solve a counting problem.", "author": "Robert Talbert", "id": "calculate_combinations_permutations"}
+{"text": "Perform set operations (intersection, union, complement, Cartesian product) and find cardinalities of sets.", "author": "Robert Talbert", "id": "perform_set_operations"}
+{"text": "Use the Principle of Inclusion/Exclusion to find the cardinality of a union of nondisjoint sets.", "author": "Robert Talbert", "id": "find_cardinality_union_non_disjoint_sets"}
+{"text": "Convert a set from roster notation to set-builder notation and vice-versa and determine set relationships (equality, subset, element of).", "author": "Robert Talbert", "id": "convert_set_notation"}
+{"text": "Perform basic manipulations with sets, functions, and symbolic logic with strong fluency.", "author": "Robert Talbert", "id": "manipulate_sets_functions_logic"}
+{"text": "Create and interpret Venn diagrams.", "author": "Robert Talbert", "id": "create_interpret_venn_diagrams"}
+{"text": "Find the negation, converse, and contrapositive of a conditional statement.", "author": "Robert Talbert", "id": "find_negation_converse_contrapositive"}
+{"text": "Find and symbolically represent the negation of a quantified statement.", "author": "Robert Talbert", "id": "find_negation_quantified_statement"}
+{"text": "Determine whether or not a given relation is a function.", "author": "Robert Talbert", "id": "determine_relation_function"}
+{"text": "Give examples of injective, surjective, and bijective functions; and determine whether a given function is injective, surjective, or bijective.", "author": "Robert Talbert", "id": "identify_function_types"}
+{"text": "Find the inverse image of an element in the codomain of a function.", "author": "Robert Talbert", "id": "find_inverse_image"}
+{"text": "Determine whether a given sequence has a polynomial closed-form formula, and find the polynomial if it exists.", "author": "Robert Talbert", "id": "determine_polynomial_closed_form"}
+{"text": "Find closed formulas for basic examples of recursively-defined sequences.", "author": "Robert Talbert", "id": "find_closed_formulas_recursively_defined_sequences"}
+{"text": "Given either a closed-form or recursive formula for a sequence, generate several instances of items in the sequence.", "author": "Robert Talbert", "id": "generate_sequence_instances"}
+{"text": "Use iteration and characteristic polynomials to solve recurrence relations.", "author": "Robert Talbert", "id": "solve_recurrence_relations"}
+{"text": "Distinguish between an arithmetic and a geometric sequence, and find the sum of both arithmetic and geometric sequences.", "author": "Robert Talbert", "id": "distinguish_sequence_sum"}
+{"text": "Given a statement to be proven by mathematical induction, state and then prove the base case; then state", "author": "Robert Talbert", "id": "prove_base_case"}
+{"text": "Self-assess your own work and the effectiveness of your thinking, and show initiative to seek help and make improvements.", "author": "Robert Talbert", "id": "self_assess_and_improve"}
+{"text": "Demonstrate basic fluency in writing programs in Python using the Jupyter notebook platform.", "author": "Robert Talbert", "id": "write_programs_in_python"}
+{"text": "Make connections between the concepts of this course and other areas of computer science.", "author": "Robert Talbert", "id": "make_connections_to_other_areas"}
+{"text": "Use the 'stars and bars' technique to solve problems involving the distribution of identical items.", "author": "Robert Talbert", "id": "solve_problems_with_stars_and_bars"}
