@@ -1,7 +1,7 @@
 
 The file
 
-    linear-algebra/topic-list.yaml
+    linear-algebra/math-la-topic-list.yaml
 
 contains a reasonably complete list of topics for an introductory
 course in linear algebra.  
