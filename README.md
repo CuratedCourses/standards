@@ -27,6 +27,6 @@ course in linear algebra.
 
 The naming schemes for topic and outcomes are given in
 
-    linear-algebra/topicscheme.txt
+    linear-algebra/linearalgebratopicscheme.txt
 
     linear-algebra/outcomescheme.txt
